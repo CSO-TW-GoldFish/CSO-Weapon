@@ -4037,5 +4037,19 @@ let WeaponData = [
         "Type": "MACHINEGUN",
         "Rarity": "5",
         "ImageURL": "./images/weapon/mgsm.png"
+    },
+    {
+        "ChineseName": "C4炸彈包",
+        "InGameID": "6",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "狂暴手榴彈",
+        "InGameID": "44",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
     }
 ]

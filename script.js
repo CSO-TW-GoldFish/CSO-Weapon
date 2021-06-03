@@ -89,7 +89,10 @@ Weapons.prototype.createThumbnailNode = function(weapon, index) {
 	// 複製ID 圖示
 	let copyIDIcon = document.createElement('img');
 	copyIDIcon.src = "./images/icon/copy.svg";
-	copyIDIcon.addEventListener("click", function () {navigator.clipboard.writeText(weapon.InGameID);});
+	copyIDIcon.addEventListener("click", function () {
+		let Text = weapon.InGameID + " -- " + weapon.ChineseName;
+		navigator.clipboard.writeText(Text);
+	});
 	
 	
 	contentFrameNode.appendChild(weaponName);
