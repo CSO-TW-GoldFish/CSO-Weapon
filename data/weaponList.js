@@ -3108,7 +3108,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/thompsongs.png"
     },
     {
-        "ChineseName": "銀製魯格",
+        "ChineseName": "魯格10th限定版",
         "InGameID": "414",
         "Type": "PISTOL",
         "Rarity": "1",
