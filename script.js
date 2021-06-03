@@ -35,8 +35,10 @@ function Weapons() {
 Weapons.prototype.init = function () {
 	let self = this;
 	
-	//WeaponData 來自 weaponList.js 檔案
+	// WeaponData 來自 weaponList.js 檔案
 	self.weaponList = WeaponData;
+	// 排序(按照ID)
+	self.weaponList = Array.prototype.sort.call(self.weaponList, function (a, b) {return a.InGameID - b.InGameID;});
 	
 	self.renderThumbnails();
 	self.registerCategoriesEvents();
@@ -122,9 +124,7 @@ Weapons.prototype.registerCategoriesEvents = function() {
 	Array.prototype.forEach.call(rarityBtns, function(btn) {
 		btn.addEventListener('click', function(event) {
             // 更新 currentRarity 資料
-			console.log(self.currentRarity);
             self.currentRarity = event.currentTarget.getAttribute('data-rarity');
-			console.log(self.currentRarity);
             // 更新按鈕
             Array.prototype.forEach.call(rarityBtns, function(btn) { btn.classList.remove('active'); });
             event.currentTarget.classList.add('active');

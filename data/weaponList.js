@@ -4,7 +4,7 @@ let WeaponData = [
         "InGameID": "10",
         "Type": "PISTOL",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Elites.png"
+        "ImageURL": "./images/weapon/elites.png"
     },
     {
         "ChineseName": "228 緊緻型",
@@ -18,7 +18,7 @@ let WeaponData = [
         "InGameID": "17",
         "Type": "PISTOL",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Glock18.png"
+        "ImageURL": "./images/weapon/glock18.png"
     },
     {
         "ChineseName": "夜鷹 . 50C",
@@ -67,7 +67,7 @@ let WeaponData = [
         "InGameID": "7",
         "Type": "SUBMACHINEGUN",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/MAC10.png"
+        "ImageURL": "./images/weapon/mac10.png"
     },
     {
         "ChineseName": "ES C90",
@@ -81,7 +81,7 @@ let WeaponData = [
         "InGameID": "19",
         "Type": "SUBMACHINEGUN",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/MP5.png"
+        "ImageURL": "./images/weapon/mp5.png"
     },
     {
         "ChineseName": "KM UMP45",
@@ -116,7 +116,7 @@ let WeaponData = [
         "InGameID": "3",
         "Type": "SNIPERRIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Scout.png"
+        "ImageURL": "./images/weapon/scout.png"
     },
     {
         "ChineseName": "KRIEG 550 COMMANDO",
@@ -144,21 +144,21 @@ let WeaponData = [
         "InGameID": "28",
         "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/AK47.png"
+        "ImageURL": "./images/weapon/ak47.png"
     },
     {
         "ChineseName": "D3/AU-1",
         "InGameID": "24",
         "Type": "SNIPERRIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/G3SG1.png"
+        "ImageURL": "./images/weapon/g3sg1.png"
     },
     {
         "ChineseName": "IDF 防衛者",
         "InGameID": "14",
         "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Galil.png"
+        "ImageURL": "./images/weapon/galil.png"
     },
     {
         "ChineseName": "M249",
@@ -179,21 +179,21 @@ let WeaponData = [
         "InGameID": "2004",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/SmokeGrenade.png"
+        "ImageURL": "./images/weapon/smokegrenade.png"
     },
     {
         "ChineseName": "克夫勒防彈背心",
         "InGameID": "2000",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Kevlar.png"
+        "ImageURL": "./images/weapon/kevlar.png"
     },
     {
         "ChineseName": "克夫勒防彈背心+頭盔",
         "InGameID": "2001",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Kevlar_Helmet.png"
+        "ImageURL": "./images/weapon/kevlar_helmet.png"
     },
     {
         "ChineseName": "炸彈拆解包",
@@ -207,63 +207,63 @@ let WeaponData = [
         "InGameID": "2002",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Flashbang.png"
+        "ImageURL": "./images/weapon/flashbang.png"
     },
     {
         "ChineseName": "高爆手榴彈",
         "InGameID": "2003",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/HEGrenade.png"
+        "ImageURL": "./images/weapon/hegrenade.png"
     },
     {
         "ChineseName": "QBB95",
         "InGameID": "41",
         "Type": "MACHINEGUN",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/QBB95.png"
+        "ImageURL": "./images/weapon/qbb95.png"
     },
     {
         "ChineseName": "SCAR (基本版)",
         "InGameID": "31",
         "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/SCAR.png"
+        "ImageURL": "./images/weapon/scar.png"
     },
     {
         "ChineseName": "XM-8 (基本版)",
         "InGameID": "33",
         "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/XM8.png"
+        "ImageURL": "./images/weapon/xm8.png"
     },
     {
         "ChineseName": "VSK94",
         "InGameID": "40",
         "Type": "SNIPERRIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/VSK94.png"
+        "ImageURL": "./images/weapon/vsk94.png"
     },
     {
         "ChineseName": "KIA",
         "InGameID": "38",
         "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/K1A.png"
+        "ImageURL": "./images/weapon/k1a.png"
     },
     {
         "ChineseName": "MP7A1",
         "InGameID": "36",
         "Type": "SUBMACHINEGUN",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/MP7A1.png"
+        "ImageURL": "./images/weapon/mp7a1.png"
     },
     {
         "ChineseName": "USAS12",
         "InGameID": "39",
         "Type": "SHOTGUN",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/USAS12.png"
+        "ImageURL": "./images/weapon/usas12.png"
     },
     {
         "ChineseName": "SVD",
@@ -277,357 +277,357 @@ let WeaponData = [
         "InGameID": "42",
         "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/SCAR556Limited.png"
+        "ImageURL": "./images/weapon/scar556limited.png"
     },
     {
         "ChineseName": "XM-8 (強化版)",
         "InGameID": "43",
         "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/XM8CarbineLimited.png"
+        "ImageURL": "./images/weapon/xm8carbinelimited.png"
     },
     {
         "ChineseName": "殲滅者-MG3",
         "InGameID": "45",
         "Type": "MACHINEGUN",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/MG3.png"
+        "ImageURL": "./images/weapon/mg3.png"
     },
     {
         "ChineseName": "芬蘭之星-TRG",
         "InGameID": "47",
         "Type": "SNIPERRIFLE",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/TRG42.png"
+        "ImageURL": "./images/weapon/trg42.png"
     },
     {
         "ChineseName": "背刺短刀",
         "InGameID": "4003",
         "Type": "KNIFE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Hdagger.png"
+        "ImageURL": "./images/weapon/hdagger.png"
     },
     {
         "ChineseName": "麥格農狙擊槍(限定版)",
         "InGameID": "51",
         "Type": "SNIPERRIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/AWPRED.png"
+        "ImageURL": "./images/weapon/awpred.png"
     },
     {
         "ChineseName": "紅色M249",
         "InGameID": "52",
         "Type": "MACHINEGUN",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/M249RED.png"
+        "ImageURL": "./images/weapon/m249red.png"
     },
     {
         "ChineseName": "小刀",
         "InGameID": "4000",
         "Type": "KNIFE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/defaultKnife.png"
+        "ImageURL": "./images/weapon/defaultknife.png"
     },
     {
         "ChineseName": "鋒利銀刃",
         "InGameID": "4001",
         "Type": "KNIFE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/NataKnife.png"
+        "ImageURL": "./images/weapon/nataknife.png"
     },
     {
         "ChineseName": "鷹眼M200",
         "InGameID": "53",
         "Type": "SNIPERRIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/M400.png"
+        "ImageURL": "./images/weapon/m400.png"
     },
     {
         "ChineseName": "黃金CV-47",
         "InGameID": "55",
         "Type": "RIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/AK47G.png"
+        "ImageURL": "./images/weapon/ak47g.png"
     },
     {
         "ChineseName": "黃金M4A1",
         "InGameID": "54",
         "Type": "RIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/M4A1G.png"
+        "ImageURL": "./images/weapon/m4a1g.png"
     },
     {
         "ChineseName": "黃金夜鷹",
         "InGameID": "56",
         "Type": "PISTOL",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/DeserteagleG.png"
+        "ImageURL": "./images/weapon/deserteagleg.png"
     },
     {
         "ChineseName": "愛心炸彈",
         "InGameID": "2010",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/HeartBomb.png"
+        "ImageURL": "./images/weapon/heartbomb.png"
     },
     {
         "ChineseName": "好威鐵鎚",
         "InGameID": "4002",
         "Type": "KNIFE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Hammer.png"
+        "ImageURL": "./images/weapon/hammer.png"
     },
     {
         "ChineseName": "審判之眼-SL8",
         "InGameID": "57",
         "Type": "SNIPERRIFLE",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/SL8.png"
+        "ImageURL": "./images/weapon/sl8.png"
     },
     {
         "ChineseName": "閃靈獵手-M1887",
         "InGameID": "58",
         "Type": "SHOTGUN",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/M1887.png"
+        "ImageURL": "./images/weapon/m1887.png"
     },
     {
         "ChineseName": "領航者-F2000",
         "InGameID": "60",
         "Type": "RIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/F2000.png"
+        "ImageURL": "./images/weapon/f2000.png"
     },
     {
         "ChineseName": "龍紋K1A",
         "InGameID": "61",
         "Type": "RIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/K1ASE.png"
+        "ImageURL": "./images/weapon/k1ase.png"
     },
     {
         "ChineseName": "朔月銀牙",
         "InGameID": "4004",
         "Type": "KNIFE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/JKnife.png"
+        "ImageURL": "./images/weapon/jknife.png"
     },
     {
         "ChineseName": "德軍手榴彈",
         "InGameID": "2007",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/M24Grenade.png"
+        "ImageURL": "./images/weapon/m24grenade.png"
     },
     {
         "ChineseName": "火神機槍-Minigun",
         "InGameID": "59",
         "Type": "MACHINEGUN",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/M134.png"
+        "ImageURL": "./images/weapon/m134.png"
     },
     {
         "ChineseName": "毀滅手榴彈-M67",
         "InGameID": "2008",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/fGrenade2.png"
+        "ImageURL": "./images/weapon/fgrenade2.png"
     },
     {
         "ChineseName": "燃燒彈",
         "InGameID": "2009",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Firebomb.png"
+        "ImageURL": "./images/weapon/firebomb.png"
     },
     {
         "ChineseName": "黃金閃靈獵手",
         "InGameID": "63",
         "Type": "SHOTGUN",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/M1887G.png"
+        "ImageURL": "./images/weapon/m1887g.png"
     },
     {
         "ChineseName": "黃金審判之眼",
         "InGameID": "64",
         "Type": "SNIPERRIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/SL8G.png"
+        "ImageURL": "./images/weapon/sl8g.png"
     },
     {
         "ChineseName": "搖滾貝斯",
         "InGameID": "65",
         "Type": "RIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/Guitar.png"
+        "ImageURL": "./images/weapon/guitar.png"
     },
     {
         "ChineseName": "獵戶座-M24",
         "InGameID": "66",
         "Type": "SNIPERRIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/M24.png"
+        "ImageURL": "./images/weapon/m24.png"
     },
     {
         "ChineseName": "暴龍魔爪",
         "InGameID": "4005",
         "Type": "KNIFE",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/Axe.png"
+        "ImageURL": "./images/weapon/axe.png"
     },
     {
         "ChineseName": "黑白雙煞",
         "InGameID": "67",
         "Type": "PISTOL",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/Infinity.png"
+        "ImageURL": "./images/weapon/infinity.png"
     },
     {
         "ChineseName": "戰慄水星",
         "InGameID": "68",
         "Type": "SUBMACHINEGUN",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/WaterGun.png"
+        "ImageURL": "./images/weapon/watergun.png"
     },
     {
         "ChineseName": "黃金M4A1",
         "InGameID": "69",
         "Type": "RIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/M4A1Gold.png"
+        "ImageURL": "./images/weapon/m4a1gold.png"
     },
     {
         "ChineseName": "紅白雙星",
         "InGameID": "70",
         "Type": "PISTOL",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/InfinityEX1.png"
+        "ImageURL": "./images/weapon/infinityex1.png"
     },
     {
         "ChineseName": "迷彩麥格農狙擊槍",
         "InGameID": "71",
         "Type": "SNIPERRIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/AWPcamo.png"
+        "ImageURL": "./images/weapon/awpcamo.png"
     },
     {
         "ChineseName": "月餅手榴彈",
         "InGameID": "2011",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Mooncake.png"
+        "ImageURL": "./images/weapon/mooncake.png"
     },
     {
         "ChineseName": "奪魂短匕",
         "InGameID": "4006",
         "Type": "KNIFE",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/Combatknife.png"
+        "ImageURL": "./images/weapon/combatknife.png"
     },
     {
         "ChineseName": "奪魂長刃",
         "InGameID": "4007",
         "Type": "KNIFE",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/Mastercombatknife.png"
+        "ImageURL": "./images/weapon/mastercombatknife.png"
     },
     {
         "ChineseName": "英雄戰擊",
         "InGameID": "72",
         "Type": "RIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/SVDEX.png"
+        "ImageURL": "./images/weapon/svdex.png"
     },
     {
         "ChineseName": "南瓜手榴彈",
         "InGameID": "2012",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/Pumpkin.png"
+        "ImageURL": "./images/weapon/pumpkin.png"
     },
     {
         "ChineseName": "鐵血武士",
         "InGameID": "73",
         "Type": "MACHINEGUN",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/QBB95EX.png"
+        "ImageURL": "./images/weapon/qbb95ex.png"
     },
     {
         "ChineseName": "噬血榴炮-M79",
         "InGameID": "75",
         "Type": "PISTOL",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/M79.png"
+        "ImageURL": "./images/weapon/m79.png"
     },
     {
         "ChineseName": "MP7A1 擴充版",
         "InGameID": "74",
         "Type": "SUBMACHINEGUN",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/MP7A160R.png"
+        "ImageURL": "./images/weapon/mp7a160r.png"
     },
     {
         "ChineseName": "聖誕限定版火神機槍",
         "InGameID": "76",
         "Type": "MACHINEGUN",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/M134_Xmas.png"
+        "ImageURL": "./images/weapon/m134_xmas.png"
     },
     {
         "ChineseName": "聖誕限定版殲滅者",
         "InGameID": "77",
         "Type": "MACHINEGUN",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/MG3_Xmas.png"
+        "ImageURL": "./images/weapon/mg3_xmas.png"
     },
     {
         "ChineseName": "金蠍雙擊",
         "InGameID": "78",
         "Type": "PISTOL",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/InfinityEX2.png"
+        "ImageURL": "./images/weapon/infinityex2.png"
     },
     {
         "ChineseName": "黑暗騎士-HK23",
         "InGameID": "79",
         "Type": "MACHINEGUN",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/HK23.png"
+        "ImageURL": "./images/weapon/hk23.png"
     },
     {
         "ChineseName": "冰龍M4A1",
         "InGameID": "80",
         "Type": "RIFLE",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/M4A1Dragon.png"
+        "ImageURL": "./images/weapon/m4a1dragon.png"
     },
     {
         "ChineseName": "煉獄CV-47",
         "InGameID": "81",
         "Type": "RIFLE",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/AK47Dragon.png"
+        "ImageURL": "./images/weapon/ak47dragon.png"
     },
     {
         "ChineseName": "龍牙刃",
         "InGameID": "4008",
         "Type": "KNIFE",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/KnifeDragon.png"
+        "ImageURL": "./images/weapon/knifedragon.png"
     },
     {
         "ChineseName": "虎狩MP5",
         "InGameID": "82",
         "Type": "SUBMACHINEGUN",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/MP5Tiger.png"
+        "ImageURL": "./images/weapon/mp5tiger.png"
     },
     {
         "ChineseName": "飛鷹十字弓",
         "InGameID": "83",
         "Type": "RIFLE",
         "Rarity": "5",
-        "ImageURL": "./images/weapon/Crossbow.png"
+        "ImageURL": "./images/weapon/crossbow.png"
     },
     {
         "ChineseName": "黑色炫風-M14",
@@ -718,7 +718,7 @@ let WeaponData = [
         "InGameID": "97",
         "Type": "PISTOL",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/WaterPistol.png"
+        "ImageURL": "./images/weapon/waterpistol.png"
     },
     {
         "ChineseName": "疾風獵鷹-WA2000",
@@ -732,7 +732,7 @@ let WeaponData = [
         "InGameID": "101",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/AT4.png"
+        "ImageURL": "./images/weapon/at4.png"
     },
     {
         "ChineseName": "黃金魯格",
@@ -753,14 +753,14 @@ let WeaponData = [
         "InGameID": "102",
         "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/TAR21.png"
+        "ImageURL": "./images/weapon/tar21.png"
     },
     {
         "ChineseName": "蛇姬之吻-M95",
         "InGameID": "103",
         "Type": "SNIPERRIFLE",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/M95.png"
+        "ImageURL": "./images/weapon/m95.png"
     },
     {
         "ChineseName": "一刀斷罪",
@@ -858,7 +858,7 @@ let WeaponData = [
         "InGameID": "115",
         "Type": "MACHINEGUN",
         "Rarity": "2",
-        "ImageURL": "./images/weapon/MG36.png"
+        "ImageURL": "./images/weapon/mg36.png"
     },
     {
         "ChineseName": "雷神機光波",
@@ -921,7 +921,7 @@ let WeaponData = [
         "InGameID": "124",
         "Type": "PISTOL",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/lugerS.png"
+        "ImageURL": "./images/weapon/lugers.png"
     },
     {
         "ChineseName": "真．火神機槍",
@@ -942,7 +942,7 @@ let WeaponData = [
         "InGameID": "127",
         "Type": "PISTOL",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/Musket.png"
+        "ImageURL": "./images/weapon/musket.png"
     },
     {
         "ChineseName": "StG44",
@@ -977,7 +977,7 @@ let WeaponData = [
         "InGameID": "50",
         "Type": "RIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/AK47L.png"
+        "ImageURL": "./images/weapon/ak47l.png"
     },
     {
         "ChineseName": "特戰菁英-QBZ95B",
@@ -1117,7 +1117,7 @@ let WeaponData = [
         "InGameID": "48",
         "Type": "SUBMACHINEGUN",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/MP7A1_D.png"
+        "ImageURL": ""
     },
     {
         "ChineseName": "星鑽彩砲",
@@ -1411,7 +1411,7 @@ let WeaponData = [
         "InGameID": "4018",
         "Type": "KNIFE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/shelteraxe.png"
+        "ImageURL": ""
     },
     {
         "ChineseName": "獵魔者(Balrog-I)",
@@ -1481,7 +1481,7 @@ let WeaponData = [
         "InGameID": "201",
         "Type": "RIFLE",
         "Rarity": "3",
-        "ImageURL": "./images/weapon/Skull4.png"
+        "ImageURL": "./images/weapon/skull4.png"
     },
     {
         "ChineseName": "悍天使-M16A1",
@@ -2083,7 +2083,7 @@ let WeaponData = [
         "InGameID": "276",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/fireextinguisher.png"
+        "ImageURL": ""
     },
     {
         "ChineseName": "血滴子",
@@ -2212,25 +2212,25 @@ let WeaponData = [
         "ImageURL": "./images/weapon/airburster.png"
     },
     {
-        "ChineseName": "vxl(創世者)? 空",
+        "ChineseName": "建造步槍",
         "InGameID": "300",
         "Type": "",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxllonggun.png"
     },
     {
-        "ChineseName": "vxl(創世者)? 空",
+        "ChineseName": "連結槍",
         "InGameID": "301",
         "Type": "",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlconnector.png"
     },
     {
-        "ChineseName": "vxl(創世者)? 空",
+        "ChineseName": "空手(STUDIO創世者)",
         "InGameID": "4039",
         "Type": "KNIFE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/vxlknife.png"
+        "ImageURL": ""
     },
     {
         "ChineseName": "樂高自走砲-M777",
@@ -2646,16 +2646,16 @@ let WeaponData = [
         "ImageURL": "./images/weapon/railgun.png"
     },
     {
-        "ChineseName": "vxl(創世者)? 空",
+        "ChineseName": "初級治療券",
         "InGameID": "2602",
-        "Type": "",
+        "Type": "NONE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlmedikit30.png"
     },
     {
-        "ChineseName": "vxl(創世者)? 空",
+        "ChineseName": "高級治療券",
         "InGameID": "2603",
-        "Type": "",
+        "Type": "NONE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlmedikit100.png"
     },
@@ -3049,7 +3049,7 @@ let WeaponData = [
         "InGameID": "406",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/herochainsaw .png"
+        "ImageURL": ""
     },
     {
         "ChineseName": "M95 虎紋轟雷",
@@ -3469,7 +3469,7 @@ let WeaponData = [
         "InGameID": "4061",
         "Type": "KNIFE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/zhehand.png"
+        "ImageURL": ""
     },
     {
         "ChineseName": "燎原至尊．炎帝",
@@ -3511,21 +3511,21 @@ let WeaponData = [
         "InGameID": "468",
         "Type": "RIFLE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/ak47L.png"
+        "ImageURL": "./images/weapon/ak47l.png"
     },
     {
         "ChineseName": "雙持 MP7A1",
         "InGameID": "469",
         "Type": "SUBMACHINEGUN",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/mp7a1D.png"
+        "ImageURL": "./images/weapon/mp7a1d.png"
     },
     {
         "ChineseName": "Z-Knife",
         "InGameID": "4063",
         "Type": "KNIFE",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/NataKnifeD.png"
+        "ImageURL": "./images/weapon/nataknifed.png"
     },
     {
         "ChineseName": "Z-Gun",
@@ -3539,7 +3539,7 @@ let WeaponData = [
         "InGameID": "471",
         "Type": "PISTOL",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/deagleD.png"
+        "ImageURL": "./images/weapon/deagled.png"
     },
     {
         "ChineseName": "X-12熾燄收割者",
@@ -3560,7 +3560,7 @@ let WeaponData = [
         "InGameID": "474",
         "Type": "PISTOL",
         "Rarity": "4",
-        "ImageURL": "./images/weapon/y20s1Musket.png"
+        "ImageURL": "./images/weapon/y20s1musket.png"
     },
     {
         "ChineseName": "朝鮮弓",
@@ -3742,7 +3742,7 @@ let WeaponData = [
         "InGameID": "390",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/sgmissileex.png"
+        "ImageURL": ""
     },
     {
         "ChineseName": "熊熊怒火MK-1",
@@ -3777,7 +3777,7 @@ let WeaponData = [
         "InGameID": "493",
         "Type": "EQUIPMENT",
         "Rarity": "6",
-        "ImageURL": "./images/weapon/winggun.png"
+        "ImageURL": ""
     },
     {
         "ChineseName": "雷霆飛鷹",
@@ -3855,5 +3855,187 @@ let WeaponData = [
         "Type": "SUBMACHINEGUN",
         "Rarity": "4",
         "ImageURL": "./images/weapon/y21s2lockongunmd.png"
+    },
+    {
+        "ChineseName": "黃金工具箱",
+        "InGameID": "461",
+        "Type": "EQUIPMENT",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "工具箱",
+        "InGameID": "462",
+        "Type": "EQUIPMENT",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "大型急救箱",
+        "InGameID": "463",
+        "Type": "EQUIPMENT",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "小型急救箱",
+        "InGameID": "464",
+        "Type": "EQUIPMENT",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "空手(絕命逃亡)",
+        "InGameID": "4061",
+        "Type": "KNIFE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "Bazooka",
+        "InGameID": "141",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/bazooka.png"
+    },
+    {
+        "ChineseName": "固定型機關槍",
+        "InGameID": "154",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/mountgun.png"
+    },
+    {
+        "ChineseName": "究極彗星-AT4CS(殘暴版)",
+        "InGameID": "270",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "奪魂鋸(殘暴版)",
+        "InGameID": "271",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "終極悍將(原始版)",
+        "InGameID": "291",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "碎骨銀狼(原始版)",
+        "InGameID": "123",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "雙持 夜鷹(原始版)",
+        "InGameID": "49",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "超．火神機槍(原始版)",
+        "InGameID": "292",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "殘暴手榴彈",
+        "InGameID": "296",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "艦艇砲台",
+        "InGameID": "370",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "救贖-M32(無法使用)",
+        "InGameID": "190",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "高爆手榴彈(無法使用)",
+        "InGameID": "4",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "煙霧彈(無法使用)",
+        "InGameID": "9",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "閃光彈(無法使用)",
+        "InGameID": "25",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "SCAR(B模式)",
+        "InGameID": "32",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "XM8(B模式)",
+        "InGameID": "34",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "MP7A1(B模式)",
+        "InGameID": "37",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "藍寶LB1000型(B模式)",
+        "InGameID": "92",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "睏寶KB2000型(B模式)",
+        "InGameID": "94",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "闇獄閻羅(SKULL-3) (B模式)",
+        "InGameID": "143",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "魔隱師電擊棒",
+        "InGameID": "",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/joker.png"
     }
 ]
