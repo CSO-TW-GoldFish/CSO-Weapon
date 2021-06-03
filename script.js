@@ -138,7 +138,7 @@ Weapons.prototype.registerCategoriesEvents = function() {
         btn.addEventListener('click', function(event) {
             // 更新 currentType 資料
             self.currentType = event.currentTarget.getAttribute('data-type');
-            // 更新紅色按鈕
+            // 更新按鈕
             Array.prototype.forEach.call(typeBtns, function(btn) { btn.classList.remove('active'); });
             event.currentTarget.classList.add('active');
             // 篩選武器
