@@ -532,7 +532,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/mastercombatknife.png"
     },
     {
-        "ChineseName": "英雄戰擊",
+        "ChineseName": "英雄戰擊(原始版)",
         "InGameID": "72",
         "Type": "RIFLE",
         "Rarity": "4",
@@ -1117,7 +1117,7 @@ let WeaponData = [
         "InGameID": "48",
         "Type": "SUBMACHINEGUN",
         "Rarity": "4",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/mp7a1d.png"
     },
     {
         "ChineseName": "星鑽彩砲",
@@ -1900,7 +1900,7 @@ let WeaponData = [
         "ChineseName": "地獄火筒",
         "InGameID": "249",
         "Type": "EQUIPMENT",
-        "Rarity": "",
+        "Rarity": "2",
         "ImageURL": "./images/weapon/petrolboomer.png"
     },
     {
@@ -2214,21 +2214,21 @@ let WeaponData = [
     {
         "ChineseName": "建造步槍",
         "InGameID": "300",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxllonggun.png"
     },
     {
         "ChineseName": "連結槍",
         "InGameID": "301",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlconnector.png"
     },
     {
         "ChineseName": "空手(STUDIO創世者)",
         "InGameID": "4039",
-        "Type": "KNIFE",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": ""
     },
@@ -2487,14 +2487,14 @@ let WeaponData = [
     {
         "ChineseName": "建造手槍",
         "InGameID": "335",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlshortgun.png"
     },
     {
         "ChineseName": "旋轉槍",
         "InGameID": "334",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxleditor.png"
     },
@@ -2788,28 +2788,28 @@ let WeaponData = [
     {
         "ChineseName": "建造機槍",
         "InGameID": "363",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlminigun.png"
     },
     {
         "ChineseName": "建造掃描器",
         "InGameID": "364",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlscanner.png"
     },
     {
         "ChineseName": "破壞型槍",
         "InGameID": "366",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxljunkgun.png"
     },
     {
         "ChineseName": "建造手榴彈",
         "InGameID": "2038",
-        "Type": "GRENADE",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlgrenade.png"
     },
@@ -3465,13 +3465,6 @@ let WeaponData = [
         "ImageURL": "./images/weapon/magicsg.png"
     },
     {
-        "ChineseName": "夜襲生存戰手臂",
-        "InGameID": "4061",
-        "Type": "KNIFE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
         "ChineseName": "燎原至尊．炎帝",
         "InGameID": "460",
         "Type": "EQUIPMENT",
@@ -3712,7 +3705,7 @@ let WeaponData = [
     {
         "ChineseName": "建造標章",
         "InGameID": "485",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlmarker.png"
     },
@@ -3738,10 +3731,10 @@ let WeaponData = [
         "ImageURL": "./images/weapon/lance.png"
     },
     {
-        "ChineseName": "極．煉獄使者EX",
+        "ChineseName": "極．煉獄使者 XII",
         "InGameID": "390",
         "Type": "EQUIPMENT",
-        "Rarity": "1",
+        "Rarity": "5",
         "ImageURL": ""
     },
     {
@@ -3777,7 +3770,7 @@ let WeaponData = [
         "InGameID": "493",
         "Type": "EQUIPMENT",
         "Rarity": "6",
-        "ImageURL": "./images/weapon/Winggun.png"
+        "ImageURL": "./images/weapon/winggun.png"
     },
     {
         "ChineseName": "雷霆飛鷹",
@@ -3857,118 +3850,6 @@ let WeaponData = [
         "ImageURL": "./images/weapon/y21s2lockongunmd.png"
     },
     {
-        "ChineseName": "黃金工具箱",
-        "InGameID": "461",
-        "Type": "EQUIPMENT",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "工具箱",
-        "InGameID": "462",
-        "Type": "EQUIPMENT",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "大型急救箱",
-        "InGameID": "463",
-        "Type": "EQUIPMENT",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "小型急救箱",
-        "InGameID": "464",
-        "Type": "EQUIPMENT",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "空手(絕命逃亡)",
-        "InGameID": "4061",
-        "Type": "KNIFE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "Bazooka",
-        "InGameID": "141",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": "./images/weapon/bazooka.png"
-    },
-    {
-        "ChineseName": "固定型機關槍",
-        "InGameID": "154",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": "./images/weapon/mountgun.png"
-    },
-    {
-        "ChineseName": "究極彗星-AT4CS(殘暴版)",
-        "InGameID": "270",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "奪魂鋸(殘暴版)",
-        "InGameID": "271",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "終極悍將(原始版)",
-        "InGameID": "291",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "碎骨銀狼(原始版)",
-        "InGameID": "123",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "雙持 夜鷹(原始版)",
-        "InGameID": "49",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "超．火神機槍(原始版)",
-        "InGameID": "292",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "殘暴手榴彈",
-        "InGameID": "296",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "艦艇砲台",
-        "InGameID": "370",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
-        "ChineseName": "救贖-M32(無法使用)",
-        "InGameID": "190",
-        "Type": "NONE",
-        "Rarity": "1",
-        "ImageURL": ""
-    },
-    {
         "ChineseName": "高爆手榴彈(無法使用)",
         "InGameID": "4",
         "Type": "NONE",
@@ -4011,6 +3892,13 @@ let WeaponData = [
         "ImageURL": ""
     },
     {
+        "ChineseName": "雙持 夜鷹(原始版)",
+        "InGameID": "49",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
         "ChineseName": "藍寶LB1000型(B模式)",
         "InGameID": "92",
         "Type": "NONE",
@@ -4025,6 +3913,20 @@ let WeaponData = [
         "ImageURL": ""
     },
     {
+        "ChineseName": "碎骨銀狼(原始版)",
+        "InGameID": "123",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "Bazooka",
+        "InGameID": "141",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/bazooka.png"
+    },
+    {
         "ChineseName": "闇獄閻羅(SKULL-3) (B模式)",
         "InGameID": "143",
         "Type": "NONE",
@@ -4032,10 +3934,108 @@ let WeaponData = [
         "ImageURL": ""
     },
     {
+        "ChineseName": "固定型機關槍",
+        "InGameID": "154",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/mountgun.png"
+    },
+    {
+        "ChineseName": "救贖-M32(無法使用)",
+        "InGameID": "190",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "究極彗星-AT4CS(殘暴版)",
+        "InGameID": "270",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "奪魂鋸(殘暴版)",
+        "InGameID": "271",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "終極悍將(原始版)",
+        "InGameID": "291",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "超．火神機槍(原始版)",
+        "InGameID": "292",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "殘暴手榴彈",
+        "InGameID": "296",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "艦艇砲台",
+        "InGameID": "370",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
         "ChineseName": "魔隱師電擊棒",
-        "InGameID": "",
+        "InGameID": "?",
         "Type": "NONE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/joker.png"
+    },
+    {
+        "ChineseName": "黃金工具箱",
+        "InGameID": "461",
+        "Type": "EQUIPMENT",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "工具箱",
+        "InGameID": "462",
+        "Type": "EQUIPMENT",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "大型急救箱",
+        "InGameID": "4062",
+        "Type": "EQUIPMENT",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "小型急救箱",
+        "InGameID": "463",
+        "Type": "EQUIPMENT",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "空手(夜襲生存戰)",
+        "InGameID": "4061",
+        "Type": "KNIFE",
+        "Rarity": "1",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "毀滅者(Devastator)",
+        "InGameID": "501",
+        "Type": "MACHINEGUN",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/mgsm.png"
     }
 ]

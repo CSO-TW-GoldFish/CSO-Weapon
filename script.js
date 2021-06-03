@@ -15,7 +15,8 @@ function Weapons() {
 		"MACHINEGUN": "機關槍",
 		"EQUIPMENT": "裝備型",
 		"GRENADE": "手榴彈",
-		"KNIFE": "近戰型"
+		"KNIFE": "近戰型",
+		"STUDIO": "創世者"
 	}
 	this.rarityTo = {
 		"1":"一般",
@@ -35,10 +36,8 @@ function Weapons() {
 Weapons.prototype.init = function () {
 	let self = this;
 	
-	// WeaponData 來自 weaponList.js 檔案
-	self.weaponList = WeaponData;
-	// 排序(按照ID)
-	self.weaponList = Array.prototype.sort.call(self.weaponList, function (a, b) {return a.InGameID - b.InGameID;});
+	// WeaponData 來自 weaponList.js 檔案，排序(按照ID)
+	self.weaponList = Array.prototype.sort.call(WeaponData, function (a, b) {return a.InGameID - b.InGameID;});
 	
 	self.renderThumbnails();
 	self.registerCategoriesEvents();
