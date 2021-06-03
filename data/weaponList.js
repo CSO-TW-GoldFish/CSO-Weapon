@@ -3777,7 +3777,7 @@ let WeaponData = [
         "InGameID": "493",
         "Type": "EQUIPMENT",
         "Rarity": "6",
-        "ImageURL": "./images/weapon/winggun.png"
+        "ImageURL": "./images/weapon/Winggun.png"
     },
     {
         "ChineseName": "雷霆飛鷹",
