@@ -3710,7 +3710,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/y20s3plasmaexd.png"
     },
     {
-        "ChineseName": "vxl(創世者)? 空",
+        "ChineseName": "建造標章",
         "InGameID": "485",
         "Type": "",
         "Rarity": "1",
@@ -3777,7 +3777,7 @@ let WeaponData = [
         "InGameID": "493",
         "Type": "EQUIPMENT",
         "Rarity": "6",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/winggun.png"
     },
     {
         "ChineseName": "雷霆飛鷹",
