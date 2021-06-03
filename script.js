@@ -90,7 +90,10 @@ Weapons.prototype.createThumbnailNode = function(weapon, index) {
 	let copyIDIcon = document.createElement('img');
 	copyIDIcon.src = "./images/icon/copy.svg";
 	copyIDIcon.addEventListener("click", function () {
-		let Text = weapon.InGameID + " -- " + weapon.ChineseName;
+		let ID = weapon.InGameID
+		let Type = this.typeTo[weapon.Type]
+		let Name = weapon.ChineseName
+		let Text = `${ID}, -- ${Type} : ${Name}` + "\n";
 		navigator.clipboard.writeText(Text);
 	});
 	
