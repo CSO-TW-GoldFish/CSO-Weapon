@@ -59,6 +59,7 @@ Weapons.prototype.renderThumbnails = function () {
 
 // 1.1 生承單個縮圖
 Weapons.prototype.createThumbnailNode = function(weapon, index) {
+	let self = this
 	// 外框
 	let frameNode = document.createElement('div');
 	frameNode.classList.add('card-container');
@@ -91,7 +92,7 @@ Weapons.prototype.createThumbnailNode = function(weapon, index) {
 	copyIDIcon.src = "./images/icon/copy.svg";
 	copyIDIcon.addEventListener("click", function () {
 		let ID = weapon.InGameID
-		let Type = this.typeTo[weapon.Type]
+		let Type = self.typeTo[weapon.Type]
 		let Name = weapon.ChineseName
 		let Text = `${ID}, -- ${Type} : ${Name}` + "\n";
 		navigator.clipboard.writeText(Text);
