@@ -1900,7 +1900,7 @@ let WeaponData = [
         "ChineseName": "地獄火筒",
         "InGameID": "249",
         "Type": "EQUIPMENT",
-        "Rarity": "2",
+        "Rarity": "",
         "ImageURL": "./images/weapon/petrolboomer.png"
     },
     {
@@ -2214,21 +2214,21 @@ let WeaponData = [
     {
         "ChineseName": "建造步槍",
         "InGameID": "300",
-        "Type": "STUDIO",
+        "Type": "",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxllonggun.png"
     },
     {
         "ChineseName": "連結槍",
         "InGameID": "301",
-        "Type": "STUDIO",
+        "Type": "",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlconnector.png"
     },
     {
         "ChineseName": "空手(STUDIO創世者)",
         "InGameID": "4039",
-        "Type": "STUDIO",
+        "Type": "KNIFE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlknife.png"
     },
@@ -2487,14 +2487,14 @@ let WeaponData = [
     {
         "ChineseName": "建造手槍",
         "InGameID": "335",
-        "Type": "STUDIO",
+        "Type": "",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlshortgun.png"
     },
     {
         "ChineseName": "旋轉槍",
         "InGameID": "334",
-        "Type": "STUDIO",
+        "Type": "",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxleditor.png"
     },
@@ -2788,28 +2788,28 @@ let WeaponData = [
     {
         "ChineseName": "建造機槍",
         "InGameID": "363",
-        "Type": "STUDIO",
+        "Type": "",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlminigun.png"
     },
     {
         "ChineseName": "建造掃描器",
         "InGameID": "364",
-        "Type": "STUDIO",
+        "Type": "",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlscanner.png"
     },
     {
         "ChineseName": "破壞型槍",
         "InGameID": "366",
-        "Type": "STUDIO",
+        "Type": "",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxljunkgun.png"
     },
     {
         "ChineseName": "建造手榴彈",
         "InGameID": "2038",
-        "Type": "STUDIO",
+        "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlgrenade.png"
     },
@@ -3108,7 +3108,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/thompsongs.png"
     },
     {
-        "ChineseName": "魯格10th限定版",
+        "ChineseName": "銀製魯格",
         "InGameID": "414",
         "Type": "PISTOL",
         "Rarity": "1",
@@ -3703,9 +3703,9 @@ let WeaponData = [
         "ImageURL": "./images/weapon/y20s3plasmaexd.png"
     },
     {
-        "ChineseName": "建造標章",
+        "ChineseName": "vxl(創世者)? 空",
         "InGameID": "485",
-        "Type": "STUDIO",
+        "Type": "",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlmarker.png"
     },
@@ -3854,42 +3854,42 @@ let WeaponData = [
         "InGameID": "4",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/hegrenade.png"
     },
     {
         "ChineseName": "煙霧彈(無法使用)",
         "InGameID": "9",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/smokegrenade.png"
     },
     {
         "ChineseName": "閃光彈(無法使用)",
         "InGameID": "25",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/flashbang.png"
     },
     {
         "ChineseName": "SCAR(B模式)",
         "InGameID": "32",
         "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/scar_b.png"
     },
     {
         "ChineseName": "XM-8(B模式)",
         "InGameID": "34",
         "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/xm8_b.png"
     },
     {
         "ChineseName": "MP7A1(B模式)",
         "InGameID": "37",
         "Type": "SUBMACHINEGUN",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/mp7a1_b.png"
     },
     {
         "ChineseName": "雙持 夜鷹(原始版)",
@@ -3901,16 +3901,16 @@ let WeaponData = [
     {
         "ChineseName": "藍寶LB1000型(B模式)",
         "InGameID": "92",
-        "Type": "SUBMACHINEGUN",
+        "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/cartblue_b.png"
     },
     {
         "ChineseName": "睏寶KB2000型(B模式)",
         "InGameID": "94",
-        "Type": "SUBMACHINEGUN",
+        "Type": "RIFLE",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/cartred_b.png"
     },
     {
         "ChineseName": "碎骨銀狼(原始版)",
@@ -3931,7 +3931,7 @@ let WeaponData = [
         "InGameID": "143",
         "Type": "SUBMACHINEGUN",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/skull3_b.png"
     },
     {
         "ChineseName": "固定型機關槍",
@@ -3945,7 +3945,7 @@ let WeaponData = [
         "InGameID": "190",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/m32.png"
     },
     {
         "ChineseName": "究極彗星-AT4CS(殘暴版)",
@@ -4043,7 +4043,7 @@ let WeaponData = [
         "InGameID": "6",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/c4_backpack.png"
     },
     {
         "ChineseName": "狂暴手榴彈",
@@ -4052,49 +4052,49 @@ let WeaponData = [
         "Rarity": "1",
         "ImageURL": "./images/weapon/zombibomb.png"
     },
-	{
+    {
         "ChineseName": "雞蛋(明星鬥陣．雞)",
         "InGameID": "2040",
         "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/not_throw.png"
     },
-	{
+    {
         "ChineseName": "莎拉手(鬼迷藏)",
         "InGameID": "4040",
         "Type": "KNIFE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/zbtag_knife.png"
     },
-	{
+    {
         "ChineseName": "鐵撬(未知)",
         "InGameID": "4041",
         "Type": "KNIFE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/crowbarcraft.png"
     },
-	{
+    {
         "ChineseName": "Bazooka_zs2",
-        "InGameID": "321",
+        "InGameID": "?",
         "Type": "EQUIPMENT",
         "Rarity": "1",
         "ImageURL": "./images/weapon/bazooka_zs2.png"
     },
-	{
+    {
         "ChineseName": "燃燒瓶(偵查事件簿)",
-        "InGameID": "2030",
+        "InGameID": "?",
         "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/throwingbottle.png"
     },
-	{
+    {
         "ChineseName": "石頭(偵查事件簿)",
-        "InGameID": "2029",
+        "InGameID": "?",
         "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/throwingstone.png"
     },
-	{
+    {
         "ChineseName": "轟炸機(厄鬥擂台)",
         "InGameID": "263",
         "Type": "EQUIPMENT",
