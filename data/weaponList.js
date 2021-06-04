@@ -2214,21 +2214,21 @@ let WeaponData = [
     {
         "ChineseName": "建造步槍",
         "InGameID": "300",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxllonggun.png"
     },
     {
         "ChineseName": "連結槍",
         "InGameID": "301",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlconnector.png"
     },
     {
         "ChineseName": "空手(STUDIO創世者)",
         "InGameID": "4039",
-        "Type": "KNIFE",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlknife.png"
     },
@@ -2487,14 +2487,14 @@ let WeaponData = [
     {
         "ChineseName": "建造手槍",
         "InGameID": "335",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlshortgun.png"
     },
     {
         "ChineseName": "旋轉槍",
         "InGameID": "334",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxleditor.png"
     },
@@ -2788,21 +2788,21 @@ let WeaponData = [
     {
         "ChineseName": "建造機槍",
         "InGameID": "363",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlminigun.png"
     },
     {
         "ChineseName": "建造掃描器",
         "InGameID": "364",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlscanner.png"
     },
     {
         "ChineseName": "破壞型槍",
         "InGameID": "366",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxljunkgun.png"
     },
@@ -3703,9 +3703,9 @@ let WeaponData = [
         "ImageURL": "./images/weapon/y20s3plasmaexd.png"
     },
     {
-        "ChineseName": "vxl(創世者)? 空",
+        "ChineseName": "建造標章",
         "InGameID": "485",
-        "Type": "",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlmarker.png"
     },
