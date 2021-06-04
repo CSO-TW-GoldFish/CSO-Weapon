@@ -2216,14 +2216,14 @@ let WeaponData = [
         "InGameID": "300",
         "Type": "STUDIO",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/vxllonggun.png"
+        "ImageURL": "./images/weapon/vxllonggun_blank.png"
     },
     {
         "ChineseName": "連結槍",
         "InGameID": "301",
         "Type": "STUDIO",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/vxlconnector.png"
+        "ImageURL": "./images/weapon/vxlconnector_blank.png"
     },
     {
         "ChineseName": "空手(STUDIO創世者)",
@@ -2489,14 +2489,14 @@ let WeaponData = [
         "InGameID": "335",
         "Type": "STUDIO",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/vxlshortgun.png"
+        "ImageURL": "./images/weapon/vxlshortgun_blank.png"
     },
     {
         "ChineseName": "旋轉槍",
         "InGameID": "334",
         "Type": "STUDIO",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/vxleditor.png"
+        "ImageURL": "./images/weapon/vxleditor_blank.png"
     },
     {
         "ChineseName": "狩魔聖王SG552",
@@ -2790,28 +2790,28 @@ let WeaponData = [
         "InGameID": "363",
         "Type": "STUDIO",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/vxlminigun.png"
+        "ImageURL": "./images/weapon/vxlminigun_blank.png"
     },
     {
         "ChineseName": "建造掃描器",
         "InGameID": "364",
         "Type": "STUDIO",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/vxlscanner.png"
+        "ImageURL": "./images/weapon/vxlscanner_blank.png"
     },
     {
         "ChineseName": "破壞型槍",
         "InGameID": "366",
         "Type": "STUDIO",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/vxljunkgun.png"
+        "ImageURL": "./images/weapon/vxljunkgun_blank.png"
     },
     {
         "ChineseName": "建造手榴彈",
         "InGameID": "2038",
         "Type": "GRENADE",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/vxlgrenade.png"
+        "ImageURL": "./images/weapon/vxlgrenade_blank.png"
     },
     {
         "ChineseName": "禁衛軍AUG",
@@ -3707,7 +3707,7 @@ let WeaponData = [
         "InGameID": "485",
         "Type": "STUDIO",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/vxlmarker.png"
+        "ImageURL": "./images/weapon/vxlmarker_blank.png"
     },
     {
         "ChineseName": "聖環啟示錄DOOM",
@@ -4100,5 +4100,54 @@ let WeaponData = [
         "Type": "EQUIPMENT",
         "Rarity": "1",
         "ImageURL": "./images/weapon/laserguide.png"
+    },
+    {
+        "ChineseName": "1周年紀念蛋糕手榴彈",
+        "InGameID": "?",
+        "Type": "GRENADE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/1周年紀念蛋糕手榴彈.png"
+    },
+    {
+        "ChineseName": "2周年紀念蛋糕手榴彈",
+        "InGameID": "?",
+        "Type": "GRENADE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/2周年紀念蛋糕手榴彈.png"
+    },
+    {
+        "ChineseName": "3周年紀念蛋糕手榴彈",
+        "InGameID": "?",
+        "Type": "GRENADE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/3周年紀念蛋糕手榴彈.png"
+    },
+    {
+        "ChineseName": "周年紀念蛋糕手榴彈",
+        "InGameID": "?",
+        "Type": "GRENADE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/周年紀念蛋糕手榴彈.png"
+    },
+    {
+        "ChineseName": "松片手榴彈",
+        "InGameID": "?",
+        "Type": "GRENADE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/松片手榴彈.png"
+    },
+    {
+        "ChineseName": "MP5幽靈",
+        "InGameID": "?",
+        "Type": "SUBMACHINEGUN",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/MP5幽靈.png"
+    },
+    {
+        "ChineseName": "可樂罐",
+        "InGameID": "?",
+        "Type": "NONE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/可樂罐.png"
     }
 ]
