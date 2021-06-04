@@ -3896,7 +3896,7 @@ let WeaponData = [
         "InGameID": "49",
         "Type": "PISTOL",
         "Rarity": "1",
-        "ImageURL": "./images/weapon/deagleD.png"
+        "ImageURL": "./images/weapon/deagled.png"
     },
     {
         "ChineseName": "藍寶LB1000型(B模式)",
