@@ -3049,7 +3049,7 @@ let WeaponData = [
         "InGameID": "406",
         "Type": "EQUIPMENT",
         "Rarity": "1",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/herochainsaw.png"
     },
     {
         "ChineseName": "M95 虎紋轟雷",
@@ -4075,21 +4075,21 @@ let WeaponData = [
     },
     {
         "ChineseName": "Bazooka_zs2",
-        "InGameID": "?",
+        "InGameID": "321",
         "Type": "EQUIPMENT",
         "Rarity": "1",
         "ImageURL": "./images/weapon/bazooka_zs2.png"
     },
     {
         "ChineseName": "燃燒瓶(偵查事件簿)",
-        "InGameID": "?",
+        "InGameID": "2030",
         "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/throwingbottle.png"
     },
     {
         "ChineseName": "石頭(偵查事件簿)",
-        "InGameID": "?",
+        "InGameID": "2029",
         "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/throwingstone.png"
