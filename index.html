@@ -1,89 +1,93 @@
 <!DOCTYPE html>
-<html lang="zh_TW">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Counter-Strike Online 武器清單</title>
 </head>
 <body>
-    <div class="grid-container">
-        <div class="nar">
-            <h3>Counter-Strike Online 武器清單</h3>
-            <h5>LUA Weapon ID Code</h5>
-            <div class="wrap_controls">
-                <!-- 武器稀有度選項 -->
-                <div class="weapon-categories weapon-rarities js-weapon-rarities">
-                    <div class="weapon-category js-weapon-category active" data-rarity="全部">
-                        <span class="name">全部</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-rarity="一般">
-                        <span class="name">一般</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-rarity="高級">
-                        <span class="name">高級</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-rarity="稀有">
-                        <span class="name">稀有</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-rarity="特殊">
-                        <span class="name">特殊</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-rarity="王牌">
-                        <span class="name">王牌</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-rarity="史詩">
-                        <span class="name">史詩</span>
-                    </div>
+    <div class="App">
+        <div class="Navigation">
+            <img class="logo" src="./images/logo-weapons.svg" alt="logo">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">關於</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text">
+                <a class="btn-search" href="#"><button>搜尋</button></a>
+            </div>
+        </div>
+        <div class="CategorySelect-SideBar">
+            <div class="rarities">
+                <div class="weapon-category js-weapon-category active" data-rarity="全部">
+                    <span class="name">全部</span>
                 </div>
-                <!-- 武器類別選項 -->
-                <div class="weapon-categories weapon-types">
-                    <div class="weapon-category js-weapon-category active" data-type="全部">
-                        <span class="name">全部</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="未知">
-                        <span class="name">未知</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="輔助型">
-                        <span class="name">輔助型</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="散彈槍">
-                        <span class="name">散彈槍</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="衝鋒槍">
-                        <span class="name">衝鋒槍</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="步槍">
-                        <span class="name">步槍</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="狙擊槍">
-                        <span class="name">狙擊槍</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="機關槍">
-                        <span class="name">機關槍</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="裝備型">
-                        <span class="name">裝備型</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="手榴彈">
-                        <span class="name">手榴彈</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="近戰型">
-                        <span class="name">近戰型</span>
-                    </div>
-                    <div class="weapon-category js-weapon-category" data-type="創世者">
-                        <span class="name">創世者</span>
-                    </div>
+                <div class="weapon-category js-weapon-category" data-rarity="一般">
+                    <span class="name">一般</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-rarity="高級">
+                    <span class="name">高級</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-rarity="稀有">
+                    <span class="name">稀有</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-rarity="特殊">
+                    <span class="name">特殊</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-rarity="王牌">
+                    <span class="name">王牌</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-rarity="史詩">
+                    <span class="name">史詩</span>
+                </div>
+            </div>
+            <div class="types">
+                <div class="weapon-category js-weapon-category active" data-type="全部">
+                    <span class="name">全部</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="未知">
+                    <span class="name">未知</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="輔助型">
+                    <span class="name">輔助型</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="散彈槍">
+                    <span class="name">散彈槍</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="衝鋒槍">
+                    <span class="name">衝鋒槍</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="步槍">
+                    <span class="name">步槍</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="狙擊槍">
+                    <span class="name">狙擊槍</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="機關槍">
+                    <span class="name">機關槍</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="裝備型">
+                    <span class="name">裝備型</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="手榴彈">
+                    <span class="name">手榴彈</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="近戰型">
+                    <span class="name">近戰型</span>
+                </div>
+                <div class="weapon-category js-weapon-category" data-type="創世者">
+                    <span class="name">創世者</span>
                 </div>
             </div>
         </div>
-        <div class="content">
-            <div class="wrap_board js-weapon-thumbnails-wrapper"></div>
-        </div>
+        <div class="Cards-Content js-weapon-thumbnails-wrapper"></div>
     </div>
-    
-    <script src="data/weaponList.js"></script>
+
+    <script src="./data/weaponList.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

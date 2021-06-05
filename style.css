@@ -2,115 +2,215 @@
     margin: 0;
     padding: 0;
     font-family: '微軟正黑體', sans-serif;
-    background-color: #eee;
     overflow: hidden;
 }
-.grid-container {
+
+/* Grid Layout CSS */
+
+.App {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 240px auto;
-}
-.grid-container .nar {
-    grid-column: 1 / 1;
-    grid-row: 1 / 1;
-}
-.grid-container .content {
-    grid-column: 1 / 1;
-    grid-row: 2 / 2;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 60px auto;
+    grid-template-areas:
+    "Navigation Navigation"
+    "CategorySelectSideBar CardsContent"
+    "CategorySelectSideBar CardsContent"
 }
 
-.nar h3 {
-    margin: 30px 0px 0px 30px;
+.Navigation {grid-area: Navigation}
+.CategorySelect-SideBar {grid-area: CategorySelectSideBar}
+.Cards-Content {grid-area: CardsContent}
+
+/* Navigation Bar CSS */
+
+.Navigation {
+    background-color: #202026;
 }
-.nar h5 {
-    color:gray;
-    margin: 10px 0px 0px 30px;
+
+li, a, .btn-search > button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
 }
-.wrap_board {
-    margin: 15px 30px 30px 30px;
-    margin: 0 auto;
+
+.Navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #f77f00;
+}
+
+.search-container {
+    margin-left: 30px;
+}
+
+.search-container > input {
+    font-size: 16px;
+    padding: 4px 15px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    cursor: text;
+}
+
+.btn-search > button {
+    padding: 4px 15px;
+    background-color: rgba(247, 127, 0, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 10px;
+}
+
+.btn-search > button:hover {
+    background-color: rgba(247, 127, 0, 0.8);
+}
+
+/* CategorySelect SideBar CSS */
+
+.CategorySelect-SideBar {
+    background-color: #343a40;
+    display: flex;
+}
+
+.rarities, .types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
+.rarities span, .types span {
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.rarities {
+    margin-right: 1px;
+}
+
+.weapon-category {
+    cursor: pointer;
+    background-color: #535C66;
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    justify-content: space-around;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    text-align: center;
+    margin-bottom: 1px;
+    padding: 5px;
+    transition: all 0.3s ease 0s;
 }
 
-.card-container {
-    margin: 0px 15px 15px 0px;
-    width: 540px;
+.weapon-category:hover {
+    background-color: #f77f00;
+}
+
+.weapon-category.active {
+    background-color: #f77f00;
+}
+
+/* Cards-Content CSS */
+
+.Cards-Content {
+    background-color: #bbb;
+    overflow: scroll;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, auto));
+    grid-template-rows: repeat(auto-fill, minmax(206px, auto));
+    gap: 10px;
+}
+
+.Cards-Content::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.Cards-Content::-webkit-scrollbar-track {
+    background-color: #bbb;
+}
+
+.Cards-Content::-webkit-scrollbar-thumb {
+    background-color: #212529;
+    border-radius: 999px;
+}
+
+.Cards-Content::-webkit-scrollbar-corner {
+    background-color: #bbb;
+}
+
+.card {
+    background-color: #fff;
+    width: 240px;
+    height: 206px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.card .img {
+    width: 240px;
     height: 100px;
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #f3f3f3;
 }
-.card-img {
-    width: 88.9%;
-    height: 100%;
-}
-.card-img img {
+
+.card .img img {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.card-content {
-    width: 100%;
-    padding: 15px;
-    background-color: #f9f9f9;
-}
-.card-content p {
-    margin: 0px 0px 5px 0px;
-    color: #9090AB;
-    background-color: transparent;
-}
-.card-content p.content-title {
-    color: #454a5a;
-    font-weight: bold;
-}
-.card-content span {
-    background-color: transparent;
-}
 
-.card-content img {
-    display: none;
-    position: relative;
-    top: -60px;
-    left: 260px;
-    background-color: #f9f9f9;
-    width: 20px;
+.card .content {
+    padding: 10px 0;
+    text-align: center;
     cursor: pointer;
+    color: #f77f00;
 }
 
-.wrap_controls {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+.card .content:active {
+    background-color: #eee;
 }
 
-.weapon-categories {
-    display: flex;
-    padding-left: 30px;
+.card .content p {
+    font-size: 16px;
+    color:#535C66;
 }
-.weapon-categories .weapon-category {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    margin: 10px 13px 15px 0px;
+
+.btn-select {
     cursor: pointer;
-    border: 2px solid black;
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(247, 127, 0, 1);
 }
 
-.weapon-categories .weapon-category .name {
-    background-color: transparent;
-}
-
-.weapon-categories .weapon-category.active {
-    background-color: #fa8d34;
+.btn-select:active {
+    background-color: rgba(247, 127, 0, 0.8);
 }

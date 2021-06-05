@@ -62,14 +62,14 @@ Weapons.prototype.createThumbnailNode = function(weapon, index) {
 	let self = this
 	// 外框
 	let frameNode = document.createElement('div');
-	frameNode.classList.add('card-container');
+	frameNode.classList.add('card');
 	frameNode.setAttribute('data-weapon', JSON.stringify(weapon));
 	frameNode.setAttribute('data-type', weapon.Type);
 	frameNode.setAttribute('data-rarity', weapon.Rarity);
 	
 	// 縮圖外框
 	let imageFrameNode = document.createElement('div');
-	imageFrameNode.classList.add('card-img');
+	imageFrameNode.classList.add('img');
 	// 縮圖
 	let img = document.createElement('img');
 	img.src = weapon.ImageURL;
@@ -79,34 +79,30 @@ Weapons.prototype.createThumbnailNode = function(weapon, index) {
 	
 	// 內容外框
 	let contentFrameNode = document.createElement('div');
-	contentFrameNode.classList.add('card-content');
-	// 武器中文名稱
-	let weaponName = document.createElement('p');
-	weaponName.classList.add('content-title');
-	weaponName.innerText = weapon.ChineseName;
-	// 武器ID
-	let weaponID = document.createElement('p');
-	weaponID.innerHTML = "<span>ID: </span>" + weapon.InGameID;
-	// 複製ID 圖示
-	let copyIDIcon = document.createElement('img');
-	copyIDIcon.src = "./images/icon/copy.svg";
-	copyIDIcon.addEventListener("click", function () {
+	contentFrameNode.classList.add('content');
+	contentFrameNode.addEventListener("click", function () {
 		let ID = weapon.InGameID;
 		let Type = self.typeTo[weapon.Type];
 		let Name = weapon.ChineseName;
 		let Text = `${ID}, -- ${Type} : ${Name}` + "\n";
 		navigator.clipboard.writeText(Text);
 	});
+	// 武器中文名稱
+	let WeaponName = `<p>${weapon.ChineseName}</p>`
+	// 武器ID
+	let InGameID = `<span>ID: </span>${weapon.InGameID}`
+	let weaponContent = WeaponName + InGameID;
+	contentFrameNode.innerHTML = weaponContent;
 	
 	
-	contentFrameNode.appendChild(weaponName);
-	contentFrameNode.appendChild(weaponID);
-	contentFrameNode.appendChild(copyIDIcon);
+	// 選取外框
+	let = selectFrameNode = document.createElement('div');
+	selectFrameNode.classList.add('btn-select');
+	selectFrameNode.innerHTML = "<span>選取</span>";
 	
 	frameNode.appendChild(imageFrameNode);
 	frameNode.appendChild(contentFrameNode);
-	frameNode.addEventListener("mouseover", function () {copyIDIcon.style.display = 'block';});
-	frameNode.addEventListener("mouseout", function () {copyIDIcon.style.display = 'none';});
+	frameNode.appendChild(selectFrameNode);
 	
 	return frameNode;
 }
