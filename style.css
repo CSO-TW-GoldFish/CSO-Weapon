@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -58,6 +60,7 @@ li, a, .btn-search > button {
 }
 
 .nav__links li a {
+    cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
@@ -147,6 +150,11 @@ li, a, .btn-search > button {
     gap: 10px;
 }
 
+.Cards-Content p.msg{
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .Cards-Content::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -213,4 +221,43 @@ li, a, .btn-search > button {
 
 .btn-select:active {
     background-color: rgba(247, 127, 0, 0.8);
+}
+
+/* About CSS */
+
+.about-bg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 40px;
+    box-shadow: 0px 0px 10px 5px #000000, inset 0px 0px 30px 0px #000000;
+}
+
+.about h3 {
+    color: #f77f00;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.about p {
+    font-size: 18px;
 }
