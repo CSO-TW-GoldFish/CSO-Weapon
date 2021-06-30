@@ -2807,9 +2807,9 @@ let WeaponData = [
         "ImageURL": "./images/weapon/vxljunkgun_blank.png"
     },
     {
-        "ChineseName": "建造手榴彈",
+        "ChineseName": "破壞型手榴彈",
         "InGameID": "2038",
-        "Type": "GRENADE",
+        "Type": "STUDIO",
         "Rarity": "1",
         "ImageURL": "./images/weapon/vxlgrenade_blank.png"
     },
@@ -3594,7 +3594,7 @@ let WeaponData = [
         "ChineseName": "極．煉獄火神",
         "InGameID": "473",
         "Type": "EQUIPMENT",
-        "Rarity": "4",
+        "Rarity": "5",
         "ImageURL": "./images/weapon/sgmissilem.png"
     },
     {
@@ -3732,7 +3732,7 @@ let WeaponData = [
     },
     {
         "ChineseName": "極．煉獄使者 XII",
-        "InGameID": "390",
+        "InGameID": "494",
         "Type": "EQUIPMENT",
         "Rarity": "5",
         "ImageURL": ""
@@ -4032,7 +4032,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/zhehand.png"
     },
     {
-        "ChineseName": "毀滅者(Devastator)",
+        "ChineseName": "泰坦破壞者",
         "InGameID": "501",
         "Type": "MACHINEGUN",
         "Rarity": "5",
@@ -4131,7 +4131,7 @@ let WeaponData = [
     },
     {
         "ChineseName": "松片手榴彈",
-        "InGameID": "?",
+        "InGameID": "2011",
         "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/looseslicesgrenade.png"
@@ -4149,5 +4149,19 @@ let WeaponData = [
         "Type": "NONE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/cokecan.png"
+    },
+    {
+        "ChineseName": "極．煉獄射手",
+        "InGameID": "?",
+        "Type": "EQUIPMENT",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/sgmissileex.png"
+    },
+    {
+        "ChineseName": "極．煉獄使者(塗料)",
+        "InGameID": "390",
+        "Type": "EQUIPMENT",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/sgmissilepaintgs18.png"
     }
 ]
