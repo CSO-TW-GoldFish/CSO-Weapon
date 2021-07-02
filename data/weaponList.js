@@ -4145,7 +4145,7 @@ let WeaponData = [
     },
     {
         "ChineseName": "極．煉獄射手",
-        "InGameID": "?",
+        "InGameID": "494",
         "Type": "EQUIPMENT",
         "Rarity": "5",
         "ImageURL": "./images/weapon/sgmissileex.png"
