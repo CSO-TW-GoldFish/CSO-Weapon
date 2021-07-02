@@ -3731,13 +3731,6 @@ let WeaponData = [
         "ImageURL": "./images/weapon/lance.png"
     },
     {
-        "ChineseName": "極．煉獄使者 XII",
-        "InGameID": "494",
-        "Type": "EQUIPMENT",
-        "Rarity": "5",
-        "ImageURL": ""
-    },
-    {
         "ChineseName": "熊熊怒火MK-1",
         "InGameID": "496",
         "Type": "PISTOL",
@@ -4163,5 +4156,19 @@ let WeaponData = [
         "Type": "EQUIPMENT",
         "Rarity": "5",
         "ImageURL": "./images/weapon/sgmissilepaintgs18.png"
+    },
+    {
+        "ChineseName": "靈魂交響曲EX",
+        "InGameID": "507",
+        "Type": "EQUIPMENT",
+        "Rarity": "5",
+        "ImageURL": ""
+    },
+    {
+        "ChineseName": "DG斧頭",
+        "InGameID": "4071",
+        "Type": "KNIFE",
+        "Rarity": "6",
+        "ImageURL": ""
     }
 ]
