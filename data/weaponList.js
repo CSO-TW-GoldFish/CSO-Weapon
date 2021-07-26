@@ -4165,10 +4165,17 @@ let WeaponData = [
         "ImageURL": ""
     },
     {
-        "ChineseName": "DG斧頭",
+        "ChineseName": "天地之懼．荒",
         "InGameID": "4071",
         "Type": "KNIFE",
         "Rarity": "6",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/dgaxe.png"
+    },
+	{
+        "ChineseName": "電馳光輪",
+        "InGameID": "508",
+        "Type": "EQUIPMENT",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/guillotineex.png"
     }
 ]
