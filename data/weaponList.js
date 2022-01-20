@@ -107,7 +107,7 @@ let WeaponData = [
     {
         "ChineseName": "BULLPUP",
         "InGameID": "8",
-        "Type": "SUBMACHINEGUN",
+        "Type": "RIFLE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/aug.png"
     },
@@ -4158,11 +4158,11 @@ let WeaponData = [
         "ImageURL": "./images/weapon/sgmissilepaintgs18.png"
     },
     {
-        "ChineseName": "靈魂交響曲EX",
+        "ChineseName": "萬靈鎮魂曲",
         "InGameID": "507",
         "Type": "EQUIPMENT",
         "Rarity": "5",
-        "ImageURL": ""
+        "ImageURL": "./images/weapon/pianogunex.png"
     },
     {
         "ChineseName": "天地之懼．荒",
@@ -4177,5 +4177,96 @@ let WeaponData = [
         "Type": "EQUIPMENT",
         "Rarity": "5",
         "ImageURL": "./images/weapon/guillotineex.png"
-    }
+    },
+	{
+        "ChineseName": "機械鳳凰MK-1",
+        "InGameID": "509",
+        "Type": "EQUIPMENT",
+        "Rarity": "3",
+        "ImageURL": "./images/weapon/y21s3cannonexma.png"
+    },
+	{
+        "ChineseName": "機械鳳凰MK-2",
+        "InGameID": "510",
+        "Type": "EQUIPMENT",
+        "Rarity": "3",
+        "ImageURL": "./images/weapon/y21s3cannonexmb.png"
+    },
+	{
+        "ChineseName": "機械鳳凰MK-3",
+        "InGameID": "511",
+        "Type": "EQUIPMENT",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/y21s3cannonexmc.png"
+    },
+	{
+        "ChineseName": "烈焰機械鳳凰",
+        "InGameID": "512",
+        "Type": "EQUIPMENT",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/y21s3cannonexmd.png"
+    },
+	{
+        "ChineseName": "蝕咒聖弓",
+        "InGameID": "513",
+        "Type": "RIFLE",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/huntbow.png"
+    },
+	{
+        "ChineseName": "煉獄犬煌SG552",
+        "InGameID": "514",
+        "Type": "RIFLE",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/buffsg552ex.png"
+    },
+	{
+        "ChineseName": "闇閻星環",
+        "InGameID": "515",
+        "Type": "PISTOL",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/bufffiveseven.png"
+    },
+	{
+        "ChineseName": "機械恐龍MK-1",
+        "InGameID": "516",
+        "Type": "EQUIPMENT",
+        "Rarity": "3",
+        "ImageURL": "./images/weapon/y21s4janusa.png"
+    },
+	{
+        "ChineseName": "機械恐龍MK-2",
+        "InGameID": "517",
+        "Type": "EQUIPMENT",
+        "Rarity": "3",
+        "ImageURL": "./images/weapon/y21s4janusb.png"
+    },
+	{
+        "ChineseName": "機械恐龍MK-3",
+        "InGameID": "518",
+        "Type": "EQUIPMENT",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/y21s4janusc.png"
+    },
+	{
+        "ChineseName": "機械爆龍MK-4",
+        "InGameID": "519",
+        "Type": "EQUIPMENT",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/y21s4janusd.png"
+    },
+	{
+        "ChineseName": "閃電巨斧",
+        "InGameID": "4072",
+        "Type": "KNIFE",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/skullt9.png"
+    },
+	{
+        "ChineseName": "永恆極光．閃",
+        "InGameID": "520",
+        "Type": "EQUIPMENT",
+        "Rarity": "6",
+        "ImageURL": "./images/weapon/revivegun.png"
+    },
 ]
