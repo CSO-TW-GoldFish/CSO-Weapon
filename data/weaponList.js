@@ -4256,17 +4256,31 @@ let WeaponData = [
         "ImageURL": "./images/weapon/y21s4janusd.png"
     },
 	{
-        "ChineseName": "閃電巨斧",
+        "ChineseName": "死人骨頭",
         "InGameID": "4072",
         "Type": "KNIFE",
         "Rarity": "5",
         "ImageURL": "./images/weapon/skullt9.png"
     },
 	{
-        "ChineseName": "永恆極光．閃",
-        "InGameID": "520",
-        "Type": "EQUIPMENT",
-        "Rarity": "6",
-        "ImageURL": "./images/weapon/revivegun.png"
+        "ChineseName": "小丑變色龍槍",
+        "InGameID": "521",
+        "Type": "PISTOL",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/y22s1waterpistolma.png"
+    },
+	{
+        "ChineseName": "小丑魔術弓",
+        "InGameID": "522",
+        "Type": "RIFLE",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/y22s1crossbowex21mc.png"
+    },
+	{
+        "ChineseName": "小丑祝福劍",
+        "InGameID": "4073",
+        "Type": "KNIFE",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/y22s1holyswordmb.png"
     },
 ]
