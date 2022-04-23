@@ -1897,7 +1897,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/bendita.png"
     },
     {
-        "ChineseName": "地獄火筒",
+        "ChineseName": "地獄火銃",
         "InGameID": "249",
         "Type": "EQUIPMENT",
         "Rarity": "",
@@ -4096,28 +4096,28 @@ let WeaponData = [
     },
     {
         "ChineseName": "1周年紀念蛋糕手榴彈",
-        "InGameID": "?",
+        "InGameID": "0",
         "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/1stanniversarycakegrenade.png"
     },
     {
         "ChineseName": "2周年紀念蛋糕手榴彈",
-        "InGameID": "?",
+        "InGameID": "0",
         "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/2ndanniversarycakegrenade.png"
     },
     {
         "ChineseName": "3周年紀念蛋糕手榴彈",
-        "InGameID": "?",
+        "InGameID": "0",
         "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/3rdanniversarycakegrenade.png"
     },
     {
         "ChineseName": "周年紀念蛋糕手榴彈",
-        "InGameID": "?",
+        "InGameID": "0",
         "Type": "GRENADE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/anniversarycakegrenade.png"
@@ -4131,14 +4131,14 @@ let WeaponData = [
     },
     {
         "ChineseName": "MP5幽靈",
-        "InGameID": "?",
+        "InGameID": "0",
         "Type": "SUBMACHINEGUN",
         "Rarity": "1",
         "ImageURL": "./images/weapon/mp5ghost.png"
     },
     {
         "ChineseName": "可樂罐",
-        "InGameID": "?",
+        "InGameID": "0",
         "Type": "NONE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/cokecan.png"
@@ -4282,5 +4282,12 @@ let WeaponData = [
         "Type": "KNIFE",
         "Rarity": "4",
         "ImageURL": "./images/weapon/y22s1holyswordmb.png"
+    },
+	{
+        "ChineseName": "Whipsword",
+        "InGameID": "4074",
+        "Type": "KNIFE",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/whipsword.png"
     },
 ]
