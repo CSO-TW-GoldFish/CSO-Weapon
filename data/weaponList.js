@@ -3390,7 +3390,7 @@ let WeaponData = [
     {
         "ChineseName": "TMSR星換流光",
         "InGameID": "450",
-        "Type": "SUBMACHINEGUN",
+        "Type": "RIFLE",
         "Rarity": "5",
         "ImageURL": "./images/weapon/lockongun.png"
     },
@@ -3817,28 +3817,28 @@ let WeaponData = [
     {
         "ChineseName": "颶風狩獵者",
         "InGameID": "502",
-        "Type": "SUBMACHINEGUN",
+        "Type": "RIFLE",
         "Rarity": "3",
         "ImageURL": "./images/weapon/y21s2lockongunma.png"
     },
     {
         "ChineseName": "火焰狩獵者",
         "InGameID": "503",
-        "Type": "SUBMACHINEGUN",
+        "Type": "RIFLE",
         "Rarity": "3",
         "ImageURL": "./images/weapon/y21s2lockongunmb.png"
     },
     {
         "ChineseName": "雷電狩獵者",
         "InGameID": "504",
-        "Type": "SUBMACHINEGUN",
+        "Type": "RIFLE",
         "Rarity": "4",
         "ImageURL": "./images/weapon/y21s2lockongunmc.png"
     },
     {
         "ChineseName": "元素狩獵者",
         "InGameID": "505",
-        "Type": "SUBMACHINEGUN",
+        "Type": "RIFLE",
         "Rarity": "4",
         "ImageURL": "./images/weapon/y21s2lockongunmd.png"
     },
@@ -4284,10 +4284,17 @@ let WeaponData = [
         "ImageURL": "./images/weapon/y22s1holyswordmb.png"
     },
 	{
-        "ChineseName": "Whipsword",
+        "ChineseName": "赤蛇鎖鏈劍",
         "InGameID": "4074",
         "Type": "KNIFE",
         "Rarity": "5",
         "ImageURL": "./images/weapon/whipsword.png"
+    },
+	{
+        "ChineseName": "手電筒",
+        "InGameID": "2601",
+        "Type": "EQUIPMENT",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/flashlight.png"
     },
 ]
