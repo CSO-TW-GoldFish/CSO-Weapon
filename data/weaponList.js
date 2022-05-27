@@ -4230,28 +4230,28 @@ let WeaponData = [
 	{
         "ChineseName": "機械恐龍MK-1",
         "InGameID": "516",
-        "Type": "EQUIPMENT",
+        "Type": "RIFLE",
         "Rarity": "3",
         "ImageURL": "./images/weapon/y21s4janusa.png"
     },
 	{
         "ChineseName": "機械恐龍MK-2",
         "InGameID": "517",
-        "Type": "EQUIPMENT",
+        "Type": "RIFLE",
         "Rarity": "3",
         "ImageURL": "./images/weapon/y21s4janusb.png"
     },
 	{
         "ChineseName": "機械恐龍MK-3",
         "InGameID": "518",
-        "Type": "EQUIPMENT",
+        "Type": "RIFLE",
         "Rarity": "4",
         "ImageURL": "./images/weapon/y21s4janusc.png"
     },
 	{
         "ChineseName": "機械爆龍MK-4",
         "InGameID": "519",
-        "Type": "EQUIPMENT",
+        "Type": "RIFLE",
         "Rarity": "4",
         "ImageURL": "./images/weapon/y21s4janusd.png"
     },
@@ -4296,5 +4296,12 @@ let WeaponData = [
         "Type": "EQUIPMENT",
         "Rarity": "1",
         "ImageURL": "./images/weapon/flashlight.png"
+    },
+	{
+        "ChineseName": "虛空制裁者‧X",
+        "InGameID": "524",
+        "Type": "PISTOL",
+        "Rarity": "6",
+        "ImageURL": "./images/weapon/voidpistolex.png"
     },
 ]
