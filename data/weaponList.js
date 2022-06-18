@@ -4046,7 +4046,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/zombibomb.png"
     },
     {
-        "ChineseName": "雞蛋(明星鬥陣．雞)",
+        "ChineseName": "雞蛋(明星鬥陣)",
         "InGameID": "2040",
         "Type": "GRENADE",
         "Rarity": "1",
@@ -4298,10 +4298,73 @@ let WeaponData = [
         "ImageURL": "./images/weapon/flashlight.png"
     },
 	{
-        "ChineseName": "虛空制裁者‧X",
+        "ChineseName": "虛空制裁者．X",
         "InGameID": "524",
         "Type": "PISTOL",
         "Rarity": "6",
         "ImageURL": "./images/weapon/voidpistolex.png"
+    },
+	{
+        "ChineseName": "Death Eater(食死徒)",
+        "InGameID": "523",
+        "Type": "SHOTGUN",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/lasersg.png"
+    },
+	{
+        "ChineseName": "Laser Reaper(激光電鋸)",
+        "InGameID": "525",
+        "Type": "EQUIPMENT",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/chainsawex.png"
+    },
+	{
+        "ChineseName": "Lunar Cannon(月神砲)",
+        "InGameID": "526",
+        "Type": "SHOTGUN",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/y22s2lunarcannon.png"
+    },
+	{
+        "ChineseName": "Star Cyclone(星光颶風)",
+        "InGameID": "527",
+        "Type": "PISTOL",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/y22s2sfpistol.png"
+    },
+	{
+        "ChineseName": "Star Sword(星光劍)",
+        "InGameID": "4075",
+        "Type": "KNIFE",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/y22s2sfsword.png"
+    },
+	{
+        "ChineseName": "雪人(怪獸亂鬥)",
+        "InGameID": "4022",
+        "Type": "KNIFE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/beast-snowman.png"
+    },
+	{
+        "ChineseName": "空手(偵查事件簿)",
+        "InGameID": "4035",
+        "Type": "KNIFE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/standalonehands.png"
+    },
+	{
+        "ChineseName": "小刀(偵查事件簿)",
+        "InGameID": "4036",
+        "Type": "KNIFE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/standaloneknife.png"
+    },
+	{
+        "ChineseName": "羊角魔爪",
+        "InGameID": "4037",
+        "Type": "KNIFE",
+        "Rarity": "4",
+        "ImageURL": "./images/weapon/sheepsword.png"
     },
 ]
