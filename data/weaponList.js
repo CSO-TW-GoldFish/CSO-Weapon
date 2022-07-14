@@ -4046,7 +4046,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/zombibomb.png"
     },
     {
-        "ChineseName": "雞蛋(明星鬥陣)",
+        "ChineseName": "新鮮的雞蛋(明星鬥陣)",
         "InGameID": "2040",
         "Type": "GRENADE",
         "Rarity": "1",
@@ -4305,35 +4305,35 @@ let WeaponData = [
         "ImageURL": "./images/weapon/voidpistolex.png"
     },
 	{
-        "ChineseName": "Death Eater(食死徒)",
+        "ChineseName": "雷蛇黑曼巴",
         "InGameID": "523",
         "Type": "SHOTGUN",
         "Rarity": "5",
         "ImageURL": "./images/weapon/lasersg.png"
     },
 	{
-        "ChineseName": "Laser Reaper(激光電鋸)",
+        "ChineseName": "雷射開膛手",
         "InGameID": "525",
         "Type": "EQUIPMENT",
         "Rarity": "5",
         "ImageURL": "./images/weapon/chainsawex.png"
     },
 	{
-        "ChineseName": "Lunar Cannon(月神砲)",
+        "ChineseName": "隕月加農砲",
         "InGameID": "526",
         "Type": "SHOTGUN",
         "Rarity": "4",
         "ImageURL": "./images/weapon/y22s2lunarcannon.png"
     },
 	{
-        "ChineseName": "Star Cyclone(星光颶風)",
+        "ChineseName": "星環颶風",
         "InGameID": "527",
         "Type": "PISTOL",
         "Rarity": "4",
         "ImageURL": "./images/weapon/y22s2sfpistol.png"
     },
 	{
-        "ChineseName": "Star Sword(星光劍)",
+        "ChineseName": "藍月光束劍",
         "InGameID": "4075",
         "Type": "KNIFE",
         "Rarity": "4",
@@ -4366,5 +4366,19 @@ let WeaponData = [
         "Type": "KNIFE",
         "Rarity": "4",
         "ImageURL": "./images/weapon/sheepsword.png"
+    },
+	{
+        "ChineseName": "聖翼皓印(※陸譯)",
+        "InGameID": "528",
+        "Type": "GRENADE",
+        "Rarity": "6",
+        "ImageURL": "./images/weapon/divinetitan.png"
+    },
+	{
+        "ChineseName": "巨鯊牙(※暫譯)",
+        "InGameID": "529",
+        "Type": "EQUIPMENT",
+        "Rarity": "5",
+        "ImageURL": "./images/weapon/sgdrillex.png"
     },
 ]
