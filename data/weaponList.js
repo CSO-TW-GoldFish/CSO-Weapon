@@ -21,7 +21,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/glock18.png"
     },
     {
-        "ChineseName": "夜鷹 . 50C",
+        "ChineseName": "夜鷹 .50C",
         "InGameID": "26",
         "Type": "PISTOL",
         "Rarity": "1",
@@ -245,7 +245,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/vsk94.png"
     },
     {
-        "ChineseName": "KIA",
+        "ChineseName": "K1A",
         "InGameID": "38",
         "Type": "RIFLE",
         "Rarity": "1",
@@ -350,7 +350,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/ak47g.png"
     },
     {
-        "ChineseName": "黃金M4A1",
+        "ChineseName": "迷彩M4A1",
         "InGameID": "54",
         "Type": "RIFLE",
         "Rarity": "4",
@@ -658,7 +658,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/thompsongold.png"
     },
     {
-        "ChineseName": "叢林喚雷",
+        "ChineseName": "叢林幻雷",
         "InGameID": "88",
         "Type": "SHOTGUN",
         "Rarity": "4",
@@ -861,7 +861,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/mg36.png"
     },
     {
-        "ChineseName": "雷神機光波",
+        "ChineseName": "雷神激光破",
         "InGameID": "116",
         "Type": "RIFLE",
         "Rarity": "4",
@@ -959,7 +959,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/dragontail.png"
     },
     {
-        "ChineseName": "黃金黑暗武士",
+        "ChineseName": "黃金黑暗騎士",
         "InGameID": "129",
         "Type": "MACHINEGUN",
         "Rarity": "4",
@@ -1001,7 +1001,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/sfsmg.png"
     },
     {
-        "ChineseName": "黃金噬血榴砲",
+        "ChineseName": "黃金噬血榴炮",
         "InGameID": "132",
         "Type": "PISTOL",
         "Rarity": "4",
@@ -1197,7 +1197,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/glockred.png"
     },
     {
-        "ChineseName": "紅色KM. 45戰術手槍",
+        "ChineseName": "紅色KM .45戰術手槍",
         "InGameID": "159",
         "Type": "PISTOL",
         "Rarity": "2",
@@ -1596,7 +1596,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/bglock18.png"
     },
     {
-        "ChineseName": "餓狼KM. 45",
+        "ChineseName": "餓狼KM .45",
         "InGameID": "214",
         "Type": "PISTOL",
         "Rarity": "1",
@@ -1680,7 +1680,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/drillgun.png"
     },
     {
-        "ChineseName": "黃金鋼鐵之星",
+        "ChineseName": "黃金鋼鐵之心",
         "InGameID": "226",
         "Type": "RIFLE",
         "Rarity": "2",
@@ -1708,7 +1708,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/janus1.png"
     },
     {
-        "ChineseName": "十字轉輪",
+        "ChineseName": "十字輪迴",
         "InGameID": "227",
         "Type": "SNIPERRIFLE",
         "Rarity": "4",
@@ -1820,7 +1820,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/spas12excraft.png"
     },
     {
-        "ChineseName": "聖戒裁決(Janus-11)",
+        "ChineseName": "聖界裁決(Janus-11)",
         "InGameID": "240",
         "Type": "SHOTGUN",
         "Rarity": "3",
@@ -1848,7 +1848,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/balrog5b.png"
     },
     {
-        "ChineseName": "冷焰赤獄魔龍",
+        "ChineseName": "冷焰魔龍",
         "InGameID": "242",
         "Type": "MACHINEGUN",
         "Rarity": "3",
@@ -2352,7 +2352,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/thanatos3.png"
     },
     {
-        "ChineseName": "聖但限定版皇族聖痕",
+        "ChineseName": "聖誕限定版皇族聖痕",
         "InGameID": "316",
         "Type": "MACHINEGUN",
         "Rarity": "3",
@@ -2471,7 +2471,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/blockmg.png"
     },
     {
-        "ChineseName": "血性嗜放",
+        "ChineseName": "血性噬放",
         "InGameID": "329",
         "Type": "PISTOL",
         "Rarity": "5",
@@ -3073,7 +3073,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/akmgs.png"
     },
     {
-        "ChineseName": "夜鷹 . 50C10th限定版",
+        "ChineseName": "夜鷹 .50C10th限定版",
         "InGameID": "409",
         "Type": "PISTOL",
         "Rarity": "3",
@@ -3178,7 +3178,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/gungnir.png"
     },
     {
-        "ChineseName": "魔輪KM 衝鋒槍",
+        "ChineseName": "魔輪K&M 衝鋒槍",
         "InGameID": "424",
         "Type": "SUBMACHINEGUN",
         "Rarity": "3",
@@ -3227,7 +3227,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/19s1qbz95.png"
     },
     {
-        "ChineseName": "聖裁槍王",
+        "ChineseName": "聖裁鎗王",
         "InGameID": "423",
         "Type": "PISTOL",
         "Rarity": "4",
@@ -4368,14 +4368,14 @@ let WeaponData = [
         "ImageURL": "./images/weapon/sheepsword.png"
     },
 	{
-        "ChineseName": "聖翼皓印(※陸譯)",
+        "ChineseName": "喚光聖翼-天罰",
         "InGameID": "528",
         "Type": "GRENADE",
         "Rarity": "6",
         "ImageURL": "./images/weapon/divinetitan.png"
     },
 	{
-        "ChineseName": "巨鯊牙(※暫譯)",
+        "ChineseName": "血月螺旋牙",
         "InGameID": "529",
         "Type": "EQUIPMENT",
         "Rarity": "5",
