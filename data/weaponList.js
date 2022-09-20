@@ -224,14 +224,14 @@ let WeaponData = [
         "ImageURL": "./images/weapon/qbb95.png"
     },
     {
-        "ChineseName": "SCAR (基本版)",
+        "ChineseName": "SCAR (強化版)",
         "InGameID": "31",
         "Type": "RIFLE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/scar.png"
     },
     {
-        "ChineseName": "XM-8 (基本版)",
+        "ChineseName": "XM-8 (強化版)",
         "InGameID": "33",
         "Type": "RIFLE",
         "Rarity": "1",
@@ -273,14 +273,14 @@ let WeaponData = [
         "ImageURL": "./images/weapon/svd.png"
     },
     {
-        "ChineseName": "SCAR (強化版)",
+        "ChineseName": "SCAR (基本版)",
         "InGameID": "42",
         "Type": "RIFLE",
         "Rarity": "1",
         "ImageURL": "./images/weapon/scar556limited.png"
     },
     {
-        "ChineseName": "XM-8 (強化版)",
+        "ChineseName": "XM-8 (基本版)",
         "InGameID": "43",
         "Type": "RIFLE",
         "Rarity": "1",
@@ -292,6 +292,13 @@ let WeaponData = [
         "Type": "MACHINEGUN",
         "Rarity": "2",
         "ImageURL": "./images/weapon/mg3.png"
+    },
+	{
+        "ChineseName": "森蚺左輪",
+        "InGameID": "46",
+        "Type": "PISTOL",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/anaconda.png"
     },
     {
         "ChineseName": "芬蘭之星-TRG",
@@ -672,7 +679,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/cartblue.png"
     },
     {
-        "ChineseName": "睏保 KB-2000型",
+        "ChineseName": "睏寶 KB-2000型",
         "InGameID": "93",
         "Type": "SUBMACHINEGUN",
         "Rarity": "3",
@@ -2168,6 +2175,13 @@ let WeaponData = [
         "Type": "SNIPERRIFLE",
         "Rarity": "2",
         "ImageURL": "./images/weapon/pgm.png"
+    },
+	{
+        "ChineseName": "86s式自動步槍",
+        "InGameID": "288",
+        "Type": "RIFLE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/norinco86s.png"
     },
     {
         "ChineseName": "十萬伏特",
@@ -4144,7 +4158,7 @@ let WeaponData = [
         "ImageURL": "./images/weapon/cokecan.png"
     },
     {
-        "ChineseName": "極．煉獄射手",
+        "ChineseName": "極．煉獄殺神",
         "InGameID": "494",
         "Type": "EQUIPMENT",
         "Rarity": "5",
@@ -4380,5 +4394,19 @@ let WeaponData = [
         "Type": "EQUIPMENT",
         "Rarity": "5",
         "ImageURL": "./images/weapon/sgdrillex.png"
+    },
+	{
+        "ChineseName": "永恆極光．閃",
+        "InGameID": "520",
+        "Type": "EQUIPMENT",
+        "Rarity": "6",
+        "ImageURL": "./images/weapon/revivegun.png"
+    },
+	{
+        "ChineseName": "超硬質刃",
+        "InGameID": "4032",
+        "Type": "KNIFE",
+        "Rarity": "1",
+        "ImageURL": "./images/weapon/giantknife.png"
     },
 ]
