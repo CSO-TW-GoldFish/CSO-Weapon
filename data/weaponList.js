@@ -4409,4 +4409,11 @@ let WeaponData = [
         "Rarity": "1",
         "ImageURL": "./images/weapon/giantknife.png"
     },
+	{
+        "ChineseName": "極地風暴．冰皇",
+        "InGameID": "530",
+        "Type": "EQUIPMENT",
+        "Rarity": "6",
+        "ImageURL": "./images/weapon/wondercannonex.png"
+    },
 ]
