@@ -2811,7 +2811,7 @@ let WeaponData = [
 		"InGameID": "406",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/herochainsaw .png"
+		"ImageURL": "./images/weapon/herochainsaw.png"
     },
 	{
 		"ChineseName": "AKM10th限定版",
