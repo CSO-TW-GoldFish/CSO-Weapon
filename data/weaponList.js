@@ -3675,21 +3675,21 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/wondercannonex.png"
     },
 	{
-		"ChineseName": "鐳射眼 (Cyclops)",
+		"ChineseName": "獨眼巨人",
 		"InGameID": "531",
 		"Type": "PISTOL",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/restrictionpistol.png"
     },
 	{
-		"ChineseName": "遠古守護者 (Ancient Keeper)",
+		"ChineseName": "遠古聖痕",
 		"InGameID": "532",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s3janus7.png"
     },
 	{
-		"ChineseName": "遠古使者 (Ancient Bringer)",
+		"ChineseName": "遠古星環",
 		"InGameID": "533",
 		"Type": "PISTOL",
 		"Rarity": "4",
@@ -4431,7 +4431,7 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/y22s2sfsword.png"
     },
 	{
-		"ChineseName": "遠古狂戰士 (Ancient Berserker)",
+		"ChineseName": "遠古偃月刀",
 		"InGameID": "4076",
 		"Type": "KNIFE",
 		"Rarity": "4",
