@@ -42,6 +42,34 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/3rdanniversarycakegrenade.png"
     },
 	{
+		"ChineseName": "CSO_Item_Name_halogun",
+		"InGameID": "0",
+		"Type": "NONE",
+		"Rarity": "1",
+		"ImageURL": "./images/weapon/halogun.png"
+    },
+	{
+		"ChineseName": "CSO_Item_Name_rocketpistol",
+		"InGameID": "0",
+		"Type": "NONE",
+		"Rarity": "1",
+		"ImageURL": "./images/weapon/rocketpistol.png"
+    },
+	{
+		"ChineseName": "CSO_Item_Name_chainsr",
+		"InGameID": "0",
+		"Type": "NONE",
+		"Rarity": "1",
+		"ImageURL": "./images/weapon/chainsr.png"
+    },
+	{
+		"ChineseName": "CSO_Item_Name_swordbombard",
+		"InGameID": "0",
+		"Type": "NONE",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/swordbombard.png"
+    },
+	{
 		"ChineseName": "228 緊緻型",
 		"InGameID": "1",
 		"Type": "PISTOL",
@@ -3694,6 +3722,13 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s3bufffiveseven.png"
+    },
+	{
+		"ChineseName": "閃電AN-94",
+		"InGameID": "535",
+		"Type": "RIFLE",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/lightningar.png"
     },
 	{
 		"ChineseName": "克夫勒防彈背心",
