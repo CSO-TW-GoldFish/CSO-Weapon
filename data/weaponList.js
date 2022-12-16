@@ -49,25 +49,11 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/halogun.png"
     },
 	{
-		"ChineseName": "CSO_Item_Name_rocketpistol",
-		"InGameID": "0",
-		"Type": "NONE",
-		"Rarity": "1",
-		"ImageURL": "./images/weapon/rocketpistol.png"
-    },
-	{
 		"ChineseName": "CSO_Item_Name_chainsr",
 		"InGameID": "0",
 		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/chainsr.png"
-    },
-	{
-		"ChineseName": "CSO_Item_Name_swordbombard",
-		"InGameID": "0",
-		"Type": "NONE",
-		"Rarity": "5",
-		"ImageURL": "./images/weapon/swordbombard.png"
     },
 	{
 		"ChineseName": "228 緊緻型",
@@ -3731,6 +3717,13 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/lightningar.png"
     },
 	{
+		"ChineseName": "雙鷹 (Twin Hawks)",
+		"InGameID": "536",
+		"Type": "NONE",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/rocketpistol.png"
+    },
+	{
 		"ChineseName": "克夫勒防彈背心",
 		"InGameID": "2000",
 		"Type": "EQUIPMENT",
@@ -3819,7 +3812,7 @@ let WeaponData = [
 		"InGameID": "2011",
 		"Type": "GRENADE",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/.png"
+		"ImageURL": "./images/weapon/looseslicesgrenade.png"
     },
 	{
 		"ChineseName": "南瓜手榴彈",
@@ -4471,5 +4464,12 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s3dragonsword.png"
+    },
+	{
+		"ChineseName": "極致克萊爾 (Haute Claire)",
+		"InGameID": "4077",
+		"Type": "NONE",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/swordbombard.png"
     },
 ]
