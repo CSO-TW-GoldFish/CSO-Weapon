@@ -3724,6 +3724,27 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/halogun.png"
     },
 	{
+		"ChineseName": "雷射暴風",
+		"InGameID": "538",
+		"Type": "SUBMACHINEGUN",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/y23s1sfsmg.png"
+    },
+	{
+		"ChineseName": "雷霆終結者TECH",
+		"InGameID": "539",
+		"Type": "MACHINEGUN",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/y23s1sfmg.png"
+    },
+	{
+		"ChineseName": "十萬伏特TECH",
+		"InGameID": "540",
+		"Type": "PISTOL",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/y23s1dartpistol.png"
+    },
+	{
 		"ChineseName": "克夫勒防彈背心",
 		"InGameID": "2000",
 		"Type": "EQUIPMENT",
@@ -4468,8 +4489,15 @@ let WeaponData = [
 	{
 		"ChineseName": "奧利聖劍",
 		"InGameID": "4077",
-		"Type": "NONE",
+		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/swordbombard.png"
+    },
+	{
+		"ChineseName": "野戰鐵撬TECH",
+		"InGameID": "4078",
+		"Type": "KNIFE",
+		"Rarity": "3",
+		"ImageURL": "./images/weapon/y23s1crowbarcraft.png"
     },
 ]
