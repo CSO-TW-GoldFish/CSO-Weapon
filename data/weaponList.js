@@ -3696,14 +3696,14 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/y22s3bufffiveseven.png"
 	},
 	{
-		"ChineseName": "暗影 Hecate II",
+		"ChineseName": "Hecate Ⅱ暗影忍者",
 		"InGameID": "534",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/chainsr.png"
 	},
 	{
-		"ChineseName": "閃電AN-94（*陸服專屬）",
+		"ChineseName": "電能-V",
 		"InGameID": "535",
 		"Type": "RIFLE",
 		"Rarity": "4",
@@ -3724,21 +3724,21 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/halogun.png"
 	},
 	{
-		"ChineseName": "雷射暴風",
+		"ChineseName": "Cyber科技雷光",
 		"InGameID": "538",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y23s1sfsmg.png"
 	},
 	{
-		"ChineseName": "雷霆終結者TECH",
+		"ChineseName": "Cyber科技終結者",
 		"InGameID": "539",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y23s1sfmg.png"
 	},
 	{
-		"ChineseName": "十萬伏特TECH",
+		"ChineseName": "Cyber科技電槍",
 		"InGameID": "540",
 		"Type": "PISTOL",
 		"Rarity": "4",
@@ -3747,9 +3747,16 @@ let WeaponData = [
 	{
 		"ChineseName": "浩劫法環",
 		"InGameID": "541",
+		"Type": "GRENADE",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/sfturret.png"
+	},
+	{
+		"ChineseName": "墮天闇翼．薩麥爾",
+		"InGameID": "542",
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
-		"ImageURL": "./images/weapon/coustos.png"
+		"ImageURL": "./images/weapon/winggunex.png"
 	},
 	{
 		"ChineseName": "克夫勒防彈背心",
@@ -4501,7 +4508,7 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/swordbombard.png"
 	},
 	{
-		"ChineseName": "野戰鐵撬TECH",
+		"ChineseName": "Cyber科技電撬",
 		"InGameID": "4078",
 		"Type": "KNIFE",
 		"Rarity": "3",
