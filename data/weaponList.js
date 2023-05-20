@@ -4513,5 +4513,12 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y23s1crowbarcraft.png"
+	},
+	{
+		"ChineseName": "霜狼齒槌",
+		"InGameID": "4079",
+		"Type": "KNIFE",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/tyrantmace.png"
 	}
 ]
