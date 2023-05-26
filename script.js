@@ -81,17 +81,24 @@ Weapons.prototype.createThumbnailNode = function (weapon, index) {
 	let contentFrameNode = document.createElement('div');
 	contentFrameNode.classList.add('content');
 	contentFrameNode.addEventListener("click", function () {
-		let ID = weapon.InGameID;
+		let InGameID = weapon.InGameID;
 		let Type = self.typeTo[weapon.Type];
 		let Name = weapon.ChineseName;
-		let Text = `${ID}, -- ${Type} : ${Name}` + "\n";
+		let Text = `${InGameID}, -- ${Type} : ${Name}` + "\n";
 		navigator.clipboard.writeText(Text);
 	});
 	// 武器中文名稱
 	let WeaponName = `<p>${weapon.ChineseName}</p>`
 	// 武器ID
-	let InGameID = `<span>ID: </span>${weapon.InGameID}`
-	let weaponContent = WeaponName + InGameID;
+	let ID = `<span>ID: </span>${weapon.ID}`
+	let InGameID = `<span>GID: </span>${weapon.InGameID}`
+	if(weapon.ID == 0){
+		ID = `<span>ID: 無</span>`
+	}
+	if(weapon.InGameID == 0){
+		InGameID = `<span>GID: 無</span>`
+	}
+	let weaponContent = WeaponName + ID + " / " + InGameID;
 	contentFrameNode.innerHTML = weaponContent;
 	
 	// 選取外框
