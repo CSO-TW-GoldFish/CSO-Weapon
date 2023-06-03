@@ -1,5 +1,6 @@
 let WeaponData = [
 	{
+		"SystemName": "cokecan",
 		"ChineseName": "可樂罐",
 		"EnglishName": "Coke Can",
 		"ID": "0",
@@ -7,53 +8,59 @@ let WeaponData = [
 		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/cokecan.png"
-    },
+	},
 	{
+		"SystemName": "mp5spectre",
 		"ChineseName": "MP5幽靈",
-		"EnglishName": "MP5 Ghost",
+		"EnglishName": "MP5 Spectre",
 		"ID": "0",
 		"InGameID": "0",
 		"Type": "NONE",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/mp5ghost.png"
-    },
+		"ImageURL": "./images/weapon/mp5spectre.png"
+	},
 	{
-		"ChineseName": "周年紀念蛋糕手榴彈",
+		"SystemName": "cakebomb",
+		"ChineseName": "週年紀念蛋糕手榴彈",
 		"EnglishName": "Anniversary Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
-		"Type": "GRENADE",
+		"Type": "NONE",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/anniversarycakegrenade.png"
-    },
+		"ImageURL": "./images/weapon/cakebomb.png"
+	},
 	{
-		"ChineseName": "1周年紀念蛋糕手榴彈",
+		"SystemName": "1stcakebomb",
+		"ChineseName": "1週年紀念蛋糕手榴彈",
 		"EnglishName": "1st Anniversary Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
-		"Type": "GRENADE",
+		"Type": "NONE",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/1stanniversarycakegrenade.png"
-    },
+		"ImageURL": "./images/weapon/1stcakebomb.png"
+	},
 	{
-		"ChineseName": "2周年紀念蛋糕手榴彈",
+		"SystemName": "2ndcakebomb",
+		"ChineseName": "2週年紀念蛋糕手榴彈",
 		"EnglishName": "2nd Anniversary Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
-		"Type": "GRENADE",
+		"Type": "NONE",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/2ndanniversarycakegrenade.png"
-    },
+		"ImageURL": "./images/weapon/2ndcakebomb.png"
+	},
 	{
-		"ChineseName": "3周年紀念蛋糕手榴彈",
+		"SystemName": "3rdcakebomb",
+		"ChineseName": "3週年紀念蛋糕手榴彈",
 		"EnglishName": "3rd Anniversary Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
-		"Type": "GRENADE",
+		"Type": "NONE",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/3rdanniversarycakegrenade.png"
-    },
+		"ImageURL": "./images/weapon/3rdcakebomb.png"
+	},
 	{
+		"SystemName": "p228",
 		"ChineseName": "228 緊緻型",
 		"EnglishName": "P228",
 		"ID": "2",
@@ -61,8 +68,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/p228.png"
-    },
+	},
 	{
+		"SystemName": "Scout",
 		"ChineseName": "SCHMIDT SCOUT",
 		"EnglishName": "Scout",
 		"ID": "17",
@@ -70,17 +78,19 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/scout.png"
-    },
+	},
 	{
+		"SystemName": "hegrenade",
 		"ChineseName": "高爆手榴彈(無法使用)",
 		"EnglishName": "HE Grenade(Cannot Use)",
 		"ID": "0",
 		"InGameID": "4",
-		"Type": "GRENADE",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/hegrenade.png"
-    },
+	},
 	{
+		"SystemName": "xm1014",
 		"ChineseName": "LEONE YG1265 連發散彈槍",
 		"EnglishName": "XM1014 Automatic Shotgun",
 		"ID": "8",
@@ -88,17 +98,19 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/xm1014.png"
-    },
+	},
 	{
+		"SystemName": "c4_backpack",
 		"ChineseName": "C4炸彈包",
 		"EnglishName": "C4 Back Pack",
 		"ID": "0",
 		"InGameID": "6",
-		"Type": "EQUIPMENT",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/c4_backpack.png"
-    },
+	},
 	{
+		"SystemName": "MAC10",
 		"ChineseName": "英格倫 MAC-10",
 		"EnglishName": "MAC-10",
 		"ID": "10",
@@ -106,8 +118,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/mac10.png"
-    },
+	},
 	{
+		"SystemName": "aug",
 		"ChineseName": "BULLPUP",
 		"EnglishName": "AUG",
 		"ID": "16",
@@ -115,17 +128,19 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/aug.png"
-    },
+	},
 	{
+		"SystemName": "smokegrenade",
 		"ChineseName": "煙霧彈(無法使用)",
 		"EnglishName": "Smokescreen Grenade(Cannot Use)",
 		"ID": "0",
 		"InGameID": "9",
-		"Type": "GRENADE",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/smokegrenade.png"
-    },
+	},
 	{
+		"SystemName": "Elites",
 		"ChineseName": ".40 槍神雙槍",
 		"EnglishName": "Dual Beretta",
 		"ID": "1",
@@ -133,8 +148,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/elites.png"
-    },
+	},
 	{
+		"SystemName": "fiveseven",
 		"ChineseName": "ES FIVE-SEVEN",
 		"EnglishName": "Five-Seven",
 		"ID": "5",
@@ -142,8 +158,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/fiveseven.png"
-    },
+	},
 	{
+		"SystemName": "ump45",
 		"ChineseName": "KM UMP45",
 		"EnglishName": "UMP45",
 		"ID": "13",
@@ -151,8 +168,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/ump45.png"
-    },
+	},
 	{
+		"SystemName": "sg550",
 		"ChineseName": "KRIEG 550 COMMANDO",
 		"EnglishName": "SG550 Commando",
 		"ID": "18",
@@ -160,8 +178,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/sg550.png"
-    },
+	},
 	{
+		"SystemName": "Galil",
 		"ChineseName": "IDF 防衛者",
 		"EnglishName": "Galil",
 		"ID": "23",
@@ -169,8 +188,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/galil.png"
-    },
+	},
 	{
+		"SystemName": "famas",
 		"ChineseName": "Clarion 5.56",
 		"EnglishName": "FAMAS",
 		"ID": "20",
@@ -178,8 +198,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/famas.png"
-    },
+	},
 	{
+		"SystemName": "usp45",
 		"ChineseName": "KM .45 戰術手槍",
 		"EnglishName": "USP45",
 		"ID": "6",
@@ -187,8 +208,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/usp45.png"
-    },
+	},
 	{
+		"SystemName": "Glock18",
 		"ChineseName": "9X19MM 手槍",
 		"EnglishName": "Glock 18C",
 		"ID": "3",
@@ -196,8 +218,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/glock18.png"
-    },
+	},
 	{
+		"SystemName": "awp",
 		"ChineseName": "麥格農狙擊槍(AWP)",
 		"EnglishName": "AWP",
 		"ID": "14",
@@ -205,8 +228,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/awp.png"
-    },
+	},
 	{
+		"SystemName": "MP5",
 		"ChineseName": "KM 衝鋒槍",
 		"EnglishName": "MP5",
 		"ID": "12",
@@ -214,8 +238,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/mp5.png"
-    },
+	},
 	{
+		"SystemName": "m249",
 		"ChineseName": "M249",
 		"EnglishName": "M249",
 		"ID": "24",
@@ -223,8 +248,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/m249.png"
-    },
+	},
 	{
+		"SystemName": "m3",
 		"ChineseName": "LEONE 12 GAUGE SUPER",
 		"EnglishName": "M3",
 		"ID": "7",
@@ -232,8 +258,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/m3.png"
-    },
+	},
 	{
+		"SystemName": "m4a1",
 		"ChineseName": "MAVERICK M4A1 卡賓",
 		"EnglishName": "M4A1",
 		"ID": "15",
@@ -241,8 +268,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/m4a1.png"
-    },
+	},
 	{
+		"SystemName": "tmp",
 		"ChineseName": "SCHMIDT 衝鋒槍",
 		"EnglishName": "TMP",
 		"ID": "9",
@@ -250,8 +278,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/tmp.png"
-    },
+	},
 	{
+		"SystemName": "G3SG1",
 		"ChineseName": "D3/AU-1",
 		"EnglishName": "G3/SG-1",
 		"ID": "22",
@@ -259,17 +288,19 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/g3sg1.png"
-    },
+	},
 	{
+		"SystemName": "flashbang",
 		"ChineseName": "閃光彈(無法使用)",
 		"EnglishName": "Flash Bang(Cannot Use)",
 		"ID": "0",
 		"InGameID": "25",
-		"Type": "GRENADE",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/flashbang.png"
-    },
+	},
 	{
+		"SystemName": "deserteagle",
 		"ChineseName": "夜鷹 .50C",
 		"EnglishName": "Desert Eagle 50C",
 		"ID": "4",
@@ -277,8 +308,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/deserteagle.png"
-    },
+	},
 	{
+		"SystemName": "sg552",
 		"ChineseName": "KRIEG 552",
 		"EnglishName": "SG552",
 		"ID": "19",
@@ -286,8 +318,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/sg552.png"
-    },
+	},
 	{
+		"SystemName": "AK47",
 		"ChineseName": "CV-47",
 		"EnglishName": "AK-47",
 		"ID": "21",
@@ -295,8 +328,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/ak47.png"
-    },
+	},
 	{
+		"SystemName": "p90",
 		"ChineseName": "ES C90",
 		"EnglishName": "P90",
 		"ID": "11",
@@ -304,8 +338,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/p90.png"
-    },
+	},
 	{
+		"SystemName": "SCAR",
 		"ChineseName": "SCAR (強化版)",
 		"EnglishName": "SCAR",
 		"ID": "33",
@@ -313,8 +348,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/scar.png"
-    },
+	},
 	{
+		"SystemName": "scar_b",
 		"ChineseName": "SCAR(B模式)",
 		"EnglishName": "SCAR(B Mode)",
 		"ID": "0",
@@ -322,8 +358,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/scar_b.png"
-    },
+	},
 	{
+		"SystemName": "XM8",
 		"ChineseName": "XM-8 (強化版)",
 		"EnglishName": "XM-8",
 		"ID": "34",
@@ -331,8 +368,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/xm8.png"
-    },
+	},
 	{
+		"SystemName": "xm8_b",
 		"ChineseName": "XM-8(B模式)",
 		"EnglishName": "XM-8(B Mode)",
 		"ID": "0",
@@ -340,8 +378,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/xm8_b.png"
-    },
+	},
 	{
+		"SystemName": "svd",
 		"ChineseName": "SVD",
 		"EnglishName": "SVD",
 		"ID": "39",
@@ -349,8 +388,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/svd.png"
-    },
+	},
 	{
+		"SystemName": "MP7A1",
 		"ChineseName": "MP7A1",
 		"EnglishName": "MP7A1",
 		"ID": "37",
@@ -358,8 +398,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/mp7a1.png"
-    },
+	},
 	{
+		"SystemName": "mp7a1_b",
 		"ChineseName": "MP7A1(B模式)",
 		"EnglishName": "MP7A1(B Mode)",
 		"ID": "0",
@@ -367,8 +408,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/mp7a1_b.png"
-    },
+	},
 	{
+		"SystemName": "K1A",
 		"ChineseName": "K1A",
 		"EnglishName": "K1A",
 		"ID": "36",
@@ -376,8 +418,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/k1a.png"
-    },
+	},
 	{
+		"SystemName": "USAS12",
 		"ChineseName": "USAS12",
 		"EnglishName": "USAS12",
 		"ID": "38",
@@ -385,8 +428,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/usas12.png"
-    },
+	},
 	{
+		"SystemName": "VSK94",
 		"ChineseName": "VSK94",
 		"EnglishName": "VSK94",
 		"ID": "35",
@@ -394,8 +438,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vsk94.png"
-    },
+	},
 	{
+		"SystemName": "QBB95",
 		"ChineseName": "QBB95",
 		"EnglishName": "QBB95",
 		"ID": "32",
@@ -403,8 +448,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/qbb95.png"
-    },
+	},
 	{
+		"SystemName": "SCAR556Limited",
 		"ChineseName": "SCAR (基本版)",
 		"EnglishName": "SCAR 5.56 Limited",
 		"ID": "113",
@@ -412,8 +458,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/scar556limited.png"
-    },
+	},
 	{
+		"SystemName": "XM8CarbineLimited",
 		"ChineseName": "XM-8 (基本版)",
 		"EnglishName": "XM-8 Carbine Limited",
 		"ID": "114",
@@ -421,17 +468,19 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/xm8carbinelimited.png"
-    },
+	},
 	{
+		"SystemName": "zombibomb",
 		"ChineseName": "狂暴手榴彈",
 		"EnglishName": "Zombie Bomb",
 		"ID": "0",
 		"InGameID": "44",
-		"Type": "GRENADE",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/zombibomb.png"
-    },
+	},
 	{
+		"SystemName": "MG3",
 		"ChineseName": "殲滅者-MG3",
 		"EnglishName": "MG3",
 		"ID": "148",
@@ -439,8 +488,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3.png"
-    },
+	},
 	{
+		"SystemName": "Anaconda",
 		"ChineseName": "森蚺左輪",
 		"EnglishName": "Anaconda",
 		"ID": "149",
@@ -448,8 +498,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/anaconda.png"
-    },
+	},
 	{
+		"SystemName": "TRG42",
 		"ChineseName": "芬蘭之星-TRG",
 		"EnglishName": "TRG-42",
 		"ID": "157",
@@ -457,8 +508,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/trg42.png"
-    },
+	},
 	{
+		"SystemName": "mp7a1D",
 		"ChineseName": "雙持 MP7A1(原始版)",
 		"EnglishName": "Dual MP7A1",
 		"ID": "438",
@@ -466,8 +518,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/mp7a1d.png"
-    },
+	},
 	{
+		"SystemName": "deagleD",
 		"ChineseName": "雙持 夜鷹(原始版)",
 		"EnglishName": "Dual Desert Eagle",
 		"ID": "0",
@@ -475,8 +528,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/deagled.png"
-    },
+	},
 	{
+		"SystemName": "AK47L",
 		"ChineseName": "AK47L",
 		"EnglishName": "AK-47 60R",
 		"ID": "408",
@@ -484,8 +538,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/ak47l.png"
-    },
+	},
 	{
+		"SystemName": "AWPRED",
 		"ChineseName": "麥格農狙擊槍(限定版)",
 		"EnglishName": "AWP RED",
 		"ID": "159",
@@ -493,8 +548,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/awpred.png"
-    },
+	},
 	{
+		"SystemName": "M249RED",
 		"ChineseName": "紅色M249",
 		"EnglishName": "M249 RED",
 		"ID": "160",
@@ -502,8 +558,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m249red.png"
-    },
+	},
 	{
+		"SystemName": "M400",
 		"ChineseName": "鷹眼M200",
 		"EnglishName": "M200",
 		"ID": "169",
@@ -511,8 +568,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m400.png"
-    },
+	},
 	{
+		"SystemName": "M4A1G",
 		"ChineseName": "迷彩M4A1",
 		"EnglishName": "M4A1 Scope",
 		"ID": "171",
@@ -520,8 +578,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m4a1g.png"
-    },
+	},
 	{
+		"SystemName": "AK47G",
 		"ChineseName": "黃金CV-47",
 		"EnglishName": "AKM Gold Edition",
 		"ID": "170",
@@ -529,8 +588,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/ak47g.png"
-    },
+	},
 	{
+		"SystemName": "DeserteagleG",
 		"ChineseName": "黃金夜鷹",
 		"EnglishName": "Desert Eagle 50C Gold Edition",
 		"ID": "172",
@@ -538,8 +598,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/deserteagleg.png"
-    },
+	},
 	{
+		"SystemName": "SL8",
 		"ChineseName": "審判之眼-SL8",
 		"EnglishName": "SL8",
 		"ID": "187",
@@ -547,8 +608,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/sl8.png"
-    },
+	},
 	{
+		"SystemName": "M1887",
 		"ChineseName": "閃靈獵手-M1887",
 		"EnglishName": "Winchester M1887",
 		"ID": "197",
@@ -556,8 +618,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m1887.png"
-    },
+	},
 	{
+		"SystemName": "M134",
 		"ChineseName": "火神機槍-Minigun",
 		"EnglishName": "M134 Minigun",
 		"ID": "213",
@@ -565,8 +628,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m134.png"
-    },
+	},
 	{
+		"SystemName": "F2000",
 		"ChineseName": "領航者-F2000",
 		"EnglishName": "F2000",
 		"ID": "202",
@@ -574,8 +638,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/f2000.png"
-    },
+	},
 	{
+		"SystemName": "K1ASE",
 		"ChineseName": "龍紋K1A",
 		"EnglishName": "K1A Special Edition",
 		"ID": "203",
@@ -583,8 +648,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/k1ase.png"
-    },
+	},
 	{
+		"SystemName": "M1887G",
 		"ChineseName": "黃金閃靈獵手",
 		"EnglishName": "Winchester M1887 Gold Edition",
 		"ID": "220",
@@ -592,8 +658,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m1887g.png"
-    },
+	},
 	{
+		"SystemName": "SL8G",
 		"ChineseName": "黃金審判之眼",
 		"EnglishName": "SL8 Gold Edition",
 		"ID": "221",
@@ -601,8 +668,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sl8g.png"
-    },
+	},
 	{
+		"SystemName": "Guitar",
 		"ChineseName": "搖滾貝斯",
 		"EnglishName": "Lightning AR-1",
 		"ID": "222",
@@ -610,8 +678,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/guitar.png"
-    },
+	},
 	{
+		"SystemName": "M24",
 		"ChineseName": "獵戶座-M24",
 		"EnglishName": "M24",
 		"ID": "233",
@@ -619,8 +688,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/m24.png"
-    },
+	},
 	{
+		"SystemName": "Infinity",
 		"ChineseName": "黑白雙煞",
 		"EnglishName": "Dual Infinity",
 		"ID": "242",
@@ -628,8 +698,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/infinity.png"
-    },
+	},
 	{
+		"SystemName": "WaterGun",
 		"ChineseName": "戰慄水星",
 		"EnglishName": "Lightning SMG-1",
 		"ID": "243",
@@ -637,8 +708,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/watergun.png"
-    },
+	},
 	{
+		"SystemName": "M4A1Gold",
 		"ChineseName": "黃金M4A1",
 		"EnglishName": "M4A1 Gold Edition",
 		"ID": "244",
@@ -646,8 +718,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m4a1gold.png"
-    },
+	},
 	{
+		"SystemName": "InfinityEX1",
 		"ChineseName": "紅白雙星",
 		"EnglishName": "Dual Infinity Custom",
 		"ID": "245",
@@ -655,8 +728,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/infinityex1.png"
-    },
+	},
 	{
+		"SystemName": "AWPcamo",
 		"ChineseName": "迷彩麥格農狙擊槍",
 		"EnglishName": "AWP CAMO",
 		"ID": "246",
@@ -664,8 +738,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/awpcamo.png"
-    },
+	},
 	{
+		"SystemName": "SVDEX",
 		"ChineseName": "英雄戰擊(原始版)",
 		"EnglishName": "SVD Custom + Grenade Launcher",
 		"ID": "250",
@@ -673,8 +748,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/svdex.png"
-    },
+	},
 	{
+		"SystemName": "QBB95EX",
 		"ChineseName": "鐵血武士",
 		"EnglishName": "QBB95 + Additional Mag",
 		"ID": "255",
@@ -682,8 +758,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/qbb95ex.png"
-    },
+	},
 	{
+		"SystemName": "MP7A160R",
 		"ChineseName": "MP7A1 擴充版",
 		"EnglishName": "MP7A1 Extended Mag",
 		"ID": "262",
@@ -691,8 +768,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mp7a160r.png"
-    },
+	},
 	{
+		"SystemName": "M79",
 		"ChineseName": "噬血榴炮-M79",
 		"EnglishName": "Sawed Off M79",
 		"ID": "261",
@@ -700,8 +778,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m79.png"
-    },
+	},
 	{
+		"SystemName": "M134_Xmas",
 		"ChineseName": "聖誕限定版火神機槍",
 		"EnglishName": "M134 Xmas Edition",
 		"ID": "267",
@@ -709,8 +788,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m134_xmas.png"
-    },
+	},
 	{
+		"SystemName": "MG3_Xmas",
 		"ChineseName": "聖誕限定版殲滅者",
 		"EnglishName": "MG3 Xmas Edition",
 		"ID": "268",
@@ -718,8 +798,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3_xmas.png"
-    },
+	},
 	{
+		"SystemName": "InfinityEX2",
 		"ChineseName": "金蠍雙擊",
 		"EnglishName": "Dual Infinity Final",
 		"ID": "270",
@@ -727,8 +808,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/infinityex2.png"
-    },
+	},
 	{
+		"SystemName": "HK23",
 		"ChineseName": "黑暗騎士-HK23",
 		"EnglishName": "HK23E",
 		"ID": "271",
@@ -736,8 +818,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/hk23.png"
-    },
+	},
 	{
+		"SystemName": "M4A1Dragon",
 		"ChineseName": "冰龍M4A1",
 		"EnglishName": "M4A1 Dragon",
 		"ID": "279",
@@ -745,8 +828,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m4a1dragon.png"
-    },
+	},
 	{
+		"SystemName": "AK47Dragon",
 		"ChineseName": "煉獄CV-47",
 		"EnglishName": "AK47 Dragon",
 		"ID": "280",
@@ -754,8 +838,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/ak47dragon.png"
-    },
+	},
 	{
+		"SystemName": "MP5Tiger",
 		"ChineseName": "虎狩MP5",
 		"EnglishName": "MP5 Tiger",
 		"ID": "282",
@@ -763,8 +848,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/mp5tiger.png"
-    },
+	},
 	{
+		"SystemName": "Crossbow",
 		"ChineseName": "飛鷹十字弓",
 		"EnglishName": "Crossbow",
 		"ID": "283",
@@ -772,8 +858,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/crossbow.png"
-    },
+	},
 	{
+		"SystemName": "infinitysb",
 		"ChineseName": "闇黑帝王",
 		"EnglishName": "Infinity Black",
 		"ID": "320",
@@ -781,8 +868,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/infinitysb.png"
-    },
+	},
 	{
+		"SystemName": "infinitysr",
 		"ChineseName": "鮮血皇后",
 		"EnglishName": "Infinity Red",
 		"ID": "321",
@@ -790,8 +878,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/infinitysr.png"
-    },
+	},
 	{
+		"SystemName": "infinityss",
 		"ChineseName": "銀色戰將",
 		"EnglishName": "Infinity Silver",
 		"ID": "308",
@@ -799,8 +888,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/infinityss.png"
-    },
+	},
 	{
+		"SystemName": "m14ebr",
 		"ChineseName": "黑色炫風-M14",
 		"EnglishName": "M14 EBR",
 		"ID": "304",
@@ -808,8 +898,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m14ebr.png"
-    },
+	},
 	{
+		"SystemName": "usas12camo",
 		"ChineseName": "叢林幻雷",
 		"EnglishName": "USAS12 CAMO",
 		"ID": "310",
@@ -817,8 +908,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/usas12camo.png"
-    },
+	},
 	{
+		"SystemName": "thompsongold",
 		"ChineseName": "黃金極道狂徒",
 		"EnglishName": "Thompson Chicago Gold",
 		"ID": "309",
@@ -826,8 +918,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/thompsongold.png"
-    },
+	},
 	{
+		"SystemName": "dbarrel",
 		"ChineseName": "雙子銀狼",
 		"EnglishName": "Double Barrel Shotgun",
 		"ID": "307",
@@ -835,8 +928,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/dbarrel.png"
-    },
+	},
 	{
+		"SystemName": "cartblue",
 		"ChineseName": "藍寶 LB-1000型",
 		"EnglishName": "Lightning Dao-1",
 		"ID": "311",
@@ -844,17 +938,19 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/cartblue.png"
-    },
+	},
 	{
+		"SystemName": "cartblue_b",
 		"ChineseName": "藍寶LB1000型(B模式)",
 		"EnglishName": "Lightning Dao-1(B Mode)",
 		"ID": "0",
 		"InGameID": "92",
-		"Type": "RIFLE",
+		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/cartblue_b.png"
-    },
+	},
 	{
+		"SystemName": "cartred",
 		"ChineseName": "睏寶 KB-2000型",
 		"EnglishName": "Lightning Bazzie-1",
 		"ID": "312",
@@ -862,17 +958,19 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/cartred.png"
-    },
+	},
 	{
+		"SystemName": "cartred_b",
 		"ChineseName": "睏寶KB2000型(B模式)",
 		"EnglishName": "Lightning Bazzie-1(B Mode)",
 		"ID": "0",
 		"InGameID": "94",
-		"Type": "RIFLE",
+		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/cartred_b.png"
-    },
+	},
 	{
+		"SystemName": "kriss",
 		"ChineseName": "霹靂戰警",
 		"EnglishName": "Kriss Super V",
 		"ID": "322",
@@ -880,8 +978,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/kriss.png"
-    },
+	},
 	{
+		"SystemName": "m249ex",
 		"ChineseName": "命運金鑰(skull-7)",
 		"EnglishName": "SKULL-7",
 		"ID": "327",
@@ -889,8 +988,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/m249ex.png"
-    },
+	},
 	{
+		"SystemName": "WaterPistol",
 		"ChineseName": "大嘴獵蜥",
 		"EnglishName": "Lightning BIG-EYE",
 		"ID": "330",
@@ -898,8 +998,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/waterpistol.png"
-    },
+	},
 	{
+		"SystemName": "wa2000",
 		"ChineseName": "疾風獵鷹-WA2000",
 		"EnglishName": "WA2000",
 		"ID": "337",
@@ -907,8 +1008,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/wa2000.png"
-    },
+	},
 	{
+		"SystemName": "lugerg",
 		"ChineseName": "黃金魯格",
 		"EnglishName": "Gold Luger",
 		"ID": "341",
@@ -916,8 +1018,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/lugerg.png"
-    },
+	},
 	{
+		"SystemName": "trg42g",
 		"ChineseName": "白金之星",
 		"EnglishName": "TRG-42 White Gold",
 		"ID": "342",
@@ -925,8 +1028,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/trg42g.png"
-    },
+	},
 	{
+		"SystemName": "AT4",
 		"ChineseName": "火箭筒-AT Lance",
 		"EnglishName": "AT-Lance",
 		"ID": "339",
@@ -934,8 +1038,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/at4.png"
-    },
+	},
 	{
+		"SystemName": "TAR21",
 		"ChineseName": "炎殺黑龍-TAR21",
 		"EnglishName": "TAR-21",
 		"ID": "343",
@@ -943,8 +1048,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/tar21.png"
-    },
+	},
 	{
+		"SystemName": "M95",
 		"ChineseName": "蛇姬之吻-M95",
 		"EnglishName": "Barrett M95",
 		"ID": "344",
@@ -952,8 +1058,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m95.png"
-    },
+	},
 	{
+		"SystemName": "mp5g",
 		"ChineseName": "黃金KM 衝鋒槍",
 		"EnglishName": "MP5 Gold Edition",
 		"ID": "346",
@@ -961,8 +1068,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/mp5g.png"
-    },
+	},
 	{
+		"SystemName": "dualkriss",
 		"ChineseName": "霹靂悍將",
 		"EnglishName": "Dual Kriss",
 		"ID": "347",
@@ -970,8 +1078,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/dualkriss.png"
-    },
+	},
 	{
+		"SystemName": "m60",
 		"ChineseName": "征服者-M60E4",
 		"EnglishName": "M60E4",
 		"ID": "355",
@@ -979,8 +1088,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m60.png"
-    },
+	},
 	{
+		"SystemName": "an94",
 		"ChineseName": "雷豹-AN94",
 		"EnglishName": "AN94",
 		"ID": "356",
@@ -988,8 +1098,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/an94.png"
-    },
+	},
 	{
+		"SystemName": "m16a4",
 		"ChineseName": "黑天使-M16A4",
 		"EnglishName": "M16A4",
 		"ID": "357",
@@ -997,8 +1108,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/m16a4.png"
-    },
+	},
 	{
+		"SystemName": "mg3g",
 		"ChineseName": "黃金殲滅者-MG3",
 		"EnglishName": "MG3 Gold Edition",
 		"ID": "354",
@@ -1006,8 +1118,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/mg3g.png"
-    },
+	},
 	{
+		"SystemName": "p90lapin",
 		"ChineseName": "繽紛瘋兔",
 		"EnglishName": "P90 Lapin",
 		"ID": "364",
@@ -1015,8 +1128,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/p90lapin.png"
-    },
+	},
 	{
+		"SystemName": "gatling",
 		"ChineseName": "戰慄加農砲",
 		"EnglishName": "Volcano",
 		"ID": "365",
@@ -1024,8 +1138,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/gatling.png"
-    },
+	},
 	{
+		"SystemName": "skull5",
 		"ChineseName": "貝西摩斯之爪(skull-5)",
 		"EnglishName": "SKULL-5",
 		"ID": "367",
@@ -1033,8 +1148,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/skull5.png"
-    },
+	},
 	{
+		"SystemName": "thompson",
 		"ChineseName": "極道狂徒",
 		"EnglishName": "Thompson Chicago",
 		"ID": "370",
@@ -1042,8 +1158,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/thompson.png"
-    },
+	},
 	{
+		"SystemName": "luger",
 		"ChineseName": "魯格",
 		"EnglishName": "Luger P08",
 		"ID": "371",
@@ -1051,8 +1168,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/luger.png"
-    },
+	},
 	{
+		"SystemName": "MG36",
 		"ChineseName": "突擊兵蜂-MG36",
 		"EnglishName": "MG36",
 		"ID": "372",
@@ -1060,8 +1178,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg36.png"
-    },
+	},
 	{
+		"SystemName": "sfgun",
 		"ChineseName": "雷神激光破",
 		"EnglishName": "Blaster",
 		"ID": "379",
@@ -1069,8 +1188,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sfgun.png"
-    },
+	},
 	{
+		"SystemName": "wa2000g",
 		"ChineseName": "黃金疾風獵鷹",
 		"EnglishName": "WA2000 Gold Edition",
 		"ID": "380",
@@ -1078,8 +1198,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/wa2000g.png"
-    },
+	},
 	{
+		"SystemName": "flamethrower",
 		"ChineseName": "煉獄之怒",
 		"EnglishName": "Salamander",
 		"ID": "389",
@@ -1087,8 +1208,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/flamethrower.png"
-    },
+	},
 	{
+		"SystemName": "xm2010",
 		"ChineseName": "魔鬼上將",
 		"EnglishName": "XM2010",
 		"ID": "382",
@@ -1096,8 +1218,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/xm2010.png"
-    },
+	},
 	{
+		"SystemName": "sl8ex",
 		"ChineseName": "末日審判-SL8 EX",
 		"EnglishName": "SL8 Custom",
 		"ID": "383",
@@ -1105,8 +1228,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/sl8ex.png"
-    },
+	},
 	{
+		"SystemName": "ksg12",
 		"ChineseName": "深淵惡魔-KSG12",
 		"EnglishName": "KSG12",
 		"ID": "384",
@@ -1114,8 +1238,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/ksg12.png"
-    },
+	},
 	{
+		"SystemName": "as50",
 		"ChineseName": "連環殺陣-AS50",
 		"EnglishName": "AS50",
 		"ID": "385",
@@ -1123,8 +1248,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/as50.png"
-    },
+	},
 	{
+		"SystemName": "qbarrel",
 		"ChineseName": "碎骨銀狼(原始版)",
 		"EnglishName": "Quad Barrel",
 		"ID": "0",
@@ -1132,8 +1258,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/qbarrel.png"
-    },
+	},
 	{
+		"SystemName": "lugerS",
 		"ChineseName": "銀製魯格",
 		"EnglishName": "Silver Luger",
 		"ID": "395",
@@ -1141,8 +1268,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/lugers.png"
-    },
+	},
 	{
+		"SystemName": "m134ex",
 		"ChineseName": "真．火神機槍",
 		"EnglishName": "M134 Predator",
 		"ID": "397",
@@ -1150,8 +1278,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m134ex.png"
-    },
+	},
 	{
+		"SystemName": "rainbowgun",
 		"ChineseName": "喋血亂舞",
 		"EnglishName": "Lightning SG-1",
 		"ID": "398",
@@ -1159,8 +1288,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/rainbowgun.png"
-    },
+	},
 	{
+		"SystemName": "Musket",
 		"ChineseName": "石破天驚",
 		"EnglishName": "Divine Lock",
 		"ID": "399",
@@ -1168,8 +1298,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/musket.png"
-    },
+	},
 	{
+		"SystemName": "stg44",
 		"ChineseName": "StG44",
 		"EnglishName": "StG44",
 		"ID": "400",
@@ -1177,8 +1308,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/stg44.png"
-    },
+	},
 	{
+		"SystemName": "hk23g",
 		"ChineseName": "黃金黑暗騎士",
 		"EnglishName": "HK23E Gold Edition",
 		"ID": "406",
@@ -1186,8 +1318,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/hk23g.png"
-    },
+	},
 	{
+		"SystemName": "skull1",
 		"ChineseName": "玩命骷髏(skull-1)",
 		"EnglishName": "SKULL-1",
 		"ID": "407",
@@ -1195,8 +1328,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/skull1.png"
-    },
+	},
 	{
+		"SystemName": "qbz95b",
 		"ChineseName": "特戰菁英-QBZ95B",
 		"EnglishName": "QBZ95B",
 		"ID": "413",
@@ -1204,8 +1338,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/qbz95b.png"
-    },
+	},
 	{
+		"SystemName": "m79g",
 		"ChineseName": "黃金噬血榴炮",
 		"EnglishName": "Sawed Off M79 Gold",
 		"ID": "416",
@@ -1213,8 +1348,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m79g.png"
-    },
+	},
 	{
+		"SystemName": "at4ex",
 		"ChineseName": "究極彗星-AT4CS",
 		"EnglishName": "AT4CS",
 		"ID": "417",
@@ -1222,8 +1358,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/at4ex.png"
-    },
+	},
 	{
+		"SystemName": "pkm",
 		"ChineseName": "橫掃千軍-PKM",
 		"EnglishName": "PKM",
 		"ID": "414",
@@ -1231,8 +1368,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/pkm.png"
-    },
+	},
 	{
+		"SystemName": "sfsmg",
 		"ChineseName": "極速飆風",
 		"EnglishName": "Tempest",
 		"ID": "415",
@@ -1240,8 +1378,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sfsmg.png"
-    },
+	},
 	{
+		"SystemName": "catapult",
 		"ChineseName": "狂野戰翼",
 		"EnglishName": "Wild Wing",
 		"ID": "421",
@@ -1249,8 +1388,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/catapult.png"
-    },
+	},
 	{
+		"SystemName": "spas12",
 		"ChineseName": "戰魂-SPAS12",
 		"EnglishName": "SPAS-12",
 		"ID": "422",
@@ -1258,8 +1398,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/spas12.png"
-    },
+	},
 	{
+		"SystemName": "spas12ex",
 		"ChineseName": "藍焰戰魂-SPAS12",
 		"EnglishName": "SPAS-12 Deluxe",
 		"ID": "423",
@@ -1267,8 +1408,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/spas12ex.png"
-    },
+	},
 	{
+		"SystemName": "m14ebrgold",
 		"ChineseName": "金旋風",
 		"EnglishName": "M14 EBR Gold",
 		"ID": "420",
@@ -1276,8 +1418,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m14ebrgold.png"
-    },
+	},
 	{
+		"SystemName": "m95xmas",
 		"ChineseName": "聖誕限定版-蛇姬之吻",
 		"EnglishName": "M95 Xmas Edition",
 		"ID": "424",
@@ -1285,17 +1428,19 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m95xmas.png"
-    },
+	},
 	{
+		"SystemName": "bazooka",
 		"ChineseName": "Bazooka",
 		"EnglishName": "Bazooka",
 		"ID": "0",
 		"InGameID": "141",
-		"Type": "EQUIPMENT",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/bazooka.png"
-    },
+	},
 	{
+		"SystemName": "skull3",
 		"ChineseName": "闇獄閻羅(SKULL-3)",
 		"EnglishName": "SKULL-3",
 		"ID": "427",
@@ -1303,8 +1448,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/skull3.png"
-    },
+	},
 	{
+		"SystemName": "skull3_b",
 		"ChineseName": "闇獄閻羅(SKULL-3) (B模式)",
 		"EnglishName": "SKULL-3(B Mode)",
 		"ID": "0",
@@ -1312,8 +1458,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/skull3_b.png"
-    },
+	},
 	{
+		"SystemName": "cannon",
 		"ChineseName": "震天龍砲",
 		"EnglishName": "Black Dragon Cannon",
 		"ID": "428",
@@ -1321,8 +1468,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/cannon.png"
-    },
+	},
 	{
+		"SystemName": "tmpdragon",
 		"ChineseName": "歡喜伏龍",
 		"EnglishName": "TMP Dragon",
 		"ID": "429",
@@ -1330,8 +1478,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/tmpdragon.png"
-    },
+	},
 	{
+		"SystemName": "spas12ex2",
 		"ChineseName": "烈焰戰魂-SPAS12",
 		"EnglishName": "SPAS-12 Superior",
 		"ID": "430",
@@ -1339,8 +1488,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/spas12ex2.png"
-    },
+	},
 	{
+		"SystemName": "mk48",
 		"ChineseName": "MK48",
 		"EnglishName": "MK48",
 		"ID": "431",
@@ -1348,8 +1498,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mk48.png"
-    },
+	},
 	{
+		"SystemName": "m82",
 		"ChineseName": "帕克．黑爾-M82",
 		"EnglishName": "Parker Hale M82",
 		"ID": "442",
@@ -1357,8 +1508,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m82.png"
-    },
+	},
 	{
+		"SystemName": "ksg12g",
 		"ChineseName": "黃金惡魔-KSG12",
 		"EnglishName": "KSG12 Gold Edition",
 		"ID": "441",
@@ -1366,8 +1518,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/ksg12g.png"
-    },
+	},
 	{
+		"SystemName": "sfmg",
 		"ChineseName": "雷霆終結者",
 		"EnglishName": "Avalanche",
 		"ID": "435",
@@ -1375,8 +1528,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sfmg.png"
-    },
+	},
 	{
+		"SystemName": "stg44g",
 		"ChineseName": "黃金StG44",
 		"EnglishName": "StG44 Gold Edition",
 		"ID": "434",
@@ -1384,8 +1538,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/stg44g.png"
-    },
+	},
 	{
+		"SystemName": "skull11",
 		"ChineseName": "索命羅剎(skull-11)",
 		"EnglishName": "SKULL-11",
 		"ID": "437",
@@ -1393,8 +1548,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/skull11.png"
-    },
+	},
 	{
+		"SystemName": "firecracker",
 		"ChineseName": "星鑽彩砲",
 		"EnglishName": "Shooting Star",
 		"ID": "440",
@@ -1402,17 +1558,19 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/firecracker.png"
-    },
+	},
 	{
+		"SystemName": "mountgun",
 		"ChineseName": "固定型機關槍",
 		"EnglishName": "Stationary Machine Gun",
 		"ID": "0",
 		"InGameID": "154",
-		"Type": "EQUIPMENT",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/mountgun.png"
-    },
+	},
 	{
+		"SystemName": "m249camo",
 		"ChineseName": "迷彩M249",
 		"EnglishName": "M249 CAMO",
 		"ID": "456",
@@ -1420,8 +1578,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m249camo.png"
-    },
+	},
 	{
+		"SystemName": "xm1014red",
 		"ChineseName": "紅色LEONE YG1265 連發散彈槍",
 		"EnglishName": "XM1014 RED",
 		"ID": "452",
@@ -1429,8 +1588,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/xm1014red.png"
-    },
+	},
 	{
+		"SystemName": "deaglered",
 		"ChineseName": "紅色夜鷹",
 		"EnglishName": "Desert Eagle Red",
 		"ID": "453",
@@ -1438,8 +1598,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/deaglered.png"
-    },
+	},
 	{
+		"SystemName": "glockred",
 		"ChineseName": "紅色9X19MM手槍",
 		"EnglishName": "Glock 18 RED",
 		"ID": "450",
@@ -1447,8 +1608,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/glockred.png"
-    },
+	},
 	{
+		"SystemName": "uspred",
 		"ChineseName": "紅色KM .45戰術手槍",
 		"EnglishName": "USP45 RED",
 		"ID": "451",
@@ -1456,8 +1618,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/uspred.png"
-    },
+	},
 	{
+		"SystemName": "fnc",
 		"ChineseName": "FN FNC",
 		"EnglishName": "FN FNC",
 		"ID": "443",
@@ -1465,8 +1628,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/fnc.png"
-    },
+	},
 	{
+		"SystemName": "l85a2",
 		"ChineseName": "L85A2",
 		"EnglishName": "L85A2",
 		"ID": "444",
@@ -1474,8 +1638,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/l85a2.png"
-    },
+	},
 	{
+		"SystemName": "automag",
 		"ChineseName": "荒漠之鷹",
 		"EnglishName": " AutoMag V",
 		"ID": "445",
@@ -1483,8 +1648,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/automag.png"
-    },
+	},
 	{
+		"SystemName": "akm",
 		"ChineseName": "AKM",
 		"EnglishName": "AKM",
 		"ID": "446",
@@ -1492,8 +1658,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/akm.png"
-    },
+	},
 	{
+		"SystemName": "scoutred",
 		"ChineseName": "紅色SCHMIDT SCOUT",
 		"EnglishName": "Scout RED",
 		"ID": "454",
@@ -1501,8 +1668,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/scoutred.png"
-    },
+	},
 	{
+		"SystemName": "hk416",
 		"ChineseName": "HK416",
 		"EnglishName": "HK416",
 		"ID": "447",
@@ -1510,8 +1678,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/hk416.png"
-    },
+	},
 	{
+		"SystemName": "aw50",
 		"ChineseName": "AW50",
 		"EnglishName": "AW50",
 		"ID": "448",
@@ -1519,8 +1688,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/aw50.png"
-    },
+	},
 	{
+		"SystemName": "blaser93",
 		"ChineseName": "Blaser R93",
 		"EnglishName": "Blaser R93",
 		"ID": "449",
@@ -1528,8 +1698,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/blaser93.png"
-    },
+	},
 	{
+		"SystemName": "violingun",
 		"ChineseName": "古典黑幫",
 		"EnglishName": "Lightning AR-2",
 		"ID": "458",
@@ -1537,8 +1708,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/violingun.png"
-    },
+	},
 	{
+		"SystemName": "ethereal",
 		"ChineseName": "爆能脈衝",
 		"EnglishName": "Ethereal",
 		"ID": "457",
@@ -1546,8 +1718,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/ethereal.png"
-    },
+	},
 	{
+		"SystemName": "m32",
 		"ChineseName": "救贖-M32",
 		"EnglishName": "M32 MGL",
 		"ID": "463",
@@ -1555,8 +1728,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m32.png"
-    },
+	},
 	{
+		"SystemName": "poisongun",
 		"ChineseName": "Z-Gun",
 		"EnglishName": "Poison Launcher",
 		"ID": "461",
@@ -1564,8 +1738,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/poisongun.png"
-    },
+	},
 	{
+		"SystemName": "balrog7",
 		"ChineseName": "赤獄魔龍(Balrog-XII)",
 		"EnglishName": "BALROG-VII",
 		"ID": "466",
@@ -1573,8 +1748,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/balrog7.png"
-    },
+	},
 	{
+		"SystemName": "kingcobra",
 		"ChineseName": "眼鏡蛇",
 		"EnglishName": "King Cobra",
 		"ID": "469",
@@ -1582,8 +1758,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/kingcobra.png"
-    },
+	},
 	{
+		"SystemName": "m16a1",
 		"ChineseName": "墮天使-M16A1",
 		"EnglishName": "M16A1",
 		"ID": "486",
@@ -1591,8 +1768,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m16a1.png"
-    },
+	},
 	{
+		"SystemName": "lightzg",
 		"ChineseName": "拉拉QQ槍",
 		"EnglishName": "Lightning LZ-1",
 		"ID": "467",
@@ -1600,8 +1778,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/lightzg.png"
-    },
+	},
 	{
+		"SystemName": "heavyzg",
 		"ChineseName": "達達PP槍",
 		"EnglishName": "Lightning HZ-1",
 		"ID": "468",
@@ -1609,8 +1788,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/heavyzg.png"
-    },
+	},
 	{
+		"SystemName": "balrog5",
 		"ChineseName": "噬魂者(Balrog-V)",
 		"EnglishName": "BALROG-V",
 		"ID": "482",
@@ -1618,8 +1798,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/balrog5.png"
-    },
+	},
 	{
+		"SystemName": "as50g",
 		"ChineseName": "終極殺陣-AS50",
 		"EnglishName": "AS50 Pink Gold",
 		"ID": "484",
@@ -1627,8 +1808,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/as50g.png"
-    },
+	},
 	{
+		"SystemName": "m60g",
 		"ChineseName": "黃金征服者",
 		"EnglishName": "M60E4 Gold Edition",
 		"ID": "488",
@@ -1636,8 +1818,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m60g.png"
-    },
+	},
 	{
+		"SystemName": "sfsniper",
 		"ChineseName": "準雷",
 		"EnglishName": "Thunderbolt",
 		"ID": "495",
@@ -1645,8 +1828,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sfsniper.png"
-    },
+	},
 	{
+		"SystemName": "dbarrelg",
 		"ChineseName": "黃金雙子銀狼",
 		"EnglishName": "Gold Double Barrel Shotgun",
 		"ID": "496",
@@ -1654,8 +1838,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/dbarrelg.png"
-    },
+	},
 	{
+		"SystemName": "oicw",
 		"ChineseName": "王者之怒-OICW",
 		"EnglishName": "OICW",
 		"ID": "487",
@@ -1663,8 +1848,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/oicw.png"
-    },
+	},
 	{
+		"SystemName": "ak47red",
 		"ChineseName": "紅色CV-47",
 		"EnglishName": "AK47 RED",
 		"ID": "491",
@@ -1672,8 +1858,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/ak47red.png"
-    },
+	},
 	{
+		"SystemName": "m4a1red",
 		"ChineseName": "紅色M4A1",
 		"EnglishName": "M4A1 RED",
 		"ID": "492",
@@ -1681,8 +1868,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m4a1red.png"
-    },
+	},
 	{
+		"SystemName": "uts15",
 		"ChineseName": "闇影獵人UTS-15",
 		"EnglishName": "UTS-15",
 		"ID": "493",
@@ -1690,8 +1878,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/uts15.png"
-    },
+	},
 	{
+		"SystemName": "m249ep",
 		"ChineseName": "悍將M249",
 		"EnglishName": "M249 VETERAN",
 		"ID": "497",
@@ -1699,8 +1888,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m249ep.png"
-    },
+	},
 	{
+		"SystemName": "mg36xmas",
 		"ChineseName": "聖誕兵蜂-MG36",
 		"EnglishName": "MG36 Xmas Edition",
 		"ID": "503",
@@ -1708,8 +1898,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg36xmas.png"
-    },
+	},
 	{
+		"SystemName": "g11",
 		"ChineseName": "鋼鐵之心-HK G11",
 		"EnglishName": "HK G11",
 		"ID": "509",
@@ -1717,8 +1908,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/g11.png"
-    },
+	},
 	{
+		"SystemName": "m32",
 		"ChineseName": "救贖-M32(無法使用)",
 		"EnglishName": "M32 MGL",
 		"ID": "0",
@@ -1726,8 +1918,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/m32.png"
-    },
+	},
 	{
+		"SystemName": "balrog1",
 		"ChineseName": "獵魔者(Balrog-I)",
 		"EnglishName": "BALROG-I",
 		"ID": "517",
@@ -1735,8 +1928,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/balrog1.png"
-    },
+	},
 	{
+		"SystemName": "tbarrel",
 		"ChineseName": "殺破狼",
 		"EnglishName": "Triple Barrel Shotgun",
 		"ID": "523",
@@ -1744,8 +1938,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/tbarrel.png"
-    },
+	},
 	{
+		"SystemName": "chainsaw",
 		"ChineseName": "奪魂鋸",
 		"EnglishName": "Ripper",
 		"ID": "518",
@@ -1753,8 +1948,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/chainsaw.png"
-    },
+	},
 	{
+		"SystemName": "snakegun",
 		"ChineseName": "狂蟒-UMP45",
 		"EnglishName": "UMP45 Snake",
 		"ID": "519",
@@ -1762,8 +1958,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/snakegun.png"
-    },
+	},
 	{
+		"SystemName": "balrog3",
 		"ChineseName": "瞬殺者(Balrog-III)",
 		"EnglishName": "BALROG-III",
 		"ID": "532",
@@ -1771,8 +1968,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/balrog3.png"
-    },
+	},
 	{
+		"SystemName": "fglauncher",
 		"ChineseName": "熾焰彩砲",
 		"EnglishName": "FG Launcher",
 		"ID": "530",
@@ -1780,8 +1978,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/fglauncher.png"
-    },
+	},
 	{
+		"SystemName": "k3",
 		"ChineseName": "毀滅者-K3",
 		"EnglishName": "K3",
 		"ID": "525",
@@ -1789,8 +1988,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/k3.png"
-    },
+	},
 	{
+		"SystemName": "mg36g",
 		"ChineseName": "黃金兵蜂-MG36",
 		"EnglishName": "MG36",
 		"ID": "531",
@@ -1798,8 +1998,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/mg36g.png"
-    },
+	},
 	{
+		"SystemName": "m16a1ep",
 		"ChineseName": "悍天使-M16A1",
 		"EnglishName": "M16A1 VETERAN",
 		"ID": "539",
@@ -1807,8 +2008,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m16a1ep.png"
-    },
+	},
 	{
+		"SystemName": "coilgun",
 		"ChineseName": "闇藍之月",
 		"EnglishName": "Needler",
 		"ID": "548",
@@ -1816,8 +2018,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/coilgun.png"
-    },
+	},
 	{
+		"SystemName": "Skull4",
 		"ChineseName": "死亡夢魘(skill-4)",
 		"EnglishName": "SKULL-4",
 		"ID": "538",
@@ -1825,8 +2028,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/skull4.png"
-    },
+	},
 	{
+		"SystemName": "kingcobrag",
 		"ChineseName": "黃金眼鏡蛇",
 		"EnglishName": "King Cobra Gold Edition",
 		"ID": "549",
@@ -1834,8 +2038,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/kingcobrag.png"
-    },
+	},
 	{
+		"SystemName": "balrog11",
 		"ChineseName": "弒神者(Balrog-XI)",
 		"EnglishName": "BALROG-XI",
 		"ID": "554",
@@ -1843,8 +2048,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/balrog11.png"
-    },
+	},
 	{
+		"SystemName": "ak74u",
 		"ChineseName": "AK74U",
 		"EnglishName": "AK-74U",
 		"ID": "553",
@@ -1852,8 +2058,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/ak74u.png"
-    },
+	},
 	{
+		"SystemName": "skull8",
 		"ChineseName": "幽冥暴君(skull-8)",
 		"EnglishName": "SKULL-8",
 		"ID": "562",
@@ -1861,8 +2068,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/skull8.png"
-    },
+	},
 	{
+		"SystemName": "zgun",
 		"ChineseName": "末日風暴-Z",
 		"EnglishName": "AWP-Z",
 		"ID": "561",
@@ -1870,8 +2078,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/zgun.png"
-    },
+	},
 	{
+		"SystemName": "plasmagun",
 		"ChineseName": "幽能離子槍",
 		"EnglishName": "Plasma Gun",
 		"ID": "564",
@@ -1879,8 +2088,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/plasmagun.png"
-    },
+	},
 	{
+		"SystemName": "psg1",
 		"ChineseName": "PSG-1",
 		"EnglishName": "PSG-1",
 		"ID": "563",
@@ -1888,8 +2098,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/psg1.png"
-    },
+	},
 	{
+		"SystemName": "watercannon",
 		"ChineseName": "鎮暴海龍",
 		"EnglishName": "Leviathan",
 		"ID": "556",
@@ -1897,8 +2108,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/watercannon.png"
-    },
+	},
 	{
+		"SystemName": "bgalil",
 		"ChineseName": "餓狼IDF",
 		"EnglishName": "Battle Galil",
 		"ID": "567",
@@ -1906,8 +2118,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bgalil.png"
-    },
+	},
 	{
+		"SystemName": "bfamas",
 		"ChineseName": "餓狼Clarion 5.56",
 		"EnglishName": "Battle FAMAS",
 		"ID": "568",
@@ -1915,8 +2128,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bfamas.png"
-    },
+	},
 	{
+		"SystemName": "bqbb95",
 		"ChineseName": "餓狼QBB95",
 		"EnglishName": "Battle QBB95",
 		"ID": "569",
@@ -1924,8 +2138,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bqbb95.png"
-    },
+	},
 	{
+		"SystemName": "bglock18",
 		"ChineseName": "餓狼9X19MM",
 		"EnglishName": "Battle Glock 18C",
 		"ID": "570",
@@ -1933,8 +2148,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/bglock18.png"
-    },
+	},
 	{
+		"SystemName": "busp45",
 		"ChineseName": "餓狼KM .45",
 		"EnglishName": "Battle USP45",
 		"ID": "571",
@@ -1942,8 +2158,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/busp45.png"
-    },
+	},
 	{
+		"SystemName": "bmp5",
 		"ChineseName": "餓狼MP5",
 		"EnglishName": "Battle MP5",
 		"ID": "572",
@@ -1951,8 +2168,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bmp5.png"
-    },
+	},
 	{
+		"SystemName": "skull6",
 		"ChineseName": "災骸魔神(skull-6)",
 		"EnglishName": "SKULL-6",
 		"ID": "577",
@@ -1960,8 +2178,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/skull6.png"
-    },
+	},
 	{
+		"SystemName": "uts15g",
 		"ChineseName": "黃金闇影獵人UTS-15",
 		"EnglishName": "UTS-15 Pink Gold",
 		"ID": "583",
@@ -1969,8 +2188,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/uts15g.png"
-    },
+	},
 	{
+		"SystemName": "tknife",
 		"ChineseName": "破曉",
 		"EnglishName": "Tactical knife",
 		"ID": "579",
@@ -1978,8 +2198,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/tknife.png"
-    },
+	},
 	{
+		"SystemName": "tknifeex",
 		"ChineseName": "朧月",
 		"EnglishName": "Double Tactical Knife",
 		"ID": "580",
@@ -1987,8 +2208,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/tknifeex.png"
-    },
+	},
 	{
+		"SystemName": "tknifeex2",
 		"ChineseName": "血祀",
 		"EnglishName": "Triple Tactical Knife",
 		"ID": "581",
@@ -1996,8 +2218,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/tknifeex2.png"
-    },
+	},
 	{
+		"SystemName": "bow",
 		"ChineseName": "蒼穹EX",
 		"EnglishName": "Compound Bow",
 		"ID": "582",
@@ -2005,8 +2228,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/bow.png"
-    },
+	},
 	{
+		"SystemName": "arx160",
 		"ChineseName": "貝瑞塔ARX-160",
 		"EnglishName": "ARX-160",
 		"ID": "585",
@@ -2014,8 +2238,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/arx160.png"
-    },
+	},
 	{
+		"SystemName": "janusmk5",
 		"ChineseName": "神聖制裁(Janus-5)",
 		"EnglishName": "JANUS-5",
 		"ID": "587",
@@ -2023,8 +2248,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/janusmk5.png"
-    },
+	},
 	{
+		"SystemName": "janus7",
 		"ChineseName": "皇族聖痕(Janus-7)",
 		"EnglishName": "JANUS-7",
 		"ID": "595",
@@ -2032,8 +2258,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/janus7.png"
-    },
+	},
 	{
+		"SystemName": "drillgun",
 		"ChineseName": "電光毒龍鑽",
 		"EnglishName": "Drill Gun",
 		"ID": "589",
@@ -2041,8 +2268,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/drillgun.png"
-    },
+	},
 	{
+		"SystemName": "g11g",
 		"ChineseName": "黃金鋼鐵之心",
 		"EnglishName": "HK G11 Gold Edition",
 		"ID": "590",
@@ -2050,8 +2278,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/g11g.png"
-    },
+	},
 	{
+		"SystemName": "sprifle",
 		"ChineseName": "十字輪迴",
 		"EnglishName": "Savery",
 		"ID": "601",
@@ -2059,8 +2288,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sprifle.png"
-    },
+	},
 	{
+		"SystemName": "janus1",
 		"ChineseName": "天火懲戒(Janus-1)",
 		"EnglishName": "JANUS-1",
 		"ID": "598",
@@ -2068,8 +2298,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/janus1.png"
-    },
+	},
 	{
+		"SystemName": "groza",
 		"ChineseName": "OTS-14 GROZE",
 		"EnglishName": "Groza",
 		"ID": "588",
@@ -2077,8 +2308,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/groza.png"
-    },
+	},
 	{
+		"SystemName": "m2",
 		"ChineseName": "白朗寧M2",
 		"EnglishName": "M2",
 		"ID": "608",
@@ -2086,8 +2318,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m2.png"
-    },
+	},
 	{
+		"SystemName": "pkmg",
 		"ChineseName": "黃金橫掃千軍-PKM",
 		"EnglishName": "PKM Gold Edition",
 		"ID": "602",
@@ -2095,8 +2328,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/pkmg.png"
-    },
+	},
 	{
+		"SystemName": "m1887xmas",
 		"ChineseName": "聖誕閃靈",
 		"EnglishName": "Winchester M1887 Xmas Edition",
 		"ID": "591",
@@ -2104,8 +2338,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/m1887xmas.png"
-    },
+	},
 	{
+		"SystemName": "speargun",
 		"ChineseName": "獵魂槍",
 		"EnglishName": "Gae Bolg",
 		"ID": "609",
@@ -2113,8 +2348,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/speargun.png"
-    },
+	},
 	{
+		"SystemName": "horsegun",
 		"ChineseName": "神獸．獨角",
 		"EnglishName": "MP7A1 Unicorn",
 		"ID": "610",
@@ -2122,8 +2358,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/horsegun.png"
-    },
+	},
 	{
+		"SystemName": "sfpistol",
 		"ChineseName": "超能颶風",
 		"EnglishName": "Cyclone",
 		"ID": "677",
@@ -2131,8 +2368,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sfpistol.png"
-    },
+	},
 	{
+		"SystemName": "m60craft",
 		"ChineseName": "野戰拓荒者",
 		"EnglishName": "M60E4 Maverick",
 		"ID": "682",
@@ -2140,8 +2378,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m60craft.png"
-    },
+	},
 	{
+		"SystemName": "monkeywpnset1",
 		"ChineseName": "天蓬元帥",
 		"EnglishName": "Zhu Bajie Minigun",
 		"ID": "679",
@@ -2149,8 +2388,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/monkeywpnset1.png"
-    },
+	},
 	{
+		"SystemName": "monkeywpnset2",
 		"ChineseName": "捲簾將軍",
 		"EnglishName": "Sha Wujing Dual Handgun",
 		"ID": "680",
@@ -2158,8 +2398,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/monkeywpnset2.png"
-    },
+	},
 	{
+		"SystemName": "spas12excraft",
 		"ChineseName": "野戰SPAS12",
 		"EnglishName": "SPAS-12 Maverick",
 		"ID": "683",
@@ -2167,8 +2408,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/spas12excraft.png"
-    },
+	},
 	{
+		"SystemName": "janus11",
 		"ChineseName": "聖界裁決(Janus-11)",
 		"EnglishName": "JANUS-11",
 		"ID": "684",
@@ -2176,8 +2418,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/janus11.png"
-    },
+	},
 	{
+		"SystemName": "spmg",
 		"ChineseName": "炙焰重生",
 		"EnglishName": "Aeolis",
 		"ID": "691",
@@ -2185,8 +2428,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/spmg.png"
-    },
+	},
 	{
+		"SystemName": "balrog7b",
 		"ChineseName": "冷焰魔龍",
 		"EnglishName": "BALROG-VII Blue",
 		"ID": "688",
@@ -2194,8 +2438,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/balrog7b.png"
-    },
+	},
 	{
+		"SystemName": "balrog5b",
 		"ChineseName": "冷焰弒魂者",
 		"EnglishName": "BALROG-V Blue",
 		"ID": "687",
@@ -2203,8 +2448,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/balrog5b.png"
-    },
+	},
 	{
+		"SystemName": "balrog1b",
 		"ChineseName": "冷焰獵魔者",
 		"EnglishName": "BALROG-I Blue",
 		"ID": "685",
@@ -2212,8 +2458,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/balrog1b.png"
-    },
+	},
 	{
+		"SystemName": "balrog3b",
 		"ChineseName": "冷焰瞬殺者",
 		"EnglishName": "BALROG-III Blue",
 		"ID": "686",
@@ -2221,8 +2468,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/balrog3b.png"
-    },
+	},
 	{
+		"SystemName": "balrog11b",
 		"ChineseName": "冷焰弒神者",
 		"EnglishName": "BALROG-XI Blue",
 		"ID": "690",
@@ -2230,8 +2478,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/balrog11b.png"
-    },
+	},
 	{
+		"SystemName": "galilcraft",
 		"ChineseName": "野戰防衛者",
 		"EnglishName": "Galil Maverick",
 		"ID": "697",
@@ -2239,8 +2488,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/galilcraft.png"
-    },
+	},
 	{
+		"SystemName": "m1887craft",
 		"ChineseName": "野戰閃靈",
 		"EnglishName": "M1887 Maverick",
 		"ID": "698",
@@ -2248,8 +2498,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/m1887craft.png"
-    },
+	},
 	{
+		"SystemName": "petrolboomer",
 		"ChineseName": "地獄火銃",
 		"EnglishName": "Petrol Boomer",
 		"ID": "706",
@@ -2257,8 +2508,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "",
 		"ImageURL": "./images/weapon/petrolboomer.png"
-    },
+	},
 	{
+		"SystemName": "bendita",
 		"ChineseName": "驅魔聖祈",
 		"EnglishName": "Bendita",
 		"ID": "703",
@@ -2266,8 +2518,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bendita.png"
-    },
+	},
 	{
+		"SystemName": "mauserc96",
 		"ChineseName": "毛瑟C96",
 		"EnglishName": "Mauser C96",
 		"ID": "716",
@@ -2275,8 +2528,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mauserc96.png"
-    },
+	},
 	{
+		"SystemName": "mosin",
 		"ChineseName": "莫辛-納甘",
 		"EnglishName": "Mosin-Nagant",
 		"ID": "713",
@@ -2284,8 +2538,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mosin.png"
-    },
+	},
 	{
+		"SystemName": "mg42",
 		"ChineseName": "MG42",
 		"EnglishName": "MG3 Gold Edition",
 		"ID": "714",
@@ -2293,8 +2548,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg42.png"
-    },
+	},
 	{
+		"SystemName": "mp40",
 		"ChineseName": "MP40",
 		"EnglishName": "MP40",
 		"ID": "715",
@@ -2302,8 +2558,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mp40.png"
-    },
+	},
 	{
+		"SystemName": "janus3",
 		"ChineseName": "戒聖恐懼(Janus-3)",
 		"EnglishName": "JANUS-3",
 		"ID": "711",
@@ -2311,8 +2568,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/janus3.png"
-    },
+	},
 	{
+		"SystemName": "m1garand",
 		"ChineseName": "M1-加蘭德步槍",
 		"EnglishName": "M1 Garand",
 		"ID": "721",
@@ -2320,8 +2578,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m1garand.png"
-    },
+	},
 	{
+		"SystemName": "railcannon",
 		"ChineseName": "滑軌加農",
 		"EnglishName": "Rail Cannon",
 		"ID": "719",
@@ -2329,8 +2588,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/railcannon.png"
-    },
+	},
 	{
+		"SystemName": "cannonm",
 		"ChineseName": "裂地虎砲",
 		"EnglishName": "Eruptor",
 		"ID": "717",
@@ -2338,8 +2598,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/cannonm.png"
-    },
+	},
 	{
+		"SystemName": "chainsawm",
 		"ChineseName": "虐屍鋸",
 		"EnglishName": "Slasher",
 		"ID": "718",
@@ -2347,8 +2608,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/chainsawm.png"
-    },
+	},
 	{
+		"SystemName": "m1911a1",
 		"ChineseName": "M1911 A1",
 		"EnglishName": "M1911 A1",
 		"ID": "724",
@@ -2356,8 +2618,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m1911a1.png"
-    },
+	},
 	{
+		"SystemName": "stenmk2",
 		"ChineseName": "斯登衝鋒槍 MK II",
 		"EnglishName": "Sten MK2",
 		"ID": "723",
@@ -2365,8 +2628,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/stenmk2.png"
-    },
+	},
 	{
+		"SystemName": "m1918bar",
 		"ChineseName": "M1918-白朗寧自動步槍",
 		"EnglishName": "M1918 BAR",
 		"ID": "722",
@@ -2374,17 +2638,19 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m1918bar.png"
-    },
+	},
 	{
+		"SystemName": "laserguide",
 		"ChineseName": "轟炸機(厄鬥擂台)",
 		"EnglishName": "Laser-Guided Missile",
 		"ID": "0",
 		"InGameID": "263",
-		"Type": "EQUIPMENT",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/laserguide.png"
-    },
+	},
 	{
+		"SystemName": "k1acraft",
 		"ChineseName": "野戰K1A",
 		"EnglishName": "K1A Maverick",
 		"ID": "725",
@@ -2392,8 +2658,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/k1acraft.png"
-    },
+	},
 	{
+		"SystemName": "gilboa",
 		"ChineseName": "Gilboa 卡賓",
 		"EnglishName": "Gilboa Carbine",
 		"ID": "733",
@@ -2401,8 +2668,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/gilboa.png"
-    },
+	},
 	{
+		"SystemName": "gilboaex",
 		"ChineseName": "Gilboa 蛇吻",
 		"EnglishName": "Gilboa Viper",
 		"ID": "734",
@@ -2410,8 +2678,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/gilboaex.png"
-    },
+	},
 	{
+		"SystemName": "blockar",
 		"ChineseName": "樂高火箭V2",
 		"EnglishName": "Brick Piece V2",
 		"ID": "728",
@@ -2419,8 +2688,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/blockar.png"
-    },
+	},
 	{
+		"SystemName": "ozwpnset1",
 		"ChineseName": "綠野仙蹤錫人機關槍",
 		"EnglishName": "Tin Man’s Machine Gun",
 		"ID": "741",
@@ -2428,8 +2698,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/ozwpnset1.png"
-    },
+	},
 	{
+		"SystemName": "ozwpnset2",
 		"ChineseName": "綠野仙蹤獅子手槍",
 		"EnglishName": "Cowardly Lion’s Pistol",
 		"ID": "742",
@@ -2437,26 +2708,29 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/ozwpnset2.png"
-    },
+	},
 	{
+		"SystemName": "funat4",
 		"ChineseName": "究極彗星-AT4CS(殘暴版)",
 		"EnglishName": "Power AT4CS",
 		"ID": "0",
 		"InGameID": "270",
-		"Type": "EQUIPMENT",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/funat4.png"
-    },
+	},
 	{
+		"SystemName": "funchainsaw",
 		"ChineseName": "奪魂鋸(殘暴版)",
 		"EnglishName": "Power Chainsaw (Ripper)",
 		"ID": "0",
 		"InGameID": "271",
-		"Type": "EQUIPMENT",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/funchainsaw.png"
-    },
+	},
 	{
+		"SystemName": "skull5wc",
 		"ChineseName": "黃金貝西摩斯之爪(SKULL-5)",
 		"EnglishName": "SKULL-5 Gold Edition",
 		"ID": "748",
@@ -2464,8 +2738,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/skull5wc.png"
-    },
+	},
 	{
+		"SystemName": "skull7wc",
 		"ChineseName": "黃金命運金鑰(SKULL-7)",
 		"EnglishName": "SKULL-7 Gold Edition",
 		"ID": "749",
@@ -2473,8 +2748,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/skull7wc.png"
-    },
+	},
 	{
+		"SystemName": "thanatos7",
 		"ChineseName": "塔納托斯的垂鐮(Thanatos-7)",
 		"EnglishName": "THANATOS-7",
 		"ID": "752",
@@ -2482,8 +2758,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/thanatos7.png"
-    },
+	},
 	{
+		"SystemName": "rpg7",
 		"ChineseName": "裝甲火箭砲-RPG-7",
 		"EnglishName": "RPG-7",
 		"ID": "753",
@@ -2491,8 +2768,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/rpg7.png"
-    },
+	},
 	{
+		"SystemName": "fireextinguisher",
 		"ChineseName": "滅火器",
 		"EnglishName": "Fire Extinguisher",
 		"ID": "754",
@@ -2500,8 +2778,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/fireextinguisher.png"
-    },
+	},
 	{
+		"SystemName": "guillotine",
 		"ChineseName": "血滴子",
 		"EnglishName": "Guillotine",
 		"ID": "761",
@@ -2509,8 +2788,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/guillotine.png"
-    },
+	},
 	{
+		"SystemName": "thanatos11",
 		"ChineseName": "塔納托斯的獻祭(Thanatos-11)",
 		"EnglishName": "THANATOS-11",
 		"ID": "764",
@@ -2518,8 +2798,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/thanatos11.png"
-    },
+	},
 	{
+		"SystemName": "crossbowex",
 		"ChineseName": "飛鷹十字弓EX",
 		"EnglishName": "Crossbow Advance",
 		"ID": "763",
@@ -2527,8 +2808,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/crossbowex.png"
-    },
+	},
 	{
+		"SystemName": "sfsniperm",
 		"ChineseName": "懲雷",
 		"EnglishName": "Lightning Rail",
 		"ID": "766",
@@ -2536,8 +2818,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/sfsniperm.png"
-    },
+	},
 	{
+		"SystemName": "gatlingm",
 		"ChineseName": "戰神加農砲",
 		"EnglishName": "Fire Vulcan",
 		"ID": "767",
@@ -2545,8 +2828,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/gatlingm.png"
-    },
+	},
 	{
+		"SystemName": "uzi",
 		"ChineseName": "烏茲衝鋒槍",
 		"EnglishName": "UZI",
 		"ID": "770",
@@ -2554,8 +2838,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/uzi.png"
-    },
+	},
 	{
+		"SystemName": "m950",
 		"ChineseName": "卡利科950手槍",
 		"EnglishName": "M950",
 		"ID": "768",
@@ -2563,8 +2848,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/m950.png"
-    },
+	},
 	{
+		"SystemName": "mk3a1",
 		"ChineseName": "Mk3a1 戰鬥散彈槍",
 		"EnglishName": "Jack Hammer",
 		"ID": "769",
@@ -2572,8 +2858,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mk3a1.png"
-    },
+	},
 	{
+		"SystemName": "spsmg",
 		"ChineseName": "喋血轉輪",
 		"EnglishName": "Newcomen",
 		"ID": "771",
@@ -2581,8 +2868,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/spsmg.png"
-    },
+	},
 	{
+		"SystemName": "fnp45",
 		"ChineseName": "戰術型FNP-45",
 		"EnglishName": "FNP-45",
 		"ID": "775",
@@ -2590,8 +2878,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/fnp45.png"
-    },
+	},
 	{
+		"SystemName": "pgm",
 		"ChineseName": "赫卡特狙擊步槍",
 		"EnglishName": "Hcate II",
 		"ID": "781",
@@ -2599,8 +2888,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/pgm.png"
-    },
+	},
 	{
+		"SystemName": "norinco86s",
 		"ChineseName": "86s式自動步槍",
 		"EnglishName": "Norinco86s",
 		"ID": "782",
@@ -2608,8 +2898,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/norinco86s.png"
-    },
+	},
 	{
+		"SystemName": "thanatos5",
 		"ChineseName": "塔納托斯的憤怒(Thanatos-5)",
 		"EnglishName": "THANATOS-5",
 		"ID": "784",
@@ -2617,8 +2908,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/thanatos5.png"
-    },
+	},
 	{
+		"SystemName": "dartpistol",
 		"ChineseName": "十萬伏特",
 		"EnglishName": "Dart Pistol",
 		"ID": "783",
@@ -2626,8 +2918,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/dartpistol.png"
-    },
+	},
 	{
+		"SystemName": "dualkrisshero",
 		"ChineseName": "終極悍將(原始版)",
 		"EnglishName": "Dual Kriss Custom",
 		"ID": "0",
@@ -2635,8 +2928,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/dualkrisshero.png"
-    },
+	},
 	{
+		"SystemName": "m134hero",
 		"ChineseName": "超．火神機槍(原始版)",
 		"EnglishName": "M134 Vulcan",
 		"ID": "0",
@@ -2644,8 +2938,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/m134hero.png"
-    },
+	},
 	{
+		"SystemName": "vulcanus7",
 		"ChineseName": "無畏狂戰(VULCANUS-7)",
 		"EnglishName": "VULCANUS-7",
 		"ID": "787",
@@ -2653,8 +2948,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/vulcanus7.png"
-    },
+	},
 	{
+		"SystemName": "sapientia",
 		"ChineseName": "降妖聖靈",
 		"EnglishName": "Sapientia",
 		"ID": "788",
@@ -2662,8 +2958,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sapientia.png"
-    },
+	},
 	{
+		"SystemName": "coilmg",
 		"ChineseName": "超電磁砲",
 		"EnglishName": "Coil gun",
 		"ID": "789",
@@ -2671,17 +2968,19 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/coilmg.png"
-    },
+	},
 	{
+		"SystemName": "zombibomb2",
 		"ChineseName": "殘暴手榴彈",
 		"EnglishName": "Zombie Shock Bomb",
 		"ID": "0",
 		"InGameID": "296",
-		"Type": "GRENADE",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/zombibomb2.png"
-    },
+	},
 	{
+		"SystemName": "blockas",
 		"ChineseName": "樂高自走砲-M777",
 		"EnglishName": "Brick Piece M777",
 		"ID": "796",
@@ -2689,8 +2988,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/blockas.png"
-    },
+	},
 	{
+		"SystemName": "airburster",
 		"ChineseName": "空氣壓縮砲",
 		"EnglishName": "Air Burster",
 		"ID": "792",
@@ -2698,8 +2998,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/airburster.png"
-    },
+	},
 	{
+		"SystemName": "vulcanus5",
 		"ChineseName": "獵命射手(VULCANUS-5)",
 		"EnglishName": "VULCANUS-5",
 		"ID": "804",
@@ -2707,8 +3008,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/vulcanus5.png"
-    },
+	},
 	{
+		"SystemName": "vxllonggun_blank",
 		"ChineseName": "建造步槍",
 		"EnglishName": "Build rifle",
 		"ID": "793",
@@ -2716,8 +3018,9 @@ let WeaponData = [
 		"Type": "STUDIO",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxllonggun_blank.png"
-    },
+	},
 	{
+		"SystemName": "vxlconnector_blank",
 		"ChineseName": "連結槍",
 		"EnglishName": "Connector",
 		"ID": "794",
@@ -2725,8 +3028,9 @@ let WeaponData = [
 		"Type": "STUDIO",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxlconnector_blank.png"
-    },
+	},
 	{
+		"SystemName": "dualuzi",
 		"ChineseName": "雙持白銀烏茲",
 		"EnglishName": "Dual UZI",
 		"ID": "814",
@@ -2734,8 +3038,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/dualuzi.png"
-    },
+	},
 	{
+		"SystemName": "laserminigun",
 		"ChineseName": "MEGA粒子砲",
 		"EnglishName": "Laser Minigun",
 		"ID": "815",
@@ -2743,8 +3048,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/laserminigun.png"
-    },
+	},
 	{
+		"SystemName": "qbs09",
 		"ChineseName": "QBS-09",
 		"EnglishName": "QBS-09",
 		"ID": "805",
@@ -2752,8 +3058,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/qbs09.png"
-    },
+	},
 	{
+		"SystemName": "thanatos1",
 		"ChineseName": "塔納托斯的強擊(Thanatos-1)",
 		"EnglishName": "THANATOS-1",
 		"ID": "812",
@@ -2761,8 +3068,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/thanatos1.png"
-    },
+	},
 	{
+		"SystemName": "buffm4",
 		"ChineseName": "死亡騎士M4A1",
 		"EnglishName": "M4A1 Dark Knight",
 		"ID": "809",
@@ -2770,8 +3078,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/buffm4.png"
-    },
+	},
 	{
+		"SystemName": "buffak",
 		"ChineseName": "聖騎士CV-47",
 		"EnglishName": "AK-47 Paladin",
 		"ID": "810",
@@ -2779,8 +3088,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/buffak.png"
-    },
+	},
 	{
+		"SystemName": "ng7",
 		"ChineseName": "內蓋夫輕機槍NG7",
 		"EnglishName": "Negev NG-7",
 		"ID": "813",
@@ -2788,8 +3098,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/ng7.png"
-    },
+	},
 	{
+		"SystemName": "cameragun",
 		"ChineseName": "震攝機槍 HMG-1",
 		"EnglishName": "Lightning HMG-1",
 		"ID": "832",
@@ -2797,8 +3108,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/cameragun.png"
-    },
+	},
 	{
+		"SystemName": "buffawp",
 		"ChineseName": "精靈遊俠AWP",
 		"EnglishName": "AWP Elven Ranger",
 		"ID": "825",
@@ -2806,8 +3118,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/buffawp.png"
-    },
+	},
 	{
+		"SystemName": "skull2",
 		"ChineseName": "鬼神無雙(skull-2)",
 		"EnglishName": "SKULL-2",
 		"ID": "828",
@@ -2815,8 +3128,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/skull2.png"
-    },
+	},
 	{
+		"SystemName": "python",
 		"ChineseName": "鬼蟒",
 		"EnglishName": "Python",
 		"ID": "824",
@@ -2824,8 +3138,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/python.png"
-    },
+	},
 	{
+		"SystemName": "thanatos3",
 		"ChineseName": "塔納托斯的殘翼(Thanatos-3)",
 		"EnglishName": "THANATOS-3",
 		"ID": "834",
@@ -2833,8 +3148,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/thanatos3.png"
-    },
+	},
 	{
+		"SystemName": "vulcanus11",
 		"ChineseName": "殺戮戰神(VULCANUS-11)",
 		"EnglishName": "VULCANUS-11",
 		"ID": "833",
@@ -2842,8 +3158,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/vulcanus11.png"
-    },
+	},
 	{
+		"SystemName": "janus7xmas",
 		"ChineseName": "聖誕限定版皇族聖痕",
 		"EnglishName": "JANUS-7 Christmas Edition",
 		"ID": "840",
@@ -2851,8 +3168,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/janus7xmas.png"
-    },
+	},
 	{
+		"SystemName": "crow7",
 		"ChineseName": "不死凶命(CROW-7)",
 		"EnglishName": "CROW-7",
 		"ID": "842",
@@ -2860,8 +3178,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/crow7.png"
-    },
+	},
 	{
+		"SystemName": "m950se",
 		"ChineseName": "艾塔克M950",
 		"EnglishName": "Attack M950",
 		"ID": "849",
@@ -2869,8 +3188,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m950se.png"
-    },
+	},
 	{
+		"SystemName": "sgdrill",
 		"ChineseName": "螺旋牙",
 		"EnglishName": "Magnum Drill",
 		"ID": "844",
@@ -2878,8 +3198,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/sgdrill.png"
-    },
+	},
 	{
+		"SystemName": "destroyer",
 		"ChineseName": "破壞者",
 		"EnglishName": "Destroyer",
 		"ID": "857",
@@ -2887,17 +3208,19 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/destroyer.png"
-    },
+	},
 	{
+		"SystemName": "bazooka_zs2",
 		"ChineseName": "Bazooka_zs2",
 		"EnglishName": "Bazooka",
 		"ID": "0",
 		"InGameID": "321",
-		"Type": "EQUIPMENT",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/bazooka_zs2.png"
-    },
+	},
 	{
+		"SystemName": "hk121",
 		"ChineseName": "大漠蒼狼",
 		"EnglishName": "HK121",
 		"ID": "846",
@@ -2905,8 +3228,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/hk121.png"
-    },
+	},
 	{
+		"SystemName": "hk121ex",
 		"ChineseName": "大漠蒼狼(榴彈型)",
 		"EnglishName": "HK121 Custom",
 		"ID": "847",
@@ -2914,8 +3238,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/hk121ex.png"
-    },
+	},
 	{
+		"SystemName": "crow5",
 		"ChineseName": "獵殺夜行(CROW-5)",
 		"EnglishName": "CROW-5",
 		"ID": "848",
@@ -2923,8 +3248,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/crow5.png"
-    },
+	},
 	{
+		"SystemName": "vulcanus1",
 		"ChineseName": "聖戰雙姬(VULCANUS-1)",
 		"EnglishName": "VULCANUS-1",
 		"ID": "858",
@@ -2932,8 +3258,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/vulcanus1.png"
-    },
+	},
 	{
+		"SystemName": "pp2000",
 		"ChineseName": "PP-2000",
 		"EnglishName": "PP-2000",
 		"ID": "859",
@@ -2941,8 +3268,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/pp2000.png"
-    },
+	},
 	{
+		"SystemName": "spsg",
 		"ChineseName": "毀滅公爵",
 		"EnglishName": "Batista",
 		"ID": "875",
@@ -2950,8 +3278,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/spsg.png"
-    },
+	},
 	{
+		"SystemName": "blockmg",
 		"ChineseName": "樂高坦克",
 		"EnglishName": "Brick Piece T50",
 		"ID": "876",
@@ -2959,8 +3288,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/blockmg.png"
-    },
+	},
 	{
+		"SystemName": "bloodhunter",
 		"ChineseName": "血性噬放",
 		"EnglishName": "Desert Eagle Crimson Hunter",
 		"ID": "877",
@@ -2968,8 +3298,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/bloodhunter.png"
-    },
+	},
 	{
+		"SystemName": "ultimax100",
 		"ChineseName": "ULTIMAX-100",
 		"EnglishName": "ULTIMAX-100",
 		"ID": "873",
@@ -2977,8 +3308,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/ultimax100.png"
-    },
+	},
 	{
+		"SystemName": "vulcanus3",
 		"ChineseName": "詭影殺手(VULCANUS-3)",
 		"EnglishName": "VULCANUS-3",
 		"ID": "867",
@@ -2986,8 +3318,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/vulcanus3.png"
-    },
+	},
 	{
+		"SystemName": "bison",
 		"ChineseName": "野牛衝鋒槍",
 		"EnglishName": "PP-19 Bizon",
 		"ID": "880",
@@ -2995,8 +3328,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bison.png"
-    },
+	},
 	{
+		"SystemName": "kh2002",
 		"ChineseName": "KH-2002",
 		"EnglishName": "KH-2002",
 		"ID": "868",
@@ -3004,8 +3338,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/kh2002.png"
-    },
+	},
 	{
+		"SystemName": "vxleditor_blank",
 		"ChineseName": "旋轉槍",
 		"EnglishName": "Spinner",
 		"ID": "888",
@@ -3013,8 +3348,9 @@ let WeaponData = [
 		"Type": "STUDIO",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxleditor_blank.png"
-    },
+	},
 	{
+		"SystemName": "vxlshortgun_blank",
 		"ChineseName": "建造手槍",
 		"EnglishName": "Build pistol",
 		"ID": "887",
@@ -3022,8 +3358,9 @@ let WeaponData = [
 		"Type": "STUDIO",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxlshortgun_blank.png"
-    },
+	},
 	{
+		"SystemName": "falconex",
 		"ChineseName": "馬爾拓之鷹EX",
 		"EnglishName": "Power Falcon",
 		"ID": "892",
@@ -3031,8 +3368,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/falconex.png"
-    },
+	},
 	{
+		"SystemName": "mk3a1se",
 		"ChineseName": "MK3A1 火焰散彈槍",
 		"EnglishName": "Flame Jackhammer",
 		"ID": "921",
@@ -3040,8 +3378,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/mk3a1se.png"
-    },
+	},
 	{
+		"SystemName": "buffsg552",
 		"ChineseName": "狩魔聖王SG552",
 		"EnglishName": "SG552 Lycanthrope",
 		"ID": "891",
@@ -3049,8 +3388,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/buffsg552.png"
-    },
+	},
 	{
+		"SystemName": "broad",
 		"ChineseName": "凝邪聖命",
 		"EnglishName": "Broad Divine",
 		"ID": "893",
@@ -3058,8 +3398,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/broad.png"
-    },
+	},
 	{
+		"SystemName": "sflaser",
 		"ChineseName": "龍捲風",
 		"EnglishName": "Tornado",
 		"ID": "899",
@@ -3067,8 +3408,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sflaser.png"
-    },
+	},
 	{
+		"SystemName": "crow11",
 		"ChineseName": "鬼泣死士(CROW-11)",
 		"EnglishName": "CROW-11",
 		"ID": "918",
@@ -3076,8 +3418,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/crow11.png"
-    },
+	},
 	{
+		"SystemName": "mg3kor",
 		"ChineseName": "2016里約紀念版(韓國)",
 		"EnglishName": "VICTORY Korea",
 		"ID": "901",
@@ -3085,8 +3428,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3kor.png"
-    },
+	},
 	{
+		"SystemName": "mg3chn",
 		"ChineseName": "2016里約紀念版(中國)",
 		"EnglishName": "VICTORY China",
 		"ID": "902",
@@ -3094,8 +3438,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3chn.png"
-    },
+	},
 	{
+		"SystemName": "mg3twn",
 		"ChineseName": "2016里約紀念版(台灣)",
 		"EnglishName": "VICTORY Taiwan",
 		"ID": "903",
@@ -3103,8 +3448,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3twn.png"
-    },
+	},
 	{
+		"SystemName": "mg3jpn",
 		"ChineseName": "2016里約紀念版(日本)",
 		"EnglishName": "VICTORY Japan",
 		"ID": "904",
@@ -3112,8 +3458,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3jpn.png"
-    },
+	},
 	{
+		"SystemName": "mg3idn",
 		"ChineseName": "2016里約紀念版(印尼)",
 		"EnglishName": "VICTORY Indonesia",
 		"ID": "905",
@@ -3121,8 +3468,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3idn.png"
-    },
+	},
 	{
+		"SystemName": "mg3usa",
 		"ChineseName": "2016里約紀念版(美國)",
 		"EnglishName": "VICTORY United States",
 		"ID": "906",
@@ -3130,8 +3478,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3usa.png"
-    },
+	},
 	{
+		"SystemName": "mg3can",
 		"ChineseName": "2016里約紀念版(加拿大)",
 		"EnglishName": "VICTORY Canada",
 		"ID": "907",
@@ -3139,8 +3488,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3can.png"
-    },
+	},
 	{
+		"SystemName": "mg3tur",
 		"ChineseName": "2016里約紀念版(土耳其)",
 		"EnglishName": "VICTORY Turkey",
 		"ID": "908",
@@ -3148,8 +3498,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3tur.png"
-    },
+	},
 	{
+		"SystemName": "mg3rus",
 		"ChineseName": "2016里約紀念版(俄羅斯)",
 		"EnglishName": "VICTORY Russia",
 		"ID": "909",
@@ -3157,8 +3508,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3rus.png"
-    },
+	},
 	{
+		"SystemName": "mg3deu",
 		"ChineseName": "2016里約紀念版(德國)",
 		"EnglishName": "VICTORY Germany",
 		"ID": "910",
@@ -3166,8 +3518,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mg3deu.png"
-    },
+	},
 	{
+		"SystemName": "crow3",
 		"ChineseName": "噬魔夜獵(CROW-3)",
 		"EnglishName": "CROW-3",
 		"ID": "923",
@@ -3175,8 +3528,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/crow3.png"
-    },
+	},
 	{
+		"SystemName": "railgun",
 		"ChineseName": "末世解放者",
 		"EnglishName": "Rail Buster",
 		"ID": "924",
@@ -3184,8 +3538,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/railgun.png"
-    },
+	},
 	{
+		"SystemName": "bfnp45",
 		"ChineseName": "BATTLE FNP-45",
 		"EnglishName": "Battle FNP-45",
 		"ID": "922",
@@ -3193,8 +3548,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bfnp45.png"
-    },
+	},
 	{
+		"SystemName": "bqbs09",
 		"ChineseName": "Battle QBS-09",
 		"EnglishName": "Battle QBS-09",
 		"ID": "928",
@@ -3202,8 +3558,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bqbs09.png"
-    },
+	},
 	{
+		"SystemName": "turbulent7",
 		"ChineseName": "怒海驚瀾(Turbulent-7)",
 		"EnglishName": "TURBULENT-7",
 		"ID": "934",
@@ -3211,8 +3568,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/turbulent7.png"
-    },
+	},
 	{
+		"SystemName": "balrog11wc",
 		"ChineseName": "黃金弒神者(Balrog-XI)",
 		"EnglishName": "BALROG-XI Gold Edition",
 		"ID": "931",
@@ -3220,8 +3578,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/balrog11wc.png"
-    },
+	},
 	{
+		"SystemName": "buffaktw",
 		"ChineseName": "聖皇CV-47",
 		"EnglishName": "AK-47 Paladin(Taiwan Edition)",
 		"ID": "936",
@@ -3229,8 +3588,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/buffaktw.png"
-    },
+	},
 	{
+		"SystemName": "buffm4tw",
 		"ChineseName": "暴君M4A1",
 		"EnglishName": "M4A1 Dark Knight(Taiwan Edition)",
 		"ID": "935",
@@ -3238,8 +3598,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/buffm4tw.png"
-    },
+	},
 	{
+		"SystemName": "augex",
 		"ChineseName": "燃燒AUG",
 		"EnglishName": "Burning AUG",
 		"ID": "945",
@@ -3247,8 +3608,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/augex.png"
-    },
+	},
 	{
+		"SystemName": "sterlingbayonet",
 		"ChineseName": "斯特林刺槍",
 		"EnglishName": "Sterling Bayonet",
 		"ID": "960",
@@ -3256,8 +3618,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sterlingbayonet.png"
-    },
+	},
 	{
+		"SystemName": "vxlminigun_blank",
 		"ChineseName": "建造機槍",
 		"EnglishName": "Build minigun",
 		"ID": "991",
@@ -3265,8 +3628,9 @@ let WeaponData = [
 		"Type": "STUDIO",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxlminigun_blank.png"
-    },
+	},
 	{
+		"SystemName": "vxlscanner_blank",
 		"ChineseName": "建造掃描器",
 		"EnglishName": "Build scanner",
 		"ID": "992",
@@ -3274,8 +3638,9 @@ let WeaponData = [
 		"Type": "STUDIO",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxlscanner_blank.png"
-    },
+	},
 	{
+		"SystemName": "dfpistol",
 		"ChineseName": "鴨掌式手槍",
 		"EnglishName": "Special Duck Foot Gun",
 		"ID": "954",
@@ -3283,8 +3648,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/dfpistol.png"
-    },
+	},
 	{
+		"SystemName": "vxljunkgun_blank",
 		"ChineseName": "破壞型槍",
 		"EnglishName": "Junk shooter",
 		"ID": "993",
@@ -3292,8 +3658,9 @@ let WeaponData = [
 		"Type": "STUDIO",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxljunkgun_blank.png"
-    },
+	},
 	{
+		"SystemName": "cannonex",
 		"ChineseName": "赤血龍砲",
 		"EnglishName": "Red Dragon Cannon",
 		"ID": "959",
@@ -3301,8 +3668,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/cannonex.png"
-    },
+	},
 	{
+		"SystemName": "turbulent5",
 		"ChineseName": "銀色颶風(Turbulent-5)",
 		"EnglishName": "TURBULENT-5",
 		"ID": "962",
@@ -3310,8 +3678,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/turbulent5.png"
-    },
+	},
 	{
+		"SystemName": "blocksmg",
 		"ChineseName": "樂高S1451",
 		"EnglishName": "Brick Piece S1451",
 		"ID": "964",
@@ -3319,8 +3688,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/blocksmg.png"
-    },
+	},
 	{
+		"SystemName": "navalgun",
 		"ChineseName": "艦艇砲台",
 		"EnglishName": "Naval Cannon",
 		"ID": "0",
@@ -3328,8 +3698,9 @@ let WeaponData = [
 		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/navalgun.png"
-    },
+	},
 	{
+		"SystemName": "bpgm",
 		"ChineseName": "Battle Hecate II",
 		"EnglishName": "Battle Hecate II",
 		"ID": "968",
@@ -3337,8 +3708,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bpgm.png"
-    },
+	},
 	{
+		"SystemName": "crow1",
 		"ChineseName": "永夜(CROW-1)",
 		"EnglishName": "CROW-1",
 		"ID": "969",
@@ -3346,8 +3718,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/crow1.png"
-    },
+	},
 	{
+		"SystemName": "desperado",
 		"ChineseName": "Desperado",
 		"EnglishName": "Python Desperado",
 		"ID": "978",
@@ -3355,8 +3728,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/desperado.png"
-    },
+	},
 	{
+		"SystemName": "bmk3a1",
 		"ChineseName": "MK3A1 戰鬥散彈槍",
 		"EnglishName": "Battle Jackhammer",
 		"ID": "977",
@@ -3364,8 +3738,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bmk3a1.png"
-    },
+	},
 	{
+		"SystemName": "bunkerbuster",
 		"ChineseName": "Bunker Buster LTD",
 		"EnglishName": "Bunker Buster LTD",
 		"ID": "984",
@@ -3373,8 +3748,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/bunkerbuster.png"
-    },
+	},
 	{
+		"SystemName": "bbison",
 		"ChineseName": "PP-19野牛衝鋒槍",
 		"EnglishName": "Battle PP-19 Bizon",
 		"ID": "983",
@@ -3382,8 +3758,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bbison.png"
-    },
+	},
 	{
+		"SystemName": "charger7",
 		"ChineseName": "暴能脈衝(CHARGER-7)",
 		"EnglishName": "CHARGER-7",
 		"ID": "981",
@@ -3391,8 +3768,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/charger7.png"
-    },
+	},
 	{
+		"SystemName": "buffaug",
 		"ChineseName": "禁衛軍AUG",
 		"EnglishName": "AUG Guardian",
 		"ID": "8033",
@@ -3400,8 +3778,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/buffaug.png"
-    },
+	},
 	{
+		"SystemName": "pesticidesprayer",
 		"ChineseName": "劇毒擴散機",
 		"EnglishName": "Venom Sprayer",
 		"ID": "8046",
@@ -3409,8 +3788,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/pesticidesprayer.png"
-    },
+	},
 	{
+		"SystemName": "charger5",
 		"ChineseName": "雷霆機甲(CHARGER-5)",
 		"EnglishName": "CHARGER-5",
 		"ID": "8045",
@@ -3418,8 +3798,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/charger5.png"
-    },
+	},
 	{
+		"SystemName": "bouncer",
 		"ChineseName": "闇影弒星",
 		"EnglishName": "BOUNCER",
 		"ID": "8050",
@@ -3427,8 +3808,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/bouncer.png"
-    },
+	},
 	{
+		"SystemName": "bpython",
 		"ChineseName": "戰鬥鬼蟒",
 		"EnglishName": "Battle Python",
 		"ID": "8049",
@@ -3436,8 +3818,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/bpython.png"
-    },
+	},
 	{
+		"SystemName": "bng7",
 		"ChineseName": "戰鬥型內蓋夫輕機槍NG7",
 		"EnglishName": "Battle Negev NG-7",
 		"ID": "8054",
@@ -3445,8 +3828,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/bng7.png"
-    },
+	},
 	{
+		"SystemName": "turbulent3",
 		"ChineseName": "飆悍衝鋒(Turbulent-3)",
 		"EnglishName": "TURBULENT-3",
 		"ID": "8077",
@@ -3454,8 +3838,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/turbulent3.png"
-    },
+	},
 	{
+		"SystemName": "stunrifle",
 		"ChineseName": "閃擊斯特恩",
 		"EnglishName": "Stun Rifle",
 		"ID": "8048",
@@ -3463,8 +3848,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/stunrifle.png"
-    },
+	},
 	{
+		"SystemName": "sgdrillgold",
 		"ChineseName": "黃金螺旋牙",
 		"EnglishName": "Transcendence Magnum Drill Gold",
 		"ID": "8055",
@@ -3472,8 +3858,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/sgdrillgold.png"
-    },
+	},
 	{
+		"SystemName": "ak47wg_sr",
 		"ChineseName": "AK-47 白金",
 		"EnglishName": "AK-47 White Gold",
 		"ID": "8075",
@@ -3481,8 +3868,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/ak47wg_sr.png"
-    },
+	},
 	{
+		"SystemName": "starchasersr",
 		"ChineseName": "極光星辰",
 		"EnglishName": "Star Chaser SR",
 		"ID": "8078",
@@ -3490,8 +3878,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/starchasersr.png"
-    },
+	},
 	{
+		"SystemName": "turbulent1",
 		"ChineseName": "碟輪暴風(Turbulent-1)",
 		"EnglishName": "TURBULENT-1",
 		"ID": "8086",
@@ -3499,8 +3888,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/turbulent1.png"
-    },
+	},
 	{
+		"SystemName": "sgmissile",
 		"ChineseName": "極．煉獄使者",
 		"EnglishName": "Magnum Launcher",
 		"ID": "8094",
@@ -3508,8 +3898,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/sgmissile.png"
-    },
+	},
 	{
+		"SystemName": "rockbreaker",
 		"ChineseName": "巖岩烈鑽",
 		"EnglishName": "Rockbreaker",
 		"ID": "8091",
@@ -3517,8 +3908,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/rockbreaker.png"
-    },
+	},
 	{
+		"SystemName": "claymore",
 		"ChineseName": "闊刀地雷",
 		"EnglishName": "Claymore Mine MDS",
 		"ID": "8104",
@@ -3526,8 +3918,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/claymore.png"
-    },
+	},
 	{
+		"SystemName": "turbulent11",
 		"ChineseName": "狂嵐飆風 (Turbulent-11)",
 		"EnglishName": "TURBULENT-11",
 		"ID": "8100",
@@ -3535,8 +3928,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/turbulent11.png"
-    },
+	},
 	{
+		"SystemName": "m4a1wg_sr",
 		"ChineseName": "M4A1白金",
 		"EnglishName": "M4A1 White Gold",
 		"ID": "8101",
@@ -3544,8 +3938,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/m4a1wg_sr.png"
-    },
+	},
 	{
+		"SystemName": "gunkata",
 		"ChineseName": "聖裁槍神",
 		"EnglishName": "Dual Beretta Gunslinger",
 		"ID": "8108",
@@ -3553,8 +3948,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/gunkata.png"
-    },
+	},
 	{
+		"SystemName": "cannonexgold",
 		"ChineseName": "黃金赤血龍砲",
 		"EnglishName": "Red Dragon Cannon Gold",
 		"ID": "8106",
@@ -3562,8 +3958,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/cannonexgold.png"
-    },
+	},
 	{
+		"SystemName": "buffm249",
 		"ChineseName": "M249 鳳凰天破",
 		"EnglishName": "M249 Phoenix",
 		"ID": "8117",
@@ -3571,8 +3968,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/buffm249.png"
-    },
+	},
 	{
+		"SystemName": "starchaserar",
 		"ChineseName": "蒼穹碎星AUG",
 		"EnglishName": "Star Chaser AR",
 		"ID": "8113",
@@ -3580,8 +3978,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/starchaserar.png"
-    },
+	},
 	{
+		"SystemName": "m3dragon",
 		"ChineseName": "金柱黑龍M3",
 		"EnglishName": "M3 Black Dragon",
 		"ID": "8110",
@@ -3589,8 +3988,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/m3dragon.png"
-    },
+	},
 	{
+		"SystemName": "m32venom",
 		"ChineseName": "M32 MGL 翡翠瘟疫",
 		"EnglishName": "M32 MGL Venom",
 		"ID": "8111",
@@ -3598,8 +3998,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m32venom.png"
-    },
+	},
 	{
+		"SystemName": "kronos5",
 		"ChineseName": "X-15追魂收割者",
 		"EnglishName": "Hunter Killer X-15",
 		"ID": "8118",
@@ -3607,8 +4008,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/kronos5.png"
-    },
+	},
 	{
+		"SystemName": "kronos3",
 		"ChineseName": "X-90追魂收割者",
 		"EnglishName": "Hunter-Killer X90",
 		"ID": "8119",
@@ -3616,8 +4018,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/kronos3.png"
-    },
+	},
 	{
+		"SystemName": "kronos12",
 		"ChineseName": "X-12追魂收割者",
 		"EnglishName": "Hunter-Killer X-12",
 		"ID": "8132",
@@ -3625,8 +4028,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/kronos12.png"
-    },
+	},
 	{
+		"SystemName": "luger_ex",
 		"ChineseName": "暗黑遺跡魯格",
 		"EnglishName": "Dark Legacy Luger",
 		"ID": "8137",
@@ -3634,8 +4038,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/luger_ex.png"
-    },
+	},
 	{
+		"SystemName": "m95tiger",
 		"ChineseName": "M95 虎紋轟雷",
 		"EnglishName": "Barrett M95 White Tiger",
 		"ID": "8143",
@@ -3643,8 +4048,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/m95tiger.png"
-    },
+	},
 	{
+		"SystemName": "herochainsaw",
 		"ChineseName": "最後生存者的電鋸",
 		"EnglishName": "Last Survivor's Chainsaw",
 		"ID": "8142",
@@ -3652,8 +4058,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/herochainsaw.png"
-    },
+	},
 	{
+		"SystemName": "deaglewg_sr",
 		"ChineseName": "夜鷹 .50C白金",
 		"EnglishName": "Deagle Eagle 50C White Gold",
 		"ID": "8165",
@@ -3661,8 +4068,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/deaglewg_sr.png"
-    },
+	},
 	{
+		"SystemName": "akmgs",
 		"ChineseName": "AKM10th限定版",
 		"EnglishName": "AKM CSOGS Edition",
 		"ID": "8149",
@@ -3670,8 +4078,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/akmgs.png"
-    },
+	},
 	{
+		"SystemName": "deaglegs",
 		"ChineseName": "夜鷹 .50C10th限定版",
 		"EnglishName": "Desert Eagle 50C CSOGS Edition",
 		"ID": "8150",
@@ -3679,8 +4088,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/deaglegs.png"
-    },
+	},
 	{
+		"SystemName": "m1887gs",
 		"ChineseName": "閃靈獵手-M188710th限定版",
 		"EnglishName": "Winchester M1887 CSOGS Edition",
 		"ID": "8151",
@@ -3688,8 +4098,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/m1887gs.png"
-    },
+	},
 	{
+		"SystemName": "sl8gs",
 		"ChineseName": "審判之眼-SL810th限定版",
 		"EnglishName": "SL8 CSOGS Edition",
 		"ID": "8152",
@@ -3697,8 +4108,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/sl8gs.png"
-    },
+	},
 	{
+		"SystemName": "m4a1gs",
 		"ChineseName": "MAVERICK M4A1 卡賓10th限定版",
 		"EnglishName": "M4A1 CSOGS Edition",
 		"ID": "8153",
@@ -3706,8 +4118,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/m4a1gs.png"
-    },
+	},
 	{
+		"SystemName": "thompsongs",
 		"ChineseName": "極道狂徒 10th限定版",
 		"EnglishName": "Thompson Chicago CSOGS Edition",
 		"ID": "8154",
@@ -3715,8 +4128,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/thompsongs.png"
-    },
+	},
 	{
+		"SystemName": "lugergs",
 		"ChineseName": "魯格10th限定版",
 		"EnglishName": "Luger P08 CSOGS Edition",
 		"ID": "8155",
@@ -3724,8 +4138,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/lugergs.png"
-    },
+	},
 	{
+		"SystemName": "trg42gs",
 		"ChineseName": "芬蘭之星-TRG10th限定版",
 		"EnglishName": "TRG-42 CSOGS Edition",
 		"ID": "8156",
@@ -3733,8 +4148,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/trg42gs.png"
-    },
+	},
 	{
+		"SystemName": "mp5gs",
 		"ChineseName": "KM 衝鋒槍 10th限定版",
 		"EnglishName": "MP5 CSOGS Edition",
 		"ID": "8157",
@@ -3742,8 +4158,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/mp5gs.png"
-    },
+	},
 	{
+		"SystemName": "mg3gs",
 		"ChineseName": "殲滅者-MG3 10th限定版",
 		"EnglishName": "MG3 CSOGS Edition",
 		"ID": "8158",
@@ -3751,8 +4168,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/mg3gs.png"
-    },
+	},
 	{
+		"SystemName": "wa2000gs",
 		"ChineseName": "黃金疾風獵鷹10th限定版",
 		"EnglishName": "WA2000 CSOGS Edition",
 		"ID": "8159",
@@ -3760,8 +4178,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/wa2000gs.png"
-    },
+	},
 	{
+		"SystemName": "m79gs",
 		"ChineseName": "嗜血榴砲-M7910th限定版",
 		"EnglishName": "Sawed-Off M79 CSOGS Edition",
 		"ID": "8160",
@@ -3769,8 +4188,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/m79gs.png"
-    },
+	},
 	{
+		"SystemName": "m14ebrgs",
 		"ChineseName": "黑色炫風-M14 10th限定版",
 		"EnglishName": "M14 EBR CSOGS Edition",
 		"ID": "8161",
@@ -3778,8 +4198,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/m14ebrgs.png"
-    },
+	},
 	{
+		"SystemName": "stg44gs",
 		"ChineseName": "StG4410th限定版",
 		"EnglishName": "StG44 CSOGS Edition",
 		"ID": "8162",
@@ -3787,8 +4208,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/stg44gs.png"
-    },
+	},
 	{
+		"SystemName": "gungnir",
 		"ChineseName": "霸雷槍．天珠",
 		"EnglishName": "Gungnir",
 		"ID": "8171",
@@ -3796,8 +4218,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/gungnir.png"
-    },
+	},
 	{
+		"SystemName": "gunkatam",
 		"ChineseName": "聖裁鎗王",
 		"EnglishName": "Windrider",
 		"ID": "8192",
@@ -3805,8 +4228,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/gunkatam.png"
-    },
+	},
 	{
+		"SystemName": "19s1mp5",
 		"ChineseName": "魔輪K&M 衝鋒槍",
 		"EnglishName": "MP5 Trans-Gear",
 		"ID": "8172",
@@ -3814,8 +4238,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/19s1mp5.png"
-    },
+	},
 	{
+		"SystemName": "19s1m950",
 		"ChineseName": "魔輪卡利科950手槍",
 		"EnglishName": "M950 Trans-Gear",
 		"ID": "8173",
@@ -3823,8 +4248,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/19s1m950.png"
-    },
+	},
 	{
+		"SystemName": "19s1m24",
 		"ChineseName": "魔輪獵戶座-M24",
 		"EnglishName": "M24 Trans-Gear",
 		"ID": "8174",
@@ -3832,8 +4258,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/19s1m24.png"
-    },
+	},
 	{
+		"SystemName": "19s1infinityex2",
 		"ChineseName": "魔輪金蠍雙擊",
 		"EnglishName": "Dual Infinity Final Trans-Gear",
 		"ID": "8175",
@@ -3841,8 +4268,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/19s1infinityex2.png"
-    },
+	},
 	{
+		"SystemName": "19s1usas12",
 		"ChineseName": "魔輪USAS12",
 		"EnglishName": "USAS12 Trans-Gear",
 		"ID": "8176",
@@ -3850,8 +4278,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/19s1usas12.png"
-    },
+	},
 	{
+		"SystemName": "19s1qbz95",
 		"ChineseName": "魔輪特戰菁英-QBZ95B",
 		"EnglishName": "QBZ95B Trans-Gear",
 		"ID": "8178",
@@ -3859,8 +4288,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/19s1qbz95.png"
-    },
+	},
 	{
+		"SystemName": "kronos7",
 		"ChineseName": "X－7追魂收割者",
 		"EnglishName": "Hunter-Killer X-7",
 		"ID": "8193",
@@ -3868,8 +4298,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/kronos7.png"
-    },
+	},
 	{
+		"SystemName": "thunderpistol",
 		"ChineseName": "幽冥雷神",
 		"EnglishName": "Thunder Ghost Walker",
 		"ID": "8194",
@@ -3877,8 +4308,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/thunderpistol.png"
-    },
+	},
 	{
+		"SystemName": "speargunm",
 		"ChineseName": "獵魔槍",
 		"EnglishName": "Stinger",
 		"ID": "8220",
@@ -3886,8 +4318,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/speargunm.png"
-    },
+	},
 	{
+		"SystemName": "y19s2m1887",
 		"ChineseName": "貴族閃靈獵手-M1887",
 		"EnglishName": "Elegant Winchester M1887",
 		"ID": "8200",
@@ -3895,8 +4328,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s2m1887.png"
-    },
+	},
 	{
+		"SystemName": "y19s2dbarrel",
 		"ChineseName": "貴族雙子銀狼",
 		"EnglishName": "Elegant Double-Barreled Shotgun",
 		"ID": "8201",
@@ -3904,8 +4338,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s2dbarrel.png"
-    },
+	},
 	{
+		"SystemName": "y19s2python",
 		"ChineseName": "貴族鬼蟒",
 		"EnglishName": "Elegant Python",
 		"ID": "8202",
@@ -3913,8 +4348,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s2python.png"
-    },
+	},
 	{
+		"SystemName": "y19s2mosin",
 		"ChineseName": "貴族莫辛-納甘",
 		"EnglishName": "Elegant Mosin-nagant",
 		"ID": "8203",
@@ -3922,8 +4358,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s2mosin.png"
-    },
+	},
 	{
+		"SystemName": "y19s2mauserc96",
 		"ChineseName": "貴族毛瑟C96",
 		"EnglishName": "Elegant Mauser C96",
 		"ID": "8204",
@@ -3931,8 +4368,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s2mauserc96.png"
-    },
+	},
 	{
+		"SystemName": "y19s2spmg",
 		"ChineseName": "貴族炙焰重生",
 		"EnglishName": "Elegant Aeolis",
 		"ID": "8205",
@@ -3940,8 +4378,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y19s2spmg.png"
-    },
+	},
 	{
+		"SystemName": "kronos1",
 		"ChineseName": "X-45追魂收割者",
 		"EnglishName": "Hunter-Killer X-45",
 		"ID": "8219",
@@ -3949,8 +4388,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/kronos1.png"
-    },
+	},
 	{
+		"SystemName": "laserfist",
 		"ChineseName": "無限激光炮",
 		"EnglishName": "Infinity Laser Fist",
 		"ID": "8221",
@@ -3958,8 +4398,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/laserfist.png"
-    },
+	},
 	{
+		"SystemName": "m3dragonm",
 		"ChineseName": "深海魔鯊",
 		"EnglishName": "Big Shark",
 		"ID": "8247",
@@ -3967,8 +4408,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/m3dragonm.png"
-    },
+	},
 	{
+		"SystemName": "y19s3bizon",
 		"ChineseName": "水樂園野牛衝鋒槍",
 		"EnglishName": "PP-19 Bizon Splash",
 		"ID": "8229",
@@ -3976,8 +4418,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s3bizon.png"
-    },
+	},
 	{
+		"SystemName": "y19s3m79",
 		"ChineseName": "水樂園噬血榴砲-M79",
 		"EnglishName": "Sawed-Off M79 Splash",
 		"ID": "8230",
@@ -3985,8 +4428,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s3m79.png"
-    },
+	},
 	{
+		"SystemName": "y19s3groza",
 		"ChineseName": "水樂園OTS-14 GROZA",
 		"EnglishName": "GROZA Splash",
 		"ID": "8231",
@@ -3994,8 +4438,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s3groza.png"
-    },
+	},
 	{
+		"SystemName": "y19s3uts15",
 		"ChineseName": "水樂園闇影獵人UST-15",
 		"EnglishName": "UTS-15 Splash",
 		"ID": "8232",
@@ -4003,8 +4448,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s3uts15.png"
-    },
+	},
 	{
+		"SystemName": "y19s3rpg7",
 		"ChineseName": "水樂園裝甲火箭砲RPG-7",
 		"EnglishName": "RPG-7 Splash",
 		"ID": "8233",
@@ -4012,8 +4458,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s3rpg7.png"
-    },
+	},
 	{
+		"SystemName": "y19s3m200",
 		"ChineseName": "水樂園鷹眼M200",
 		"EnglishName": "M200 Splash",
 		"ID": "8234",
@@ -4021,8 +4468,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y19s3m200.png"
-    },
+	},
 	{
+		"SystemName": "y19s3coilmg",
 		"ChineseName": "水樂園超電磁砲",
 		"EnglishName": "Coil Gun Splash",
 		"ID": "8235",
@@ -4030,8 +4478,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y19s3coilmg.png"
-    },
+	},
 	{
+		"SystemName": "magicmg",
 		"ChineseName": "閃耀的紅寶石之心",
 		"EnglishName": "Shining Heart Rod",
 		"ID": "8249",
@@ -4039,8 +4488,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/magicmg.png"
-    },
+	},
 	{
+		"SystemName": "lockongun",
 		"ChineseName": "TMSR星換流光",
 		"EnglishName": "X-TRACKER",
 		"ID": "8258",
@@ -4048,8 +4498,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/lockongun.png"
-    },
+	},
 	{
+		"SystemName": "m95tigerm",
 		"ChineseName": "M95 冥府戰神",
 		"EnglishName": "Ghost Knight",
 		"ID": "8282",
@@ -4057,8 +4508,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m95tigerm.png"
-    },
+	},
 	{
+		"SystemName": "y19s4railcannon",
 		"ChineseName": "龐克金滑軌加農",
 		"EnglishName": "Halloween Rail Cannon",
 		"ID": "8262",
@@ -4066,8 +4518,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y19s4railcannon.png"
-    },
+	},
 	{
+		"SystemName": "y19s4psg1",
 		"ChineseName": "龐克金PSG-1",
 		"EnglishName": "Halloween PSG-1",
 		"ID": "8263",
@@ -4075,8 +4528,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s4psg1.png"
-    },
+	},
 	{
+		"SystemName": "y19s4tar21",
 		"ChineseName": "龐克金TAR-21",
 		"EnglishName": "Halloween TAR-21",
 		"ID": "8264",
@@ -4084,8 +4538,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s4tar21.png"
-    },
+	},
 	{
+		"SystemName": "y19s4dualkriss",
 		"ChineseName": "龐克金霹靂悍將",
 		"EnglishName": "Halloween Dual Kriss",
 		"ID": "8265",
@@ -4093,8 +4548,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s4dualkriss.png"
-    },
+	},
 	{
+		"SystemName": "y19s4mk48",
 		"ChineseName": "龐克金MK48",
 		"EnglishName": "Halloween MK48",
 		"ID": "8266",
@@ -4102,8 +4558,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s4mk48.png"
-    },
+	},
 	{
+		"SystemName": "y19s4automag",
 		"ChineseName": "龐克金荒漠之鷹",
 		"EnglishName": "Halloween AutoMag V",
 		"ID": "8267",
@@ -4111,8 +4568,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s4automag.png"
-    },
+	},
 	{
+		"SystemName": "patroldrone",
 		"ChineseName": "地獄電光犬",
 		"EnglishName": "Hellhound",
 		"ID": "8286",
@@ -4120,8 +4578,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/patroldrone.png"
-    },
+	},
 	{
+		"SystemName": "magicsg",
 		"ChineseName": "星光魔法棒",
 		"EnglishName": "Starlight Rolling Shooter",
 		"ID": "8295",
@@ -4129,8 +4588,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/magicsg.png"
-    },
+	},
 	{
+		"SystemName": "wondercannon",
 		"ChineseName": "燎原至尊．炎帝",
 		"EnglishName": "Heaven Splitter",
 		"ID": "8314",
@@ -4138,8 +4598,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/wondercannon.png"
-    },
+	},
 	{
+		"SystemName": "zhebox01",
 		"ChineseName": "黃金工具箱",
 		"EnglishName": "Gold Toolbox",
 		"ID": "8303",
@@ -4147,8 +4608,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/zhebox01.png"
-    },
+	},
 	{
+		"SystemName": "zhebox02",
 		"ChineseName": "工具箱",
 		"EnglishName": "Toolbox",
 		"ID": "8304",
@@ -4156,8 +4618,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/zhebox02.png"
-    },
+	},
 	{
+		"SystemName": "zhebox04",
 		"ChineseName": "小型急救箱",
 		"EnglishName": "Small First Aid Kit",
 		"ID": "8306",
@@ -4165,8 +4628,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/zhebox04.png"
-    },
+	},
 	{
+		"SystemName": "svdex",
 		"ChineseName": "英雄戰擊",
 		"EnglishName": "SVD Custom + Grenade Launcher",
 		"ID": "8315",
@@ -4174,8 +4638,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/svdex.png"
-    },
+	},
 	{
+		"SystemName": "qbarrel",
 		"ChineseName": "碎骨銀狼",
 		"EnglishName": "Quad Barrel",
 		"ID": "8316",
@@ -4183,8 +4648,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/qbarrel.png"
-    },
+	},
 	{
+		"SystemName": "dualkrisshero",
 		"ChineseName": "終極悍將",
 		"EnglishName": "Dual Kriss Custom",
 		"ID": "8317",
@@ -4192,8 +4658,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/dualkrisshero.png"
-    },
+	},
 	{
+		"SystemName": "m134hero",
 		"ChineseName": "超．火神機槍",
 		"EnglishName": "M134 Vulcan",
 		"ID": "8318",
@@ -4201,8 +4668,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/m134hero.png"
-    },
+	},
 	{
+		"SystemName": "ak47L",
 		"ChineseName": "AK47L",
 		"EnglishName": "AK-47 60R",
 		"ID": "8319",
@@ -4210,8 +4678,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/ak47l.png"
-    },
+	},
 	{
+		"SystemName": "mp7a1D",
 		"ChineseName": "雙持 MP7A1",
 		"EnglishName": "Dual MP7A1",
 		"ID": "8320",
@@ -4219,8 +4688,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/mp7a1d.png"
-    },
+	},
 	{
+		"SystemName": "poisongun",
 		"ChineseName": "Z-Gun",
 		"EnglishName": "Poison Launcher",
 		"ID": "8322",
@@ -4228,8 +4698,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/poisongun.png"
-    },
+	},
 	{
+		"SystemName": "deagleD",
 		"ChineseName": "雙持 夜鷹",
 		"EnglishName": "Dual Desert Eagle",
 		"ID": "8323",
@@ -4237,8 +4708,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/deagled.png"
-    },
+	},
 	{
+		"SystemName": "kronos12ex",
 		"ChineseName": "X-12熾燄收割者",
 		"EnglishName": "Scorching Auto-Shotgun",
 		"ID": "8327",
@@ -4246,8 +4718,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/kronos12ex.png"
-    },
+	},
 	{
+		"SystemName": "sgmissilem",
 		"ChineseName": "極．煉獄火神",
 		"EnglishName": "Blistering Bolt Repeater",
 		"ID": "8350",
@@ -4255,8 +4728,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sgmissilem.png"
-    },
+	},
 	{
+		"SystemName": "y20s1Musket",
 		"ChineseName": "火繩槍",
 		"EnglishName": "Matchlock Pistol",
 		"ID": "8329",
@@ -4264,8 +4738,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y20s1musket.png"
-    },
+	},
 	{
+		"SystemName": "y20s1bow",
 		"ChineseName": "朝鮮弓",
 		"EnglishName": "Reflex Bow",
 		"ID": "8330",
@@ -4273,8 +4748,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y20s1bow.png"
-    },
+	},
 	{
+		"SystemName": "y20s1m1garand",
 		"ChineseName": "鳥銃",
 		"EnglishName": "Arquebus",
 		"ID": "8331",
@@ -4282,8 +4758,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y20s1m1garand.png"
-    },
+	},
 	{
+		"SystemName": "jetgun",
 		"ChineseName": "閃電之怒",
 		"EnglishName": "Lightning Fury",
 		"ID": "8351",
@@ -4291,8 +4768,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/jetgun.png"
-    },
+	},
 	{
+		"SystemName": "pianogun",
 		"ChineseName": "靈魂交響曲",
 		"EnglishName": "Psychic Harmonium",
 		"ID": "8356",
@@ -4300,8 +4778,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/pianogun.png"
-    },
+	},
 	{
+		"SystemName": "y20s2scara",
 		"ChineseName": "SCAR OZ-A",
 		"EnglishName": "SCAR OZ-A",
 		"ID": "8358",
@@ -4309,8 +4788,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y20s2scara.png"
-    },
+	},
 	{
+		"SystemName": "y20s2scarb",
 		"ChineseName": "SCAR OZ-B",
 		"EnglishName": "SCAR OZ-B",
 		"ID": "8359",
@@ -4318,8 +4798,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y20s2scarb.png"
-    },
+	},
 	{
+		"SystemName": "y20s2scarc",
 		"ChineseName": "SCAR OZ-C",
 		"EnglishName": "SCAR OZ-C",
 		"ID": "8360",
@@ -4327,8 +4808,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y20s2scarc.png"
-    },
+	},
 	{
+		"SystemName": "y20s2scard",
 		"ChineseName": "SCAR OZ-D",
 		"EnglishName": "SCAR OZ-D",
 		"ID": "8361",
@@ -4336,8 +4818,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y20s2scard.png"
-    },
+	},
 	{
+		"SystemName": "voidpistol",
 		"ChineseName": "虛空復仇者．X",
 		"EnglishName": "Void Avenger",
 		"ID": "8381",
@@ -4345,8 +4828,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/voidpistol.png"
-    },
+	},
 	{
+		"SystemName": "gatlingex",
 		"ChineseName": "地獄加農砲",
 		"EnglishName": "Infernal Cannon",
 		"ID": "8382",
@@ -4354,8 +4838,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/gatlingex.png"
-    },
+	},
 	{
+		"SystemName": "vxlmarker_blank",
 		"ChineseName": "建造標章",
 		"EnglishName": "Build Marker License",
 		"ID": "8413",
@@ -4363,8 +4848,9 @@ let WeaponData = [
 		"Type": "STUDIO",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxlmarker_blank.png"
-    },
+	},
 	{
+		"SystemName": "laserfistex",
 		"ChineseName": "無限激光炮EX",
 		"EnglishName": "Eternity Laser Fist",
 		"ID": "8385",
@@ -4372,8 +4858,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/laserfistex.png"
-    },
+	},
 	{
+		"SystemName": "buffng7",
 		"ChineseName": "聖環啟示錄DOOM",
 		"EnglishName": "Negev NG-7 Ajax",
 		"ID": "8414",
@@ -4381,8 +4868,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/buffng7.png"
-    },
+	},
 	{
+		"SystemName": "y20s3plasmaexa",
 		"ChineseName": "幽能離子MK-1",
 		"EnglishName": "Plasma Rifle MK-1",
 		"ID": "8393",
@@ -4390,8 +4878,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y20s3plasmaexa.png"
-    },
+	},
 	{
+		"SystemName": "y20s3plasmaexb",
 		"ChineseName": "幽能離子MK-2",
 		"EnglishName": "Plasma Rifle MK-2",
 		"ID": "8394",
@@ -4399,8 +4888,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y20s3plasmaexb.png"
-    },
+	},
 	{
+		"SystemName": "y20s3plasmaexc",
 		"ChineseName": "提亞馬特MK-3",
 		"EnglishName": "Tiamat MK-3",
 		"ID": "8395",
@@ -4408,8 +4898,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y20s3plasmaexc.png"
-    },
+	},
 	{
+		"SystemName": "y20s3plasmaexd",
 		"ChineseName": "提亞馬特MK-4",
 		"EnglishName": "Tiamat MK-4",
 		"ID": "8396",
@@ -4417,8 +4908,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y20s3plasmaexd.png"
-    },
+	},
 	{
+		"SystemName": "gungnirex",
 		"ChineseName": "霸雷槍．血月天珠",
 		"EnglishName": "Dark Star",
 		"ID": "8425",
@@ -4426,8 +4918,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/gungnirex.png"
-    },
+	},
 	{
+		"SystemName": "winggun",
 		"ChineseName": "梵天聖翼．迦樓羅",
 		"EnglishName": "Divine Blaster",
 		"ID": "8474",
@@ -4435,8 +4928,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/winggun.png"
-    },
+	},
 	{
+		"SystemName": "sgmissileex",
 		"ChineseName": "極．煉獄殺神",
 		"EnglishName": "Magnum Launcher XII",
 		"ID": "8456",
@@ -4444,8 +4938,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/sgmissileex.png"
-    },
+	},
 	{
+		"SystemName": "crossbowex21",
 		"ChineseName": "雷霆飛鷹",
 		"EnglishName": "Thunder Force",
 		"ID": "8480",
@@ -4453,8 +4948,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/crossbowex21.png"
-    },
+	},
 	{
+		"SystemName": "y21s1jetgunma",
 		"ChineseName": "熊熊怒火MK-1",
 		"EnglishName": "Bear Buster",
 		"ID": "8457",
@@ -4462,8 +4958,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y21s1jetgunma.png"
-    },
+	},
 	{
+		"SystemName": "y21s1jetgunmb",
 		"ChineseName": "熊熊怒火MK-2",
 		"EnglishName": "Bear Fury Mk. 1",
 		"ID": "8458",
@@ -4471,8 +4968,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y21s1jetgunmb.png"
-    },
+	},
 	{
+		"SystemName": "y21s1jetgunmc",
 		"ChineseName": "熊熊怒火MK-3",
 		"EnglishName": "Bear Fury Mk. 2",
 		"ID": "8459",
@@ -4480,8 +4978,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y21s1jetgunmc.png"
-    },
+	},
 	{
+		"SystemName": "y21s1jetgunmd",
 		"ChineseName": "熊熊怒火MK-4",
 		"EnglishName": "Bear Fury Mk. 3",
 		"ID": "8460",
@@ -4489,8 +4988,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y21s1jetgunmd.png"
-    },
+	},
 	{
+		"SystemName": "sbmine",
 		"ChineseName": "量子聚爆星",
 		"EnglishName": "Satellite Mine",
 		"ID": "8483",
@@ -4498,8 +4998,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/sbmine.png"
-    },
+	},
 	{
+		"SystemName": "mgsm",
 		"ChineseName": "泰坦破壞者",
 		"EnglishName": "Devastator",
 		"ID": "8525",
@@ -4507,8 +5008,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/mgsm.png"
-    },
+	},
 	{
+		"SystemName": "y21s2lockongunma",
 		"ChineseName": "颶風狩獵者",
 		"EnglishName": "Wind Tracker",
 		"ID": "8502",
@@ -4516,8 +5018,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y21s2lockongunma.png"
-    },
+	},
 	{
+		"SystemName": "y21s2lockongunmb",
 		"ChineseName": "火焰狩獵者",
 		"EnglishName": "Fire Tracker",
 		"ID": "8503",
@@ -4525,8 +5028,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y21s2lockongunmb.png"
-    },
+	},
 	{
+		"SystemName": "y21s2lockongunmc",
 		"ChineseName": "雷電狩獵者",
 		"EnglishName": "Lighting Tracker",
 		"ID": "8504",
@@ -4534,8 +5038,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y21s2lockongunmc.png"
-    },
+	},
 	{
+		"SystemName": "y21s2lockongunmd",
 		"ChineseName": "元素狩獵者",
 		"EnglishName": "Elemental Tracker",
 		"ID": "8505",
@@ -4543,8 +5048,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y21s2lockongunmd.png"
-    },
+	},
 	{
+		"SystemName": "jetgunex",
 		"ChineseName": "終焉雷霆",
 		"EnglishName": "Blue Storm",
 		"ID": "8523",
@@ -4552,8 +5058,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/jetgunex.png"
-    },
+	},
 	{
+		"SystemName": "pianogunex",
 		"ChineseName": "萬靈鎮魂曲",
 		"EnglishName": "Psychic Sizer",
 		"ID": "8622",
@@ -4561,8 +5068,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/pianogunex.png"
-    },
+	},
 	{
+		"SystemName": "guillotineex",
 		"ChineseName": "電馳光輪",
 		"EnglishName": "Astra",
 		"ID": "8532",
@@ -4570,8 +5078,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/guillotineex.png"
-    },
+	},
 	{
+		"SystemName": "y21s3cannonexma",
 		"ChineseName": "機械鳳凰MK-1",
 		"EnglishName": "Gear-Bird Cannon Mk. 1",
 		"ID": "8536",
@@ -4579,8 +5088,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y21s3cannonexma.png"
-    },
+	},
 	{
+		"SystemName": "y21s3cannonexmb",
 		"ChineseName": "機械鳳凰MK-2",
 		"EnglishName": "Gear-Bird Cannon Mk. 2",
 		"ID": "8537",
@@ -4588,8 +5098,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y21s3cannonexmb.png"
-    },
+	},
 	{
+		"SystemName": "y21s3cannonexmc",
 		"ChineseName": "機械鳳凰MK-3",
 		"EnglishName": "Gear-Bird Cannon Mk. 3",
 		"ID": "8538",
@@ -4597,8 +5108,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y21s3cannonexmc.png"
-    },
+	},
 	{
+		"SystemName": "y21s3cannonexmd",
 		"ChineseName": "烈焰機械鳳凰",
 		"EnglishName": "Gran Bird Cannon",
 		"ID": "8539",
@@ -4606,8 +5118,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y21s3cannonexmd.png"
-    },
+	},
 	{
+		"SystemName": "huntbow",
 		"ChineseName": "蝕咒聖弓",
 		"EnglishName": "Failnaught",
 		"ID": "8563",
@@ -4615,8 +5128,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/huntbow.png"
-    },
+	},
 	{
+		"SystemName": "buffsg552ex",
 		"ChineseName": "地獄犬SG552",
 		"EnglishName": "SG552 Cerberus",
 		"ID": "8555",
@@ -4624,8 +5138,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/buffsg552ex.png"
-    },
+	},
 	{
+		"SystemName": "bufffiveseven",
 		"ChineseName": "闇閻星環",
 		"EnglishName": "Laevateinn",
 		"ID": "8568",
@@ -4633,8 +5148,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/bufffiveseven.png"
-    },
+	},
 	{
+		"SystemName": "y21s4janusa",
 		"ChineseName": "機械恐龍MK-1",
 		"EnglishName": "Mecha Dino MK-1",
 		"ID": "8579",
@@ -4642,8 +5158,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y21s4janusa.png"
-    },
+	},
 	{
+		"SystemName": "y21s4janusb",
 		"ChineseName": "機械恐龍MK-2",
 		"EnglishName": "Mecha Dino MK-2",
 		"ID": "8580",
@@ -4651,8 +5168,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y21s4janusb.png"
-    },
+	},
 	{
+		"SystemName": "y21s4janusc",
 		"ChineseName": "機械恐龍MK-3",
 		"EnglishName": "Mecha Dino MK-3",
 		"ID": "8581",
@@ -4660,8 +5178,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y21s4janusc.png"
-    },
+	},
 	{
+		"SystemName": "y21s4janusd",
 		"ChineseName": "機械爆龍MK-4",
 		"EnglishName": "Mecha Dino MK-4",
 		"ID": "8582",
@@ -4669,8 +5188,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y21s4janusd.png"
-    },
+	},
 	{
+		"SystemName": "revivegun",
 		"ChineseName": "永恆極光．閃",
 		"EnglishName": "Quantum Horizon",
 		"ID": "8621",
@@ -4678,8 +5198,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/revivegun.png"
-    },
+	},
 	{
+		"SystemName": "y22s1waterpistolma",
 		"ChineseName": "小丑變色龍槍",
 		"EnglishName": "Pierrot Chameleon Gun",
 		"ID": "8633",
@@ -4687,8 +5208,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s1waterpistolma.png"
-    },
+	},
 	{
+		"SystemName": "y22s1crossbowex21mc",
 		"ChineseName": "小丑魔術弓",
 		"EnglishName": "Pierrot Magic Bow",
 		"ID": "8635",
@@ -4696,8 +5218,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s1crossbowex21mc.png"
-    },
+	},
 	{
+		"SystemName": "lasersg",
 		"ChineseName": "雷蛇黑曼巴",
 		"EnglishName": "Death Eater",
 		"ID": "8666",
@@ -4705,8 +5228,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/lasersg.png"
-    },
+	},
 	{
+		"SystemName": "voidpistolex",
 		"ChineseName": "虛空制裁者‧X",
 		"EnglishName": "Supreme Sentinel",
 		"ID": "8663",
@@ -4714,8 +5238,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/voidpistolex.png"
-    },
+	},
 	{
+		"SystemName": "chainsawex",
 		"ChineseName": "雷射開膛手",
 		"EnglishName": "Laser Ripper",
 		"ID": "8667",
@@ -4723,8 +5248,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/chainsawex.png"
-    },
+	},
 	{
+		"SystemName": "y22s2lunarcannon",
 		"ChineseName": "隕月加農砲",
 		"EnglishName": "Luna Cannon",
 		"ID": "8668",
@@ -4732,8 +5258,9 @@ let WeaponData = [
 		"Type": "SHOTGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s2lunarcannon.png"
-    },
+	},
 	{
+		"SystemName": "y22s2sfpistol",
 		"ChineseName": "星環颶風",
 		"EnglishName": "Star Tail",
 		"ID": "8669",
@@ -4741,8 +5268,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s2sfpistol.png"
-    },
+	},
 	{
+		"SystemName": "divinetitan",
 		"ChineseName": "喚光聖翼．天罰",
 		"EnglishName": "Sandalphon",
 		"ID": "8699",
@@ -4750,8 +5278,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/divinetitan.png"
-    },
+	},
 	{
+		"SystemName": "sgdrillex",
 		"ChineseName": "血月螺旋牙",
 		"EnglishName": "Gigantic Drill",
 		"ID": "8702",
@@ -4759,8 +5288,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/sgdrillex.png"
-    },
+	},
 	{
+		"SystemName": "wondercannonex",
 		"ChineseName": "極地風暴．冰皇",
 		"EnglishName": "Asura Hell Splitter",
 		"ID": "8709",
@@ -4768,8 +5298,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/wondercannonex.png"
-    },
+	},
 	{
+		"SystemName": "restrictionpistol",
 		"ChineseName": "獨眼巨人",
 		"EnglishName": "Cyclops",
 		"ID": "8720",
@@ -4777,8 +5308,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/restrictionpistol.png"
-    },
+	},
 	{
+		"SystemName": "y22s3janus7",
 		"ChineseName": "遠古聖痕",
 		"EnglishName": "Ancient Keeper",
 		"ID": "8717",
@@ -4786,8 +5318,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s3janus7.png"
-    },
+	},
 	{
+		"SystemName": "y22s3bufffiveseven",
 		"ChineseName": "遠古星環",
 		"EnglishName": "Ancient Bringer",
 		"ID": "8718",
@@ -4795,8 +5328,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s3bufffiveseven.png"
-    },
+	},
 	{
+		"SystemName": "chainsr",
 		"ChineseName": "Hecate Ⅱ暗影忍者",
 		"EnglishName": "Hcate II Umbra",
 		"ID": "8794",
@@ -4804,8 +5338,9 @@ let WeaponData = [
 		"Type": "SNIPERRIFLE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/chainsr.png"
-    },
+	},
 	{
+		"SystemName": "lightningar",
 		"ChineseName": "電能-V",
 		"EnglishName": "Electron-V",
 		"ID": "8752",
@@ -4813,8 +5348,9 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/lightningar.png"
-    },
+	},
 	{
+		"SystemName": "rocketpistol",
 		"ChineseName": "火炎之怒",
 		"EnglishName": "Twin Hawk",
 		"ID": "8767",
@@ -4822,8 +5358,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/rocketpistol.png"
-    },
+	},
 	{
+		"SystemName": "halogun",
 		"ChineseName": "紫炫流光．無盡",
 		"EnglishName": "Arbalest",
 		"ID": "8787",
@@ -4831,8 +5368,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/halogun.png"
-    },
+	},
 	{
+		"SystemName": "y23s1sfsmg",
 		"ChineseName": "Cyber科技雷光",
 		"EnglishName": "Laser Storm",
 		"ID": "8780",
@@ -4840,8 +5378,9 @@ let WeaponData = [
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y23s1sfsmg.png"
-    },
+	},
 	{
+		"SystemName": "y23s1sfmg",
 		"ChineseName": "Cyber科技終結者",
 		"EnglishName": "Avalanche TECH",
 		"ID": "8781",
@@ -4849,8 +5388,9 @@ let WeaponData = [
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y23s1sfmg.png"
-    },
+	},
 	{
+		"SystemName": "y23s1dartpistol",
 		"ChineseName": "Cyber科技電槍",
 		"EnglishName": "Dart Pistol TECH",
 		"ID": "8782",
@@ -4858,8 +5398,9 @@ let WeaponData = [
 		"Type": "PISTOL",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y23s1dartpistol.png"
-    },
+	},
 	{
+		"SystemName": "sfturret",
 		"ChineseName": "浩劫法環",
 		"EnglishName": "Cousteau",
 		"ID": "8820",
@@ -4867,8 +5408,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/sfturret.png"
-    },
+	},
 	{
+		"SystemName": "winggunex",
 		"ChineseName": "墮天闇翼．薩麥爾",
 		"EnglishName": "Doom Blaster",
 		"ID": "8825",
@@ -4876,8 +5418,49 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/winggunex.png"
-    },
+	},
 	{
+		"SystemName": "y23s2buffaug",
+		"ChineseName": "守衛者AUG",
+		"EnglishName": "AUG Guardians",
+		"ID": "8850",
+		"InGameID": "543",
+		"Type": "RIFLE",
+		"Rarity": "1",
+		"ImageURL": "./images/weapon/y23s2buffaug.png"
+	},
+	{
+		"SystemName": "ignitemg",
+		"ChineseName": "Ignite-7",
+		"EnglishName": "Ignite-7",
+		"ID": "8851",
+		"InGameID": "544",
+		"Type": "MACHINEGUN",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/ignitemg.png"
+	},
+	{
+		"SystemName": "y23s2sl8",
+		"ChineseName": "女王審判之眼",
+		"EnglishName": "SL8 Queen",
+		"ID": "8847",
+		"InGameID": "545",
+		"Type": "SNIPERRIFLE",
+		"Rarity": "1",
+		"ImageURL": "./images/weapon/y23s2sl8.png"
+	},
+	{
+		"SystemName": "y23s2dfpistol",
+		"ChineseName": "女王鴨掌式手槍",
+		"EnglishName": "Special duck foot gun Queen",
+		"ID": "8848",
+		"InGameID": "546",
+		"Type": "PISTOL",
+		"Rarity": "1",
+		"ImageURL": "./images/weapon/y23s2dfpistol.png"
+	},
+	{
+		"SystemName": "Kevlar",
 		"ChineseName": "克夫勒防彈背心",
 		"EnglishName": "Kevlar Body Armor",
 		"ID": "27",
@@ -4885,8 +5468,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/kevlar.png"
-    },
+	},
 	{
+		"SystemName": "Kevlar_Helmet",
 		"ChineseName": "克夫勒防彈背心+頭盔",
 		"EnglishName": "Kevlar Body Armor + Helmet",
 		"ID": "28",
@@ -4894,8 +5478,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/kevlar_helmet.png"
-    },
+	},
 	{
+		"SystemName": "Flashbang",
 		"ChineseName": "閃光彈",
 		"EnglishName": "Flash Bang",
 		"ID": "30",
@@ -4903,8 +5488,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/flashbang.png"
-    },
+	},
 	{
+		"SystemName": "HEGrenade",
 		"ChineseName": "高爆手榴彈",
 		"EnglishName": "HE Grenade",
 		"ID": "31",
@@ -4912,8 +5498,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/hegrenade.png"
-    },
+	},
 	{
+		"SystemName": "SmokeGrenade",
 		"ChineseName": "煙霧彈",
 		"EnglishName": "Smokescreen Grenade",
 		"ID": "26",
@@ -4921,8 +5508,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/smokegrenade.png"
-    },
+	},
 	{
+		"SystemName": "defuser",
 		"ChineseName": "炸彈拆解包",
 		"EnglishName": "Bomb Defusal Kit",
 		"ID": "29",
@@ -4930,8 +5518,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/defuser.png"
-    },
+	},
 	{
+		"SystemName": "nightvision",
 		"ChineseName": "夜視鏡",
 		"EnglishName": "Night Vision Goggles",
 		"ID": "25",
@@ -4939,8 +5528,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/nightvision.png"
-    },
+	},
 	{
+		"SystemName": "M24Grenade",
 		"ChineseName": "德軍手榴彈",
 		"EnglishName": "M24 Grenade",
 		"ID": "212",
@@ -4948,8 +5538,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/m24grenade.png"
-    },
+	},
 	{
+		"SystemName": "fGrenade2",
 		"ChineseName": "毀滅手榴彈-M67",
 		"EnglishName": "Frag Grenade",
 		"ID": "214",
@@ -4957,8 +5548,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/fgrenade2.png"
-    },
+	},
 	{
+		"SystemName": "Firebomb",
 		"ChineseName": "燃燒彈",
 		"EnglishName": "Flame Grenade",
 		"ID": "215",
@@ -4966,8 +5558,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/firebomb.png"
-    },
+	},
 	{
+		"SystemName": "HeartBomb",
 		"ChineseName": "愛心炸彈",
 		"EnglishName": "Heart Grenade",
 		"ID": "174",
@@ -4975,8 +5568,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/heartbomb.png"
-    },
+	},
 	{
+		"SystemName": "Mooncake",
 		"ChineseName": "月餅手榴彈",
 		"EnglishName": "Moon Cake Grenade",
 		"ID": "247",
@@ -4984,8 +5578,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/mooncake.png"
-    },
+	},
 	{
+		"SystemName": "looseslicesgrenade",
 		"ChineseName": "松片手榴彈",
 		"EnglishName": "Moon Cake Grenade(Korea)",
 		"ID": "247",
@@ -4993,8 +5588,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/looseslicesgrenade.png"
-    },
+	},
 	{
+		"SystemName": "Pumpkin",
 		"ChineseName": "南瓜手榴彈",
 		"EnglishName": "Pumpkin Grenade",
 		"ID": "251",
@@ -5002,8 +5598,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/pumpkin.png"
-    },
+	},
 	{
+		"SystemName": "cartfrag",
 		"ChineseName": "藍寶手榴彈",
 		"EnglishName": "Dao Grenade",
 		"ID": "313",
@@ -5011,8 +5608,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/cartfrag.png"
-    },
+	},
 	{
+		"SystemName": "holybomb",
 		"ChineseName": "聖水手榴彈",
 		"EnglishName": "Holy Water Grenade",
 		"ID": "394",
@@ -5020,8 +5618,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/holybomb.png"
-    },
+	},
 	{
+		"SystemName": "sfgrenade",
 		"ChineseName": "電漿手榴彈",
 		"EnglishName": "Plasma Grenades",
 		"ID": "720",
@@ -5029,8 +5628,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sfgrenade.png"
-    },
+	},
 	{
+		"SystemName": "throwingstone",
 		"ChineseName": "石頭(偵查事件簿)",
 		"EnglishName": "Stone(Zombie Files Mode)",
 		"ID": "755",
@@ -5038,8 +5638,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/throwingstone.png"
-    },
+	},
 	{
+		"SystemName": "throwingbottle",
 		"ChineseName": "燃燒瓶(偵查事件簿)",
 		"EnglishName": "Bottle(Zombie Files Mode)",
 		"ID": "756",
@@ -5047,8 +5648,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/throwingbottle.png"
-    },
+	},
 	{
+		"SystemName": "chaingren",
 		"ChineseName": "猴塞雷",
 		"EnglishName": "Chain Grenade",
 		"ID": "845",
@@ -5056,8 +5658,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/chaingren.png"
-    },
+	},
 	{
+		"SystemName": "vxlgrenade_blank",
 		"ChineseName": "破壞型手榴彈",
 		"EnglishName": "Junk grenade",
 		"ID": "994",
@@ -5065,17 +5668,19 @@ let WeaponData = [
 		"Type": "STUDIO",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxlgrenade_blank.png"
-    },
+	},
 	{
+		"SystemName": "not_throw",
 		"ChineseName": "新鮮的雞蛋(明星鬥陣．雞)",
 		"EnglishName": "Fresh Egg",
 		"ID": "0",
 		"InGameID": "2040",
-		"Type": "GRENADE",
+		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/not_throw.png"
-    },
+	},
 	{
+		"SystemName": "chinaeventbomb",
 		"ChineseName": "粽子手榴彈",
 		"EnglishName": "Lotus Leaf Rice Grenade",
 		"ID": "8114",
@@ -5083,8 +5688,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/chinaeventbomb.png"
-    },
+	},
 	{
+		"SystemName": "waterbomb",
 		"ChineseName": "水球手榴彈",
 		"EnglishName": "Water Balloon Grenade",
 		"ID": "8126",
@@ -5092,8 +5698,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/waterbomb.png"
-    },
+	},
 	{
+		"SystemName": "holybomb_ex",
 		"ChineseName": "精煉聖水手榴彈",
 		"EnglishName": "Refined Holy Water Grenade",
 		"ID": "8136",
@@ -5101,8 +5708,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/holybomb_ex.png"
-    },
+	},
 	{
+		"SystemName": "stickybomb",
 		"ChineseName": "火蓮霧",
 		"EnglishName": "Trinity Grenade",
 		"ID": "8148",
@@ -5110,8 +5718,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/stickybomb.png"
-    },
+	},
 	{
+		"SystemName": "y20s1grenade",
 		"ChineseName": "飛擊震天雷",
 		"EnglishName": "Timed Bomb",
 		"ID": "8333",
@@ -5119,8 +5728,9 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y20s1grenade.png"
-    },
+	},
 	{
+		"SystemName": "flashlight",
 		"ChineseName": "手電筒",
 		"EnglishName": "Flashlight",
 		"ID": "0",
@@ -5128,8 +5738,9 @@ let WeaponData = [
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/flashlight.png"
-    },
+	},
 	{
+		"SystemName": "vxlmedikit30",
 		"ChineseName": "初級治療券",
 		"EnglishName": "Small HP recovery potion",
 		"ID": "926",
@@ -5137,8 +5748,9 @@ let WeaponData = [
 		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxlmedikit30.png"
-    },
+	},
 	{
+		"SystemName": "vxlmedikit100",
 		"ChineseName": "高級治療券",
 		"EnglishName": "Big HP recovery potion",
 		"ID": "927",
@@ -5146,8 +5758,9 @@ let WeaponData = [
 		"Type": "NONE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxlmedikit100.png"
-    },
+	},
 	{
+		"SystemName": "defaultKnife",
 		"ChineseName": "小刀",
 		"EnglishName": "Seal Knife",
 		"ID": "161",
@@ -5155,8 +5768,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/defaultknife.png"
-    },
+	},
 	{
+		"SystemName": "NataKnife",
 		"ChineseName": "鋒利銀刃",
 		"EnglishName": "Nata Knife",
 		"ID": "164",
@@ -5164,8 +5778,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/nataknife.png"
-    },
+	},
 	{
+		"SystemName": "Hammer",
 		"ChineseName": "好威鐵鎚",
 		"EnglishName": "Hammer",
 		"ID": "176",
@@ -5173,8 +5788,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/hammer.png"
-    },
+	},
 	{
+		"SystemName": "Hdagger",
 		"ChineseName": "背刺短刀",
 		"EnglishName": "Hunting Dagger",
 		"ID": "158",
@@ -5182,8 +5798,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/hdagger.png"
-    },
+	},
 	{
+		"SystemName": "JKnife",
 		"ChineseName": "朔月銀牙",
 		"EnglishName": "Butterfly Knife",
 		"ID": "211",
@@ -5191,8 +5808,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/jknife.png"
-    },
+	},
 	{
+		"SystemName": "Axe",
 		"ChineseName": "暴龍魔爪",
 		"EnglishName": "Kujang",
 		"ID": "237",
@@ -5200,8 +5818,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/axe.png"
-    },
+	},
 	{
+		"SystemName": "Combatknife",
 		"ChineseName": "奪魂短匕",
 		"EnglishName": "Combat Knife",
 		"ID": "248",
@@ -5209,8 +5828,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/combatknife.png"
-    },
+	},
 	{
+		"SystemName": "Mastercombatknife",
 		"ChineseName": "奪魂長刃",
 		"EnglishName": "Master Combat Knife",
 		"ID": "249",
@@ -5218,8 +5838,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/mastercombatknife.png"
-    },
+	},
 	{
+		"SystemName": "KnifeDragon",
 		"ChineseName": "龍牙刃",
 		"EnglishName": "Dragon Knife",
 		"ID": "281",
@@ -5227,8 +5848,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/knifedragon.png"
-    },
+	},
 	{
+		"SystemName": "katana",
 		"ChineseName": "一刀斷罪",
 		"EnglishName": "Katana",
 		"ID": "345",
@@ -5236,8 +5858,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/katana.png"
-    },
+	},
 	{
+		"SystemName": "skullaxe",
 		"ChineseName": "狂戰巨斧(SKULL-9)",
 		"EnglishName": "SKULL-9",
 		"ID": "363",
@@ -5245,8 +5868,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/skullaxe.png"
-    },
+	},
 	{
+		"SystemName": "dragontail",
 		"ChineseName": "寂滅斷魂",
 		"EnglishName": "Dragon Claw",
 		"ID": "405",
@@ -5254,8 +5878,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/dragontail.png"
-    },
+	},
 	{
+		"SystemName": "hiddenstaff",
 		"ChineseName": "魔力人員",
 		"EnglishName": "Magic Staff",
 		"ID": "0",
@@ -5263,8 +5888,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/hiddenstaff.png"
-    },
+	},
 	{
+		"SystemName": "tomahawk",
 		"ChineseName": "聖手鷹刁",
 		"EnglishName": "Tomahawk",
 		"ID": "436",
@@ -5272,8 +5898,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/tomahawk.png"
-    },
+	},
 	{
+		"SystemName": "nataknifed",
 		"ChineseName": "Z-Knife",
 		"EnglishName": "Dual Nata Knife",
 		"ID": "462",
@@ -5281,8 +5908,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/nataknifed.png"
-    },
+	},
 	{
+		"SystemName": "katanad",
 		"ChineseName": "極道雙刃",
 		"EnglishName": "Dual Katana",
 		"ID": "480",
@@ -5290,8 +5918,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/katanad.png"
-    },
+	},
 	{
+		"SystemName": "dragonsword",
 		"ChineseName": "青龍偃月刀",
 		"EnglishName": "Green Dragon Crescent Blade",
 		"ID": "483",
@@ -5299,8 +5928,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/dragonsword.png"
-    },
+	},
 	{
+		"SystemName": "balrog9",
 		"ChineseName": "影武者(Balrog-IX)",
 		"EnglishName": "BALROG-IX",
 		"ID": "504",
@@ -5308,8 +5938,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/balrog9.png"
-    },
+	},
 	{
+		"SystemName": "shelteraxe",
 		"ChineseName": "斧頭(夜襲生存戰)",
 		"EnglishName": "Hatchet",
 		"ID": "513",
@@ -5317,8 +5948,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/shelteraxe.png"
-    },
+	},
 	{
+		"SystemName": "snakesword",
 		"ChineseName": "九曲蛇刃",
 		"EnglishName": "Serpent Blade",
 		"ID": "520",
@@ -5326,8 +5958,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/snakesword.png"
-    },
+	},
 	{
+		"SystemName": "sfsword",
 		"ChineseName": "光束劍",
 		"EnglishName": "Beam Sword",
 		"ID": "565",
@@ -5335,8 +5968,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/sfsword.png"
-    },
+	},
 	{
+		"SystemName": "bhdagger",
 		"ChineseName": "餓狼短刀",
 		"EnglishName": "Battle Hunting Dagger",
 		"ID": "566",
@@ -5344,8 +5978,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/bhdagger.png"
-    },
+	},
 	{
+		"SystemName": "beast-snowman",
 		"ChineseName": "雪人(怪獸亂鬥)",
 		"EnglishName": "Snowman(Snowman Mode)",
 		"ID": "573",
@@ -5353,8 +5988,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/beast-snowman.png"
-    },
+	},
 	{
+		"SystemName": "horseaxe",
 		"ChineseName": "赤焰神駒",
 		"EnglishName": "Horse Axe",
 		"ID": "611",
@@ -5362,8 +5998,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/horseaxe.png"
-    },
+	},
 	{
+		"SystemName": "zsh_machete",
 		"ChineseName": "柴刀",
 		"EnglishName": "Machete",
 		"ID": "670",
@@ -5371,8 +6008,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/zsh_machete.png"
-    },
+	},
 	{
+		"SystemName": "zsh_crowbar",
 		"ChineseName": "鐵撬",
 		"EnglishName": "Crowbar",
 		"ID": "671",
@@ -5380,8 +6018,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/zsh_crowbar.png"
-    },
+	},
 	{
+		"SystemName": "zsh_clawhammer",
 		"ChineseName": "尖頭槌",
 		"EnglishName": "Claw Hammer",
 		"ID": "672",
@@ -5389,8 +6028,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/zsh_clawhammer.png"
-    },
+	},
 	{
+		"SystemName": "janus9",
 		"ChineseName": "聖光之垂(Janus-9)",
 		"EnglishName": "JANUS-9",
 		"ID": "673",
@@ -5398,8 +6038,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/janus9.png"
-    },
+	},
 	{
+		"SystemName": "monkeywpnset3",
 		"ChineseName": "齊天大聖",
 		"EnglishName": "Ruyi Stick",
 		"ID": "681",
@@ -5407,8 +6048,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/monkeywpnset3.png"
-    },
+	},
 	{
+		"SystemName": "balrog9b",
 		"ChineseName": "冷焰影武者",
 		"EnglishName": "BALROG-IX Blue",
 		"ID": "689",
@@ -5416,8 +6058,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/balrog9b.png"
-    },
+	},
 	{
+		"SystemName": "spknife",
 		"ChineseName": "阿修羅",
 		"EnglishName": "Papin",
 		"ID": "727",
@@ -5425,8 +6068,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/spknife.png"
-    },
+	},
 	{
+		"SystemName": "crowbarcraft",
 		"ChineseName": "野戰鐵撬",
 		"EnglishName": "Crowbar Maverick",
 		"ID": "726",
@@ -5434,8 +6078,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/crowbarcraft.png"
-    },
+	},
 	{
+		"SystemName": "giantknife",
 		"ChineseName": "超硬質刃",
 		"EnglishName": "Giant Knife",
 		"ID": "596",
@@ -5443,8 +6088,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/giantknife.png"
-    },
+	},
 	{
+		"SystemName": "ozwpnset3",
 		"ChineseName": "綠野仙蹤稻草人十字搞",
 		"EnglishName": "Scarecrow’s Pickaxe",
 		"ID": "743",
@@ -5452,8 +6098,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/ozwpnset3.png"
-    },
+	},
 	{
+		"SystemName": "tomahawk_xmas",
 		"ChineseName": "聖誕鷹刁",
 		"EnglishName": "Tomahawk Xmas Edition",
 		"ID": "751",
@@ -5461,8 +6108,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/tomahawk_xmas.png"
-    },
+	},
 	{
+		"SystemName": "standalonehands",
 		"ChineseName": "空手(偵查事件簿)",
 		"EnglishName": "Hands",
 		"ID": "757",
@@ -5470,8 +6118,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/standalonehands.png"
-    },
+	},
 	{
+		"SystemName": "standaloneknife",
 		"ChineseName": "小刀(偵查事件簿)",
 		"EnglishName": "Knife",
 		"ID": "758",
@@ -5479,8 +6128,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/standaloneknife.png"
-    },
+	},
 	{
+		"SystemName": "sheepsword",
 		"ChineseName": "羊角魔爪",
 		"EnglishName": "Horn Kujang",
 		"ID": "762",
@@ -5488,8 +6138,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/sheepsword.png"
-    },
+	},
 	{
+		"SystemName": "thanatos9",
 		"ChineseName": "塔納托斯的斷魂廉(Thanatos-9)",
 		"EnglishName": "THANATOS-9",
 		"ID": "776",
@@ -5497,8 +6148,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/thanatos9.png"
-    },
+	},
 	{
+		"SystemName": "vxlknife",
 		"ChineseName": "空手(STUDIO創世者)",
 		"EnglishName": "Hands",
 		"ID": "795",
@@ -5506,8 +6158,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/vxlknife.png"
-    },
+	},
 	{
+		"SystemName": "zbtag_knife",
 		"ChineseName": "莎拉手(鬼迷藏)",
 		"EnglishName": "Knife",
 		"ID": "0",
@@ -5515,8 +6168,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/zbtag_knife.png"
-    },
+	},
 	{
+		"SystemName": "crowbarcraft",
 		"ChineseName": "鐵撬(未知)",
 		"EnglishName": "Crowbar(Unknown)",
 		"ID": "0",
@@ -5524,8 +6178,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/crowbarcraft.png"
-    },
+	},
 	{
+		"SystemName": "vulcanus9",
 		"ChineseName": "泰坦巨劍(VULCANUS-9)",
 		"EnglishName": "VULCANUS-9",
 		"ID": "816",
@@ -5533,8 +6188,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/vulcanus9.png"
-    },
+	},
 	{
+		"SystemName": "hzknife",
 		"ChineseName": "達叔屠刀",
 		"EnglishName": "Heavy Zombie Knife",
 		"ID": "821",
@@ -5542,8 +6198,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "2",
 		"ImageURL": "./images/weapon/hzknife.png"
-    },
+	},
 	{
+		"SystemName": "stormgiant",
 		"ChineseName": "蓋亞之狂",
 		"EnglishName": "Warhammer Storm Giant",
 		"ID": "841",
@@ -5551,8 +6208,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/stormgiant.png"
-    },
+	},
 	{
+		"SystemName": "crow9",
 		"ChineseName": "鐵暟破軍(CROW-9)",
 		"EnglishName": "CROW-9",
 		"ID": "895",
@@ -5560,8 +6218,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/crow9.png"
-    },
+	},
 	{
+		"SystemName": "runeblade",
 		"ChineseName": "湛盧之魂",
 		"EnglishName": "Blade Runebreaker",
 		"ID": "919",
@@ -5569,8 +6228,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/runeblade.png"
-    },
+	},
 	{
+		"SystemName": "ironfan",
 		"ChineseName": "傾城",
 		"EnglishName": "War Fan",
 		"ID": "929",
@@ -5578,8 +6238,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/ironfan.png"
-    },
+	},
 	{
+		"SystemName": "balrog9wc",
 		"ChineseName": "黃金影武者(Balrog-IX)",
 		"EnglishName": "BALROG-IX Gold Edition",
 		"ID": "930",
@@ -5587,8 +6248,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/balrog9wc.png"
-    },
+	},
 	{
+		"SystemName": "stormgianttw",
 		"ChineseName": "血獄之淵",
 		"EnglishName": "Warhammer Storm Giant(Taiwan Edition)",
 		"ID": "937",
@@ -5596,8 +6258,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/stormgianttw.png"
-    },
+	},
 	{
+		"SystemName": "turbulent9",
 		"ChineseName": "狼魂亞德曼(Turbulent-9)",
 		"EnglishName": "TURBULENT-9",
 		"ID": "8041",
@@ -5605,8 +6268,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/turbulent9.png"
-    },
+	},
 	{
+		"SystemName": "dualsword",
 		"ChineseName": "極道滅殺",
 		"EnglishName": "Dual Sword Phantom Slayer",
 		"ID": "8047",
@@ -5614,8 +6278,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/dualsword.png"
-    },
+	},
 	{
+		"SystemName": "zbs64knife",
 		"ChineseName": "傑伊的影刃",
 		"EnglishName": "J’s dagger",
 		"ID": "8051",
@@ -5623,8 +6288,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/zbs64knife.png"
-    },
+	},
 	{
+		"SystemName": "armtorch",
 		"ChineseName": "烈焰火拳",
 		"EnglishName": "Arm Torch",
 		"ID": "8088",
@@ -5632,8 +6298,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/armtorch.png"
-    },
+	},
 	{
+		"SystemName": "holysword",
 		"ChineseName": "聖盾天劍",
 		"EnglishName": "Holy Sword Divine Order",
 		"ID": "8133",
@@ -5641,8 +6308,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/holysword.png"
-    },
+	},
 	{
+		"SystemName": "dualswordm",
 		"ChineseName": "極道狂殺",
 		"EnglishName": "Dual Sword Infernal Hunter",
 		"ID": "8164",
@@ -5650,8 +6318,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/dualswordm.png"
-    },
+	},
 	{
+		"SystemName": "19s1machete",
 		"ChineseName": "魔輪柴刀",
 		"EnglishName": "Machete Trans-Gear",
 		"ID": "8177",
@@ -5659,8 +6328,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/19s1machete.png"
-    },
+	},
 	{
+		"SystemName": "y19s2hdagger",
 		"ChineseName": "貴族背刺短刀",
 		"EnglishName": "Elegant Hunting Dagger",
 		"ID": "8199",
@@ -5668,8 +6338,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s2hdagger.png"
-    },
+	},
 	{
+		"SystemName": "summonknife",
 		"ChineseName": "星魂魔煞",
 		"EnglishName": "Dread Nova",
 		"ID": "8248",
@@ -5677,8 +6348,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/summonknife.png"
-    },
+	},
 	{
+		"SystemName": "y19s4hammer",
 		"ChineseName": "龐克金好威鐵鎚",
 		"EnglishName": "Halloween Hammer",
 		"ID": "8268",
@@ -5686,8 +6358,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y19s4hammer.png"
-    },
+	},
 	{
+		"SystemName": "zhehand",
 		"ChineseName": "空手(絕命逃亡)",
 		"EnglishName": "Bare Hands",
 		"ID": "8307",
@@ -5695,8 +6368,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/zhehand.png"
-    },
+	},
 	{
+		"SystemName": "zhebox03",
 		"ChineseName": "大型急救箱",
 		"EnglishName": "Large First Aid Kit",
 		"ID": "8305",
@@ -5704,8 +6378,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/zhebox03.png"
-    },
+	},
 	{
+		"SystemName": "NataKnifeD",
 		"ChineseName": "Z-Knife",
 		"EnglishName": "Dual Nata Knife",
 		"ID": "8321",
@@ -5713,8 +6388,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/nataknifed.png"
-    },
+	},
 	{
+		"SystemName": "y20s1dragonsword",
 		"ChineseName": "關刀",
 		"EnglishName": "Moon Glaive",
 		"ID": "8328",
@@ -5722,8 +6398,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y20s1dragonsword.png"
-    },
+	},
 	{
+		"SystemName": "y20s1thanatos9",
 		"ChineseName": "長柄鐮刀",
 		"EnglishName": "Scythe",
 		"ID": "8332",
@@ -5731,8 +6408,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y20s1thanatos9.png"
-    },
+	},
 	{
+		"SystemName": "y20s1sword",
 		"ChineseName": "環刀",
 		"EnglishName": "Hwando",
 		"ID": "8334",
@@ -5740,8 +6418,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y20s1sword.png"
-    },
+	},
 	{
+		"SystemName": "frostblade",
 		"ChineseName": "冰霜湛盧",
 		"EnglishName": "Blade Frostbreaker",
 		"ID": "8383",
@@ -5749,8 +6428,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/frostblade.png"
-    },
+	},
 	{
+		"SystemName": "magicknife",
 		"ChineseName": "魔法護封劍",
 		"EnglishName": "Miracle Prism Sword",
 		"ID": "8384",
@@ -5758,8 +6438,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/magicknife.png"
-    },
+	},
 	{
+		"SystemName": "lance",
 		"ChineseName": "血殛雷神鉾",
 		"EnglishName": "Spell Lance Scarlet Rose",
 		"ID": "8426",
@@ -5767,8 +6448,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/lance.png"
-    },
+	},
 	{
+		"SystemName": "summonknifeex",
 		"ChineseName": "赤魂魔煞",
 		"EnglishName": "Blazing Nova",
 		"ID": "8487",
@@ -5776,8 +6458,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/summonknifeex.png"
-    },
+	},
 	{
+		"SystemName": "dgaxe",
 		"ChineseName": "天地之懼．荒",
 		"EnglishName": "Twin Shadow Axes",
 		"ID": "8530",
@@ -5785,8 +6468,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "6",
 		"ImageURL": "./images/weapon/dgaxe.png"
-    },
+	},
 	{
+		"SystemName": "skullt9",
 		"ChineseName": "死人骨頭",
 		"EnglishName": "SKULL-T9",
 		"ID": "8611",
@@ -5794,8 +6478,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/skullt9.png"
-    },
+	},
 	{
+		"SystemName": "y22s1holyswordmb",
 		"ChineseName": "小丑祝福劍",
 		"EnglishName": "Pierrot Blessing Sword",
 		"ID": "8634",
@@ -5803,8 +6488,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s1holyswordmb.png"
-    },
+	},
 	{
+		"SystemName": "whipsword",
 		"ChineseName": "赤蛇鎖鏈劍",
 		"EnglishName": "Whip Sword",
 		"ID": "8656",
@@ -5812,8 +6498,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/whipsword.png"
-    },
+	},
 	{
+		"SystemName": "y22s2sfsword",
 		"ChineseName": "藍月光束劍",
 		"EnglishName": "Starlight Sword",
 		"ID": "8670",
@@ -5821,8 +6508,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s2sfsword.png"
-    },
+	},
 	{
+		"SystemName": "y22s3dragonsword",
 		"ChineseName": "遠古偃月刀",
 		"EnglishName": "Ancient Berserker",
 		"ID": "8719",
@@ -5830,8 +6518,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y22s3dragonsword.png"
-    },
+	},
 	{
+		"SystemName": "swordbombard",
 		"ChineseName": "奧利聖劍",
 		"EnglishName": "Hauteclere",
 		"ID": "8753",
@@ -5839,8 +6528,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/swordbombard.png"
-    },
+	},
 	{
+		"SystemName": "y23s1crowbarcraft",
 		"ChineseName": "Cyber科技電撬",
 		"EnglishName": "Crowbar Maverick TECH",
 		"ID": "8783",
@@ -5848,8 +6538,9 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "3",
 		"ImageURL": "./images/weapon/y23s1crowbarcraft.png"
-    },
+	},
 	{
+		"SystemName": "tyrantmace",
 		"ChineseName": "霜狼齒槌",
 		"EnglishName": "Tyrant's Mace",
 		"ID": "8835",
@@ -5857,5 +6548,15 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/tyrantmace.png"
-    },
+	},
+	{
+		"SystemName": "y23s2tomahawk",
+		"ChineseName": "女王聖手鷹刁",
+		"EnglishName": "Tomahawk Queen",
+		"ID": "8849",
+		"InGameID": "4080",
+		"Type": "KNIFE",
+		"Rarity": "1",
+		"ImageURL": "./images/weapon/y23s2tomahawk.png"
+	}
 ]

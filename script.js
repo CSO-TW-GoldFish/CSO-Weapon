@@ -1,4 +1,6 @@
 var wpnthis;
+var theme = 1;
+var sortway = 1;
 var language = "Chinese";
 
 function Weapons() {
@@ -97,7 +99,23 @@ Weapons.prototype.init = function () {
 	let self = this;
 	
 	// WeaponData 來自 weaponList.js 檔案，排序(按照ID)
-	self.weaponList = Array.prototype.sort.call(WeaponData, function (a, b) {return a.InGameID - b.InGameID;});
+	
+	self.weaponList = Array.prototype.sort.call(WeaponData, function (a, b) {
+		const order = ['NONE', 'PISTOL', 'SHOTGUN', 'SUBMACHINEGUN', 'RIFLE', 'SNIPERRIFLE', 'MACHINEGUN', 'EQUIPMENT', 'KNIFE', 'GRENADE', 'STUDIO'];
+		if (sortway === 1) {
+			return a.InGameID - b.InGameID;
+		};
+		if (sortway === 2) {
+			return a.ID - b.ID;
+		};
+		if (sortway === 3) {
+			const typeIndexDiff = order.indexOf(a.Type) - order.indexOf(b.Type);
+			if (typeIndexDiff === 0) {
+				return a.InGameID - b.InGameID;
+			}
+			return order.indexOf(a.Type) - order.indexOf(b.Type);
+		};
+	});
 	
 	self.renderThumbnails();
 	self.registerCategoriesEvents();
@@ -213,7 +231,7 @@ Weapons.prototype.filterCategories = function () {
 	let self = this;
 
 	self.currentWeapons = [];
-
+	
 	Array.prototype.forEach.call(self.thumbnailWrapperNode.childNodes, function (node) {
 		let weapon = JSON.parse(node.getAttribute('data-weapon'));
 		
@@ -221,6 +239,7 @@ Weapons.prototype.filterCategories = function () {
 			if(self.matchFilter(weapon)) {
 				self.currentWeapons.push({
 					"item"       : node,
+					"systemname" : weapon["SystemName"],
 					"chinesename": weapon["ChineseName"],
 					"englishname": weapon["EnglishName"],
 					"id"         : weapon.ID,
@@ -232,6 +251,8 @@ Weapons.prototype.filterCategories = function () {
 			}
 		}
 	})
+	theme_btn.click();
+	theme_btn.click();
 }
 
 // 2.2 檢查目前篩選
@@ -264,6 +285,8 @@ Weapons.prototype.registerSearchWeaponEvents = function () {
 			let filteredWeapons = self.searchWeapon(content, currentWeapons);
 			self.renderThumbnailsFilteredWeapons(currentWeapons, filteredWeapons);
 		}
+		theme_btn.click();
+		theme_btn.click();
 	})
 }
 
@@ -278,12 +301,15 @@ Weapons.prototype.searchWeapon = function (search, data) {
 
 	Array.prototype.forEach.call(data, function (item) {
 		let value = search.toLowerCase();
+		let systemname = item.systemname.toLowerCase();
 		let chinesename = item.chinesename.toLowerCase();
 		let englishname = item.englishname.toLowerCase();
 		let id = item.id;
 		let ingameid = item.ingameid;
 		
-		if(chinesename.includes(value)) {
+		if(systemname.includes(value)) {
+			filteredWeapons.push(item);
+		} else if(chinesename.includes(value)) {
 			filteredWeapons.push(item);
 		} else if(englishname.includes(value)) {
 			filteredWeapons.push(item);
@@ -312,15 +338,38 @@ Weapons.prototype.renderThumbnailsFilteredWeapons = function (current, filtered)
 // 按鈕事件
 Weapons.prototype.clickButton = function () {
     let self = this;
-
-    const btn = document.querySelector('.btn')
-    btn.addEventListener("click", function (e) {
+	
+	const theme = document.querySelector('.theme')
+    theme.addEventListener("click", function (e) {
+		
+    })
+	
+	const sort = document.querySelector('.sort')
+    sort.addEventListener("click", function (e) {
 		// 重新渲染縮圖
 		self.renderThumbnails();
 		self.registerSearchWeaponEvents();
 		self.filterCategories();
-    })
+		theme_btn.click();
+		theme_btn.click();
+    });
+	
+	const lang = document.querySelector('.lang')
+    lang.addEventListener("click", function (e) {
+		// 重新渲染縮圖
+		self.renderThumbnails();
+		self.registerSearchWeaponEvents();
+		self.filterCategories();
+		theme_btn.click();
+		theme_btn.click();
+    });
 }
+
+// 重整
+const logo_btn = document.querySelector('.App .Navigation .logo');
+logo_btn.addEventListener('click', function(e){
+	location.reload();
+});
 
 // 關於
 const about = document.querySelector('.about-bg');
@@ -330,42 +379,179 @@ about.addEventListener('click', function(e) {
 	if(e.target.classList.value === about.className) {
 		this.style.display = 'none';
 	}
-})
+});
 about_btn.addEventListener('click', function() {about.style.display = 'block';})
 
-// 切換語言按鈕
-const lang_btn = document.querySelector('.nav__links .btn');
+// 主題按鈕
+const theme_btn = document.querySelector('.nav__links .theme');
+theme_btn.addEventListener('click', function(e){
+	if (theme === 1) {
+		theme = 2;
+		document.querySelector(".Cards-Content").style.backgroundColor = "#424242";
+		var cards = document.querySelectorAll(".card");
+		cards.forEach(function(card) {
+			card.style.border = "2px solid #1c1c1c"
+			card.style.backgroundColor = "#303030";
+		});
+		var images = document.querySelectorAll(".card .img");
+		images.forEach(function(image) {
+			image.style.backgroundColor = "#636363";
+		});
+		var paragraphs = document.querySelectorAll(".card .content p");
+		paragraphs.forEach(function(paragraph) {
+			paragraph.style.color = "#ffffff";
+		});
+		var elements = document.querySelectorAll('.card .content');
+		for (var i = 0; i < elements.length; i++) {
+			elements[i].addEventListener('mousedown', function() {
+				this.style.backgroundColor = '#212121';
+			});
+			elements[i].addEventListener('mouseup', function() {
+				this.style.backgroundColor = '';
+			});
+		}
+		if (language === "Chinese") {
+			document.querySelector('.nav__links .theme').textContent = "主題：黑暗";
+		} else if (language === "English") {
+			document.querySelector('.nav__links .theme').textContent = "Theme: Dark";
+		};
+	} else if (theme === 2) {
+		theme = 1;
+		document.querySelector(".Cards-Content").style.backgroundColor = "#bbb";
+		var cards = document.querySelectorAll(".card");
+		cards.forEach(function(card) {
+			card.style.border = "2px solid #6B6B6B"
+			card.style.backgroundColor = "#fff";
+		});
+		var images = document.querySelectorAll(".card .img");
+		images.forEach(function(image) {
+			image.style.backgroundColor = "#f3f3f3";
+		});
+		var paragraphs = document.querySelectorAll(".card .content p");
+		paragraphs.forEach(function(paragraph) {
+			paragraph.style.color = "#535C66";
+		});
+		var elements = document.querySelectorAll('.card .content');
+		for (var i = 0; i < elements.length; i++) {
+			elements[i].addEventListener('mousedown', function() {
+				this.style.backgroundColor = '#eee';
+			});
+			elements[i].addEventListener('mouseup', function() {
+				this.style.backgroundColor = '';
+			});
+		}
+		if (language === "Chinese") {
+			document.querySelector('.nav__links .theme').textContent = "主題：正常";
+		} else if (language === "English") {
+			document.querySelector('.nav__links .theme').textContent = "Theme: Normal";
+		}
+	};
+});
 
+// 排序按鈕
+const sort_btn = document.querySelector('.nav__links .sort');
+sort_btn.addEventListener('click', function(e){
+	if (sortway === 1) {
+		sortway = 2;
+		if (language === "Chinese") {
+			document.querySelector('.nav__links .sort').textContent = "排序：ID";
+		} else if (language === "English") {
+			document.querySelector('.nav__links .sort').textContent = "Sort: ID";
+		}
+	} else if (sortway === 2) {
+		sortway = 3;
+		if (language === "Chinese") {
+			document.querySelector('.nav__links .sort').textContent = "排序：類型";
+		} else if (language === "English") {
+			document.querySelector('.nav__links .sort').textContent = "Sort: Type";
+		}
+	} else if (sortway === 3) {
+		sortway = 1;
+		if (language === "Chinese") {
+			document.querySelector('.nav__links .sort').textContent = "排序：GID";
+		} else if (language === "English") {
+			document.querySelector('.nav__links .sort').textContent = "Sort: GID";
+		}
+	};
+	this.weaponList = Array.prototype.sort.call(WeaponData, function (a, b) {
+		const order = ['NONE', 'PISTOL', 'SHOTGUN', 'SUBMACHINEGUN', 'RIFLE', 'SNIPERRIFLE', 'MACHINEGUN', 'EQUIPMENT', 'KNIFE', 'GRENADE', 'STUDIO'];
+		if (sortway === 1) {
+			return a.InGameID - b.InGameID;
+		};
+		if (sortway === 2) {
+			return a.ID - b.ID;
+		};
+		if (sortway === 3) {
+			const typeIndexDiff = order.indexOf(a.Type) - order.indexOf(b.Type);
+			if (typeIndexDiff === 0) {
+				return a.InGameID - b.InGameID;
+			}
+			return order.indexOf(a.Type) - order.indexOf(b.Type);
+		};
+	});
+});
+
+// 切換語言按鈕
+const lang_btn = document.querySelector('.nav__links .lang');
 lang_btn.addEventListener('click', function(e){
 	if(language === "Chinese"){
 		language = "English";
 		document.title = "Counter-Strike Online Weapon List";
 		document.querySelector('.nav__links a').textContent = "About";
-		document.querySelector('.nav__links .btn').textContent = "English > 中文";
+		document.querySelector('.nav__links .lang').textContent = "English > 中文";
 		document.querySelector('.about h3').textContent = "About";
-		document.querySelector('.about .a').textContent = "Website Author: 崩潰金魚燒";
+		document.querySelector('.about .a').textContent = "Website Author: 崩潰金魚燒(GoldFish)";
 		document.querySelector('.about .b').textContent = "Image Provider: WrenchReginald, DestroyerI滅世I";
 		document.querySelector('.about .c').textContent = "WpnID Provider: WrenchReginald, DestroyerI滅世I";
 		document.querySelector('.btn-search button').textContent = "Search";
+		if (theme === 1) {
+			document.querySelector('.nav__links .theme').textContent = "Theme: Normal";
+		} else if (theme === 2) {
+			document.querySelector('.nav__links .theme').textContent = "Theme: Dark";
+		};
+		if (sortway === 1) {
+			document.querySelector('.nav__links .sort').textContent = "Sort: GID";
+		} else if (sortway === 2) {
+			document.querySelector('.nav__links .sort').textContent = "Sort: ID";
+		} else if (sortway === 3) {
+			document.querySelector('.nav__links .sort').textContent = "Sort: Type";
+		};
 	} else if(language === "English"){
 		language = "Chinese";
 		document.title = "Counter-Strike Online 武器清單";
 		document.querySelector('.nav__links a').textContent = "關於";
-		document.querySelector('.nav__links .btn').textContent = "中文 > English";
+		document.querySelector('.nav__links .lang').textContent = "中文 > English";
 		document.querySelector('.about h3').textContent = "關於";
 		document.querySelector('.about .a').textContent = "網頁製作: 崩潰金魚燒";
 		document.querySelector('.about .b').textContent = "圖片提供: WrenchReginald、DestroyerI滅世I";
 		document.querySelector('.about .c').textContent = "ＩＤ提供: WrenchReginald、DestroyerI滅世I";
 		document.querySelector('.btn-search button').textContent = "搜尋";
+		if (theme === 1) {
+			document.querySelector('.nav__links .theme').textContent = "主題: 普通";
+		} else if (theme === 2) {
+			document.querySelector('.nav__links .theme').textContent = "主題: 黑暗";
+		};
+		if (sortway === 1) {
+			document.querySelector('.nav__links .sort').textContent = "排序：GID";
+		} else if (sortway === 2) {
+			document.querySelector('.nav__links .sort').textContent = "排序：ID";
+		} else if (sortway === 3) {
+			document.querySelector('.nav__links .sort').textContent = "排序：類型";
+		};
 	}
 	var elements = document.querySelectorAll('.js-weapon-category');
 	
-	for (const element of elements) {
+	for (var i = 0; i < elements.length; i++) {
+		var element = elements[i];
 		var type = element.getAttribute('data-type');
 		var rarity = element.getAttribute('data-rarity');
 		var spanElement = element.querySelector('span');
-		if(type) spanElement.textContent = wpnthis.typeTo[language][type];
-		if(rarity) spanElement.textContent = wpnthis.rarityTo[language][rarity];
+		if(type){
+			spanElement.textContent = wpnthis.typeTo[language][type];
+		}
+		if(rarity){
+			spanElement.textContent = wpnthis.rarityTo[language][rarity];
+		}
 	}
 })
 

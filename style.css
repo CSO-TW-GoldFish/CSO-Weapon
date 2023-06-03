@@ -123,6 +123,7 @@ li, a, .btn-search > button {
 .weapon-category {
     cursor: pointer;
     background-color: #535C66;
+	border-radius: 10px;
     width: 100%;
     text-align: center;
     margin-bottom: 1px;
@@ -177,6 +178,7 @@ li, a, .btn-search > button {
     background-color: #fff;
     width: 240px;
     height: 206px;
+	border: 2px solid #6B6B6B;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 900;
@@ -203,12 +205,14 @@ li, a, .btn-search > button {
 }
 
 .card .content:active {
+	width: 240px;
     background-color: #eee;
 }
 
 .card .content p {
-    font-size: 16px;
+	width: 240px;
     color:#535C66;
+	font-size: 16px;
 }
 
 .btn-select {
