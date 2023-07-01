@@ -5421,7 +5421,7 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "y23s2buffaug",
-		"ChineseName": "守衛者AUG",
+		"ChineseName": "女王之怒AUG",
 		"EnglishName": "AUG Guardians",
 		"ID": "8850",
 		"InGameID": "543",
@@ -5431,7 +5431,7 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "ignitemg",
-		"ChineseName": "Ignite-7",
+		"ChineseName": "雷火機關槍-VII",
 		"EnglishName": "Ignite-7",
 		"ID": "8851",
 		"InGameID": "544",
@@ -5441,7 +5441,7 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "y23s2sl8",
-		"ChineseName": "女王審判之眼",
+		"ChineseName": "紅心女王審判之眼",
 		"EnglishName": "SL8 Queen",
 		"ID": "8847",
 		"InGameID": "545",
@@ -5451,7 +5451,7 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "y23s2dfpistol",
-		"ChineseName": "女王鴨掌式手槍",
+		"ChineseName": "紅心女王鴨掌式手槍",
 		"EnglishName": "Special duck foot gun Queen",
 		"ID": "8848",
 		"InGameID": "546",
@@ -5728,6 +5728,16 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/y20s1grenade.png"
+	},
+	{
+		"SystemName": "basketball",
+		"ChineseName": "籃球手榴彈",
+		"EnglishName": "Baseketball Bomb",
+		"ID": "8827",
+		"InGameID": "2054",
+		"Type": "GRENADE",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/basketball.png"
 	},
 	{
 		"SystemName": "flashlight",
@@ -6551,12 +6561,22 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "y23s2tomahawk",
-		"ChineseName": "女王聖手鷹刁",
+		"ChineseName": "紅心女王聖手鷹刁",
 		"EnglishName": "Tomahawk Queen",
 		"ID": "8849",
 		"InGameID": "4080",
 		"Type": "KNIFE",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/y23s2tomahawk.png"
+	},
+	{
+		"SystemName": "dvhammer",
+		"ChineseName": "黯紅審判",
+		"EnglishName": "Demolition Hammer",
+		"ID": "8865",
+		"InGameID": "4081",
+		"Type": "KNIFE",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/dvhammer.png"
 	}
 ]

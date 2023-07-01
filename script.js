@@ -99,7 +99,6 @@ Weapons.prototype.init = function () {
 	let self = this;
 	
 	// WeaponData 來自 weaponList.js 檔案，排序(按照ID)
-	
 	self.weaponList = Array.prototype.sort.call(WeaponData, function (a, b) {
 		const order = ['NONE', 'PISTOL', 'SHOTGUN', 'SUBMACHINEGUN', 'RIFLE', 'SNIPERRIFLE', 'MACHINEGUN', 'EQUIPMENT', 'KNIFE', 'GRENADE', 'STUDIO'];
 		if (sortway === 1) {
@@ -540,6 +539,7 @@ lang_btn.addEventListener('click', function(e){
 		};
 	}
 	var elements = document.querySelectorAll('.js-weapon-category');
+	var dataTypes = [];
 	
 	for (var i = 0; i < elements.length; i++) {
 		var element = elements[i];
