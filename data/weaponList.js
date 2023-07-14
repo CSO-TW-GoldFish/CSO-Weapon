@@ -5452,12 +5452,72 @@ let WeaponData = [
 	{
 		"SystemName": "y23s2dfpistol",
 		"ChineseName": "紅心女王鴨掌式手槍",
-		"EnglishName": "Special duck foot gun Queen",
+		"EnglishName": "Special Duck Foot Gun Queen",
 		"ID": "8848",
 		"InGameID": "546",
 		"Type": "PISTOL",
 		"Rarity": "1",
 		"ImageURL": "./images/weapon/y23s2dfpistol.png"
+	},
+	{
+		"SystemName": "leapstrikegun",
+		"ChineseName": "天穹破曉．銳",
+		"EnglishName": "Dive Repulsor",
+		"ID": "8876",
+		"InGameID": "547",
+		"Type": "PISTOL",
+		"Rarity": "6",
+		"ImageURL": "./images/weapon/leapstrikegun.png"
+	},
+	{
+		"SystemName": "m3dragonex",
+		"ChineseName": "阿茲達哈卡M3",
+		"EnglishName": "M3 Azidahaka",
+		"ID": "8869",
+		"InGameID": "548",
+		"Type": "SHOTGUN",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/m3dragonex.png"
+	},
+	{
+		"SystemName": "mg3desert",
+		"ChineseName": "沙漠殲滅者-MG3",
+		"EnglishName": "Desert MG3",
+		"ID": "8871",
+		"InGameID": "549",
+		"Type": "MACHINEGUN",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/mg3desert.png"
+	},
+	{
+		"SystemName": "m2desert",
+		"ChineseName": "沙漠白朗寧M2",
+		"EnglishName": "Desert M2",
+		"ID": "8872",
+		"InGameID": "550",
+		"Type": "MACHINEGUN",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/m2desert.png"
+	},
+	{
+		"SystemName": "wa2000desert",
+		"ChineseName": "沙漠疾風獵鷹-WA2000",
+		"EnglishName": "Desert WA2000",
+		"ID": "8875",
+		"InGameID": "552",
+		"Type": "SNIPERRIFLE",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/wa2000desert.png"
+	},
+	{
+		"SystemName": "spas12desert",
+		"ChineseName": "沙漠戰神-SPAS12",
+		"EnglishName": "Desert SPAS-12",
+		"ID": "8873",
+		"InGameID": "551",
+		"Type": "SHOTGUN",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/spas12desert.png"
 	},
 	{
 		"SystemName": "Kevlar",
@@ -6578,5 +6638,15 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "5",
 		"ImageURL": "./images/weapon/dvhammer.png"
+	},
+	{
+		"SystemName": "hammerdesert",
+		"ChineseName": "沙漠好威鐵鎚",
+		"EnglishName": "Desert Hammer",
+		"ID": "8874",
+		"InGameID": "4082",
+		"Type": "KNIFE",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/hammerdesert.png"
 	}
 ]
