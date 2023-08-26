@@ -60,6 +60,16 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/3rdcakebomb.png"
 	},
 	{
+		"SystemName": "y23s3buffm249",
+		"ChineseName": "M249鳳凰天破 (賽季17)",
+		"EnglishName": "M249 Phoenix (SP17)",
+		"ID": "0",
+		"InGameID": "0",
+		"Type": "MACHINEGUN",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/y23s3buffm249.png"
+	},
+	{
 		"SystemName": "p228",
 		"ChineseName": "228 緊緻型",
 		"EnglishName": "P228",
@@ -5500,6 +5510,16 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/m2desert.png"
 	},
 	{
+		"SystemName": "spas12desert",
+		"ChineseName": "沙漠戰神-SPAS12",
+		"EnglishName": "Desert SPAS-12",
+		"ID": "8873",
+		"InGameID": "551",
+		"Type": "SHOTGUN",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/spas12desert.png"
+	},
+	{
 		"SystemName": "wa2000desert",
 		"ChineseName": "沙漠疾風獵鷹-WA2000",
 		"EnglishName": "Desert WA2000",
@@ -5510,14 +5530,64 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/wa2000desert.png"
 	},
 	{
-		"SystemName": "spas12desert",
-		"ChineseName": "沙漠戰神-SPAS12",
-		"EnglishName": "Desert SPAS-12",
-		"ID": "8873",
-		"InGameID": "551",
-		"Type": "SHOTGUN",
+		"SystemName": "m60desert",
+		"ChineseName": "沙漠征服者-M60E4",
+		"EnglishName": "Desert M60E4",
+		"ID": "8883",
+		"InGameID": "553",
+		"Type": "MACHINEGUN",
 		"Rarity": "4",
-		"ImageURL": "./images/weapon/spas12desert.png"
+		"ImageURL": "./images/weapon/m60desert.png"
+	},
+	{
+		"SystemName": "m95desert",
+		"ChineseName": "沙漠蛇姬之吻-M95",
+		"EnglishName": "Desert M95",
+		"ID": "8884",
+		"InGameID": "554",
+		"Type": "SNIPERRIFLE",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/m95desert.png"
+	},
+	{
+		"SystemName": "transformgunadv",
+		"ChineseName": "德拉卡-III",
+		"EnglishName": "Draker-III",
+		"ID": "8891",
+		"InGameID": "556",
+		"Type": "RIFLE",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/transformgunadv.png"
+	},
+	{
+		"SystemName": "transformgun",
+		"ChineseName": "德拉卡-I",
+		"EnglishName": "Draker-I",
+		"ID": "8889",
+		"InGameID": "557",
+		"Type": "RIFLE",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/transformgun.png"
+	},
+	{
+		"SystemName": "InfinityEX2desert",
+		"ChineseName": "沙漠金蠍雙擊",
+		"EnglishName": "Desert Dual Infinity Final",
+		"ID": "8885",
+		"InGameID": "558",
+		"Type": "PISTOL",
+		"Rarity": "4",
+		"ImageURL": "./images/weapon/infinityex2desert.png"
+	},
+	{
+		"SystemName": "transformgunex",
+		"ChineseName": "德拉卡-II",
+		"EnglishName": "Draker-II",
+		"ID": "8890",
+		"InGameID": "559",
+		"Type": "RIFLE",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/transformgunex.png"
 	},
 	{
 		"SystemName": "Kevlar",
@@ -5798,6 +5868,16 @@ let WeaponData = [
 		"Type": "GRENADE",
 		"Rarity": "4",
 		"ImageURL": "./images/weapon/basketball.png"
+	},
+	{
+		"SystemName": "ignitebomb",
+		"ChineseName": "Ignite-10",
+		"EnglishName": "Ignite-10",
+		"ID": "8886",
+		"InGameID": "2055",
+		"Type": "GRENADE",
+		"Rarity": "5",
+		"ImageURL": "./images/weapon/ignitebomb.png"
 	},
 	{
 		"SystemName": "flashlight",
