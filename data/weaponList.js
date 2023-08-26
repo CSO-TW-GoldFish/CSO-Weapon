@@ -5577,7 +5577,7 @@ let WeaponData = [
 		"InGameID": "558",
 		"Type": "PISTOL",
 		"Rarity": "4",
-		"ImageURL": "./images/weapon/infinityex2desert.png"
+		"ImageURL": "./images/weapon/Infinityex2desert.png"
 	},
 	{
 		"SystemName": "transformgunex",
