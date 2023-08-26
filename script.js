@@ -20,28 +20,30 @@ function Weapons() {
 	}
 	this.typeTo = {
 		"Chinese": {
-			  "ALL": "全部"
-			, "NONE": "未知"
-			, "PISTOL": "輔助型"
-			, "SHOTGUN": "散彈槍"
+			  "GRADE"        : "類型"
+			, "ALL"          : "全部"
+			, "NONE"         : "未知"
+			, "PISTOL"       : "輔助型"
+			, "SHOTGUN"      : "散彈槍"
 			, "SUBMACHINEGUN": "衝鋒槍"
-			, "RIFLE": "步槍"
-			, "SNIPERRIFLE": "狙擊槍"
-			, "MACHINEGUN": "機關槍"
-			, "EQUIPMENT": "裝備型"
-			, "GRENADE": "手榴彈"
-			, "KNIFE": "近戰型"
-			, "STUDIO": "創世者"
+			, "RIFLE"        : "步槍"
+			, "SNIPERRIFLE"  : "狙擊槍"
+			, "MACHINEGUN"   : "機關槍"
+			, "EQUIPMENT"    : "裝備型"
+			, "GRENADE"      : "手榴彈"
+			, "KNIFE"        : "近戰型"
+			, "STUDIO"       : "創世者"
 		}
 		, "English": {
-			  "ALL"          : "All"
+			  "GRADE"        : "Type"
+			, "ALL"          : "All"
 			, "NONE"         : "Unknown"
 			, "PISTOL"       : "Pistol"
 			, "SHOTGUN"      : "Shutgun"
-			, "SUBMACHINEGUN": "Submachine gun"
+			, "SUBMACHINEGUN": "Sub-Machine-Gun"
 			, "RIFLE"        : "Rifle"
-			, "SNIPERRIFLE"  : "Sniper rifle"
-			, "MACHINEGUN"   : "Machine gun"
+			, "SNIPERRIFLE"  : "Sniper Rifle"
+			, "MACHINEGUN"   : "Machine Gun"
 			, "EQUIPMENT"    : "Equipment"
 			, "GRENADE"      : "Grenade"
 			, "KNIFE"        : "Melee"
@@ -50,7 +52,8 @@ function Weapons() {
 	}
 	this.rarityTo = {
 		"Chinese": {
-			  "GRADE0": "全部"
+			  "GRADE" : "稀有度"
+			, "GRADE0": "全部"
 			, "GRADE1": "一般"
 			, "GRADE2": "高級"
 			, "GRADE3": "稀有"
@@ -59,7 +62,8 @@ function Weapons() {
 			, "GRADE6": "史詩"
 		}
 		, "English": {
-			  "GRADE0": "All"
+			  "GRADE" : "Rarity"
+			, "GRADE0": "All"
 			, "GRADE1": "Regular"
 			, "GRADE2": "Advanced"
 			, "GRADE3": "Rare"
@@ -386,15 +390,15 @@ const theme_btn = document.querySelector('.nav__links .theme');
 theme_btn.addEventListener('click', function(e){
 	if (theme === 1) {
 		theme = 2;
-		document.querySelector(".Cards-Content").style.backgroundColor = "#424242";
+		document.querySelector(".Cards-Content").style.backgroundColor = "#1A1A1A";
 		var cards = document.querySelectorAll(".card");
 		cards.forEach(function(card) {
-			card.style.border = "2px solid #1c1c1c"
-			card.style.backgroundColor = "#303030";
+			card.style.border = "2px solid #7D7D7D"
+			card.style.backgroundColor = "#0F0F0F";
 		});
 		var images = document.querySelectorAll(".card .img");
 		images.forEach(function(image) {
-			image.style.backgroundColor = "#636363";
+			image.style.backgroundColor = "#424242";
 		});
 		var paragraphs = document.querySelectorAll(".card .content p");
 		paragraphs.forEach(function(paragraph) {
