@@ -52,6 +52,7 @@ li, a, .btn-search > button {
 
 .nav__links {
     list-style: none;
+	user-select: none;
 }
 
 .nav__links li {
@@ -70,6 +71,7 @@ li, a, .btn-search > button {
 
 .search-container {
     margin-left: 30px;
+	user-select: none;
 }
 
 .search-container > input {
@@ -130,6 +132,7 @@ li, a, .btn-search > button {
     margin-bottom: 2px;
     padding: 5px;
     transition: all 0.3s ease 0s;
+	user-select: none;
 }
 
 .weapon-category:hover {
@@ -138,12 +141,6 @@ li, a, .btn-search > button {
 
 .weapon-category.active {
     background-color: #f77f00;
-}
-
-.weapon-category.classify {
-    background-color: #000000;
-	font-size: 20px;
-	font-weight: 700;
 }
 
 /* Cards-Content CSS */
@@ -156,6 +153,7 @@ li, a, .btn-search > button {
     grid-template-columns: repeat(auto-fill, minmax(240px, auto));
     grid-template-rows: repeat(auto-fill, minmax(206px, auto));
     gap: 10px;
+	user-select: none;
 }
 
 .Cards-Content p.msg{
@@ -261,6 +259,7 @@ li, a, .btn-search > button {
     font-family: 'Noto Sans TC', sans-serif;
     line-height: 40px;
     box-shadow: 0px 0px 10px 5px #000000, inset 0px 0px 30px 0px #000000;
+	user-select: none;
 }
 
 .about h3 {
@@ -271,4 +270,61 @@ li, a, .btn-search > button {
 
 .about p {
     font-size: 18px;
+}
+
+/* Update - 230824 */
+
+.weapon-category.classify {
+    background-color: #000000;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/* Update - 230826 */
+/* Copied InGameID to CSO Lua */
+
+.notification {
+	display: none;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 500px;
+    height: 80px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 40px;
+    box-shadow: 0px 0px 10px 5px #000000, inset 0px 0px 30px 0px #000000;
+	user-select: none;
+}
+
+/* Water Mark */
+
+.watermark {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    color: rgba(0, 0, 0, 0.3); /* Adjust the color and opacity */
+    font-size: 32px;
+	user-select: none;
+	font-weight: 700;
+	outline: 2px solid rgba(0, 0, 0, 0.3); /* 添加加粗的邊框 */
+	border-radius: 5px;
+}
+
+/* Update - 230902 */
+/* Last Update */
+
+.lastupdate {
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    color: rgba(255, 175, 0, 1); /* Adjust the color and opacity */
+    font-size: 16px;
+	user-select: none;
+	font-weight: 700;
 }

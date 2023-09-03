@@ -2,6 +2,71 @@ var wpnthis;
 var theme = 1;
 var sortway = 1;
 var language = "Chinese";
+let timer;
+
+var lang_switch = {
+	  "Chinese": {
+		  "webtitle"      : "Counter-Strike Online 武器清單"
+		, "aboutbtn"      : "關於"
+		, "langbtn"       : "中文 > English"
+		, "webmaker"      : "網頁製作：崩潰金魚燒"
+		, "imgsprovider"  : "圖片提供：WrenchReginald、DestroyerI滅世I"
+		, "idsprovider"   : "ＩＤ提供：WrenchReginald、DestroyerI滅世I"
+		, "searchbtn"     : "搜尋"
+		, "theme"         : {
+			  1: "主題：正常"
+			, 2: "主題：黑暗"
+		}
+		, "sort"          : {
+			  1: "排序：InGameID"
+			, 2: "排序：ID"
+			, 3: "排序：類型"
+		}
+		, "copylua"       : "已複製！"
+		, "langswitch"    : "語言：中文"
+		, "rarityswitch"  : "稀有度："
+		, "typeswitch"    : "類型："
+	}
+	, "English": {
+		  "webtitle"      : "Counter-Strike Online Weapon List"
+		, "aboutbtn"      : "About"
+		, "langbtn"       : "English > 中文"
+		, "webmaker"      : "Website Maker: Gold Fish"
+		, "imgsprovider"  : "Image Provider: Skuller Rey、Destroyer"
+		, "idsprovider"   : "Ids Provider: Skuller Rey、Destroyer"
+		, "searchbtn"     : "Search"
+		, "theme"         : {
+			  1: "Theme: Normal"
+			, 2: "Theme: Dark"
+		}
+		, "sort"          : {
+			  1: "Sort: InGameID"
+			, 2: "Sort: ID"
+			, 3: "Sort: Type"
+		}
+		, "copylua"       : "Copied!"
+		, "langswitch"    : "Language: English"
+		, "rarityswitch"  : "Rarity: "
+		, "typeswitch"    : "Type: "
+	}
+}
+
+// 提示訊息
+function message_prompt(stl, msg) {
+    const notification = document.getElementById("notification");
+    clearTimeout(timer); // Clear any previous timers
+
+    navigator.clipboard.writeText(msg).then(() => {
+        notification.style.display = "block";
+        notification.innerHTML = stl + "<div>" + msg + "</div>";
+
+        timer = setTimeout(() => {
+            notification.style.display = "none";
+        }, 2000); // Hide after 2 seconds
+    }).catch((error) => {
+        console.error("Error copying text: ", error);
+    });
+}
 
 function Weapons() {
 	// Data
@@ -168,8 +233,12 @@ Weapons.prototype.createThumbnailNode = function (weapon, index) {
 		let InGameID = weapon.InGameID;
 		let Type = self.typeTo[language][weapon.Type];
 		let Name = weapon[language + "Name"];
-		let Text = `${InGameID}, -- ${Type} : ${Name}` + "\n";
-		navigator.clipboard.writeText(Text);
+		
+		// 複製 InGameID 給 CSO LUA 使用
+		const Text = `${InGameID}, -- ${Type} : ${Name}` + "\n";
+		message_prompt(lang_switch[language].copylua, Text);
+		document.querySelector(".notification").style.width = "500px";
+		document.querySelector(".notification").style.height = "80px";
 	});
 	// 武器名稱
 	let WeaponName = `<p>${weapon[language + "Name"]}</p>`
@@ -205,26 +274,38 @@ Weapons.prototype.registerCategoriesEvents = function () {
 	let rarityBtns = document.querySelectorAll('.js-weapon-category[data-rarity]');
 	Array.prototype.forEach.call(rarityBtns, function(btn) {
 		btn.addEventListener('click', function(event) {
-			// 更新 currentRarity 資料
-			self.currentRarity = event.currentTarget.getAttribute('data-rarity');
-			// 更新按鈕
-			Array.prototype.forEach.call(rarityBtns, function(btn) { btn.classList.remove('active'); });
-			event.currentTarget.classList.add('active');
-			// 執行篩選
-			self.filterCategories();
+			if (event.currentTarget.getAttribute('data-rarity') !== "GRADE") {
+				// 更新 currentRarity 資料
+				self.currentRarity = event.currentTarget.getAttribute('data-rarity');
+				// 更新按鈕
+				Array.prototype.forEach.call(rarityBtns, function(btn) { btn.classList.remove('active'); });
+				event.currentTarget.classList.add('active');
+				// 執行篩選
+				self.filterCategories();
+				
+				message_prompt(lang_switch[language].rarityswitch + self.rarityTo[language][event.currentTarget.getAttribute('data-rarity')], "")
+				document.querySelector(".notification").style.width = "250px";
+				document.querySelector(".notification").style.height = "40px";
+			}
 		});
 	});
 	// 武器類型
 	let typeBtns = document.querySelectorAll('.js-weapon-category[data-type]');
 	Array.prototype.forEach.call(typeBtns, function(btn) {
 		btn.addEventListener('click', function(event) {
-			// 更新 currentType 資料
-			self.currentType = event.currentTarget.getAttribute('data-type');
-			// 更新按鈕
-			Array.prototype.forEach.call(typeBtns, function(btn) { btn.classList.remove('active'); });
-			event.currentTarget.classList.add('active');
-			// 篩選武器
-			self.filterCategories();
+			if (event.currentTarget.getAttribute('data-type') !== "GRADE") {
+				// 更新 currentType 資料
+				self.currentType = event.currentTarget.getAttribute('data-type');
+				// 更新按鈕
+				Array.prototype.forEach.call(typeBtns, function(btn) { btn.classList.remove('active'); });
+				event.currentTarget.classList.add('active');
+				// 篩選武器
+				self.filterCategories();
+				
+				message_prompt(lang_switch[language].typeswitch + self.typeTo[language][event.currentTarget.getAttribute('data-type')], "")
+				document.querySelector(".notification").style.width = "250px";
+				document.querySelector(".notification").style.height = "40px";
+			}
 		});
 	});
 }
@@ -242,11 +323,13 @@ Weapons.prototype.filterCategories = function () {
 			if(self.matchFilter(weapon)) {
 				self.currentWeapons.push({
 					"item"       : node,
-					"systemname" : weapon["SystemName"],
-					"chinesename": weapon["ChineseName"],
-					"englishname": weapon["EnglishName"],
+					"systemname" : weapon.SystemName,
+					"chinesename": weapon.ChineseName,
+					"englishname": weapon.EnglishName,
 					"id"         : weapon.ID,
-					"ingameid"   : weapon.InGameID
+					"ingameid"   : weapon.InGameID,
+					"unknown"    : weapon.Unknown,
+					"imagesrc"   : weapon.ImageURL
 				})
 				node.setAttribute('style', 'display: block');
 			} else {
@@ -254,16 +337,27 @@ Weapons.prototype.filterCategories = function () {
 			}
 		}
 	})
-	theme_btn.click();
-	theme_btn.click();
+	theme_reload();
 }
 
 // 2.2 檢查目前篩選
 Weapons.prototype.matchFilter = function(weapon) {
 	let matchRarity = false;
 	let matchType = false;
-	if(this.currentRarity === 'ALL' || this.currentRarity === 'GRADE0' || this.rarityTo[language][this.currentRarity] === this.rarityTo[language]["GRADE" + weapon.Rarity]) {matchRarity = true;}
-	if(this.currentType   === 'ALL' || this.currentType   === 'ALL'    || this.typeTo  [language][this.currentType]   === this.typeTo  [language][weapon.Type]            ) {matchType   = true;}
+	if(
+		   this.currentRarity === 'ALL' 
+		|| this.currentRarity === 'GRADE0'
+		|| this.rarityTo[language][this.currentRarity] === this.rarityTo[language]["GRADE" + weapon.Rarity]
+	) {
+		matchRarity = true;
+	}
+	if(
+			this.currentType === 'ALL'
+		||  this.typeTo[language][this.currentType] === this.typeTo[language][weapon.Type]
+		|| (this.typeTo[language][this.currentType] === this.typeTo[language]["NONE"] && weapon.Unknown === "1")
+	) {
+		matchType = true;
+	}
 	
 	return (matchRarity && matchType);
 }
@@ -288,8 +382,7 @@ Weapons.prototype.registerSearchWeaponEvents = function () {
 			let filteredWeapons = self.searchWeapon(content, currentWeapons);
 			self.renderThumbnailsFilteredWeapons(currentWeapons, filteredWeapons);
 		}
-		theme_btn.click();
-		theme_btn.click();
+		theme_reload();
 	})
 }
 
@@ -338,6 +431,8 @@ Weapons.prototype.renderThumbnailsFilteredWeapons = function (current, filtered)
 	})
 }
 
+
+
 // 按鈕事件
 Weapons.prototype.clickButton = function () {
     let self = this;
@@ -353,8 +448,7 @@ Weapons.prototype.clickButton = function () {
 		self.renderThumbnails();
 		self.registerSearchWeaponEvents();
 		self.filterCategories();
-		theme_btn.click();
-		theme_btn.click();
+		theme_reload();
     });
 	
 	const lang = document.querySelector('.lang')
@@ -363,12 +457,11 @@ Weapons.prototype.clickButton = function () {
 		self.renderThumbnails();
 		self.registerSearchWeaponEvents();
 		self.filterCategories();
-		theme_btn.click();
-		theme_btn.click();
+		theme_reload();
     });
 }
 
-// 重整
+// 點擊左上LOGO重新整理網頁
 const logo_btn = document.querySelector('.App .Navigation .logo');
 logo_btn.addEventListener('click', function(e){
 	location.reload();
@@ -377,7 +470,6 @@ logo_btn.addEventListener('click', function(e){
 // 關於
 const about = document.querySelector('.about-bg');
 const about_btn = document.querySelector('.nav__links li a');
-
 about.addEventListener('click', function(e) {
 	if(e.target.classList.value === about.className) {
 		this.style.display = 'none';
@@ -385,41 +477,11 @@ about.addEventListener('click', function(e) {
 });
 about_btn.addEventListener('click', function() {about.style.display = 'block';})
 
-// 主題按鈕
-const theme_btn = document.querySelector('.nav__links .theme');
-theme_btn.addEventListener('click', function(e){
+// 重整主題
+function theme_reload() {
 	if (theme === 1) {
-		theme = 2;
-		document.querySelector(".Cards-Content").style.backgroundColor = "#1A1A1A";
-		var cards = document.querySelectorAll(".card");
-		cards.forEach(function(card) {
-			card.style.border = "2px solid #7D7D7D"
-			card.style.backgroundColor = "#0F0F0F";
-		});
-		var images = document.querySelectorAll(".card .img");
-		images.forEach(function(image) {
-			image.style.backgroundColor = "#424242";
-		});
-		var paragraphs = document.querySelectorAll(".card .content p");
-		paragraphs.forEach(function(paragraph) {
-			paragraph.style.color = "#ffffff";
-		});
-		var elements = document.querySelectorAll('.card .content');
-		for (var i = 0; i < elements.length; i++) {
-			elements[i].addEventListener('mousedown', function() {
-				this.style.backgroundColor = '#212121';
-			});
-			elements[i].addEventListener('mouseup', function() {
-				this.style.backgroundColor = '';
-			});
-		}
-		if (language === "Chinese") {
-			document.querySelector('.nav__links .theme').textContent = "主題：黑暗";
-		} else if (language === "English") {
-			document.querySelector('.nav__links .theme').textContent = "Theme: Dark";
-		};
-	} else if (theme === 2) {
-		theme = 1;
+		document.querySelector(".watermark").style.color = "rgba(0, 0, 0, 0.3)";
+		document.querySelector(".watermark").style.outline = "2px solid rgba(0, 0, 0, 0.3)";
 		document.querySelector(".Cards-Content").style.backgroundColor = "#bbb";
 		var cards = document.querySelectorAll(".card");
 		cards.forEach(function(card) {
@@ -443,118 +505,123 @@ theme_btn.addEventListener('click', function(e){
 				this.style.backgroundColor = '';
 			});
 		}
-		if (language === "Chinese") {
-			document.querySelector('.nav__links .theme').textContent = "主題：正常";
-		} else if (language === "English") {
-			document.querySelector('.nav__links .theme').textContent = "Theme: Normal";
+	} else if (theme === 2) {
+		document.querySelector(".watermark").style.color = "rgba(255, 255, 255, 0.3)";
+		document.querySelector(".watermark").style.outline = "2px solid rgba(255, 255, 255, 0.3)";
+		document.querySelector(".Cards-Content").style.backgroundColor = "#1A1A1A";
+		var cards = document.querySelectorAll(".card");
+		cards.forEach(function(card) {
+			card.style.border = "2px solid #7D7D7D"
+			card.style.backgroundColor = "#0F0F0F";
+		});
+		var images = document.querySelectorAll(".card .img");
+		images.forEach(function(image) {
+			image.style.backgroundColor = "#424242";
+		});
+		var paragraphs = document.querySelectorAll(".card .content p");
+		paragraphs.forEach(function(paragraph) {
+			paragraph.style.color = "#ffffff";
+		});
+		var elements = document.querySelectorAll('.card .content');
+		for (var i = 0; i < elements.length; i++) {
+			elements[i].addEventListener('mousedown', function() {
+				this.style.backgroundColor = '#212121';
+			});
+			elements[i].addEventListener('mouseup', function() {
+				this.style.backgroundColor = '';
+			});
 		}
-	};
+	}
+}
+
+// 主題按鈕
+const theme_btn = document.querySelector('.nav__links .theme');
+theme_btn.addEventListener('click', function(e){
+	if (event.target.classList.contains('theme')) {
+		if (theme === 1) {
+			theme = 2;
+		} else if (theme === 2) {
+			theme = 1;
+		};
+		theme_reload();
+		document.querySelector('.nav__links .theme').textContent = lang_switch[language].theme[theme];
+		
+		message_prompt(lang_switch[language].theme[theme], "")
+		document.querySelector(".notification").style.width = "250px";
+		document.querySelector(".notification").style.height = "40px";
+	}
 });
 
 // 排序按鈕
 const sort_btn = document.querySelector('.nav__links .sort');
 sort_btn.addEventListener('click', function(e){
-	if (sortway === 1) {
-		sortway = 2;
-		if (language === "Chinese") {
-			document.querySelector('.nav__links .sort').textContent = "排序：ID";
-		} else if (language === "English") {
-			document.querySelector('.nav__links .sort').textContent = "Sort: ID";
-		}
-	} else if (sortway === 2) {
-		sortway = 3;
-		if (language === "Chinese") {
-			document.querySelector('.nav__links .sort').textContent = "排序：類型";
-		} else if (language === "English") {
-			document.querySelector('.nav__links .sort').textContent = "Sort: Type";
-		}
-	} else if (sortway === 3) {
-		sortway = 1;
-		if (language === "Chinese") {
-			document.querySelector('.nav__links .sort').textContent = "排序：GID";
-		} else if (language === "English") {
-			document.querySelector('.nav__links .sort').textContent = "Sort: GID";
-		}
-	};
-	this.weaponList = Array.prototype.sort.call(WeaponData, function (a, b) {
-		const order = ['NONE', 'PISTOL', 'SHOTGUN', 'SUBMACHINEGUN', 'RIFLE', 'SNIPERRIFLE', 'MACHINEGUN', 'EQUIPMENT', 'KNIFE', 'GRENADE', 'STUDIO'];
-		if (sortway === 1) {
-			return a.InGameID - b.InGameID;
-		};
-		if (sortway === 2) {
-			return a.ID - b.ID;
-		};
-		if (sortway === 3) {
-			const typeIndexDiff = order.indexOf(a.Type) - order.indexOf(b.Type);
-			if (typeIndexDiff === 0) {
+	if (event.target.classList.contains('sort')) {
+		sortway = sortway % 3 + 1
+		
+		message_prompt(lang_switch[language].sort[sortway], "")
+		document.querySelector(".notification").style.width = "250px";
+		document.querySelector(".notification").style.height = "40px";
+		
+		document.querySelector('.nav__links .sort').textContent = lang_switch[language].sort[sortway];
+		
+		this.weaponList = Array.prototype.sort.call(WeaponData, function (a, b) {
+			const order = ['NONE', 'PISTOL', 'SHOTGUN', 'SUBMACHINEGUN', 'RIFLE', 'SNIPERRIFLE', 'MACHINEGUN', 'EQUIPMENT', 'KNIFE', 'GRENADE', 'STUDIO'];
+			if (sortway === 1) {
 				return a.InGameID - b.InGameID;
-			}
-			return order.indexOf(a.Type) - order.indexOf(b.Type);
-		};
-	});
+			};
+			if (sortway === 2) {
+				return a.ID - b.ID;
+			};
+			if (sortway === 3) {
+				const typeIndexDiff = order.indexOf(a.Type) - order.indexOf(b.Type);
+				if (typeIndexDiff === 0) {
+					return a.InGameID - b.InGameID;
+				}
+				return order.indexOf(a.Type) - order.indexOf(b.Type);
+			};
+		});
+	}
 });
 
 // 切換語言按鈕
 const lang_btn = document.querySelector('.nav__links .lang');
 lang_btn.addEventListener('click', function(e){
-	if(language === "Chinese"){
-		language = "English";
-		document.title = "Counter-Strike Online Weapon List";
-		document.querySelector('.nav__links a').textContent = "About";
-		document.querySelector('.nav__links .lang').textContent = "English > 中文";
-		document.querySelector('.about h3').textContent = "About";
-		document.querySelector('.about .a').textContent = "Website Author: 崩潰金魚燒(GoldFish)";
-		document.querySelector('.about .b').textContent = "Image Provider: WrenchReginald, DestroyerI滅世I";
-		document.querySelector('.about .c').textContent = "WpnID Provider: WrenchReginald, DestroyerI滅世I";
-		document.querySelector('.btn-search button').textContent = "Search";
-		if (theme === 1) {
-			document.querySelector('.nav__links .theme').textContent = "Theme: Normal";
-		} else if (theme === 2) {
-			document.querySelector('.nav__links .theme').textContent = "Theme: Dark";
-		};
-		if (sortway === 1) {
-			document.querySelector('.nav__links .sort').textContent = "Sort: GID";
-		} else if (sortway === 2) {
-			document.querySelector('.nav__links .sort').textContent = "Sort: ID";
-		} else if (sortway === 3) {
-			document.querySelector('.nav__links .sort').textContent = "Sort: Type";
-		};
-	} else if(language === "English"){
-		language = "Chinese";
-		document.title = "Counter-Strike Online 武器清單";
-		document.querySelector('.nav__links a').textContent = "關於";
-		document.querySelector('.nav__links .lang').textContent = "中文 > English";
-		document.querySelector('.about h3').textContent = "關於";
-		document.querySelector('.about .a').textContent = "網頁製作: 崩潰金魚燒";
-		document.querySelector('.about .b').textContent = "圖片提供: WrenchReginald、DestroyerI滅世I";
-		document.querySelector('.about .c').textContent = "ＩＤ提供: WrenchReginald、DestroyerI滅世I";
-		document.querySelector('.btn-search button').textContent = "搜尋";
-		if (theme === 1) {
-			document.querySelector('.nav__links .theme').textContent = "主題: 普通";
-		} else if (theme === 2) {
-			document.querySelector('.nav__links .theme').textContent = "主題: 黑暗";
-		};
-		if (sortway === 1) {
-			document.querySelector('.nav__links .sort').textContent = "排序：GID";
-		} else if (sortway === 2) {
-			document.querySelector('.nav__links .sort').textContent = "排序：ID";
-		} else if (sortway === 3) {
-			document.querySelector('.nav__links .sort').textContent = "排序：類型";
-		};
-	}
-	var elements = document.querySelectorAll('.js-weapon-category');
-	var dataTypes = [];
-	
-	for (var i = 0; i < elements.length; i++) {
-		var element = elements[i];
-		var type = element.getAttribute('data-type');
-		var rarity = element.getAttribute('data-rarity');
-		var spanElement = element.querySelector('span');
-		if(type){
-			spanElement.textContent = wpnthis.typeTo[language][type];
+	if (event.target.classList.contains('lang')) {
+		if(language === "Chinese"){
+			language = "English";
+			message_prompt("Language: " + language, "")
+		} else if(language === "English"){
+			language = "Chinese";
+			message_prompt("語言：中文", "")
 		}
-		if(rarity){
-			spanElement.textContent = wpnthis.rarityTo[language][rarity];
+		document.querySelector(".notification").style.width = "250px";
+		document.querySelector(".notification").style.height = "40px";
+		
+		document.title                                           = lang_switch[language].webtitle;
+		document.querySelector('.nav__links a')     .textContent = lang_switch[language].aboutbtn;
+		document.querySelector('.nav__links .lang') .textContent = lang_switch[language].langbtn;
+		document.querySelector('.about h3')         .textContent = lang_switch[language].aboutbtn;
+		document.querySelector('.about .a')         .textContent = lang_switch[language].webmaker;
+		document.querySelector('.about .b')         .textContent = lang_switch[language].imgsprovider;
+		document.querySelector('.about .c')         .textContent = lang_switch[language].idsprovider;
+		document.querySelector('.btn-search button').textContent = lang_switch[language].searchbtn;
+		document.querySelector('.nav__links .theme').textContent = lang_switch[language].theme[theme];
+		document.querySelector('.nav__links .sort') .textContent = lang_switch[language].sort[sortway];
+		
+		var elements = document.querySelectorAll('.js-weapon-category');
+		var dataTypes = [];
+		
+		for (var i = 0; i < elements.length; i++) {
+			var element = elements[i];
+			var type = element.getAttribute('data-type');
+			var rarity = element.getAttribute('data-rarity');
+			var spanElement = element.querySelector('span');
+			if(type){
+				spanElement.textContent = wpnthis.typeTo[language][type];
+			}
+			if(rarity){
+				spanElement.textContent = wpnthis.rarityTo[language][rarity];
+			}
 		}
 	}
 })

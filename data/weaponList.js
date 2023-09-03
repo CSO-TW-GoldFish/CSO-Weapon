@@ -5,8 +5,9 @@ let WeaponData = [
 		"EnglishName": "Coke Can",
 		"ID": "0",
 		"InGameID": "0",
-		"Type": "NONE",
+		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/cokecan.png"
 	},
 	{
@@ -15,8 +16,9 @@ let WeaponData = [
 		"EnglishName": "MP5 Spectre",
 		"ID": "0",
 		"InGameID": "0",
-		"Type": "NONE",
+		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/mp5spectre.png"
 	},
 	{
@@ -25,8 +27,9 @@ let WeaponData = [
 		"EnglishName": "Anniversary Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
-		"Type": "NONE",
+		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/cakebomb.png"
 	},
 	{
@@ -35,8 +38,9 @@ let WeaponData = [
 		"EnglishName": "1st Anniversary Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
-		"Type": "NONE",
+		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/1stcakebomb.png"
 	},
 	{
@@ -45,8 +49,9 @@ let WeaponData = [
 		"EnglishName": "2nd Anniversary Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
-		"Type": "NONE",
+		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/2ndcakebomb.png"
 	},
 	{
@@ -55,8 +60,9 @@ let WeaponData = [
 		"EnglishName": "3rd Anniversary Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
-		"Type": "NONE",
+		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/3rdcakebomb.png"
 	},
 	{
@@ -67,7 +73,19 @@ let WeaponData = [
 		"InGameID": "0",
 		"Type": "MACHINEGUN",
 		"Rarity": "5",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/y23s3buffm249.png"
+	},
+	{
+		"SystemName": "shield",
+		"ChineseName": "戰術盾牌",
+		"EnglishName": "Shield",
+		"ID": "0",
+		"InGameID": "0",
+		"Type": "NONE",
+		"Rarity": "1",
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/shield.png"
 	},
 	{
 		"SystemName": "p228",
@@ -77,6 +95,7 @@ let WeaponData = [
 		"InGameID": "1",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/p228.png"
 	},
 	{
@@ -87,17 +106,19 @@ let WeaponData = [
 		"InGameID": "3",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/scout.png"
 	},
 	{
-		"SystemName": "hegrenade",
-		"ChineseName": "高爆手榴彈(無法使用)",
-		"EnglishName": "HE Grenade(Cannot Use)",
+		"SystemName": "hegrenade_cannotuse",
+		"ChineseName": "高爆手榴彈",
+		"EnglishName": "HE Grenade",
 		"ID": "0",
 		"InGameID": "4",
 		"Type": "NONE",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/hegrenade.png"
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/hegrenade_cannotuse.png"
 	},
 	{
 		"SystemName": "xm1014",
@@ -107,6 +128,7 @@ let WeaponData = [
 		"InGameID": "5",
 		"Type": "SHOTGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/xm1014.png"
 	},
 	{
@@ -117,6 +139,7 @@ let WeaponData = [
 		"InGameID": "6",
 		"Type": "NONE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/c4_backpack.png"
 	},
 	{
@@ -127,6 +150,7 @@ let WeaponData = [
 		"InGameID": "7",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mac10.png"
 	},
 	{
@@ -137,17 +161,19 @@ let WeaponData = [
 		"InGameID": "8",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/aug.png"
 	},
 	{
-		"SystemName": "smokegrenade",
-		"ChineseName": "煙霧彈(無法使用)",
-		"EnglishName": "Smokescreen Grenade(Cannot Use)",
+		"SystemName": "smokegrenade_cannotuse",
+		"ChineseName": "煙霧彈",
+		"EnglishName": "Smokescreen Grenade",
 		"ID": "0",
 		"InGameID": "9",
 		"Type": "NONE",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/smokegrenade.png"
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/smokegrenade_cannotuse.png"
 	},
 	{
 		"SystemName": "Elites",
@@ -157,6 +183,7 @@ let WeaponData = [
 		"InGameID": "10",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/elites.png"
 	},
 	{
@@ -167,6 +194,7 @@ let WeaponData = [
 		"InGameID": "11",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/fiveseven.png"
 	},
 	{
@@ -177,6 +205,7 @@ let WeaponData = [
 		"InGameID": "12",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ump45.png"
 	},
 	{
@@ -187,6 +216,7 @@ let WeaponData = [
 		"InGameID": "13",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sg550.png"
 	},
 	{
@@ -197,6 +227,7 @@ let WeaponData = [
 		"InGameID": "14",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/galil.png"
 	},
 	{
@@ -207,6 +238,7 @@ let WeaponData = [
 		"InGameID": "15",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/famas.png"
 	},
 	{
@@ -217,6 +249,7 @@ let WeaponData = [
 		"InGameID": "16",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/usp45.png"
 	},
 	{
@@ -227,6 +260,7 @@ let WeaponData = [
 		"InGameID": "17",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/glock18.png"
 	},
 	{
@@ -237,6 +271,7 @@ let WeaponData = [
 		"InGameID": "18",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/awp.png"
 	},
 	{
@@ -247,6 +282,7 @@ let WeaponData = [
 		"InGameID": "19",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mp5.png"
 	},
 	{
@@ -257,6 +293,7 @@ let WeaponData = [
 		"InGameID": "20",
 		"Type": "MACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m249.png"
 	},
 	{
@@ -267,6 +304,7 @@ let WeaponData = [
 		"InGameID": "21",
 		"Type": "SHOTGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m3.png"
 	},
 	{
@@ -277,6 +315,7 @@ let WeaponData = [
 		"InGameID": "22",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m4a1.png"
 	},
 	{
@@ -287,6 +326,7 @@ let WeaponData = [
 		"InGameID": "23",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/tmp.png"
 	},
 	{
@@ -297,17 +337,19 @@ let WeaponData = [
 		"InGameID": "24",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/g3sg1.png"
 	},
 	{
-		"SystemName": "flashbang",
-		"ChineseName": "閃光彈(無法使用)",
-		"EnglishName": "Flash Bang(Cannot Use)",
+		"SystemName": "flashbang_cannotuse",
+		"ChineseName": "閃光彈",
+		"EnglishName": "Flash Bang",
 		"ID": "0",
 		"InGameID": "25",
 		"Type": "NONE",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/flashbang.png"
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/flashbang_cannotuse.png"
 	},
 	{
 		"SystemName": "deserteagle",
@@ -317,6 +359,7 @@ let WeaponData = [
 		"InGameID": "26",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/deserteagle.png"
 	},
 	{
@@ -327,6 +370,7 @@ let WeaponData = [
 		"InGameID": "27",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sg552.png"
 	},
 	{
@@ -337,6 +381,7 @@ let WeaponData = [
 		"InGameID": "28",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ak47.png"
 	},
 	{
@@ -347,6 +392,7 @@ let WeaponData = [
 		"InGameID": "30",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/p90.png"
 	},
 	{
@@ -357,6 +403,7 @@ let WeaponData = [
 		"InGameID": "31",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/scar.png"
 	},
 	{
@@ -367,6 +414,7 @@ let WeaponData = [
 		"InGameID": "32",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/scar_b.png"
 	},
 	{
@@ -377,6 +425,7 @@ let WeaponData = [
 		"InGameID": "33",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/xm8.png"
 	},
 	{
@@ -387,6 +436,7 @@ let WeaponData = [
 		"InGameID": "34",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/xm8_b.png"
 	},
 	{
@@ -397,6 +447,7 @@ let WeaponData = [
 		"InGameID": "35",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/svd.png"
 	},
 	{
@@ -407,6 +458,7 @@ let WeaponData = [
 		"InGameID": "36",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mp7a1.png"
 	},
 	{
@@ -417,6 +469,7 @@ let WeaponData = [
 		"InGameID": "37",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/mp7a1_b.png"
 	},
 	{
@@ -427,6 +480,7 @@ let WeaponData = [
 		"InGameID": "38",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/k1a.png"
 	},
 	{
@@ -437,6 +491,7 @@ let WeaponData = [
 		"InGameID": "39",
 		"Type": "SHOTGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/usas12.png"
 	},
 	{
@@ -447,6 +502,7 @@ let WeaponData = [
 		"InGameID": "40",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vsk94.png"
 	},
 	{
@@ -457,6 +513,7 @@ let WeaponData = [
 		"InGameID": "41",
 		"Type": "MACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/qbb95.png"
 	},
 	{
@@ -467,6 +524,7 @@ let WeaponData = [
 		"InGameID": "42",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/scar556limited.png"
 	},
 	{
@@ -477,16 +535,18 @@ let WeaponData = [
 		"InGameID": "43",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/xm8carbinelimited.png"
 	},
 	{
 		"SystemName": "zombibomb",
-		"ChineseName": "狂暴手榴彈",
+		"ChineseName": "殭屍炸彈",
 		"EnglishName": "Zombie Bomb",
 		"ID": "0",
 		"InGameID": "44",
 		"Type": "NONE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/zombibomb.png"
 	},
 	{
@@ -497,6 +557,7 @@ let WeaponData = [
 		"InGameID": "45",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3.png"
 	},
 	{
@@ -507,6 +568,7 @@ let WeaponData = [
 		"InGameID": "46",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/anaconda.png"
 	},
 	{
@@ -517,6 +579,7 @@ let WeaponData = [
 		"InGameID": "47",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/trg42.png"
 	},
 	{
@@ -527,6 +590,7 @@ let WeaponData = [
 		"InGameID": "48",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mp7a1d.png"
 	},
 	{
@@ -537,6 +601,7 @@ let WeaponData = [
 		"InGameID": "49",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/deagled.png"
 	},
 	{
@@ -547,6 +612,7 @@ let WeaponData = [
 		"InGameID": "50",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ak47l.png"
 	},
 	{
@@ -557,6 +623,7 @@ let WeaponData = [
 		"InGameID": "51",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/awpred.png"
 	},
 	{
@@ -567,6 +634,7 @@ let WeaponData = [
 		"InGameID": "52",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m249red.png"
 	},
 	{
@@ -577,6 +645,7 @@ let WeaponData = [
 		"InGameID": "53",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m400.png"
 	},
 	{
@@ -587,6 +656,7 @@ let WeaponData = [
 		"InGameID": "54",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m4a1g.png"
 	},
 	{
@@ -597,6 +667,7 @@ let WeaponData = [
 		"InGameID": "55",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ak47g.png"
 	},
 	{
@@ -607,6 +678,7 @@ let WeaponData = [
 		"InGameID": "56",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/deserteagleg.png"
 	},
 	{
@@ -617,6 +689,7 @@ let WeaponData = [
 		"InGameID": "57",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sl8.png"
 	},
 	{
@@ -627,6 +700,7 @@ let WeaponData = [
 		"InGameID": "58",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m1887.png"
 	},
 	{
@@ -637,6 +711,7 @@ let WeaponData = [
 		"InGameID": "59",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m134.png"
 	},
 	{
@@ -647,6 +722,7 @@ let WeaponData = [
 		"InGameID": "60",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/f2000.png"
 	},
 	{
@@ -657,6 +733,7 @@ let WeaponData = [
 		"InGameID": "61",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/k1ase.png"
 	},
 	{
@@ -667,6 +744,7 @@ let WeaponData = [
 		"InGameID": "63",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m1887g.png"
 	},
 	{
@@ -677,6 +755,7 @@ let WeaponData = [
 		"InGameID": "64",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sl8g.png"
 	},
 	{
@@ -687,6 +766,7 @@ let WeaponData = [
 		"InGameID": "65",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/guitar.png"
 	},
 	{
@@ -697,6 +777,7 @@ let WeaponData = [
 		"InGameID": "66",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m24.png"
 	},
 	{
@@ -707,6 +788,7 @@ let WeaponData = [
 		"InGameID": "67",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/infinity.png"
 	},
 	{
@@ -717,6 +799,7 @@ let WeaponData = [
 		"InGameID": "68",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/watergun.png"
 	},
 	{
@@ -727,6 +810,7 @@ let WeaponData = [
 		"InGameID": "69",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m4a1gold.png"
 	},
 	{
@@ -737,6 +821,7 @@ let WeaponData = [
 		"InGameID": "70",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/infinityex1.png"
 	},
 	{
@@ -747,6 +832,7 @@ let WeaponData = [
 		"InGameID": "71",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/awpcamo.png"
 	},
 	{
@@ -757,6 +843,7 @@ let WeaponData = [
 		"InGameID": "72",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/svdex.png"
 	},
 	{
@@ -767,6 +854,7 @@ let WeaponData = [
 		"InGameID": "73",
 		"Type": "MACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/qbb95ex.png"
 	},
 	{
@@ -777,6 +865,7 @@ let WeaponData = [
 		"InGameID": "74",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mp7a160r.png"
 	},
 	{
@@ -787,6 +876,7 @@ let WeaponData = [
 		"InGameID": "75",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m79.png"
 	},
 	{
@@ -797,6 +887,7 @@ let WeaponData = [
 		"InGameID": "76",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m134_xmas.png"
 	},
 	{
@@ -807,6 +898,7 @@ let WeaponData = [
 		"InGameID": "77",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3_xmas.png"
 	},
 	{
@@ -817,6 +909,7 @@ let WeaponData = [
 		"InGameID": "78",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/infinityex2.png"
 	},
 	{
@@ -827,6 +920,7 @@ let WeaponData = [
 		"InGameID": "79",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/hk23.png"
 	},
 	{
@@ -837,6 +931,7 @@ let WeaponData = [
 		"InGameID": "80",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m4a1dragon.png"
 	},
 	{
@@ -847,6 +942,7 @@ let WeaponData = [
 		"InGameID": "81",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ak47dragon.png"
 	},
 	{
@@ -857,6 +953,7 @@ let WeaponData = [
 		"InGameID": "82",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mp5tiger.png"
 	},
 	{
@@ -867,6 +964,7 @@ let WeaponData = [
 		"InGameID": "83",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/crossbow.png"
 	},
 	{
@@ -877,6 +975,7 @@ let WeaponData = [
 		"InGameID": "84",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/infinitysb.png"
 	},
 	{
@@ -887,6 +986,7 @@ let WeaponData = [
 		"InGameID": "85",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/infinitysr.png"
 	},
 	{
@@ -897,6 +997,7 @@ let WeaponData = [
 		"InGameID": "86",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/infinityss.png"
 	},
 	{
@@ -907,6 +1008,7 @@ let WeaponData = [
 		"InGameID": "87",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m14ebr.png"
 	},
 	{
@@ -917,6 +1019,7 @@ let WeaponData = [
 		"InGameID": "88",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/usas12camo.png"
 	},
 	{
@@ -927,6 +1030,7 @@ let WeaponData = [
 		"InGameID": "89",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/thompsongold.png"
 	},
 	{
@@ -937,6 +1041,7 @@ let WeaponData = [
 		"InGameID": "90",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dbarrel.png"
 	},
 	{
@@ -947,6 +1052,7 @@ let WeaponData = [
 		"InGameID": "91",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/cartblue.png"
 	},
 	{
@@ -957,6 +1063,7 @@ let WeaponData = [
 		"InGameID": "92",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/cartblue_b.png"
 	},
 	{
@@ -967,6 +1074,7 @@ let WeaponData = [
 		"InGameID": "93",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/cartred.png"
 	},
 	{
@@ -977,6 +1085,7 @@ let WeaponData = [
 		"InGameID": "94",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/cartred_b.png"
 	},
 	{
@@ -987,6 +1096,7 @@ let WeaponData = [
 		"InGameID": "95",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kriss.png"
 	},
 	{
@@ -997,6 +1107,7 @@ let WeaponData = [
 		"InGameID": "96",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m249ex.png"
 	},
 	{
@@ -1007,6 +1118,7 @@ let WeaponData = [
 		"InGameID": "97",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/waterpistol.png"
 	},
 	{
@@ -1017,6 +1129,7 @@ let WeaponData = [
 		"InGameID": "98",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/wa2000.png"
 	},
 	{
@@ -1027,6 +1140,7 @@ let WeaponData = [
 		"InGameID": "99",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/lugerg.png"
 	},
 	{
@@ -1037,6 +1151,7 @@ let WeaponData = [
 		"InGameID": "100",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/trg42g.png"
 	},
 	{
@@ -1047,6 +1162,7 @@ let WeaponData = [
 		"InGameID": "101",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/at4.png"
 	},
 	{
@@ -1057,6 +1173,7 @@ let WeaponData = [
 		"InGameID": "102",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/tar21.png"
 	},
 	{
@@ -1067,6 +1184,7 @@ let WeaponData = [
 		"InGameID": "103",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m95.png"
 	},
 	{
@@ -1077,6 +1195,7 @@ let WeaponData = [
 		"InGameID": "104",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mp5g.png"
 	},
 	{
@@ -1087,6 +1206,7 @@ let WeaponData = [
 		"InGameID": "105",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dualkriss.png"
 	},
 	{
@@ -1097,6 +1217,7 @@ let WeaponData = [
 		"InGameID": "106",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m60.png"
 	},
 	{
@@ -1107,6 +1228,7 @@ let WeaponData = [
 		"InGameID": "107",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/an94.png"
 	},
 	{
@@ -1117,6 +1239,7 @@ let WeaponData = [
 		"InGameID": "108",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m16a4.png"
 	},
 	{
@@ -1127,6 +1250,7 @@ let WeaponData = [
 		"InGameID": "109",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3g.png"
 	},
 	{
@@ -1137,6 +1261,7 @@ let WeaponData = [
 		"InGameID": "110",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/p90lapin.png"
 	},
 	{
@@ -1147,6 +1272,7 @@ let WeaponData = [
 		"InGameID": "111",
 		"Type": "SHOTGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/gatling.png"
 	},
 	{
@@ -1157,6 +1283,7 @@ let WeaponData = [
 		"InGameID": "112",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skull5.png"
 	},
 	{
@@ -1167,6 +1294,7 @@ let WeaponData = [
 		"InGameID": "113",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/thompson.png"
 	},
 	{
@@ -1177,6 +1305,7 @@ let WeaponData = [
 		"InGameID": "114",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/luger.png"
 	},
 	{
@@ -1187,6 +1316,7 @@ let WeaponData = [
 		"InGameID": "115",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg36.png"
 	},
 	{
@@ -1197,6 +1327,7 @@ let WeaponData = [
 		"InGameID": "116",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sfgun.png"
 	},
 	{
@@ -1207,6 +1338,7 @@ let WeaponData = [
 		"InGameID": "117",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/wa2000g.png"
 	},
 	{
@@ -1217,6 +1349,7 @@ let WeaponData = [
 		"InGameID": "118",
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/flamethrower.png"
 	},
 	{
@@ -1227,6 +1360,7 @@ let WeaponData = [
 		"InGameID": "119",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/xm2010.png"
 	},
 	{
@@ -1237,6 +1371,7 @@ let WeaponData = [
 		"InGameID": "120",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sl8ex.png"
 	},
 	{
@@ -1247,6 +1382,7 @@ let WeaponData = [
 		"InGameID": "121",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ksg12.png"
 	},
 	{
@@ -1257,6 +1393,7 @@ let WeaponData = [
 		"InGameID": "122",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/as50.png"
 	},
 	{
@@ -1267,6 +1404,7 @@ let WeaponData = [
 		"InGameID": "123",
 		"Type": "SHOTGUN",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/qbarrel.png"
 	},
 	{
@@ -1277,6 +1415,7 @@ let WeaponData = [
 		"InGameID": "124",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/lugers.png"
 	},
 	{
@@ -1287,6 +1426,7 @@ let WeaponData = [
 		"InGameID": "125",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m134ex.png"
 	},
 	{
@@ -1297,6 +1437,7 @@ let WeaponData = [
 		"InGameID": "126",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/rainbowgun.png"
 	},
 	{
@@ -1307,6 +1448,7 @@ let WeaponData = [
 		"InGameID": "127",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/musket.png"
 	},
 	{
@@ -1317,6 +1459,7 @@ let WeaponData = [
 		"InGameID": "128",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/stg44.png"
 	},
 	{
@@ -1327,6 +1470,7 @@ let WeaponData = [
 		"InGameID": "129",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/hk23g.png"
 	},
 	{
@@ -1337,6 +1481,7 @@ let WeaponData = [
 		"InGameID": "130",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skull1.png"
 	},
 	{
@@ -1347,6 +1492,7 @@ let WeaponData = [
 		"InGameID": "131",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/qbz95b.png"
 	},
 	{
@@ -1357,6 +1503,7 @@ let WeaponData = [
 		"InGameID": "132",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m79g.png"
 	},
 	{
@@ -1367,6 +1514,7 @@ let WeaponData = [
 		"InGameID": "133",
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/at4ex.png"
 	},
 	{
@@ -1377,6 +1525,7 @@ let WeaponData = [
 		"InGameID": "134",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/pkm.png"
 	},
 	{
@@ -1387,6 +1536,7 @@ let WeaponData = [
 		"InGameID": "135",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sfsmg.png"
 	},
 	{
@@ -1397,6 +1547,7 @@ let WeaponData = [
 		"InGameID": "136",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/catapult.png"
 	},
 	{
@@ -1407,6 +1558,7 @@ let WeaponData = [
 		"InGameID": "137",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/spas12.png"
 	},
 	{
@@ -1417,6 +1569,7 @@ let WeaponData = [
 		"InGameID": "138",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/spas12ex.png"
 	},
 	{
@@ -1427,6 +1580,7 @@ let WeaponData = [
 		"InGameID": "139",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m14ebrgold.png"
 	},
 	{
@@ -1437,6 +1591,7 @@ let WeaponData = [
 		"InGameID": "140",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m95xmas.png"
 	},
 	{
@@ -1445,8 +1600,9 @@ let WeaponData = [
 		"EnglishName": "Bazooka",
 		"ID": "0",
 		"InGameID": "141",
-		"Type": "NONE",
+		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/bazooka.png"
 	},
 	{
@@ -1457,6 +1613,7 @@ let WeaponData = [
 		"InGameID": "142",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skull3.png"
 	},
 	{
@@ -1467,6 +1624,7 @@ let WeaponData = [
 		"InGameID": "143",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/skull3_b.png"
 	},
 	{
@@ -1477,6 +1635,7 @@ let WeaponData = [
 		"InGameID": "144",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/cannon.png"
 	},
 	{
@@ -1487,6 +1646,7 @@ let WeaponData = [
 		"InGameID": "145",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/tmpdragon.png"
 	},
 	{
@@ -1497,6 +1657,7 @@ let WeaponData = [
 		"InGameID": "146",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/spas12ex2.png"
 	},
 	{
@@ -1507,6 +1668,7 @@ let WeaponData = [
 		"InGameID": "147",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mk48.png"
 	},
 	{
@@ -1517,6 +1679,7 @@ let WeaponData = [
 		"InGameID": "148",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m82.png"
 	},
 	{
@@ -1527,6 +1690,7 @@ let WeaponData = [
 		"InGameID": "149",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ksg12g.png"
 	},
 	{
@@ -1537,6 +1701,7 @@ let WeaponData = [
 		"InGameID": "150",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sfmg.png"
 	},
 	{
@@ -1547,6 +1712,7 @@ let WeaponData = [
 		"InGameID": "151",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/stg44g.png"
 	},
 	{
@@ -1557,6 +1723,7 @@ let WeaponData = [
 		"InGameID": "152",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skull11.png"
 	},
 	{
@@ -1567,6 +1734,7 @@ let WeaponData = [
 		"InGameID": "153",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/firecracker.png"
 	},
 	{
@@ -1577,6 +1745,7 @@ let WeaponData = [
 		"InGameID": "154",
 		"Type": "NONE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/mountgun.png"
 	},
 	{
@@ -1587,6 +1756,7 @@ let WeaponData = [
 		"InGameID": "155",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m249camo.png"
 	},
 	{
@@ -1597,6 +1767,7 @@ let WeaponData = [
 		"InGameID": "156",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/xm1014red.png"
 	},
 	{
@@ -1607,6 +1778,7 @@ let WeaponData = [
 		"InGameID": "157",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/deaglered.png"
 	},
 	{
@@ -1617,6 +1789,7 @@ let WeaponData = [
 		"InGameID": "158",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/glockred.png"
 	},
 	{
@@ -1627,6 +1800,7 @@ let WeaponData = [
 		"InGameID": "159",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/uspred.png"
 	},
 	{
@@ -1637,6 +1811,7 @@ let WeaponData = [
 		"InGameID": "160",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/fnc.png"
 	},
 	{
@@ -1647,6 +1822,7 @@ let WeaponData = [
 		"InGameID": "161",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/l85a2.png"
 	},
 	{
@@ -1657,6 +1833,7 @@ let WeaponData = [
 		"InGameID": "162",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/automag.png"
 	},
 	{
@@ -1667,6 +1844,7 @@ let WeaponData = [
 		"InGameID": "163",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/akm.png"
 	},
 	{
@@ -1677,6 +1855,7 @@ let WeaponData = [
 		"InGameID": "164",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/scoutred.png"
 	},
 	{
@@ -1687,6 +1866,7 @@ let WeaponData = [
 		"InGameID": "165",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/hk416.png"
 	},
 	{
@@ -1697,6 +1877,7 @@ let WeaponData = [
 		"InGameID": "166",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/aw50.png"
 	},
 	{
@@ -1707,6 +1888,7 @@ let WeaponData = [
 		"InGameID": "167",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/blaser93.png"
 	},
 	{
@@ -1717,6 +1899,7 @@ let WeaponData = [
 		"InGameID": "168",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/violingun.png"
 	},
 	{
@@ -1727,6 +1910,7 @@ let WeaponData = [
 		"InGameID": "169",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ethereal.png"
 	},
 	{
@@ -1737,6 +1921,7 @@ let WeaponData = [
 		"InGameID": "170",
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m32.png"
 	},
 	{
@@ -1747,6 +1932,7 @@ let WeaponData = [
 		"InGameID": "171",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/poisongun.png"
 	},
 	{
@@ -1757,6 +1943,7 @@ let WeaponData = [
 		"InGameID": "172",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog7.png"
 	},
 	{
@@ -1767,6 +1954,7 @@ let WeaponData = [
 		"InGameID": "173",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kingcobra.png"
 	},
 	{
@@ -1777,6 +1965,7 @@ let WeaponData = [
 		"InGameID": "174",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m16a1.png"
 	},
 	{
@@ -1787,6 +1976,7 @@ let WeaponData = [
 		"InGameID": "175",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/lightzg.png"
 	},
 	{
@@ -1797,6 +1987,7 @@ let WeaponData = [
 		"InGameID": "176",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/heavyzg.png"
 	},
 	{
@@ -1807,6 +1998,7 @@ let WeaponData = [
 		"InGameID": "177",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog5.png"
 	},
 	{
@@ -1817,6 +2009,7 @@ let WeaponData = [
 		"InGameID": "179",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/as50g.png"
 	},
 	{
@@ -1827,6 +2020,7 @@ let WeaponData = [
 		"InGameID": "180",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m60g.png"
 	},
 	{
@@ -1837,6 +2031,7 @@ let WeaponData = [
 		"InGameID": "181",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sfsniper.png"
 	},
 	{
@@ -1847,6 +2042,7 @@ let WeaponData = [
 		"InGameID": "182",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dbarrelg.png"
 	},
 	{
@@ -1857,6 +2053,7 @@ let WeaponData = [
 		"InGameID": "183",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/oicw.png"
 	},
 	{
@@ -1867,6 +2064,7 @@ let WeaponData = [
 		"InGameID": "184",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ak47red.png"
 	},
 	{
@@ -1877,6 +2075,7 @@ let WeaponData = [
 		"InGameID": "185",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m4a1red.png"
 	},
 	{
@@ -1887,6 +2086,7 @@ let WeaponData = [
 		"InGameID": "186",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/uts15.png"
 	},
 	{
@@ -1897,6 +2097,7 @@ let WeaponData = [
 		"InGameID": "187",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m249ep.png"
 	},
 	{
@@ -1907,6 +2108,7 @@ let WeaponData = [
 		"InGameID": "188",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg36xmas.png"
 	},
 	{
@@ -1917,17 +2119,19 @@ let WeaponData = [
 		"InGameID": "189",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/g11.png"
 	},
 	{
-		"SystemName": "m32",
-		"ChineseName": "救贖-M32(無法使用)",
+		"SystemName": "m32_cannotuse",
+		"ChineseName": "救贖-M32",
 		"EnglishName": "M32 MGL",
 		"ID": "0",
 		"InGameID": "190",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
-		"ImageURL": "./images/weapon/m32.png"
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/m32_cannotuse.png"
 	},
 	{
 		"SystemName": "balrog1",
@@ -1937,6 +2141,7 @@ let WeaponData = [
 		"InGameID": "191",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog1.png"
 	},
 	{
@@ -1947,6 +2152,7 @@ let WeaponData = [
 		"InGameID": "192",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/tbarrel.png"
 	},
 	{
@@ -1957,6 +2163,7 @@ let WeaponData = [
 		"InGameID": "193",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/chainsaw.png"
 	},
 	{
@@ -1967,6 +2174,7 @@ let WeaponData = [
 		"InGameID": "194",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/snakegun.png"
 	},
 	{
@@ -1977,6 +2185,7 @@ let WeaponData = [
 		"InGameID": "195",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog3.png"
 	},
 	{
@@ -1987,6 +2196,7 @@ let WeaponData = [
 		"InGameID": "196",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/fglauncher.png"
 	},
 	{
@@ -1997,6 +2207,7 @@ let WeaponData = [
 		"InGameID": "197",
 		"Type": "MACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/k3.png"
 	},
 	{
@@ -2007,6 +2218,7 @@ let WeaponData = [
 		"InGameID": "198",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg36g.png"
 	},
 	{
@@ -2017,6 +2229,7 @@ let WeaponData = [
 		"InGameID": "199",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m16a1ep.png"
 	},
 	{
@@ -2027,6 +2240,7 @@ let WeaponData = [
 		"InGameID": "200",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/coilgun.png"
 	},
 	{
@@ -2037,6 +2251,7 @@ let WeaponData = [
 		"InGameID": "201",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skull4.png"
 	},
 	{
@@ -2047,6 +2262,7 @@ let WeaponData = [
 		"InGameID": "202",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kingcobrag.png"
 	},
 	{
@@ -2057,6 +2273,7 @@ let WeaponData = [
 		"InGameID": "203",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog11.png"
 	},
 	{
@@ -2067,6 +2284,7 @@ let WeaponData = [
 		"InGameID": "204",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ak74u.png"
 	},
 	{
@@ -2077,6 +2295,7 @@ let WeaponData = [
 		"InGameID": "205",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skull8.png"
 	},
 	{
@@ -2087,6 +2306,7 @@ let WeaponData = [
 		"InGameID": "206",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/zgun.png"
 	},
 	{
@@ -2097,6 +2317,7 @@ let WeaponData = [
 		"InGameID": "207",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/plasmagun.png"
 	},
 	{
@@ -2107,6 +2328,7 @@ let WeaponData = [
 		"InGameID": "208",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/psg1.png"
 	},
 	{
@@ -2117,6 +2339,7 @@ let WeaponData = [
 		"InGameID": "209",
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/watercannon.png"
 	},
 	{
@@ -2127,6 +2350,7 @@ let WeaponData = [
 		"InGameID": "210",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bgalil.png"
 	},
 	{
@@ -2137,6 +2361,7 @@ let WeaponData = [
 		"InGameID": "211",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bfamas.png"
 	},
 	{
@@ -2147,6 +2372,7 @@ let WeaponData = [
 		"InGameID": "212",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bqbb95.png"
 	},
 	{
@@ -2157,6 +2383,7 @@ let WeaponData = [
 		"InGameID": "213",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bglock18.png"
 	},
 	{
@@ -2167,6 +2394,7 @@ let WeaponData = [
 		"InGameID": "214",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/busp45.png"
 	},
 	{
@@ -2177,6 +2405,7 @@ let WeaponData = [
 		"InGameID": "215",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bmp5.png"
 	},
 	{
@@ -2187,6 +2416,7 @@ let WeaponData = [
 		"InGameID": "216",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skull6.png"
 	},
 	{
@@ -2197,6 +2427,7 @@ let WeaponData = [
 		"InGameID": "217",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/uts15g.png"
 	},
 	{
@@ -2207,6 +2438,7 @@ let WeaponData = [
 		"InGameID": "218",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/tknife.png"
 	},
 	{
@@ -2217,6 +2449,7 @@ let WeaponData = [
 		"InGameID": "219",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/tknifeex.png"
 	},
 	{
@@ -2227,6 +2460,7 @@ let WeaponData = [
 		"InGameID": "220",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/tknifeex2.png"
 	},
 	{
@@ -2237,6 +2471,7 @@ let WeaponData = [
 		"InGameID": "221",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bow.png"
 	},
 	{
@@ -2247,6 +2482,7 @@ let WeaponData = [
 		"InGameID": "222",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/arx160.png"
 	},
 	{
@@ -2257,6 +2493,7 @@ let WeaponData = [
 		"InGameID": "223",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/janusmk5.png"
 	},
 	{
@@ -2267,6 +2504,7 @@ let WeaponData = [
 		"InGameID": "224",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/janus7.png"
 	},
 	{
@@ -2277,6 +2515,7 @@ let WeaponData = [
 		"InGameID": "225",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/drillgun.png"
 	},
 	{
@@ -2287,6 +2526,7 @@ let WeaponData = [
 		"InGameID": "226",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/g11g.png"
 	},
 	{
@@ -2297,6 +2537,7 @@ let WeaponData = [
 		"InGameID": "227",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sprifle.png"
 	},
 	{
@@ -2307,6 +2548,7 @@ let WeaponData = [
 		"InGameID": "228",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/janus1.png"
 	},
 	{
@@ -2317,6 +2559,7 @@ let WeaponData = [
 		"InGameID": "229",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/groza.png"
 	},
 	{
@@ -2327,6 +2570,7 @@ let WeaponData = [
 		"InGameID": "230",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m2.png"
 	},
 	{
@@ -2337,6 +2581,7 @@ let WeaponData = [
 		"InGameID": "231",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/pkmg.png"
 	},
 	{
@@ -2347,6 +2592,7 @@ let WeaponData = [
 		"InGameID": "232",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m1887xmas.png"
 	},
 	{
@@ -2357,6 +2603,7 @@ let WeaponData = [
 		"InGameID": "233",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/speargun.png"
 	},
 	{
@@ -2367,6 +2614,7 @@ let WeaponData = [
 		"InGameID": "234",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/horsegun.png"
 	},
 	{
@@ -2377,6 +2625,7 @@ let WeaponData = [
 		"InGameID": "235",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sfpistol.png"
 	},
 	{
@@ -2387,6 +2636,7 @@ let WeaponData = [
 		"InGameID": "236",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m60craft.png"
 	},
 	{
@@ -2397,6 +2647,7 @@ let WeaponData = [
 		"InGameID": "237",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/monkeywpnset1.png"
 	},
 	{
@@ -2407,6 +2658,7 @@ let WeaponData = [
 		"InGameID": "238",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/monkeywpnset2.png"
 	},
 	{
@@ -2417,6 +2669,7 @@ let WeaponData = [
 		"InGameID": "239",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/spas12excraft.png"
 	},
 	{
@@ -2427,6 +2680,7 @@ let WeaponData = [
 		"InGameID": "240",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/janus11.png"
 	},
 	{
@@ -2437,6 +2691,7 @@ let WeaponData = [
 		"InGameID": "241",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/spmg.png"
 	},
 	{
@@ -2447,6 +2702,7 @@ let WeaponData = [
 		"InGameID": "242",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog7b.png"
 	},
 	{
@@ -2457,6 +2713,7 @@ let WeaponData = [
 		"InGameID": "243",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog5b.png"
 	},
 	{
@@ -2467,6 +2724,7 @@ let WeaponData = [
 		"InGameID": "244",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog1b.png"
 	},
 	{
@@ -2477,6 +2735,7 @@ let WeaponData = [
 		"InGameID": "245",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog3b.png"
 	},
 	{
@@ -2487,6 +2746,7 @@ let WeaponData = [
 		"InGameID": "246",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog11b.png"
 	},
 	{
@@ -2497,6 +2757,7 @@ let WeaponData = [
 		"InGameID": "247",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/galilcraft.png"
 	},
 	{
@@ -2507,6 +2768,7 @@ let WeaponData = [
 		"InGameID": "248",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m1887craft.png"
 	},
 	{
@@ -2516,7 +2778,8 @@ let WeaponData = [
 		"ID": "706",
 		"InGameID": "249",
 		"Type": "EQUIPMENT",
-		"Rarity": "",
+		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/petrolboomer.png"
 	},
 	{
@@ -2527,6 +2790,7 @@ let WeaponData = [
 		"InGameID": "250",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bendita.png"
 	},
 	{
@@ -2537,6 +2801,7 @@ let WeaponData = [
 		"InGameID": "251",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mauserc96.png"
 	},
 	{
@@ -2547,6 +2812,7 @@ let WeaponData = [
 		"InGameID": "252",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mosin.png"
 	},
 	{
@@ -2557,6 +2823,7 @@ let WeaponData = [
 		"InGameID": "253",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg42.png"
 	},
 	{
@@ -2567,6 +2834,7 @@ let WeaponData = [
 		"InGameID": "254",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mp40.png"
 	},
 	{
@@ -2577,6 +2845,7 @@ let WeaponData = [
 		"InGameID": "255",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/janus3.png"
 	},
 	{
@@ -2587,6 +2856,7 @@ let WeaponData = [
 		"InGameID": "256",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m1garand.png"
 	},
 	{
@@ -2597,6 +2867,7 @@ let WeaponData = [
 		"InGameID": "257",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/railcannon.png"
 	},
 	{
@@ -2607,6 +2878,7 @@ let WeaponData = [
 		"InGameID": "258",
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/cannonm.png"
 	},
 	{
@@ -2617,6 +2889,7 @@ let WeaponData = [
 		"InGameID": "259",
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/chainsawm.png"
 	},
 	{
@@ -2627,6 +2900,7 @@ let WeaponData = [
 		"InGameID": "260",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m1911a1.png"
 	},
 	{
@@ -2637,6 +2911,7 @@ let WeaponData = [
 		"InGameID": "261",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/stenmk2.png"
 	},
 	{
@@ -2647,16 +2922,18 @@ let WeaponData = [
 		"InGameID": "262",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m1918bar.png"
 	},
 	{
 		"SystemName": "laserguide",
-		"ChineseName": "轟炸機(厄鬥擂台)",
+		"ChineseName": "雷射誘導導彈",
 		"EnglishName": "Laser-Guided Missile",
 		"ID": "0",
 		"InGameID": "263",
 		"Type": "NONE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/laserguide.png"
 	},
 	{
@@ -2667,6 +2944,7 @@ let WeaponData = [
 		"InGameID": "264",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/k1acraft.png"
 	},
 	{
@@ -2677,6 +2955,7 @@ let WeaponData = [
 		"InGameID": "265",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/gilboa.png"
 	},
 	{
@@ -2687,6 +2966,7 @@ let WeaponData = [
 		"InGameID": "266",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/gilboaex.png"
 	},
 	{
@@ -2697,6 +2977,7 @@ let WeaponData = [
 		"InGameID": "267",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/blockar.png"
 	},
 	{
@@ -2707,6 +2988,7 @@ let WeaponData = [
 		"InGameID": "268",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ozwpnset1.png"
 	},
 	{
@@ -2717,16 +2999,18 @@ let WeaponData = [
 		"InGameID": "269",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ozwpnset2.png"
 	},
 	{
 		"SystemName": "funat4",
-		"ChineseName": "究極彗星-AT4CS(殘暴版)",
+		"ChineseName": "究極彗星AT4CS(殘暴版)",
 		"EnglishName": "Power AT4CS",
 		"ID": "0",
 		"InGameID": "270",
-		"Type": "NONE",
+		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/funat4.png"
 	},
 	{
@@ -2735,8 +3019,9 @@ let WeaponData = [
 		"EnglishName": "Power Chainsaw (Ripper)",
 		"ID": "0",
 		"InGameID": "271",
-		"Type": "NONE",
+		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/funchainsaw.png"
 	},
 	{
@@ -2747,6 +3032,7 @@ let WeaponData = [
 		"InGameID": "272",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skull5wc.png"
 	},
 	{
@@ -2757,6 +3043,7 @@ let WeaponData = [
 		"InGameID": "273",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skull7wc.png"
 	},
 	{
@@ -2767,6 +3054,7 @@ let WeaponData = [
 		"InGameID": "274",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/thanatos7.png"
 	},
 	{
@@ -2777,6 +3065,7 @@ let WeaponData = [
 		"InGameID": "275",
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/rpg7.png"
 	},
 	{
@@ -2787,6 +3076,7 @@ let WeaponData = [
 		"InGameID": "276",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/fireextinguisher.png"
 	},
 	{
@@ -2797,6 +3087,7 @@ let WeaponData = [
 		"InGameID": "277",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/guillotine.png"
 	},
 	{
@@ -2807,6 +3098,7 @@ let WeaponData = [
 		"InGameID": "278",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/thanatos11.png"
 	},
 	{
@@ -2817,6 +3109,7 @@ let WeaponData = [
 		"InGameID": "279",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/crossbowex.png"
 	},
 	{
@@ -2827,6 +3120,7 @@ let WeaponData = [
 		"InGameID": "280",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sfsniperm.png"
 	},
 	{
@@ -2837,6 +3131,7 @@ let WeaponData = [
 		"InGameID": "281",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/gatlingm.png"
 	},
 	{
@@ -2847,6 +3142,7 @@ let WeaponData = [
 		"InGameID": "282",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/uzi.png"
 	},
 	{
@@ -2857,6 +3153,7 @@ let WeaponData = [
 		"InGameID": "283",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m950.png"
 	},
 	{
@@ -2867,6 +3164,7 @@ let WeaponData = [
 		"InGameID": "284",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mk3a1.png"
 	},
 	{
@@ -2877,6 +3175,7 @@ let WeaponData = [
 		"InGameID": "285",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/spsmg.png"
 	},
 	{
@@ -2887,6 +3186,7 @@ let WeaponData = [
 		"InGameID": "286",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/fnp45.png"
 	},
 	{
@@ -2897,6 +3197,7 @@ let WeaponData = [
 		"InGameID": "287",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/pgm.png"
 	},
 	{
@@ -2907,6 +3208,7 @@ let WeaponData = [
 		"InGameID": "288",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/norinco86s.png"
 	},
 	{
@@ -2917,6 +3219,7 @@ let WeaponData = [
 		"InGameID": "289",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/thanatos5.png"
 	},
 	{
@@ -2927,6 +3230,7 @@ let WeaponData = [
 		"InGameID": "290",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dartpistol.png"
 	},
 	{
@@ -2937,6 +3241,7 @@ let WeaponData = [
 		"InGameID": "291",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/dualkrisshero.png"
 	},
 	{
@@ -2947,6 +3252,7 @@ let WeaponData = [
 		"InGameID": "292",
 		"Type": "MACHINEGUN",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/m134hero.png"
 	},
 	{
@@ -2957,6 +3263,7 @@ let WeaponData = [
 		"InGameID": "293",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vulcanus7.png"
 	},
 	{
@@ -2967,6 +3274,7 @@ let WeaponData = [
 		"InGameID": "294",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sapientia.png"
 	},
 	{
@@ -2977,16 +3285,18 @@ let WeaponData = [
 		"InGameID": "295",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/coilmg.png"
 	},
 	{
 		"SystemName": "zombibomb2",
-		"ChineseName": "殘暴手榴彈",
+		"ChineseName": "殭屍衝擊炸彈",
 		"EnglishName": "Zombie Shock Bomb",
 		"ID": "0",
 		"InGameID": "296",
-		"Type": "NONE",
+		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/zombibomb2.png"
 	},
 	{
@@ -2997,6 +3307,7 @@ let WeaponData = [
 		"InGameID": "297",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/blockas.png"
 	},
 	{
@@ -3007,6 +3318,7 @@ let WeaponData = [
 		"InGameID": "298",
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/airburster.png"
 	},
 	{
@@ -3017,6 +3329,7 @@ let WeaponData = [
 		"InGameID": "299",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vulcanus5.png"
 	},
 	{
@@ -3027,6 +3340,7 @@ let WeaponData = [
 		"InGameID": "300",
 		"Type": "STUDIO",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vxllonggun_blank.png"
 	},
 	{
@@ -3037,6 +3351,7 @@ let WeaponData = [
 		"InGameID": "301",
 		"Type": "STUDIO",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vxlconnector_blank.png"
 	},
 	{
@@ -3047,6 +3362,7 @@ let WeaponData = [
 		"InGameID": "302",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dualuzi.png"
 	},
 	{
@@ -3057,6 +3373,7 @@ let WeaponData = [
 		"InGameID": "303",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/laserminigun.png"
 	},
 	{
@@ -3067,6 +3384,7 @@ let WeaponData = [
 		"InGameID": "304",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/qbs09.png"
 	},
 	{
@@ -3077,6 +3395,7 @@ let WeaponData = [
 		"InGameID": "305",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/thanatos1.png"
 	},
 	{
@@ -3087,6 +3406,7 @@ let WeaponData = [
 		"InGameID": "306",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/buffm4.png"
 	},
 	{
@@ -3097,6 +3417,7 @@ let WeaponData = [
 		"InGameID": "307",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/buffak.png"
 	},
 	{
@@ -3107,6 +3428,7 @@ let WeaponData = [
 		"InGameID": "308",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ng7.png"
 	},
 	{
@@ -3117,6 +3439,7 @@ let WeaponData = [
 		"InGameID": "309",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/cameragun.png"
 	},
 	{
@@ -3127,6 +3450,7 @@ let WeaponData = [
 		"InGameID": "311",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/buffawp.png"
 	},
 	{
@@ -3137,6 +3461,7 @@ let WeaponData = [
 		"InGameID": "312",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skull2.png"
 	},
 	{
@@ -3147,6 +3472,7 @@ let WeaponData = [
 		"InGameID": "313",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/python.png"
 	},
 	{
@@ -3157,6 +3483,7 @@ let WeaponData = [
 		"InGameID": "314",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/thanatos3.png"
 	},
 	{
@@ -3167,6 +3494,7 @@ let WeaponData = [
 		"InGameID": "315",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vulcanus11.png"
 	},
 	{
@@ -3177,6 +3505,7 @@ let WeaponData = [
 		"InGameID": "316",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/janus7xmas.png"
 	},
 	{
@@ -3187,6 +3516,7 @@ let WeaponData = [
 		"InGameID": "317",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/crow7.png"
 	},
 	{
@@ -3197,6 +3527,7 @@ let WeaponData = [
 		"InGameID": "318",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m950se.png"
 	},
 	{
@@ -3207,6 +3538,7 @@ let WeaponData = [
 		"InGameID": "319",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sgdrill.png"
 	},
 	{
@@ -3217,16 +3549,18 @@ let WeaponData = [
 		"InGameID": "320",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/destroyer.png"
 	},
 	{
 		"SystemName": "bazooka_zs2",
-		"ChineseName": "Bazooka_zs2",
-		"EnglishName": "Bazooka",
+		"ChineseName": "Bazooka (zs2)",
+		"EnglishName": "Bazooka (zs2)",
 		"ID": "0",
 		"InGameID": "321",
-		"Type": "NONE",
+		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/bazooka_zs2.png"
 	},
 	{
@@ -3237,6 +3571,7 @@ let WeaponData = [
 		"InGameID": "322",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/hk121.png"
 	},
 	{
@@ -3247,6 +3582,7 @@ let WeaponData = [
 		"InGameID": "323",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/hk121ex.png"
 	},
 	{
@@ -3257,6 +3593,7 @@ let WeaponData = [
 		"InGameID": "324",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/crow5.png"
 	},
 	{
@@ -3267,6 +3604,7 @@ let WeaponData = [
 		"InGameID": "325",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vulcanus1.png"
 	},
 	{
@@ -3277,6 +3615,7 @@ let WeaponData = [
 		"InGameID": "326",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/pp2000.png"
 	},
 	{
@@ -3287,6 +3626,7 @@ let WeaponData = [
 		"InGameID": "327",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/spsg.png"
 	},
 	{
@@ -3297,6 +3637,7 @@ let WeaponData = [
 		"InGameID": "328",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/blockmg.png"
 	},
 	{
@@ -3307,6 +3648,7 @@ let WeaponData = [
 		"InGameID": "329",
 		"Type": "PISTOL",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bloodhunter.png"
 	},
 	{
@@ -3317,6 +3659,7 @@ let WeaponData = [
 		"InGameID": "330",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ultimax100.png"
 	},
 	{
@@ -3327,6 +3670,7 @@ let WeaponData = [
 		"InGameID": "331",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vulcanus3.png"
 	},
 	{
@@ -3337,6 +3681,7 @@ let WeaponData = [
 		"InGameID": "332",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bison.png"
 	},
 	{
@@ -3347,6 +3692,7 @@ let WeaponData = [
 		"InGameID": "333",
 		"Type": "RIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kh2002.png"
 	},
 	{
@@ -3357,6 +3703,7 @@ let WeaponData = [
 		"InGameID": "334",
 		"Type": "STUDIO",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vxleditor_blank.png"
 	},
 	{
@@ -3367,6 +3714,7 @@ let WeaponData = [
 		"InGameID": "335",
 		"Type": "STUDIO",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vxlshortgun_blank.png"
 	},
 	{
@@ -3377,6 +3725,7 @@ let WeaponData = [
 		"InGameID": "336",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/falconex.png"
 	},
 	{
@@ -3387,6 +3736,7 @@ let WeaponData = [
 		"InGameID": "337",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mk3a1se.png"
 	},
 	{
@@ -3397,6 +3747,7 @@ let WeaponData = [
 		"InGameID": "338",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/buffsg552.png"
 	},
 	{
@@ -3407,6 +3758,7 @@ let WeaponData = [
 		"InGameID": "339",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/broad.png"
 	},
 	{
@@ -3417,6 +3769,7 @@ let WeaponData = [
 		"InGameID": "340",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sflaser.png"
 	},
 	{
@@ -3427,6 +3780,7 @@ let WeaponData = [
 		"InGameID": "341",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/crow11.png"
 	},
 	{
@@ -3437,6 +3791,7 @@ let WeaponData = [
 		"InGameID": "342",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3kor.png"
 	},
 	{
@@ -3447,6 +3802,7 @@ let WeaponData = [
 		"InGameID": "343",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3chn.png"
 	},
 	{
@@ -3457,6 +3813,7 @@ let WeaponData = [
 		"InGameID": "344",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3twn.png"
 	},
 	{
@@ -3467,6 +3824,7 @@ let WeaponData = [
 		"InGameID": "345",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3jpn.png"
 	},
 	{
@@ -3477,6 +3835,7 @@ let WeaponData = [
 		"InGameID": "346",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3idn.png"
 	},
 	{
@@ -3487,6 +3846,7 @@ let WeaponData = [
 		"InGameID": "347",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3usa.png"
 	},
 	{
@@ -3497,6 +3857,7 @@ let WeaponData = [
 		"InGameID": "348",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3can.png"
 	},
 	{
@@ -3507,6 +3868,7 @@ let WeaponData = [
 		"InGameID": "349",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3tur.png"
 	},
 	{
@@ -3517,6 +3879,7 @@ let WeaponData = [
 		"InGameID": "350",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3rus.png"
 	},
 	{
@@ -3527,6 +3890,7 @@ let WeaponData = [
 		"InGameID": "351",
 		"Type": "MACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3deu.png"
 	},
 	{
@@ -3537,6 +3901,7 @@ let WeaponData = [
 		"InGameID": "353",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/crow3.png"
 	},
 	{
@@ -3547,6 +3912,7 @@ let WeaponData = [
 		"InGameID": "354",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/railgun.png"
 	},
 	{
@@ -3557,6 +3923,7 @@ let WeaponData = [
 		"InGameID": "355",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bfnp45.png"
 	},
 	{
@@ -3567,6 +3934,7 @@ let WeaponData = [
 		"InGameID": "356",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bqbs09.png"
 	},
 	{
@@ -3577,6 +3945,7 @@ let WeaponData = [
 		"InGameID": "357",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/turbulent7.png"
 	},
 	{
@@ -3587,6 +3956,7 @@ let WeaponData = [
 		"InGameID": "358",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog11wc.png"
 	},
 	{
@@ -3597,6 +3967,7 @@ let WeaponData = [
 		"InGameID": "359",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/buffaktw.png"
 	},
 	{
@@ -3607,6 +3978,7 @@ let WeaponData = [
 		"InGameID": "360",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/buffm4tw.png"
 	},
 	{
@@ -3617,6 +3989,7 @@ let WeaponData = [
 		"InGameID": "361",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/augex.png"
 	},
 	{
@@ -3627,6 +4000,7 @@ let WeaponData = [
 		"InGameID": "362",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sterlingbayonet.png"
 	},
 	{
@@ -3637,6 +4011,7 @@ let WeaponData = [
 		"InGameID": "363",
 		"Type": "STUDIO",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vxlminigun_blank.png"
 	},
 	{
@@ -3647,6 +4022,7 @@ let WeaponData = [
 		"InGameID": "364",
 		"Type": "STUDIO",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vxlscanner_blank.png"
 	},
 	{
@@ -3657,6 +4033,7 @@ let WeaponData = [
 		"InGameID": "365",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dfpistol.png"
 	},
 	{
@@ -3667,6 +4044,7 @@ let WeaponData = [
 		"InGameID": "366",
 		"Type": "STUDIO",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vxljunkgun_blank.png"
 	},
 	{
@@ -3677,6 +4055,7 @@ let WeaponData = [
 		"InGameID": "367",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/cannonex.png"
 	},
 	{
@@ -3687,6 +4066,7 @@ let WeaponData = [
 		"InGameID": "368",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/turbulent5.png"
 	},
 	{
@@ -3697,6 +4077,7 @@ let WeaponData = [
 		"InGameID": "369",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/blocksmg.png"
 	},
 	{
@@ -3707,6 +4088,7 @@ let WeaponData = [
 		"InGameID": "370",
 		"Type": "NONE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/navalgun.png"
 	},
 	{
@@ -3717,6 +4099,7 @@ let WeaponData = [
 		"InGameID": "371",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bpgm.png"
 	},
 	{
@@ -3727,6 +4110,7 @@ let WeaponData = [
 		"InGameID": "372",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/crow1.png"
 	},
 	{
@@ -3737,6 +4121,7 @@ let WeaponData = [
 		"InGameID": "373",
 		"Type": "PISTOL",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/desperado.png"
 	},
 	{
@@ -3747,6 +4132,7 @@ let WeaponData = [
 		"InGameID": "374",
 		"Type": "SHOTGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bmk3a1.png"
 	},
 	{
@@ -3757,6 +4143,7 @@ let WeaponData = [
 		"InGameID": "375",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bunkerbuster.png"
 	},
 	{
@@ -3767,6 +4154,7 @@ let WeaponData = [
 		"InGameID": "376",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bbison.png"
 	},
 	{
@@ -3777,6 +4165,7 @@ let WeaponData = [
 		"InGameID": "377",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/charger7.png"
 	},
 	{
@@ -3787,6 +4176,7 @@ let WeaponData = [
 		"InGameID": "378",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/buffaug.png"
 	},
 	{
@@ -3797,6 +4187,7 @@ let WeaponData = [
 		"InGameID": "379",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/pesticidesprayer.png"
 	},
 	{
@@ -3807,6 +4198,7 @@ let WeaponData = [
 		"InGameID": "380",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/charger5.png"
 	},
 	{
@@ -3817,6 +4209,7 @@ let WeaponData = [
 		"InGameID": "381",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bouncer.png"
 	},
 	{
@@ -3827,6 +4220,7 @@ let WeaponData = [
 		"InGameID": "382",
 		"Type": "PISTOL",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bpython.png"
 	},
 	{
@@ -3837,6 +4231,7 @@ let WeaponData = [
 		"InGameID": "383",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bng7.png"
 	},
 	{
@@ -3847,6 +4242,7 @@ let WeaponData = [
 		"InGameID": "384",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/turbulent3.png"
 	},
 	{
@@ -3857,6 +4253,7 @@ let WeaponData = [
 		"InGameID": "385",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/stunrifle.png"
 	},
 	{
@@ -3867,6 +4264,7 @@ let WeaponData = [
 		"InGameID": "386",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sgdrillgold.png"
 	},
 	{
@@ -3877,6 +4275,7 @@ let WeaponData = [
 		"InGameID": "387",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ak47wg_sr.png"
 	},
 	{
@@ -3887,6 +4286,7 @@ let WeaponData = [
 		"InGameID": "388",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/starchasersr.png"
 	},
 	{
@@ -3897,6 +4297,7 @@ let WeaponData = [
 		"InGameID": "389",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/turbulent1.png"
 	},
 	{
@@ -3907,6 +4308,7 @@ let WeaponData = [
 		"InGameID": "390",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sgmissile.png"
 	},
 	{
@@ -3917,6 +4319,7 @@ let WeaponData = [
 		"InGameID": "391",
 		"Type": "EQUIPMENT",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/rockbreaker.png"
 	},
 	{
@@ -3927,6 +4330,7 @@ let WeaponData = [
 		"InGameID": "392",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/claymore.png"
 	},
 	{
@@ -3937,6 +4341,7 @@ let WeaponData = [
 		"InGameID": "393",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/turbulent11.png"
 	},
 	{
@@ -3947,6 +4352,7 @@ let WeaponData = [
 		"InGameID": "394",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m4a1wg_sr.png"
 	},
 	{
@@ -3957,6 +4363,7 @@ let WeaponData = [
 		"InGameID": "395",
 		"Type": "PISTOL",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/gunkata.png"
 	},
 	{
@@ -3967,6 +4374,7 @@ let WeaponData = [
 		"InGameID": "396",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/cannonexgold.png"
 	},
 	{
@@ -3977,6 +4385,7 @@ let WeaponData = [
 		"InGameID": "397",
 		"Type": "MACHINEGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/buffm249.png"
 	},
 	{
@@ -3987,6 +4396,7 @@ let WeaponData = [
 		"InGameID": "398",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/starchaserar.png"
 	},
 	{
@@ -3997,6 +4407,7 @@ let WeaponData = [
 		"InGameID": "399",
 		"Type": "SHOTGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m3dragon.png"
 	},
 	{
@@ -4007,6 +4418,7 @@ let WeaponData = [
 		"InGameID": "400",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m32venom.png"
 	},
 	{
@@ -4017,6 +4429,7 @@ let WeaponData = [
 		"InGameID": "401",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kronos5.png"
 	},
 	{
@@ -4027,6 +4440,7 @@ let WeaponData = [
 		"InGameID": "402",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kronos3.png"
 	},
 	{
@@ -4037,6 +4451,7 @@ let WeaponData = [
 		"InGameID": "403",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kronos12.png"
 	},
 	{
@@ -4047,6 +4462,7 @@ let WeaponData = [
 		"InGameID": "404",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/luger_ex.png"
 	},
 	{
@@ -4057,6 +4473,7 @@ let WeaponData = [
 		"InGameID": "405",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m95tiger.png"
 	},
 	{
@@ -4067,6 +4484,7 @@ let WeaponData = [
 		"InGameID": "406",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/herochainsaw.png"
 	},
 	{
@@ -4077,6 +4495,7 @@ let WeaponData = [
 		"InGameID": "407",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/deaglewg_sr.png"
 	},
 	{
@@ -4087,6 +4506,7 @@ let WeaponData = [
 		"InGameID": "408",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/akmgs.png"
 	},
 	{
@@ -4097,6 +4517,7 @@ let WeaponData = [
 		"InGameID": "409",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/deaglegs.png"
 	},
 	{
@@ -4107,6 +4528,7 @@ let WeaponData = [
 		"InGameID": "410",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m1887gs.png"
 	},
 	{
@@ -4117,6 +4539,7 @@ let WeaponData = [
 		"InGameID": "411",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sl8gs.png"
 	},
 	{
@@ -4127,6 +4550,7 @@ let WeaponData = [
 		"InGameID": "412",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m4a1gs.png"
 	},
 	{
@@ -4137,6 +4561,7 @@ let WeaponData = [
 		"InGameID": "413",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/thompsongs.png"
 	},
 	{
@@ -4147,6 +4572,7 @@ let WeaponData = [
 		"InGameID": "414",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/lugergs.png"
 	},
 	{
@@ -4157,6 +4583,7 @@ let WeaponData = [
 		"InGameID": "415",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/trg42gs.png"
 	},
 	{
@@ -4167,6 +4594,7 @@ let WeaponData = [
 		"InGameID": "416",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mp5gs.png"
 	},
 	{
@@ -4177,6 +4605,7 @@ let WeaponData = [
 		"InGameID": "417",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3gs.png"
 	},
 	{
@@ -4187,6 +4616,7 @@ let WeaponData = [
 		"InGameID": "418",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/wa2000gs.png"
 	},
 	{
@@ -4197,6 +4627,7 @@ let WeaponData = [
 		"InGameID": "419",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m79gs.png"
 	},
 	{
@@ -4207,6 +4638,7 @@ let WeaponData = [
 		"InGameID": "420",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m14ebrgs.png"
 	},
 	{
@@ -4217,6 +4649,7 @@ let WeaponData = [
 		"InGameID": "421",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/stg44gs.png"
 	},
 	{
@@ -4227,6 +4660,7 @@ let WeaponData = [
 		"InGameID": "422",
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/gungnir.png"
 	},
 	{
@@ -4237,6 +4671,7 @@ let WeaponData = [
 		"InGameID": "423",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/gunkatam.png"
 	},
 	{
@@ -4247,6 +4682,7 @@ let WeaponData = [
 		"InGameID": "424",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/19s1mp5.png"
 	},
 	{
@@ -4257,6 +4693,7 @@ let WeaponData = [
 		"InGameID": "425",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/19s1m950.png"
 	},
 	{
@@ -4267,6 +4704,7 @@ let WeaponData = [
 		"InGameID": "426",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/19s1m24.png"
 	},
 	{
@@ -4277,6 +4715,7 @@ let WeaponData = [
 		"InGameID": "427",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/19s1infinityex2.png"
 	},
 	{
@@ -4287,6 +4726,7 @@ let WeaponData = [
 		"InGameID": "428",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/19s1usas12.png"
 	},
 	{
@@ -4297,6 +4737,7 @@ let WeaponData = [
 		"InGameID": "429",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/19s1qbz95.png"
 	},
 	{
@@ -4307,6 +4748,7 @@ let WeaponData = [
 		"InGameID": "430",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kronos7.png"
 	},
 	{
@@ -4317,6 +4759,7 @@ let WeaponData = [
 		"InGameID": "431",
 		"Type": "PISTOL",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/thunderpistol.png"
 	},
 	{
@@ -4327,6 +4770,7 @@ let WeaponData = [
 		"InGameID": "432",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/speargunm.png"
 	},
 	{
@@ -4337,6 +4781,7 @@ let WeaponData = [
 		"InGameID": "433",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s2m1887.png"
 	},
 	{
@@ -4347,6 +4792,7 @@ let WeaponData = [
 		"InGameID": "434",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s2dbarrel.png"
 	},
 	{
@@ -4357,6 +4803,7 @@ let WeaponData = [
 		"InGameID": "435",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s2python.png"
 	},
 	{
@@ -4367,6 +4814,7 @@ let WeaponData = [
 		"InGameID": "436",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s2mosin.png"
 	},
 	{
@@ -4377,6 +4825,7 @@ let WeaponData = [
 		"InGameID": "437",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s2mauserc96.png"
 	},
 	{
@@ -4387,6 +4836,7 @@ let WeaponData = [
 		"InGameID": "438",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s2spmg.png"
 	},
 	{
@@ -4397,6 +4847,7 @@ let WeaponData = [
 		"InGameID": "439",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kronos1.png"
 	},
 	{
@@ -4407,6 +4858,7 @@ let WeaponData = [
 		"InGameID": "440",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/laserfist.png"
 	},
 	{
@@ -4417,6 +4869,7 @@ let WeaponData = [
 		"InGameID": "441",
 		"Type": "SHOTGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m3dragonm.png"
 	},
 	{
@@ -4427,6 +4880,7 @@ let WeaponData = [
 		"InGameID": "442",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s3bizon.png"
 	},
 	{
@@ -4437,6 +4891,7 @@ let WeaponData = [
 		"InGameID": "443",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s3m79.png"
 	},
 	{
@@ -4447,6 +4902,7 @@ let WeaponData = [
 		"InGameID": "444",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s3groza.png"
 	},
 	{
@@ -4457,6 +4913,7 @@ let WeaponData = [
 		"InGameID": "445",
 		"Type": "SHOTGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s3uts15.png"
 	},
 	{
@@ -4467,6 +4924,7 @@ let WeaponData = [
 		"InGameID": "446",
 		"Type": "EQUIPMENT",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s3rpg7.png"
 	},
 	{
@@ -4477,6 +4935,7 @@ let WeaponData = [
 		"InGameID": "447",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s3m200.png"
 	},
 	{
@@ -4487,6 +4946,7 @@ let WeaponData = [
 		"InGameID": "448",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s3coilmg.png"
 	},
 	{
@@ -4497,6 +4957,7 @@ let WeaponData = [
 		"InGameID": "449",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/magicmg.png"
 	},
 	{
@@ -4507,6 +4968,7 @@ let WeaponData = [
 		"InGameID": "450",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/lockongun.png"
 	},
 	{
@@ -4517,6 +4979,7 @@ let WeaponData = [
 		"InGameID": "451",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m95tigerm.png"
 	},
 	{
@@ -4527,6 +4990,7 @@ let WeaponData = [
 		"InGameID": "452",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s4railcannon.png"
 	},
 	{
@@ -4537,6 +5001,7 @@ let WeaponData = [
 		"InGameID": "453",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s4psg1.png"
 	},
 	{
@@ -4547,6 +5012,7 @@ let WeaponData = [
 		"InGameID": "454",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s4tar21.png"
 	},
 	{
@@ -4557,6 +5023,7 @@ let WeaponData = [
 		"InGameID": "455",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s4dualkriss.png"
 	},
 	{
@@ -4567,6 +5034,7 @@ let WeaponData = [
 		"InGameID": "456",
 		"Type": "MACHINEGUN",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s4mk48.png"
 	},
 	{
@@ -4577,6 +5045,7 @@ let WeaponData = [
 		"InGameID": "457",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s4automag.png"
 	},
 	{
@@ -4587,6 +5056,7 @@ let WeaponData = [
 		"InGameID": "458",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/patroldrone.png"
 	},
 	{
@@ -4597,6 +5067,7 @@ let WeaponData = [
 		"InGameID": "459",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/magicsg.png"
 	},
 	{
@@ -4607,6 +5078,7 @@ let WeaponData = [
 		"InGameID": "460",
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/wondercannon.png"
 	},
 	{
@@ -4617,6 +5089,7 @@ let WeaponData = [
 		"InGameID": "461",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/zhebox01.png"
 	},
 	{
@@ -4627,6 +5100,7 @@ let WeaponData = [
 		"InGameID": "462",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/zhebox02.png"
 	},
 	{
@@ -4637,6 +5111,7 @@ let WeaponData = [
 		"InGameID": "463",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/zhebox04.png"
 	},
 	{
@@ -4647,6 +5122,7 @@ let WeaponData = [
 		"InGameID": "464",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/svdex.png"
 	},
 	{
@@ -4657,6 +5133,7 @@ let WeaponData = [
 		"InGameID": "465",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/qbarrel.png"
 	},
 	{
@@ -4667,6 +5144,7 @@ let WeaponData = [
 		"InGameID": "466",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dualkrisshero.png"
 	},
 	{
@@ -4677,6 +5155,7 @@ let WeaponData = [
 		"InGameID": "467",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m134hero.png"
 	},
 	{
@@ -4687,6 +5166,7 @@ let WeaponData = [
 		"InGameID": "468",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ak47l.png"
 	},
 	{
@@ -4697,6 +5177,7 @@ let WeaponData = [
 		"InGameID": "469",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mp7a1d.png"
 	},
 	{
@@ -4707,6 +5188,7 @@ let WeaponData = [
 		"InGameID": "470",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/poisongun.png"
 	},
 	{
@@ -4717,6 +5199,7 @@ let WeaponData = [
 		"InGameID": "471",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/deagled.png"
 	},
 	{
@@ -4727,6 +5210,7 @@ let WeaponData = [
 		"InGameID": "472",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kronos12ex.png"
 	},
 	{
@@ -4737,6 +5221,7 @@ let WeaponData = [
 		"InGameID": "473",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sgmissilem.png"
 	},
 	{
@@ -4747,6 +5232,7 @@ let WeaponData = [
 		"InGameID": "474",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s1musket.png"
 	},
 	{
@@ -4757,6 +5243,7 @@ let WeaponData = [
 		"InGameID": "475",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s1bow.png"
 	},
 	{
@@ -4767,6 +5254,7 @@ let WeaponData = [
 		"InGameID": "476",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s1m1garand.png"
 	},
 	{
@@ -4777,6 +5265,7 @@ let WeaponData = [
 		"InGameID": "477",
 		"Type": "PISTOL",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/jetgun.png"
 	},
 	{
@@ -4787,6 +5276,7 @@ let WeaponData = [
 		"InGameID": "478",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/pianogun.png"
 	},
 	{
@@ -4797,6 +5287,7 @@ let WeaponData = [
 		"InGameID": "479",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s2scara.png"
 	},
 	{
@@ -4807,6 +5298,7 @@ let WeaponData = [
 		"InGameID": "480",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s2scarb.png"
 	},
 	{
@@ -4817,6 +5309,7 @@ let WeaponData = [
 		"InGameID": "481",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s2scarc.png"
 	},
 	{
@@ -4827,6 +5320,7 @@ let WeaponData = [
 		"InGameID": "482",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s2scard.png"
 	},
 	{
@@ -4837,6 +5331,7 @@ let WeaponData = [
 		"InGameID": "483",
 		"Type": "PISTOL",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/voidpistol.png"
 	},
 	{
@@ -4847,6 +5342,7 @@ let WeaponData = [
 		"InGameID": "484",
 		"Type": "SHOTGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/gatlingex.png"
 	},
 	{
@@ -4857,6 +5353,7 @@ let WeaponData = [
 		"InGameID": "485",
 		"Type": "STUDIO",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vxlmarker_blank.png"
 	},
 	{
@@ -4867,6 +5364,7 @@ let WeaponData = [
 		"InGameID": "486",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/laserfistex.png"
 	},
 	{
@@ -4877,6 +5375,7 @@ let WeaponData = [
 		"InGameID": "487",
 		"Type": "MACHINEGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/buffng7.png"
 	},
 	{
@@ -4887,6 +5386,7 @@ let WeaponData = [
 		"InGameID": "488",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s3plasmaexa.png"
 	},
 	{
@@ -4897,6 +5397,7 @@ let WeaponData = [
 		"InGameID": "489",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s3plasmaexb.png"
 	},
 	{
@@ -4907,6 +5408,7 @@ let WeaponData = [
 		"InGameID": "490",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s3plasmaexc.png"
 	},
 	{
@@ -4917,6 +5419,7 @@ let WeaponData = [
 		"InGameID": "491",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s3plasmaexd.png"
 	},
 	{
@@ -4927,6 +5430,7 @@ let WeaponData = [
 		"InGameID": "492",
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/gungnirex.png"
 	},
 	{
@@ -4937,6 +5441,7 @@ let WeaponData = [
 		"InGameID": "493",
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/winggun.png"
 	},
 	{
@@ -4947,6 +5452,7 @@ let WeaponData = [
 		"InGameID": "494",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sgmissileex.png"
 	},
 	{
@@ -4957,6 +5463,7 @@ let WeaponData = [
 		"InGameID": "495",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/crossbowex21.png"
 	},
 	{
@@ -4967,6 +5474,7 @@ let WeaponData = [
 		"InGameID": "496",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s1jetgunma.png"
 	},
 	{
@@ -4977,6 +5485,7 @@ let WeaponData = [
 		"InGameID": "497",
 		"Type": "PISTOL",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s1jetgunmb.png"
 	},
 	{
@@ -4987,6 +5496,7 @@ let WeaponData = [
 		"InGameID": "498",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s1jetgunmc.png"
 	},
 	{
@@ -4997,6 +5507,7 @@ let WeaponData = [
 		"InGameID": "499",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s1jetgunmd.png"
 	},
 	{
@@ -5007,6 +5518,7 @@ let WeaponData = [
 		"InGameID": "500",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sbmine.png"
 	},
 	{
@@ -5017,6 +5529,7 @@ let WeaponData = [
 		"InGameID": "501",
 		"Type": "MACHINEGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mgsm.png"
 	},
 	{
@@ -5027,6 +5540,7 @@ let WeaponData = [
 		"InGameID": "502",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s2lockongunma.png"
 	},
 	{
@@ -5037,6 +5551,7 @@ let WeaponData = [
 		"InGameID": "503",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s2lockongunmb.png"
 	},
 	{
@@ -5047,6 +5562,7 @@ let WeaponData = [
 		"InGameID": "504",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s2lockongunmc.png"
 	},
 	{
@@ -5057,6 +5573,7 @@ let WeaponData = [
 		"InGameID": "505",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s2lockongunmd.png"
 	},
 	{
@@ -5067,6 +5584,7 @@ let WeaponData = [
 		"InGameID": "506",
 		"Type": "PISTOL",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/jetgunex.png"
 	},
 	{
@@ -5077,6 +5595,7 @@ let WeaponData = [
 		"InGameID": "507",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/pianogunex.png"
 	},
 	{
@@ -5087,6 +5606,7 @@ let WeaponData = [
 		"InGameID": "508",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/guillotineex.png"
 	},
 	{
@@ -5097,6 +5617,7 @@ let WeaponData = [
 		"InGameID": "509",
 		"Type": "EQUIPMENT",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s3cannonexma.png"
 	},
 	{
@@ -5107,6 +5628,7 @@ let WeaponData = [
 		"InGameID": "510",
 		"Type": "EQUIPMENT",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s3cannonexmb.png"
 	},
 	{
@@ -5117,6 +5639,7 @@ let WeaponData = [
 		"InGameID": "511",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s3cannonexmc.png"
 	},
 	{
@@ -5127,6 +5650,7 @@ let WeaponData = [
 		"InGameID": "512",
 		"Type": "EQUIPMENT",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s3cannonexmd.png"
 	},
 	{
@@ -5137,6 +5661,7 @@ let WeaponData = [
 		"InGameID": "513",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/huntbow.png"
 	},
 	{
@@ -5147,6 +5672,7 @@ let WeaponData = [
 		"InGameID": "514",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/buffsg552ex.png"
 	},
 	{
@@ -5157,6 +5683,7 @@ let WeaponData = [
 		"InGameID": "515",
 		"Type": "PISTOL",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bufffiveseven.png"
 	},
 	{
@@ -5167,6 +5694,7 @@ let WeaponData = [
 		"InGameID": "516",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s4janusa.png"
 	},
 	{
@@ -5177,6 +5705,7 @@ let WeaponData = [
 		"InGameID": "517",
 		"Type": "RIFLE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s4janusb.png"
 	},
 	{
@@ -5187,6 +5716,7 @@ let WeaponData = [
 		"InGameID": "518",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s4janusc.png"
 	},
 	{
@@ -5197,6 +5727,7 @@ let WeaponData = [
 		"InGameID": "519",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y21s4janusd.png"
 	},
 	{
@@ -5207,6 +5738,7 @@ let WeaponData = [
 		"InGameID": "520",
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/revivegun.png"
 	},
 	{
@@ -5217,6 +5749,7 @@ let WeaponData = [
 		"InGameID": "521",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y22s1waterpistolma.png"
 	},
 	{
@@ -5227,6 +5760,7 @@ let WeaponData = [
 		"InGameID": "522",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y22s1crossbowex21mc.png"
 	},
 	{
@@ -5237,6 +5771,7 @@ let WeaponData = [
 		"InGameID": "523",
 		"Type": "SHOTGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/lasersg.png"
 	},
 	{
@@ -5247,6 +5782,7 @@ let WeaponData = [
 		"InGameID": "524",
 		"Type": "PISTOL",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/voidpistolex.png"
 	},
 	{
@@ -5257,6 +5793,7 @@ let WeaponData = [
 		"InGameID": "525",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/chainsawex.png"
 	},
 	{
@@ -5267,6 +5804,7 @@ let WeaponData = [
 		"InGameID": "526",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y22s2lunarcannon.png"
 	},
 	{
@@ -5277,6 +5815,7 @@ let WeaponData = [
 		"InGameID": "527",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y22s2sfpistol.png"
 	},
 	{
@@ -5287,6 +5826,7 @@ let WeaponData = [
 		"InGameID": "528",
 		"Type": "GRENADE",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/divinetitan.png"
 	},
 	{
@@ -5297,6 +5837,7 @@ let WeaponData = [
 		"InGameID": "529",
 		"Type": "EQUIPMENT",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sgdrillex.png"
 	},
 	{
@@ -5307,6 +5848,7 @@ let WeaponData = [
 		"InGameID": "530",
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/wondercannonex.png"
 	},
 	{
@@ -5317,6 +5859,7 @@ let WeaponData = [
 		"InGameID": "531",
 		"Type": "PISTOL",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/restrictionpistol.png"
 	},
 	{
@@ -5327,6 +5870,7 @@ let WeaponData = [
 		"InGameID": "532",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y22s3janus7.png"
 	},
 	{
@@ -5337,6 +5881,7 @@ let WeaponData = [
 		"InGameID": "533",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y22s3bufffiveseven.png"
 	},
 	{
@@ -5347,6 +5892,7 @@ let WeaponData = [
 		"InGameID": "534",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/chainsr.png"
 	},
 	{
@@ -5357,6 +5903,7 @@ let WeaponData = [
 		"InGameID": "535",
 		"Type": "RIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/lightningar.png"
 	},
 	{
@@ -5367,6 +5914,7 @@ let WeaponData = [
 		"InGameID": "536",
 		"Type": "PISTOL",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/rocketpistol.png"
 	},
 	{
@@ -5377,6 +5925,7 @@ let WeaponData = [
 		"InGameID": "537",
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/halogun.png"
 	},
 	{
@@ -5387,6 +5936,7 @@ let WeaponData = [
 		"InGameID": "538",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s1sfsmg.png"
 	},
 	{
@@ -5397,6 +5947,7 @@ let WeaponData = [
 		"InGameID": "539",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s1sfmg.png"
 	},
 	{
@@ -5407,6 +5958,7 @@ let WeaponData = [
 		"InGameID": "540",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s1dartpistol.png"
 	},
 	{
@@ -5417,6 +5969,7 @@ let WeaponData = [
 		"InGameID": "541",
 		"Type": "GRENADE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sfturret.png"
 	},
 	{
@@ -5427,6 +5980,7 @@ let WeaponData = [
 		"InGameID": "542",
 		"Type": "EQUIPMENT",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/winggunex.png"
 	},
 	{
@@ -5437,6 +5991,7 @@ let WeaponData = [
 		"InGameID": "543",
 		"Type": "RIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s2buffaug.png"
 	},
 	{
@@ -5447,6 +6002,7 @@ let WeaponData = [
 		"InGameID": "544",
 		"Type": "MACHINEGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ignitemg.png"
 	},
 	{
@@ -5457,6 +6013,7 @@ let WeaponData = [
 		"InGameID": "545",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s2sl8.png"
 	},
 	{
@@ -5467,6 +6024,7 @@ let WeaponData = [
 		"InGameID": "546",
 		"Type": "PISTOL",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s2dfpistol.png"
 	},
 	{
@@ -5477,16 +6035,18 @@ let WeaponData = [
 		"InGameID": "547",
 		"Type": "PISTOL",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/leapstrikegun.png"
 	},
 	{
 		"SystemName": "m3dragonex",
-		"ChineseName": "阿茲達哈卡M3",
+		"ChineseName": "蒼焰龍嘯",
 		"EnglishName": "M3 Azidahaka",
 		"ID": "8869",
 		"InGameID": "548",
 		"Type": "SHOTGUN",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m3dragonex.png"
 	},
 	{
@@ -5497,6 +6057,7 @@ let WeaponData = [
 		"InGameID": "549",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mg3desert.png"
 	},
 	{
@@ -5507,6 +6068,7 @@ let WeaponData = [
 		"InGameID": "550",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m2desert.png"
 	},
 	{
@@ -5517,6 +6079,7 @@ let WeaponData = [
 		"InGameID": "551",
 		"Type": "SHOTGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/spas12desert.png"
 	},
 	{
@@ -5527,6 +6090,7 @@ let WeaponData = [
 		"InGameID": "552",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/wa2000desert.png"
 	},
 	{
@@ -5537,6 +6101,7 @@ let WeaponData = [
 		"InGameID": "553",
 		"Type": "MACHINEGUN",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m60desert.png"
 	},
 	{
@@ -5547,6 +6112,7 @@ let WeaponData = [
 		"InGameID": "554",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m95desert.png"
 	},
 	{
@@ -5557,6 +6123,7 @@ let WeaponData = [
 		"InGameID": "556",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/transformgunadv.png"
 	},
 	{
@@ -5567,6 +6134,7 @@ let WeaponData = [
 		"InGameID": "557",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/transformgun.png"
 	},
 	{
@@ -5577,6 +6145,7 @@ let WeaponData = [
 		"InGameID": "558",
 		"Type": "PISTOL",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/infinityex2desert.png"
 	},
 	{
@@ -5587,6 +6156,7 @@ let WeaponData = [
 		"InGameID": "559",
 		"Type": "RIFLE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/transformgunex.png"
 	},
 	{
@@ -5597,6 +6167,7 @@ let WeaponData = [
 		"InGameID": "2000",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kevlar.png"
 	},
 	{
@@ -5607,6 +6178,7 @@ let WeaponData = [
 		"InGameID": "2001",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/kevlar_helmet.png"
 	},
 	{
@@ -5617,6 +6189,7 @@ let WeaponData = [
 		"InGameID": "2002",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/flashbang.png"
 	},
 	{
@@ -5627,6 +6200,7 @@ let WeaponData = [
 		"InGameID": "2003",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/hegrenade.png"
 	},
 	{
@@ -5637,6 +6211,7 @@ let WeaponData = [
 		"InGameID": "2004",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/smokegrenade.png"
 	},
 	{
@@ -5647,6 +6222,7 @@ let WeaponData = [
 		"InGameID": "2005",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/defuser.png"
 	},
 	{
@@ -5657,6 +6233,7 @@ let WeaponData = [
 		"InGameID": "2006",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/nightvision.png"
 	},
 	{
@@ -5667,6 +6244,7 @@ let WeaponData = [
 		"InGameID": "2007",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/m24grenade.png"
 	},
 	{
@@ -5677,6 +6255,7 @@ let WeaponData = [
 		"InGameID": "2008",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/fgrenade2.png"
 	},
 	{
@@ -5687,6 +6266,7 @@ let WeaponData = [
 		"InGameID": "2009",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/firebomb.png"
 	},
 	{
@@ -5697,6 +6277,7 @@ let WeaponData = [
 		"InGameID": "2010",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/heartbomb.png"
 	},
 	{
@@ -5707,6 +6288,7 @@ let WeaponData = [
 		"InGameID": "2011",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mooncake.png"
 	},
 	{
@@ -5717,6 +6299,7 @@ let WeaponData = [
 		"InGameID": "2011",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/looseslicesgrenade.png"
 	},
 	{
@@ -5727,6 +6310,7 @@ let WeaponData = [
 		"InGameID": "2012",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/pumpkin.png"
 	},
 	{
@@ -5737,6 +6321,7 @@ let WeaponData = [
 		"InGameID": "2013",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/cartfrag.png"
 	},
 	{
@@ -5747,6 +6332,7 @@ let WeaponData = [
 		"InGameID": "2014",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/holybomb.png"
 	},
 	{
@@ -5757,26 +6343,29 @@ let WeaponData = [
 		"InGameID": "2028",
 		"Type": "GRENADE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sfgrenade.png"
 	},
 	{
 		"SystemName": "throwingstone",
-		"ChineseName": "石頭(偵查事件簿)",
-		"EnglishName": "Stone(Zombie Files Mode)",
+		"ChineseName": "投擲物 - 石頭 (偵查事件簿)",
+		"EnglishName": "Throwable - Stone (Zombie Files)",
 		"ID": "755",
 		"InGameID": "2029",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/throwingstone.png"
 	},
 	{
 		"SystemName": "throwingbottle",
-		"ChineseName": "燃燒瓶(偵查事件簿)",
-		"EnglishName": "Bottle(Zombie Files Mode)",
+		"ChineseName": "投擲物 - 燃燒瓶 (偵查事件簿)",
+		"EnglishName": "Throwable - Bottle (Zombie Files)",
 		"ID": "756",
 		"InGameID": "2030",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/throwingbottle.png"
 	},
 	{
@@ -5787,6 +6376,7 @@ let WeaponData = [
 		"InGameID": "2036",
 		"Type": "GRENADE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/chaingren.png"
 	},
 	{
@@ -5797,16 +6387,18 @@ let WeaponData = [
 		"InGameID": "2038",
 		"Type": "STUDIO",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vxlgrenade_blank.png"
 	},
 	{
 		"SystemName": "not_throw",
-		"ChineseName": "新鮮的雞蛋(明星鬥陣．雞)",
+		"ChineseName": "新鮮的雞蛋",
 		"EnglishName": "Fresh Egg",
-		"ID": "0",
+		"ID": "961",
 		"InGameID": "2040",
 		"Type": "NONE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/not_throw.png"
 	},
 	{
@@ -5817,6 +6409,7 @@ let WeaponData = [
 		"InGameID": "2049",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/chinaeventbomb.png"
 	},
 	{
@@ -5827,6 +6420,7 @@ let WeaponData = [
 		"InGameID": "2050",
 		"Type": "GRENADE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/waterbomb.png"
 	},
 	{
@@ -5837,6 +6431,7 @@ let WeaponData = [
 		"InGameID": "2051",
 		"Type": "GRENADE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/holybomb_ex.png"
 	},
 	{
@@ -5847,6 +6442,7 @@ let WeaponData = [
 		"InGameID": "2052",
 		"Type": "GRENADE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/stickybomb.png"
 	},
 	{
@@ -5857,6 +6453,7 @@ let WeaponData = [
 		"InGameID": "2053",
 		"Type": "GRENADE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s1grenade.png"
 	},
 	{
@@ -5867,6 +6464,7 @@ let WeaponData = [
 		"InGameID": "2054",
 		"Type": "GRENADE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/basketball.png"
 	},
 	{
@@ -5877,16 +6475,18 @@ let WeaponData = [
 		"InGameID": "2055",
 		"Type": "GRENADE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ignitebomb.png"
 	},
 	{
 		"SystemName": "flashlight",
 		"ChineseName": "手電筒",
 		"EnglishName": "Flashlight",
-		"ID": "0",
+		"ID": "894",
 		"InGameID": "2601",
 		"Type": "EQUIPMENT",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/flashlight.png"
 	},
 	{
@@ -5897,6 +6497,7 @@ let WeaponData = [
 		"InGameID": "2602",
 		"Type": "NONE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/vxlmedikit30.png"
 	},
 	{
@@ -5907,6 +6508,7 @@ let WeaponData = [
 		"InGameID": "2603",
 		"Type": "NONE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/vxlmedikit100.png"
 	},
 	{
@@ -5917,6 +6519,7 @@ let WeaponData = [
 		"InGameID": "4000",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/defaultknife.png"
 	},
 	{
@@ -5927,6 +6530,7 @@ let WeaponData = [
 		"InGameID": "4001",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/nataknife.png"
 	},
 	{
@@ -5937,6 +6541,7 @@ let WeaponData = [
 		"InGameID": "4002",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/hammer.png"
 	},
 	{
@@ -5947,6 +6552,7 @@ let WeaponData = [
 		"InGameID": "4003",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/hdagger.png"
 	},
 	{
@@ -5957,6 +6563,7 @@ let WeaponData = [
 		"InGameID": "4004",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/jknife.png"
 	},
 	{
@@ -5967,6 +6574,7 @@ let WeaponData = [
 		"InGameID": "4005",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/axe.png"
 	},
 	{
@@ -5977,6 +6585,7 @@ let WeaponData = [
 		"InGameID": "4006",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/combatknife.png"
 	},
 	{
@@ -5987,6 +6596,7 @@ let WeaponData = [
 		"InGameID": "4007",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/mastercombatknife.png"
 	},
 	{
@@ -5997,6 +6607,7 @@ let WeaponData = [
 		"InGameID": "4008",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/knifedragon.png"
 	},
 	{
@@ -6007,6 +6618,7 @@ let WeaponData = [
 		"InGameID": "4009",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/katana.png"
 	},
 	{
@@ -6017,6 +6629,7 @@ let WeaponData = [
 		"InGameID": "4010",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skullaxe.png"
 	},
 	{
@@ -6027,6 +6640,7 @@ let WeaponData = [
 		"InGameID": "4011",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dragontail.png"
 	},
 	{
@@ -6037,6 +6651,7 @@ let WeaponData = [
 		"InGameID": "4012",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/hiddenstaff.png"
 	},
 	{
@@ -6047,6 +6662,7 @@ let WeaponData = [
 		"InGameID": "4013",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/tomahawk.png"
 	},
 	{
@@ -6057,6 +6673,7 @@ let WeaponData = [
 		"InGameID": "4014",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/nataknifed.png"
 	},
 	{
@@ -6067,6 +6684,7 @@ let WeaponData = [
 		"InGameID": "4015",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/katanad.png"
 	},
 	{
@@ -6077,6 +6695,7 @@ let WeaponData = [
 		"InGameID": "4016",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dragonsword.png"
 	},
 	{
@@ -6087,16 +6706,18 @@ let WeaponData = [
 		"InGameID": "4017",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog9.png"
 	},
 	{
 		"SystemName": "shelteraxe",
-		"ChineseName": "斧頭(夜襲生存戰)",
+		"ChineseName": "斧頭",
 		"EnglishName": "Hatchet",
 		"ID": "513",
 		"InGameID": "4018",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/shelteraxe.png"
 	},
 	{
@@ -6107,6 +6728,7 @@ let WeaponData = [
 		"InGameID": "4019",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/snakesword.png"
 	},
 	{
@@ -6117,6 +6739,7 @@ let WeaponData = [
 		"InGameID": "4020",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sfsword.png"
 	},
 	{
@@ -6127,16 +6750,18 @@ let WeaponData = [
 		"InGameID": "4021",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/bhdagger.png"
 	},
 	{
 		"SystemName": "beast-snowman",
-		"ChineseName": "雪人(怪獸亂鬥)",
+		"ChineseName": "怪獸",
 		"EnglishName": "Snowman(Snowman Mode)",
 		"ID": "573",
 		"InGameID": "4022",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/beast-snowman.png"
 	},
 	{
@@ -6147,6 +6772,7 @@ let WeaponData = [
 		"InGameID": "4023",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/horseaxe.png"
 	},
 	{
@@ -6157,6 +6783,7 @@ let WeaponData = [
 		"InGameID": "4024",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/zsh_machete.png"
 	},
 	{
@@ -6167,6 +6794,7 @@ let WeaponData = [
 		"InGameID": "4025",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/zsh_crowbar.png"
 	},
 	{
@@ -6177,16 +6805,18 @@ let WeaponData = [
 		"InGameID": "4026",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/zsh_clawhammer.png"
 	},
 	{
 		"SystemName": "janus9",
-		"ChineseName": "聖光之垂(Janus-9)",
+		"ChineseName": "聖光之鎚(Janus-9)",
 		"EnglishName": "JANUS-9",
 		"ID": "673",
 		"InGameID": "4027",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/janus9.png"
 	},
 	{
@@ -6197,6 +6827,7 @@ let WeaponData = [
 		"InGameID": "4028",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/monkeywpnset3.png"
 	},
 	{
@@ -6207,6 +6838,7 @@ let WeaponData = [
 		"InGameID": "4029",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog9b.png"
 	},
 	{
@@ -6217,6 +6849,7 @@ let WeaponData = [
 		"InGameID": "4030",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/spknife.png"
 	},
 	{
@@ -6227,6 +6860,7 @@ let WeaponData = [
 		"InGameID": "4031",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/crowbarcraft.png"
 	},
 	{
@@ -6237,6 +6871,7 @@ let WeaponData = [
 		"InGameID": "4032",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/giantknife.png"
 	},
 	{
@@ -6247,6 +6882,7 @@ let WeaponData = [
 		"InGameID": "4033",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ozwpnset3.png"
 	},
 	{
@@ -6257,26 +6893,29 @@ let WeaponData = [
 		"InGameID": "4034",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/tomahawk_xmas.png"
 	},
 	{
 		"SystemName": "standalonehands",
-		"ChineseName": "空手(偵查事件簿)",
-		"EnglishName": "Hands",
+		"ChineseName": "空手 (偵查事件簿)",
+		"EnglishName": "Hands (Zombie Files)",
 		"ID": "757",
 		"InGameID": "4035",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/standalonehands.png"
 	},
 	{
 		"SystemName": "standaloneknife",
-		"ChineseName": "小刀(偵查事件簿)",
-		"EnglishName": "Knife",
+		"ChineseName": "小刀 (偵查事件簿)",
+		"EnglishName": "Knife (Zombie Files)",
 		"ID": "758",
 		"InGameID": "4036",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/standaloneknife.png"
 	},
 	{
@@ -6287,6 +6926,7 @@ let WeaponData = [
 		"InGameID": "4037",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/sheepsword.png"
 	},
 	{
@@ -6297,36 +6937,40 @@ let WeaponData = [
 		"InGameID": "4038",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/thanatos9.png"
 	},
 	{
 		"SystemName": "vxlknife",
-		"ChineseName": "空手(STUDIO創世者)",
-		"EnglishName": "Hands",
+		"ChineseName": "空手 (STUDIO創世者)",
+		"EnglishName": "Hands (Studio)",
 		"ID": "795",
 		"InGameID": "4039",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vxlknife.png"
 	},
 	{
 		"SystemName": "zbtag_knife",
-		"ChineseName": "莎拉手(鬼迷藏)",
-		"EnglishName": "Knife",
+		"ChineseName": "莎拉手 (鬼迷藏)",
+		"EnglishName": "Knife (Zombie Hide and Seek)",
 		"ID": "0",
 		"InGameID": "4040",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/zbtag_knife.png"
 	},
 	{
 		"SystemName": "crowbarcraft",
-		"ChineseName": "鐵撬(未知)",
-		"EnglishName": "Crowbar(Unknown)",
+		"ChineseName": "鐵撬 (未知)",
+		"EnglishName": "Crowbar (Unknown)",
 		"ID": "0",
 		"InGameID": "4041",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "1",
 		"ImageURL": "./images/weapon/crowbarcraft.png"
 	},
 	{
@@ -6337,6 +6981,7 @@ let WeaponData = [
 		"InGameID": "4042",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/vulcanus9.png"
 	},
 	{
@@ -6347,6 +6992,7 @@ let WeaponData = [
 		"InGameID": "4043",
 		"Type": "KNIFE",
 		"Rarity": "2",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/hzknife.png"
 	},
 	{
@@ -6357,6 +7003,7 @@ let WeaponData = [
 		"InGameID": "4044",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/stormgiant.png"
 	},
 	{
@@ -6367,6 +7014,7 @@ let WeaponData = [
 		"InGameID": "4045",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/crow9.png"
 	},
 	{
@@ -6377,6 +7025,7 @@ let WeaponData = [
 		"InGameID": "4046",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/runeblade.png"
 	},
 	{
@@ -6387,6 +7036,7 @@ let WeaponData = [
 		"InGameID": "4047",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/ironfan.png"
 	},
 	{
@@ -6397,6 +7047,7 @@ let WeaponData = [
 		"InGameID": "4048",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/balrog9wc.png"
 	},
 	{
@@ -6407,6 +7058,7 @@ let WeaponData = [
 		"InGameID": "4049",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/stormgianttw.png"
 	},
 	{
@@ -6417,6 +7069,7 @@ let WeaponData = [
 		"InGameID": "4050",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/turbulent9.png"
 	},
 	{
@@ -6427,6 +7080,7 @@ let WeaponData = [
 		"InGameID": "4051",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dualsword.png"
 	},
 	{
@@ -6437,6 +7091,7 @@ let WeaponData = [
 		"InGameID": "4052",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/zbs64knife.png"
 	},
 	{
@@ -6447,6 +7102,7 @@ let WeaponData = [
 		"InGameID": "4054",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/armtorch.png"
 	},
 	{
@@ -6457,6 +7113,7 @@ let WeaponData = [
 		"InGameID": "4055",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/holysword.png"
 	},
 	{
@@ -6467,6 +7124,7 @@ let WeaponData = [
 		"InGameID": "4056",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dualswordm.png"
 	},
 	{
@@ -6477,6 +7135,7 @@ let WeaponData = [
 		"InGameID": "4057",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/19s1machete.png"
 	},
 	{
@@ -6487,6 +7146,7 @@ let WeaponData = [
 		"InGameID": "4058",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s2hdagger.png"
 	},
 	{
@@ -6497,6 +7157,7 @@ let WeaponData = [
 		"InGameID": "4059",
 		"Type": "KNIFE",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/summonknife.png"
 	},
 	{
@@ -6507,16 +7168,18 @@ let WeaponData = [
 		"InGameID": "4060",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y19s4hammer.png"
 	},
 	{
 		"SystemName": "zhehand",
-		"ChineseName": "空手(絕命逃亡)",
-		"EnglishName": "Bare Hands",
+		"ChineseName": "空手 (絕命逃亡)",
+		"EnglishName": "Bare Hands (Manhunt)",
 		"ID": "8307",
 		"InGameID": "4061",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/zhehand.png"
 	},
 	{
@@ -6527,6 +7190,7 @@ let WeaponData = [
 		"InGameID": "4062",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/zhebox03.png"
 	},
 	{
@@ -6537,6 +7201,7 @@ let WeaponData = [
 		"InGameID": "4063",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/nataknifed.png"
 	},
 	{
@@ -6547,6 +7212,7 @@ let WeaponData = [
 		"InGameID": "4064",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s1dragonsword.png"
 	},
 	{
@@ -6557,6 +7223,7 @@ let WeaponData = [
 		"InGameID": "4065",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s1thanatos9.png"
 	},
 	{
@@ -6567,6 +7234,7 @@ let WeaponData = [
 		"InGameID": "4066",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y20s1sword.png"
 	},
 	{
@@ -6577,6 +7245,7 @@ let WeaponData = [
 		"InGameID": "4067",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/frostblade.png"
 	},
 	{
@@ -6587,6 +7256,7 @@ let WeaponData = [
 		"InGameID": "4068",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/magicknife.png"
 	},
 	{
@@ -6597,6 +7267,7 @@ let WeaponData = [
 		"InGameID": "4069",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/lance.png"
 	},
 	{
@@ -6607,6 +7278,7 @@ let WeaponData = [
 		"InGameID": "4070",
 		"Type": "KNIFE",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/summonknifeex.png"
 	},
 	{
@@ -6617,6 +7289,7 @@ let WeaponData = [
 		"InGameID": "4071",
 		"Type": "KNIFE",
 		"Rarity": "6",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dgaxe.png"
 	},
 	{
@@ -6627,6 +7300,7 @@ let WeaponData = [
 		"InGameID": "4072",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/skullt9.png"
 	},
 	{
@@ -6637,6 +7311,7 @@ let WeaponData = [
 		"InGameID": "4073",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y22s1holyswordmb.png"
 	},
 	{
@@ -6647,6 +7322,7 @@ let WeaponData = [
 		"InGameID": "4074",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/whipsword.png"
 	},
 	{
@@ -6657,6 +7333,7 @@ let WeaponData = [
 		"InGameID": "4075",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y22s2sfsword.png"
 	},
 	{
@@ -6667,6 +7344,7 @@ let WeaponData = [
 		"InGameID": "4076",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y22s3dragonsword.png"
 	},
 	{
@@ -6677,6 +7355,7 @@ let WeaponData = [
 		"InGameID": "4077",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/swordbombard.png"
 	},
 	{
@@ -6687,6 +7366,7 @@ let WeaponData = [
 		"InGameID": "4078",
 		"Type": "KNIFE",
 		"Rarity": "3",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s1crowbarcraft.png"
 	},
 	{
@@ -6697,6 +7377,7 @@ let WeaponData = [
 		"InGameID": "4079",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/tyrantmace.png"
 	},
 	{
@@ -6707,6 +7388,7 @@ let WeaponData = [
 		"InGameID": "4080",
 		"Type": "KNIFE",
 		"Rarity": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s2tomahawk.png"
 	},
 	{
@@ -6717,6 +7399,7 @@ let WeaponData = [
 		"InGameID": "4081",
 		"Type": "KNIFE",
 		"Rarity": "5",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/dvhammer.png"
 	},
 	{
@@ -6727,6 +7410,7 @@ let WeaponData = [
 		"InGameID": "4082",
 		"Type": "KNIFE",
 		"Rarity": "4",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/hammerdesert.png"
 	}
 ]
