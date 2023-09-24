@@ -105,14 +105,14 @@ li, a, .btn-search > button {
 	width: 250px;
 }
 
-.rarities, .types {
+.rarities, .types, .restrict {
     display: flex;
     flex-direction: column;
     align-items: center;
     width:100%;
 }
 
-.rarities span, .types span {
+.rarities span, .types span, .restrict span {
     color: #fff;
     outline: none;
     border: none;

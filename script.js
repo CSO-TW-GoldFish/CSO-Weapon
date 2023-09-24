@@ -9,9 +9,9 @@ var lang_switch = {
 		  "webtitle"      : "Counter-Strike Online 武器清單"
 		, "aboutbtn"      : "關於"
 		, "langbtn"       : "中文 > English"
-		, "webmaker"      : "網頁製作：崩潰金魚燒"
-		, "imgsprovider"  : "圖片提供：WrenchReginald、DestroyerI滅世I"
-		, "idsprovider"   : "ＩＤ提供：WrenchReginald、DestroyerI滅世I"
+		, "webmaker"      : "網頁製作：崩潰金魚燒、DestroyerI滅世I"
+		, "imgsprovider"  : "圖片提供：SkullerRey、DestroyerI滅世I"
+		, "idsprovider"   : "ＩＤ提供：SkullerRey、DestroyerI滅世I"
 		, "searchbtn"     : "搜尋"
 		, "theme"         : {
 			  1: "主題：正常"
@@ -26,12 +26,13 @@ var lang_switch = {
 		, "langswitch"    : "語言：中文"
 		, "rarityswitch"  : "稀有度："
 		, "typeswitch"    : "類型："
+		, "restrictswitch": "武器限制："
 	}
 	, "English": {
 		  "webtitle"      : "Counter-Strike Online Weapon List"
 		, "aboutbtn"      : "About"
 		, "langbtn"       : "English > 中文"
-		, "webmaker"      : "Website Maker: Gold Fish"
+		, "webmaker"      : "Website Maker: Gold Fish、Destroyer"
 		, "imgsprovider"  : "Image Provider: Skuller Rey、Destroyer"
 		, "idsprovider"   : "Ids Provider: Skuller Rey、Destroyer"
 		, "searchbtn"     : "Search"
@@ -48,6 +49,7 @@ var lang_switch = {
 		, "langswitch"    : "Language: English"
 		, "rarityswitch"  : "Rarity: "
 		, "typeswitch"    : "Type: "
+		, "restrictswitch": "Restrict："
 	}
 }
 
@@ -73,6 +75,7 @@ function Weapons() {
 	wpnthis = this;
 	this.currentType = "ALL";
 	this.currentRarity = "ALL";
+	this.currentRestrict = "NONE";
 	this.weaponList = [];
 	this.currentWeapons = [];
 	this.noneWeapon = {
@@ -137,6 +140,22 @@ function Weapons() {
 			, "GRADE6": "Epic"
 		}
 	}
+	this.restrictTo = {
+		"Chinese": {
+			  "GRADE"            : "武器限制"
+			, "NONE"             : "無限制"
+			, "CLASSIC"          : "經典"
+			, "NEWCLASSIC"       : "新經典"
+			, "NEWCLASSICZOMBIE" : "新經典(殭屍)"
+		}
+		, "English": {
+			  "GRADE"            : "Restrict"
+			, "NONE"             : "No limits"
+			, "CLASSIC"          : "Classic"
+			, "NEWCLASSIC"       : "New Classic"
+			, "NEWCLASSICZOMBIE" : "New Classic (Zombie)"
+		}
+	}
 	this.emptyMsg = {
 		  "Chinese": "查無此武器"
 		, "English": "Unknown Weapon"
@@ -149,12 +168,16 @@ function Weapons() {
 		var element = elements[i];
 		var type = element.getAttribute('data-type');
 		var rarity = element.getAttribute('data-rarity');
+		var restrict = element.getAttribute('data-restrict');
 		var spanElement = element.querySelector('span');
 		if(type){
 			spanElement.textContent = this.typeTo[language][type];
 		}
 		if(rarity){
 			spanElement.textContent = this.rarityTo[language][rarity];
+		}
+		if(restrict){
+			spanElement.textContent = this.restrictTo[language][restrict];
 		}
 	}
 	
@@ -213,6 +236,7 @@ Weapons.prototype.createThumbnailNode = function (weapon, index) {
 	frameNode.setAttribute('data-weapon', JSON.stringify(weapon));
 	frameNode.setAttribute('data-type', weapon.Type);
 	frameNode.setAttribute('data-rarity', weapon.Rarity);
+	frameNode.setAttribute('data-restrict', weapon.Restrict);
 	frameNode.setAttribute('style', 'display: block');
 	
 	// 縮圖外框
@@ -270,7 +294,7 @@ Weapons.prototype.createThumbnailNode = function (weapon, index) {
 Weapons.prototype.registerCategoriesEvents = function () {
 	let self = this;
 
-	// 稀有度
+	// 武器稀有度
 	let rarityBtns = document.querySelectorAll('.js-weapon-category[data-rarity]');
 	Array.prototype.forEach.call(rarityBtns, function(btn) {
 		btn.addEventListener('click', function(event) {
@@ -303,6 +327,25 @@ Weapons.prototype.registerCategoriesEvents = function () {
 				self.filterCategories();
 				
 				message_prompt(lang_switch[language].typeswitch + self.typeTo[language][event.currentTarget.getAttribute('data-type')], "")
+				document.querySelector(".notification").style.width = "250px";
+				document.querySelector(".notification").style.height = "40px";
+			}
+		});
+	});
+	// 武器限制
+	let restrictBtns = document.querySelectorAll('.js-weapon-category[data-restrict]');
+	Array.prototype.forEach.call(restrictBtns, function(btn) {
+		btn.addEventListener('click', function(event) {
+			if (event.currentTarget.getAttribute('data-restrict') !== "GRADE") {
+				// 更新 currentRestrict 資料
+				self.currentRestrict = event.currentTarget.getAttribute('data-restrict');
+				// 更新按鈕
+				Array.prototype.forEach.call(restrictBtns, function(btn) { btn.classList.remove('active'); });
+				event.currentTarget.classList.add('active');
+				// 執行篩選
+				self.filterCategories();
+				
+				message_prompt(lang_switch[language].restrictswitch + self.restrictTo[language][event.currentTarget.getAttribute('data-restrict')], "")
 				document.querySelector(".notification").style.width = "250px";
 				document.querySelector(".notification").style.height = "40px";
 			}
@@ -344,6 +387,10 @@ Weapons.prototype.filterCategories = function () {
 Weapons.prototype.matchFilter = function(weapon) {
 	let matchRarity = false;
 	let matchType = false;
+	let matchRestrict = false;
+	let matchRestrict_content;
+	
+	// 武器稀有度篩選
 	if(
 		   this.currentRarity === 'ALL' 
 		|| this.currentRarity === 'GRADE0'
@@ -351,6 +398,8 @@ Weapons.prototype.matchFilter = function(weapon) {
 	) {
 		matchRarity = true;
 	}
+	
+	// 武器類型篩選
 	if(
 			this.currentType === 'ALL'
 		||  this.typeTo[language][this.currentType] === this.typeTo[language][weapon.Type]
@@ -359,7 +408,18 @@ Weapons.prototype.matchFilter = function(weapon) {
 		matchType = true;
 	}
 	
-	return (matchRarity && matchType);
+	// 武器限制篩選
+	if (this.currentRestrict === 'NONE') {
+		matchRestrict = true;
+	} else {
+		for (var i = 0; i < weapon.Restrict.split(",").length; i++) {
+			if (this.currentRestrict === weapon.Restrict.split(",")[i]) {
+				matchRestrict = true;
+			}
+		}
+	}
+	
+	return (matchRarity && matchType && matchRestrict);
 }
 
 // 3.0 註冊搜尋武器事件監聽
@@ -436,11 +496,6 @@ Weapons.prototype.renderThumbnailsFilteredWeapons = function (current, filtered)
 // 按鈕事件
 Weapons.prototype.clickButton = function () {
     let self = this;
-	
-	const theme = document.querySelector('.theme')
-    theme.addEventListener("click", function (e) {
-		
-    })
 	
 	const sort = document.querySelector('.sort')
     sort.addEventListener("click", function (e) {
@@ -615,12 +670,16 @@ lang_btn.addEventListener('click', function(e){
 			var element = elements[i];
 			var type = element.getAttribute('data-type');
 			var rarity = element.getAttribute('data-rarity');
+			var restrict = element.getAttribute('data-restrict');
 			var spanElement = element.querySelector('span');
 			if(type){
 				spanElement.textContent = wpnthis.typeTo[language][type];
 			}
 			if(rarity){
 				spanElement.textContent = wpnthis.rarityTo[language][rarity];
+			}
+			if(restrict){
+				spanElement.textContent = wpnthis.restrictTo[language][restrict];
 			}
 		}
 	}
