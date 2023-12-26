@@ -3290,7 +3290,7 @@ let WeaponData = [
 	{
 		"SystemName": "skull5wc",
 		"ChineseName": "黃金貝西摩斯之爪(SKULL-5)",
-		"EnglishName": "SKULL-5 Gold Edition",
+		"EnglishName": "SKULL-5 CSOWC Edition",
 		"ID": "748",
 		"InGameID": "272",
 		"Type": "SNIPERRIFLE",
@@ -3302,7 +3302,7 @@ let WeaponData = [
 	{
 		"SystemName": "skull7wc",
 		"ChineseName": "黃金命運金鑰(SKULL-7)",
-		"EnglishName": "SKULL-7 Gold Edition",
+		"EnglishName": "SKULL-7 CSOWC Edition",
 		"ID": "749",
 		"InGameID": "273",
 		"Type": "MACHINEGUN",
@@ -4322,7 +4322,7 @@ let WeaponData = [
 	{
 		"SystemName": "balrog11wc",
 		"ChineseName": "黃金弒神者(Balrog-XI)",
-		"EnglishName": "BALROG-XI Gold Edition",
+		"EnglishName": "BALROG-XI CSOWC Edition",
 		"ID": "931",
 		"InGameID": "358",
 		"Type": "SHOTGUN",
@@ -4334,7 +4334,7 @@ let WeaponData = [
 	{
 		"SystemName": "buffaktw",
 		"ChineseName": "聖皇CV-47",
-		"EnglishName": "AK-47 Paladin(Taiwan Edition)",
+		"EnglishName": "AK-47 Overlord (TW)",
 		"ID": "936",
 		"InGameID": "359",
 		"Type": "RIFLE",
@@ -4346,7 +4346,7 @@ let WeaponData = [
 	{
 		"SystemName": "buffm4tw",
 		"ChineseName": "暴君M4A1",
-		"EnglishName": "M4A1 Dark Knight(Taiwan Edition)",
+		"EnglishName": "M4A1 Shadow Knight (TW)",
 		"ID": "935",
 		"InGameID": "360",
 		"Type": "RIFLE",
@@ -6733,15 +6733,27 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "y23s3buffm249",
-		"ChineseName": "M249拉",
+		"ChineseName": "太陽神M249",
 		"EnglishName": "M249 Ra",
 		"ID": "8913",
 		"InGameID": "560",
 		"Type": "MACHINEGUN",
 		"Rarity": "5",
 		"Restrict": "NONE",
-		"Unknown": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s3buffm249.png"
+	},
+	{
+		"SystemName": "linkattacksg",
+		"ChineseName": "光子混沌砲",
+		"EnglishName": "Photon Launcher",
+		"ID": "8936",
+		"InGameID": "561",
+		"Type": "SHOTGUN",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/linkattacksg.png"
 	},
 	{
 		"SystemName": "y23s3sfsniper",
@@ -6766,6 +6778,30 @@ let WeaponData = [
 		"Restrict": "NONE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s3sapientia.png"
+	},
+	{
+		"SystemName": "ak47L3",
+		"ChineseName": "AK-47 60R Classic",
+		"EnglishName": "AK-47 60R Classic",
+		"ID": "8944",
+		"InGameID": "564",
+		"Type": "RIFLE",
+		"Rarity": "2",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/ak47l3.png"
+	},
+	{
+		"SystemName": "y24s1laserminigun",
+		"ChineseName": "MEGA粒子砲 (y24s1)",
+		"EnglishName": "Laser Minigun (y24s1)",
+		"ID": "0",
+		"InGameID": "0",
+		"Type": "MACHINEGUN",
+		"Rarity": "0",
+		"Restrict": "NONE",
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/y24s1laserminigun.png"
 	},
 	{
 		"SystemName": "Kevlar",
@@ -7730,7 +7766,7 @@ let WeaponData = [
 	{
 		"SystemName": "balrog9wc",
 		"ChineseName": "黃金影武者(Balrog-IX)",
-		"EnglishName": "BALROG-IX Gold Edition",
+		"EnglishName": "BALROG-IX CSOWC Edition",
 		"ID": "930",
 		"InGameID": "4048",
 		"Type": "KNIFE",
@@ -7742,7 +7778,7 @@ let WeaponData = [
 	{
 		"SystemName": "stormgianttw",
 		"ChineseName": "血獄之淵",
-		"EnglishName": "Warhammer Storm Giant(Taiwan Edition)",
+		"EnglishName": "Blood Lord (TW)",
 		"ID": "937",
 		"InGameID": "4049",
 		"Type": "KNIFE",
