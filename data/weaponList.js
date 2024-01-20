@@ -6793,15 +6793,51 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "y24s1laserminigun",
-		"ChineseName": "MEGA粒子砲 (y24s1)",
-		"EnglishName": "Laser Minigun (y24s1)",
-		"ID": "0",
-		"InGameID": "0",
+		"ChineseName": "滾動雷神",
+		"EnglishName": "Rolling Vulcan",
+		"ID": "8956",
+		"InGameID": "566",
 		"Type": "MACHINEGUN",
-		"Rarity": "0",
+		"Rarity": "4",
 		"Restrict": "NONE",
 		"Unknown": "1",
 		"ImageURL": "./images/weapon/y24s1laserminigun.png"
+	},
+	{
+		"SystemName": "speargunex",
+		"ChineseName": "超級獵魂槍",
+		"EnglishName": "Hyper Gae Bolg",
+		"ID": "8955",
+		"InGameID": "567",
+		"Type": "EQUIPMENT",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "",
+		"ImageURL": "./images/weapon/speargunex.png"
+	},
+	{
+		"SystemName": "y24s1ethereal",
+		"ChineseName": "英雄爆能脈衝",
+		"EnglishName": "Ethereal Hero",
+		"ID": "8974",
+		"InGameID": "570",
+		"Type": "RIFLE",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "",
+		"ImageURL": "./images/weapon/y24s1ethereal.png"
+	},
+	{
+		"SystemName": "y24s1crow1",
+		"ChineseName": "英雄永夜",
+		"EnglishName": "Crow-1 Hero",
+		"ID": "8975",
+		"InGameID": "571",
+		"Type": "PISTOL",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "",
+		"ImageURL": "./images/weapon/y24s1crow1.png"
 	},
 	{
 		"SystemName": "Kevlar",
@@ -8194,5 +8230,17 @@ let WeaponData = [
 		"Restrict": "NONE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/y23s3katanad.png"
+	},
+	{
+		"SystemName": "y24s1NataKnife",
+		"ChineseName": "英雄鋒利銀刃",
+		"EnglishName": "Nata Knife Hero",
+		"ID": "8976",
+		"InGameID": "4085",
+		"Type": "KNIFE",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "",
+		"ImageURL": "./images/weapon/y24s1nataknife.png"
 	}
 ]
