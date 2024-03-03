@@ -8277,6 +8277,6 @@ let WeaponData = [
 		"Rarity": "1",
 		"Restrict": "NONE",
 		"Unknown": "0",
-		"ImageURL": "./images/weapon/y24s1nataknife.png"
+		"ImageURL": "./images/weapon/y24s1NataKnife.png"
 	}
 ]
