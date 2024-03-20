@@ -1,5 +1,17 @@
 let WeaponData = [
 	{
+		"SystemName": "divinetitanex",
+		"ChineseName": "喚光聖翼．天罰 EX",
+		"EnglishName": "Sandalphon EX",
+		"ID": "0",
+		"InGameID": "0",
+		"Type": "GRENADE",
+		"Rarity": "6",
+		"Restrict": "NONE",
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/divinetitanex.png"
+	},
+	{
 		"SystemName": "cokecan",
 		"ChineseName": "可樂罐",
 		"EnglishName": "Coke Can",
@@ -6876,6 +6888,18 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/crossbowcls.png"
 	},
 	{
+		"SystemName": "jumpspirit",
+		"ChineseName": "碧藍羽翼",
+		"EnglishName": "Sylphid",
+		"ID": "9002",
+		"InGameID": "573",
+		"Type": "PISTOL",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/jumpspirit.png"
+	},
+	{
 		"SystemName": "Kevlar",
 		"ChineseName": "克夫勒防彈背心",
 		"EnglishName": "Kevlar Body Armor",
@@ -8277,6 +8301,6 @@ let WeaponData = [
 		"Rarity": "1",
 		"Restrict": "NONE",
 		"Unknown": "0",
-		"ImageURL": "./images/weapon/y24s1NataKnife.png"
+		"ImageURL": "./images/weapon/y24s1nataknife.png"
 	}
 ]
