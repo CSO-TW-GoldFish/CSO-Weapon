@@ -1,17 +1,5 @@
 let WeaponData = [
 	{
-		"SystemName": "divinetitanex",
-		"ChineseName": "喚光聖翼．天罰 EX",
-		"EnglishName": "Sandalphon EX",
-		"ID": "0",
-		"InGameID": "0",
-		"Type": "GRENADE",
-		"Rarity": "6",
-		"Restrict": "NONE",
-		"Unknown": "1",
-		"ImageURL": "./images/weapon/divinetitanex.png"
-	},
-	{
 		"SystemName": "cokecan",
 		"ChineseName": "可樂罐",
 		"EnglishName": "Coke Can",
@@ -6900,6 +6888,42 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/jumpspirit.png"
 	},
 	{
+		"SystemName": "divinetitanex",
+		"ChineseName": "喚光聖翼．天罰 EX",
+		"EnglishName": "Sandalphon EX",
+		"ID": "9007",
+		"InGameID": "574",
+		"Type": "GRENADE",
+		"Rarity": "6",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/divinetitanex.png"
+	},
+	{
+		"SystemName": "bisonb",
+		"ChineseName": "精製野牛衝鋒槍",
+		"EnglishName": "bisonb",
+		"ID": "9003",
+		"InGameID": "575",
+		"Type": "SUBMACHINEGUN",
+		"Rarity": "3",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/bisonb.png"
+	},
+	{
+		"SystemName": "pgmb",
+		"ChineseName": "精製赫卡特狙擊步槍",
+		"EnglishName": "pgmb",
+		"ID": "9004",
+		"InGameID": "576",
+		"Type": "SNIPERRIFLE",
+		"Rarity": "3",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/pgmb.png"
+	},
+	{
 		"SystemName": "Kevlar",
 		"ChineseName": "克夫勒防彈背心",
 		"EnglishName": "Kevlar Body Armor",
@@ -8302,5 +8326,17 @@ let WeaponData = [
 		"Restrict": "NONE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/y24s1nataknife.png"
+	},
+	{
+		"SystemName": "hdaggerb",
+		"ChineseName": "精製背刺短刀",
+		"EnglishName": "hdaggerb",
+		"ID": "9005",
+		"InGameID": "4086",
+		"Type": "KNIFE",
+		"Rarity": "3",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/hdaggerb.png"
 	}
 ]
