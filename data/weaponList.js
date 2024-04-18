@@ -6865,7 +6865,7 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "crossbowcls",
-		"ChineseName": "飛鷹十字弓經典版",
+		"ChineseName": "經典飛鷹十字弓",
 		"EnglishName": "Crossbow Classic",
 		"ID": "8977",
 		"InGameID": "572",
@@ -6889,8 +6889,8 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "divinetitanex",
-		"ChineseName": "喚光聖翼．天罰 EX",
-		"EnglishName": "Sandalphon EX",
+		"ChineseName": "喚影魔翼．殛霆",
+		"EnglishName": "Belial",
 		"ID": "9007",
 		"InGameID": "574",
 		"Type": "GRENADE",
@@ -6901,7 +6901,7 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "bisonb",
-		"ChineseName": "精製野牛衝鋒槍",
+		"ChineseName": "水藍野牛衝鋒槍",
 		"EnglishName": "bisonb",
 		"ID": "9003",
 		"InGameID": "575",
@@ -6913,7 +6913,7 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "pgmb",
-		"ChineseName": "精製赫卡特狙擊步槍",
+		"ChineseName": "水藍Hecate II",
 		"EnglishName": "pgmb",
 		"ID": "9004",
 		"InGameID": "576",
@@ -8329,7 +8329,7 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "hdaggerb",
-		"ChineseName": "精製背刺短刀",
+		"ChineseName": "水藍背刺短刀",
 		"EnglishName": "hdaggerb",
 		"ID": "9005",
 		"InGameID": "4086",
