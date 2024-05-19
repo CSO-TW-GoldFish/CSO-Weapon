@@ -6924,6 +6924,42 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/pgmb.png"
 	},
 	{
+		"SystemName": "y24s2usas12",
+		"ChineseName": "維京之怒USAS12",
+		"EnglishName": "USAS12 Conquer",
+		"ID": "9013",
+		"InGameID": "578",
+		"Type": "RIFLE",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y24s2usas12.png"
+	},
+	{
+		"SystemName": "y24s2mg3",
+		"ChineseName": "維京之怒殲滅者-MG3",
+		"EnglishName": "MG3 Valhalla",
+		"ID": "9022",
+		"InGameID": "580",
+		"Type": "MACHINEGUN",
+		"Rarity": "3",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y24s2mg3.png"
+	},
+	{
+		"SystemName": "y24s2skull2",
+		"ChineseName": "維京之怒鬼神無雙",
+		"EnglishName": "Skull-2 Valhalla",
+		"ID": "9023",
+		"InGameID": "581",
+		"Type": "PISTOL",
+		"Rarity": "2",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y24s2skull2.png"
+	},
+	{
 		"SystemName": "Kevlar",
 		"ChineseName": "克夫勒防彈背心",
 		"EnglishName": "Kevlar Body Armor",
@@ -8316,7 +8352,7 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/y23s3katanad.png"
 	},
 	{
-		"SystemName": "y24s1NataKnife",
+		"SystemName": "y24s1nataknife",
 		"ChineseName": "特攻密刃鋒利銀刃",
 		"EnglishName": "Nata Knife Hero",
 		"ID": "8976",
@@ -8338,5 +8374,17 @@ let WeaponData = [
 		"Restrict": "NONE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/hdaggerb.png"
+	},
+	{
+		"SystemName": "y24s2hammer",
+		"ChineseName": "維京之怒好威鐵鎚",
+		"EnglishName": "Hammer Valhalla",
+		"ID": "9024",
+		"InGameID": "4087",
+		"Type": "KNIFE",
+		"Rarity": "2",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y24s2hammer.png"
 	}
 ]
