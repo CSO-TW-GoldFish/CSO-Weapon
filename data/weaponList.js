@@ -6924,6 +6924,18 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/pgmb.png"
 	},
 	{
+		"SystemName": "alterationammogun",
+		"ChineseName": "輪迴脈衝",
+		"EnglishName": "Pulse Reactor",
+		"ID": "9045",
+		"InGameID": "577",
+		"Type": "SUBMACHINEGUN",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/alterationammogun.png"
+	},
+	{
 		"SystemName": "y24s2usas12",
 		"ChineseName": "維京之怒USAS12",
 		"EnglishName": "USAS12 Conquer",
