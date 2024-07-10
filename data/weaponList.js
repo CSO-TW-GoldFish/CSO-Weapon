@@ -6365,7 +6365,7 @@ let WeaponData = [
 		"EnglishName": "Sandalphon",
 		"ID": "8699",
 		"InGameID": "528",
-		"Type": "GRENADE",
+		"Type": "EQUIPMENT",
 		"Rarity": "6",
 		"Restrict": "NONE",
 		"Unknown": "0",
@@ -6715,7 +6715,7 @@ let WeaponData = [
 		"InGameID": "558",
 		"Type": "PISTOL",
 		"Rarity": "4",
-		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
+		"Restrict": "NONE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/infinityex2desert.png"
 	},
@@ -6727,7 +6727,7 @@ let WeaponData = [
 		"InGameID": "559",
 		"Type": "RIFLE",
 		"Rarity": "5",
-		"Restrict": "NONE",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/transformgunex.png"
 	},
@@ -6871,7 +6871,7 @@ let WeaponData = [
 		"InGameID": "572",
 		"Type": "RIFLE",
 		"Rarity": "2",
-		"Restrict": "NONE",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/crossbowcls.png"
 	},
@@ -6893,7 +6893,7 @@ let WeaponData = [
 		"EnglishName": "Belial",
 		"ID": "9007",
 		"InGameID": "574",
-		"Type": "GRENADE",
+		"Type": "EQUIPMENT",
 		"Rarity": "6",
 		"Restrict": "NONE",
 		"Unknown": "0",
@@ -6907,7 +6907,7 @@ let WeaponData = [
 		"InGameID": "575",
 		"Type": "SUBMACHINEGUN",
 		"Rarity": "3",
-		"Restrict": "NONE",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/bisonb.png"
 	},
@@ -6919,7 +6919,7 @@ let WeaponData = [
 		"InGameID": "576",
 		"Type": "SNIPERRIFLE",
 		"Rarity": "3",
-		"Restrict": "NONE",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/pgmb.png"
 	},
@@ -6948,6 +6948,18 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/y24s2usas12.png"
 	},
 	{
+		"SystemName": "accelerator",
+		"ChineseName": "颶風忍鏢",
+		"EnglishName": "Wind Walker",
+		"ID": "9054",
+		"InGameID": "579",
+		"Type": "PISTOL",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/accelerator.png"
+	},
+	{
 		"SystemName": "y24s2mg3",
 		"ChineseName": "維京之怒殲滅者-MG3",
 		"EnglishName": "MG3 Valhalla",
@@ -6970,6 +6982,30 @@ let WeaponData = [
 		"Restrict": "NONE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/y24s2skull2.png"
+	},
+	{
+		"SystemName": "mg36b",
+		"ChineseName": "水藍突擊兵蜂-MG36",
+		"EnglishName": "mg36b",
+		"ID": "9057",
+		"InGameID": "583",
+		"Type": "MACHINEGUN",
+		"Rarity": "2",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/mg36b.png"
+	},
+	{
+		"SystemName": "dualkrissb",
+		"ChineseName": "水藍霹靂悍將",
+		"EnglishName": "dualkrissb",
+		"ID": "9058",
+		"InGameID": "584",
+		"Type": "SUBMACHINEGUN",
+		"Rarity": "2",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/dualkrissb.png"
 	},
 	{
 		"SystemName": "Kevlar",
@@ -8383,7 +8419,7 @@ let WeaponData = [
 		"InGameID": "4086",
 		"Type": "KNIFE",
 		"Rarity": "3",
-		"Restrict": "NONE",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/hdaggerb.png"
 	},
@@ -8398,5 +8434,29 @@ let WeaponData = [
 		"Restrict": "NONE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/y24s2hammer.png"
+	},
+	{
+		"SystemName": "buffoicw",
+		"ChineseName": "OICW地獄火",
+		"EnglishName": "OICW Hellfire",
+		"ID": "0",
+		"InGameID": "0",
+		"Type": "RIFLE",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/buffoicw.png"
+	},
+	{
+		"SystemName": "epic_240711",
+		"ChineseName": "布里歐納克",
+		"EnglishName": "Brionac",
+		"ID": "0",
+		"InGameID": "0",
+		"Type": "KNIFE",
+		"Rarity": "6",
+		"Restrict": "NONE",
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/epic_240711.png"
 	}
 ]
