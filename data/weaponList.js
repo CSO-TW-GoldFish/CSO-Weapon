@@ -6984,6 +6984,18 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/y24s2skull2.png"
 	},
 	{
+		"SystemName": "shiftexpar",
+		"ChineseName": "OICW地獄火",
+		"EnglishName": "OICW Hellfire",
+		"ID": "9074",
+		"InGameID": "582",
+		"Type": "RIFLE",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/shiftexpar.png"
+	},
+	{
 		"SystemName": "mg36b",
 		"ChineseName": "水藍突擊兵蜂-MG36",
 		"EnglishName": "mg36b",
@@ -8436,27 +8448,15 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/y24s2hammer.png"
 	},
 	{
-		"SystemName": "buffoicw",
-		"ChineseName": "OICW地獄火",
-		"EnglishName": "OICW Hellfire",
-		"ID": "0",
-		"InGameID": "0",
-		"Type": "RIFLE",
-		"Rarity": "5",
-		"Restrict": "NONE",
-		"Unknown": "1",
-		"ImageURL": "./images/weapon/buffoicw.png"
-	},
-	{
-		"SystemName": "epic_240711",
+		"SystemName": "divinespear",
 		"ChineseName": "布里歐納克",
 		"EnglishName": "Brionac",
-		"ID": "0",
-		"InGameID": "0",
+		"ID": "9051",
+		"InGameID": "4088",
 		"Type": "KNIFE",
 		"Rarity": "6",
 		"Restrict": "NONE",
 		"Unknown": "1",
-		"ImageURL": "./images/weapon/epic_240711.png"
+		"ImageURL": "./images/weapon/divinespear.png"
 	}
 ]
