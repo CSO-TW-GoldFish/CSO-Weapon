@@ -6792,6 +6792,18 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/ak47l3.png"
 	},
 	{
+		"SystemName": "lightningsmg",
+		"ChineseName": "電能釋放",
+		"EnglishName": "Electron-3",
+		"ID": "8945",
+		"InGameID": "565",
+		"Type": "SUBMACHINEGUN",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/lightningsmg.png"
+	},
+	{
 		"SystemName": "y24s1laserminigun",
 		"ChineseName": "虹光Mega粒子砲",
 		"EnglishName": "Rolling Vulcan",
@@ -6985,7 +6997,7 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "shiftexpar",
-		"ChineseName": "OICW地獄火",
+		"ChineseName": "地獄業火",
 		"EnglishName": "OICW Hellfire",
 		"ID": "9074",
 		"InGameID": "582",
@@ -8449,7 +8461,7 @@ let WeaponData = [
 	},
 	{
 		"SystemName": "divinespear",
-		"ChineseName": "布里歐納克",
+		"ChineseName": "曙光戰戟．燄",
 		"EnglishName": "Brionac",
 		"ID": "9051",
 		"InGameID": "4088",
