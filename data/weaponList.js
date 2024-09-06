@@ -7032,6 +7032,78 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/dualkrissb.png"
 	},
 	{
+		"SystemName": "burstdischarge",
+		"ChineseName": "星核崩裂 Ⅰ",
+		"EnglishName": "Akana I",
+		"ID": "9094",
+		"InGameID": "585",
+		"Type": "RIFLE",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/burstdischarge.png"
+	},
+	{
+		"SystemName": "burstdischargeex",
+		"ChineseName": "星核崩裂 Ⅱ",
+		"EnglishName": "Akana II",
+		"ID": "9095",
+		"InGameID": "586",
+		"Type": "RIFLE",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/burstdischargeex.png"
+	},
+	{
+		"SystemName": "burstdischargeadv",
+		"ChineseName": "星核崩裂 Ⅲ",
+		"EnglishName": "Akana III",
+		"ID": "9096",
+		"InGameID": "587",
+		"Type": "RIFLE",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/burstdischargeadv.png"
+	},
+	{
+		"SystemName": "y24s3p90",
+		"ChineseName": "龜兔ES C90",
+		"EnglishName": "P90 Turtle Rabbit",
+		"ID": "9093",
+		"InGameID": "588",
+		"Type": "SUBMACHINEGUN",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y24s3p90.png"
+	},
+	{
+		"SystemName": "y24s3balrog7",
+		"ChineseName": "星際神龜赤獄魔龍(balrog-VII)",
+		"EnglishName": "Turtle Balrog-7",
+		"ID": "9108",
+		"InGameID": "589",
+		"Type": "MACHINEGUN",
+		"Rarity": "3",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y24s3balrog7.png"
+	},
+	{
+		"SystemName": "y24s3kingcobra",
+		"ChineseName": "星際神龜眼鏡蛇",
+		"EnglishName": "Turtle Kingcobra",
+		"ID": "9109",
+		"InGameID": "590",
+		"Type": "PISTOL",
+		"Rarity": "2",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y24s3kingcobra.png"
+	},
+	{
 		"SystemName": "Kevlar",
 		"ChineseName": "克夫勒防彈背心",
 		"EnglishName": "Kevlar Body Armor",
@@ -8468,7 +8540,19 @@ let WeaponData = [
 		"Type": "KNIFE",
 		"Rarity": "6",
 		"Restrict": "NONE",
-		"Unknown": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/divinespear.png"
+	},
+	{
+		"SystemName": "y24s3crow9",
+		"ChineseName": "星際神龜鐵鎧破軍(CROW-9)",
+		"EnglishName": "Turtle Crow-9",
+		"ID": "9110",
+		"InGameID": "4089",
+		"Type": "KNIFE",
+		"Rarity": "3",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y24s3crow9.png"
 	}
 ]
