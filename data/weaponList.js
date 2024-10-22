@@ -6614,7 +6614,7 @@ let WeaponData = [
 	{
 		"SystemName": "mg3desert",
 		"ChineseName": "沙漠殲滅者-MG3",
-		"EnglishName": "Desert MG3",
+		"EnglishName": "DESERT MG3",
 		"ID": "8871",
 		"InGameID": "549",
 		"Type": "MACHINEGUN",
@@ -6626,7 +6626,7 @@ let WeaponData = [
 	{
 		"SystemName": "m2desert",
 		"ChineseName": "沙漠白朗寧M2",
-		"EnglishName": "Desert M2",
+		"EnglishName": "DESERT M2",
 		"ID": "8872",
 		"InGameID": "550",
 		"Type": "MACHINEGUN",
@@ -6638,7 +6638,7 @@ let WeaponData = [
 	{
 		"SystemName": "spas12desert",
 		"ChineseName": "沙漠戰神-SPAS12",
-		"EnglishName": "Desert SPAS-12",
+		"EnglishName": "DESERT SPAS-12",
 		"ID": "8873",
 		"InGameID": "551",
 		"Type": "SHOTGUN",
@@ -6650,7 +6650,7 @@ let WeaponData = [
 	{
 		"SystemName": "wa2000desert",
 		"ChineseName": "沙漠疾風獵鷹-WA2000",
-		"EnglishName": "Desert WA2000",
+		"EnglishName": "DESERT WA2000",
 		"ID": "8875",
 		"InGameID": "552",
 		"Type": "SNIPERRIFLE",
@@ -6662,7 +6662,7 @@ let WeaponData = [
 	{
 		"SystemName": "m60desert",
 		"ChineseName": "沙漠征服者-M60E4",
-		"EnglishName": "Desert M60E4",
+		"EnglishName": "DESERT M60E4",
 		"ID": "8883",
 		"InGameID": "553",
 		"Type": "MACHINEGUN",
@@ -6674,7 +6674,7 @@ let WeaponData = [
 	{
 		"SystemName": "m95desert",
 		"ChineseName": "沙漠蛇姬之吻-M95",
-		"EnglishName": "Desert M95",
+		"EnglishName": "DESERT M95",
 		"ID": "8884",
 		"InGameID": "554",
 		"Type": "SNIPERRIFLE",
@@ -6914,7 +6914,7 @@ let WeaponData = [
 	{
 		"SystemName": "bisonb",
 		"ChineseName": "水藍野牛衝鋒槍",
-		"EnglishName": "bisonb",
+		"EnglishName": "PP-19 Bizon (Refined)",
 		"ID": "9003",
 		"InGameID": "575",
 		"Type": "SUBMACHINEGUN",
@@ -6926,7 +6926,7 @@ let WeaponData = [
 	{
 		"SystemName": "pgmb",
 		"ChineseName": "水藍Hecate II",
-		"EnglishName": "pgmb",
+		"EnglishName": "Hecate II (Refined)",
 		"ID": "9004",
 		"InGameID": "576",
 		"Type": "SNIPERRIFLE",
@@ -7004,13 +7004,13 @@ let WeaponData = [
 		"Type": "RIFLE",
 		"Rarity": "5",
 		"Restrict": "NONE",
-		"Unknown": "1",
+		"Unknown": "0",
 		"ImageURL": "./images/weapon/shiftexpar.png"
 	},
 	{
 		"SystemName": "mg36b",
 		"ChineseName": "水藍突擊兵蜂-MG36",
-		"EnglishName": "mg36b",
+		"EnglishName": "MG36 (Refined)",
 		"ID": "9057",
 		"InGameID": "583",
 		"Type": "MACHINEGUN",
@@ -7022,7 +7022,7 @@ let WeaponData = [
 	{
 		"SystemName": "dualkrissb",
 		"ChineseName": "水藍霹靂悍將",
-		"EnglishName": "dualkrissb",
+		"EnglishName": "Dual Kriss (Refined)",
 		"ID": "9058",
 		"InGameID": "584",
 		"Type": "SUBMACHINEGUN",
@@ -7034,7 +7034,7 @@ let WeaponData = [
 	{
 		"SystemName": "burstdischarge",
 		"ChineseName": "星核崩裂 Ⅰ",
-		"EnglishName": "Akana I",
+		"EnglishName": "Arcana I",
 		"ID": "9094",
 		"InGameID": "585",
 		"Type": "RIFLE",
@@ -7046,7 +7046,7 @@ let WeaponData = [
 	{
 		"SystemName": "burstdischargeex",
 		"ChineseName": "星核崩裂 Ⅱ",
-		"EnglishName": "Akana II",
+		"EnglishName": "Arcana II",
 		"ID": "9095",
 		"InGameID": "586",
 		"Type": "RIFLE",
@@ -7058,7 +7058,7 @@ let WeaponData = [
 	{
 		"SystemName": "burstdischargeadv",
 		"ChineseName": "星核崩裂 Ⅲ",
-		"EnglishName": "Akana III",
+		"EnglishName": "Arcana III",
 		"ID": "9096",
 		"InGameID": "587",
 		"Type": "RIFLE",
@@ -7082,7 +7082,7 @@ let WeaponData = [
 	{
 		"SystemName": "y24s3balrog7",
 		"ChineseName": "星際神龜赤獄魔龍(balrog-VII)",
-		"EnglishName": "Turtle Balrog-7",
+		"EnglishName": "BALROG-VII Turtle",
 		"ID": "9108",
 		"InGameID": "589",
 		"Type": "MACHINEGUN",
@@ -7094,7 +7094,7 @@ let WeaponData = [
 	{
 		"SystemName": "y24s3kingcobra",
 		"ChineseName": "星際神龜眼鏡蛇",
-		"EnglishName": "Turtle Kingcobra",
+		"EnglishName": "King Cobra Turtle",
 		"ID": "9109",
 		"InGameID": "590",
 		"Type": "PISTOL",
@@ -7102,6 +7102,54 @@ let WeaponData = [
 		"Restrict": "NONE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/y24s3kingcobra.png"
+	},
+	{
+		"SystemName": "halogunex",
+		"ChineseName": "煌黑塵光．寂靜",
+		"EnglishName": "Space Arbalest",
+		"ID": "9098",
+		"InGameID": "591",
+		"Type": "EQUIPMENT",
+		"Rarity": "6",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/halogunex.png"
+	},
+	{
+		"SystemName": "sfsnipermb",
+		"ChineseName": "水藍懲雷",
+		"EnglishName": "Lightning Rail (Refined)",
+		"ID": "9117",
+		"InGameID": "592",
+		"Type": "SNIPERRIFLE",
+		"Rarity": "3",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/sfsnipermb.png"
+	},
+	{
+		"SystemName": "pp2000b",
+		"ChineseName": "水藍 PP-2000",
+		"EnglishName": "PP-2000 (Refined)",
+		"ID": "9118",
+		"InGameID": "593",
+		"Type": "SUBMACHINEGUN",
+		"Rarity": "3",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/pp2000b.png"
+	},
+	{
+		"SystemName": "m1887craftb",
+		"ChineseName": "水藍野戰閃靈",
+		"EnglishName": "M1887 Maverick (Refined)",
+		"ID": "9119",
+		"InGameID": "594",
+		"Type": "PISTOL",
+		"Rarity": "3",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/m1887craftb.png"
 	},
 	{
 		"SystemName": "Kevlar",
@@ -8510,7 +8558,7 @@ let WeaponData = [
 	{
 		"SystemName": "hdaggerb",
 		"ChineseName": "水藍背刺短刀",
-		"EnglishName": "hdaggerb",
+		"EnglishName": "Hunting Dagger (Refined)",
 		"ID": "9005",
 		"InGameID": "4086",
 		"Type": "KNIFE",
@@ -8546,7 +8594,7 @@ let WeaponData = [
 	{
 		"SystemName": "y24s3crow9",
 		"ChineseName": "星際神龜鐵鎧破軍(CROW-9)",
-		"EnglishName": "Turtle Crow-9",
+		"EnglishName": "CROW-9 Turtle",
 		"ID": "9110",
 		"InGameID": "4089",
 		"Type": "KNIFE",
