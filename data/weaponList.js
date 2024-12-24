@@ -84,6 +84,18 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/shield.png"
 	},
 	{
+		"SystemName": "forgesword",
+		"ChineseName": "鍛造劍",
+		"EnglishName": "Forge Sword",
+		"ID": "0",
+		"InGameID": "0",
+		"Type": "KNIFE",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "1",
+		"ImageURL": "./images/weapon/forgesword.png"
+	},
+	{
 		"SystemName": "p228",
 		"ChineseName": "228 緊緻型",
 		"EnglishName": "P228",
@@ -2381,7 +2393,7 @@ let WeaponData = [
 		"EnglishName": "FG Launcher",
 		"ID": "530",
 		"InGameID": "196",
-		"Type": "PISTOL",
+		"Type": "EQUIPMENT",
 		"Rarity": "4",
 		"Restrict": "NONE",
 		"Unknown": "0",
@@ -7152,6 +7164,114 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/m1887craftb.png"
 	},
 	{
+		"SystemName": "huntgrenade",
+		"ChineseName": "煉獄爆焰",
+		"EnglishName": "Thunder Flash",
+		"ID": "9187",
+		"InGameID": "595",
+		"Type": "EQUIPMENT",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/huntgrenade.png"
+	},
+	{
+		"SystemName": "lightningsg",
+		"ChineseName": "電能-XI",
+		"EnglishName": "Electron-6",
+		"ID": "9167",
+		"InGameID": "596",
+		"Type": "SHOTGUN",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/lightningsg.png"
+	},
+	{
+		"SystemName": "anniv24xm1014",
+		"ChineseName": "岩漿LEONE YG1265 連發散彈槍",
+		"EnglishName": "XM1014 Magma",
+		"ID": "9168",
+		"InGameID": "599",
+		"Type": "SHOTGUN",
+		"Rarity": "1",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/anniv24xm1014.png"
+	},
+	{
+		"SystemName": "anniv24broad",
+		"ChineseName": "岩漿凝邪聖命",
+		"EnglishName": "Broad Magma",
+		"ID": "9169",
+		"InGameID": "600",
+		"Type": "MACHINEGUN",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/anniv24broad.png"
+	},
+	{
+		"SystemName": "anniv24gunkata",
+		"ChineseName": "岩漿聖裁鎗神",
+		"EnglishName": "Dual Beretta Magma",
+		"ID": "9170",
+		"InGameID": "601",
+		"Type": "PISTOL",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/anniv24gunkata.png"
+	},
+	{
+		"SystemName": "y25s1SFGun",
+		"ChineseName": "巧克力雷神激光破",
+		"EnglishName": "Blaster Chocolate",
+		"ID": "9196",
+		"InGameID": "602",
+		"Type": "RIFLE",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y25s1sfgun.png"
+	},
+	{
+		"SystemName": "y25s1turbulent1",
+		"ChineseName": "巧克力碟輪暴風(Turbulent-1)",
+		"EnglishName": "TURBULENT-1 Chocolate",
+		"ID": "9197",
+		"InGameID": "603",
+		"Type": "PISTOL",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y25s1turbulent1.png"
+	},
+	{
+		"SystemName": "destroyerb",
+		"ChineseName": "水藍破壞者",
+		"EnglishName": "DESTROYER (Refined)",
+		"ID": "9206",
+		"InGameID": "604",
+		"Type": "SNIPERRIFLE",
+		"Rarity": "3",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/destroyerb.png"
+	},
+	{
+		"SystemName": "qbs09b",
+		"ChineseName": "水藍QBS-09",
+		"EnglishName": "QBS-09 (Refined)",
+		"ID": "9207",
+		"InGameID": "605",
+		"Type": "SHOTGUN",
+		"Rarity": "3",
+		"Restrict": "NONE,NEWCLASSIC,NEWCLASSICZOMBIE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/qbs09b.png"
+	},
+	{
 		"SystemName": "Kevlar",
 		"ChineseName": "克夫勒防彈背心",
 		"EnglishName": "Kevlar Body Armor",
@@ -8602,5 +8722,41 @@ let WeaponData = [
 		"Restrict": "NONE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/y24s3crow9.png"
+	},
+	{
+		"SystemName": "y25s1runeblade",
+		"ChineseName": "冰淇淋湛盧之魂",
+		"EnglishName": "Ice Cream Blade",
+		"ID": "9195",
+		"InGameID": "4091",
+		"Type": "KNIFE",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y25s1runeblade.png"
+	},
+	{
+		"SystemName": "anniv24dualsword",
+		"ChineseName": "岩漿極道滅殺",
+		"EnglishName": "Dual Sweord Magma",
+		"ID": "9171",
+		"InGameID": "4092",
+		"Type": "KNIFE",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/anniv24dualsword.png"
+	},
+	{
+		"SystemName": "y25s1spknife",
+		"ChineseName": "巧克力阿修羅",
+		"EnglishName": "Papin Chocolate",
+		"ID": "9198",
+		"InGameID": "4093",
+		"Type": "KNIFE",
+		"Rarity": "4",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/y25s1spknife.png"
 	}
 ]
