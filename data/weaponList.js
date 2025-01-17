@@ -84,18 +84,6 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/shield.png"
 	},
 	{
-		"SystemName": "forgesword",
-		"ChineseName": "鍛造劍",
-		"EnglishName": "Forge Sword",
-		"ID": "0",
-		"InGameID": "0",
-		"Type": "KNIFE",
-		"Rarity": "5",
-		"Restrict": "NONE",
-		"Unknown": "1",
-		"ImageURL": "./images/weapon/forgesword.png"
-	},
-	{
 		"SystemName": "p228",
 		"ChineseName": "228 緊緻型",
 		"EnglishName": "P228",
@@ -7188,6 +7176,30 @@ let WeaponData = [
 		"ImageURL": "./images/weapon/lightningsg.png"
 	},
 	{
+		"SystemName": "frostbite",
+		"ChineseName": "凜冬滅世．弗洛薩克",
+		"EnglishName": "Frost Viper",
+		"ID": "9214",
+		"InGameID": "597",
+		"Type": "EQUIPMENT",
+		"Rarity": "6",
+		"Restrict": "NONE",
+		"Unknown": "",
+		"ImageURL": "./images/weapon/frostbite.png"
+	},
+	{
+		"SystemName": "bisonfox",
+		"ChineseName": "火狐",
+		"EnglishName": "Fire Fox",
+		"ID": "9212",
+		"InGameID": "598",
+		"Type": "SUBMACHINEGUN",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "",
+		"ImageURL": "./images/weapon/bisonfox.png"
+	},
+	{
 		"SystemName": "anniv24xm1014",
 		"ChineseName": "岩漿LEONE YG1265 連發散彈槍",
 		"EnglishName": "XM1014 Magma",
@@ -8722,6 +8734,18 @@ let WeaponData = [
 		"Restrict": "NONE",
 		"Unknown": "0",
 		"ImageURL": "./images/weapon/y24s3crow9.png"
+	},
+	{
+		"SystemName": "forgesword",
+		"ChineseName": "星辰鍛爐",
+		"EnglishName": "Star Forge",
+		"ID": "9185",
+		"InGameID": "4090",
+		"Type": "KNIFE",
+		"Rarity": "5",
+		"Restrict": "NONE",
+		"Unknown": "0",
+		"ImageURL": "./images/weapon/forgesword.png"
 	},
 	{
 		"SystemName": "y25s1runeblade",
