@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<!--
+
+#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#
+
+#$#$#$#$#$#$#$    $%$%$%$%$%$%$%    %^%^%^%^%^    ^&^&^&^&^&^&^&
+$#$#$#$#$#$#$#    %$%$%$%$%$%$%$    ^%^%^%^%^%    &^&^&^&^&^&^&^
+#$            #$  $%              %^          %^        ^&      
+$#            $#  %$              ^%          ^%        &^      
+#$            #$  $%              %^                    ^&      
+$#            $#  %$              ^%                    &^      
+#$            #$  $%$%$%$%$%$%$%  %^%^%^%^%^%^          ^&      
+$#            $#  %$%$%$%$%$%$%$  ^%^%^%^%^%^%          &^      
+#$            #$  $%                          %^        ^&      
+$#            $#  %$                          ^%        &^      
+#$            #$  $%              %^          %^        ^&      
+$#            $#  %$              ^%          ^%        &^      
+#$#$#$#$#$#$#$    $%$%$%$%$%$%$%    %^%^%^%^%^          ^&      
+$#$#$#$#$#$#$#    %$%$%$%$%$%$%$    ^%^%^%^%^%          &^      
+
+&*&*&*&*&*&*&*    *(*(*(*(*(*(*(  ()          ()  $%$%$%$%$%$%$%  &*&*&*&*&*&*&*  
+*&*&*&*&*&*&&*    (*(*(*(*(*(*(*  ()          ()  %$%$%$%$%$%$%$  *&*&*&*&*&*&&*  
+&*            &*  *(          *(  ()          ()  $%              &*            &*
+*&            &*  (*          (*    ()      ()    %$              *&            &*
+&*            &*  *(          *(    ()      ()    $%              &*            &*
+*&            &*  (*          (*      ()  ()      %$              *&            &*
+&*&*&*&*&*&*&*    *(          *(        ()        $%$%$%$%$%$%$%  &*&*&*&*&*&*&*  
+*&*&*&*&*&*&&*    (*          (*        ()        %$%$%$%$%$%$%$  *&*&*&*&*&*&&*  
+&*        &*      *(          *(        ()        $%              &*        &*    
+*&        *&      (*          (*        ()        %$              *&        *&    
+&*          &*    *(          *(        ()        $%              &*          &*  
+*&          *&    (*          (*        ()        %$              *&          *&  
+&*            &*  *(*(*(*(*(*(*(        ()        $%$%$%$%$%$%$%  &*            &*
+*&            *&  (*(*(*(*(*(*(*        ()        %$%$%$%$%$%$%$  *&            *&
+
+@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@
+
+-->
+
+<html lang="zh-Hant">
+<html data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,21 +53,41 @@
             <img class="logo" src="./images/logo-weapons.svg" alt="logo">
             <nav>
                 <ul class="nav__links">
-                    <li><a>關於</a></li>
-					<li><a class = "theme">主題：正常</a></li>
-					<li><a class = "sort">排序：InGameID</a></li>
-                    <li><a class = "lang">中文 > English</a></li>
+					<img class = "sort" src="./images/icon/sort_id.png">
+					<img class = "lang" src="./images/icon/lang_na_en.png">
+					<img class = "theme" src="./images/icon/lightTOdark.png">
+					<img class = "info" src="./images/icon/info.png">
+                </ul>
                 </ul>
             </nav>
-            <div class="search-container">
-                <input type="text">
-                <a class="btn-search"><button>搜尋</button></a>
-            </div>
         </div>
+		
+		<div class="list-container">
+			<ul id="list">
+				<li class="list-header">
+					<img src="./images/icon/luascript.png" alt="標題圖片">  <!-- 圖片 -->
+					<span>Lua 購買清單</span>
+				</li>
+				<div class="list-footer">
+					<button class="addallbtn" onclick="lua_addall()">新增此頁所有</button>
+					<button class="remallbtn" onclick="lua_delall()">刪除全部</button>
+				</div>
+				<div class="list-footer">
+					<button class="copybtn" onclick="lua_copy()">複製 common.lua</button>
+				</div>
+				
+				<!-- 項目會動態加入這裡 -->
+			</ul>
+		</div>
+		
         <div class="CategorySelect-SideBar">
             <div class="rarities">
+				<div class="search-container">
+					<input class="searchinput" type="text" placeholder="搜尋">
+					<a class="btn-search"><button>搜</button></a>
+				</div>
 				<div class="weapon-category js-weapon-category classify" data-rarity="GRADE">
-                    <span class="name">稀有度</span>
+                    <span class="name">．稀有度．</span>
 				</div>
                 <div class="weapon-category js-weapon-category active" data-rarity="GRADE0">
                     <span class="name">全部</span>
@@ -52,7 +111,7 @@
                     <span class="name">史詩</span>
                 </div>
 				<div class="weapon-category js-weapon-category classify" data-type="GRADE">
-                    <span class="name">類型</span>
+                    <span class="name">．類型．</span>
                 </div>
                 <div class="weapon-category js-weapon-category active" data-type="ALL">
                     <span class="name">全部</span>
@@ -91,7 +150,7 @@
                     <span class="name">創世者</span>
                 </div>
 				<div class="weapon-category js-weapon-category classify" data-restrict="GRADE">
-                    <span class="name">武器限制</span>
+                    <span class="name">．武器限制．</span>
                 </div>
 				<div class="weapon-category js-weapon-category active" data-restrict="NONE">
                     <span class="name">無限制</span>
@@ -111,19 +170,120 @@
     </div>
     <div class="about-bg">
         <div class="about">
-            <h3>關於</h3>
+            <h3>．關於．</h3>
             <p class = "a">網頁製作：崩潰金魚燒、DestroyerI滅世I</p>
             <p class = "b">圖片提供：SkullerRey、DestroyerI滅世I</p>
             <p class = "c">ＩＤ提供：SkullerRey、DestroyerI滅世I</p>
         </div>
     </div>
 	
-	<div class="notification" id="notification"></div>
-	<div class="watermark">Gold Fish / Destroyer / Skuller Rey</div>
-	
-	<div class="lastupdate">Last Update: 25/01/17</div>
+	<div class="detail">
+		<!-- Weapon Name -->
+		<div class="weapon-name"></div>
 
-    <script src="./data/weaponList.js"></script>
-    <script src="script.js"></script>
+		<!-- Content -->
+		<div class="content">
+			<!-- Left Section -->
+			<div class="left-section">
+				<div class="left-section-inside">
+					<div class="main-image">
+						<img src="./images/weapon/frostbite.png" alt="Main Weapon" />
+					</div>
+					<video class="weaponani" autoplay loop muted>
+						<source type="video/webm">
+					</video>
+				</div>
+			</div>
+
+			<!-- Right Section -->
+			<div class="right-section">
+				<div class="right-section-left">
+					<div class="itemgrade">
+						<span class="rankmode" data-mode="original">
+							<span class="ranklevel">
+								D
+							</span>
+							一般模式
+						</span>
+						<span class="rankmode" data-mode="zombie">
+							<span class="ranklevel">
+								D
+							</span>
+							殭屍模式
+						</span>
+						<span class="rankmode" data-mode="scen">
+							<span class="ranklevel">
+								D
+							</span>
+							災厄模式
+						</span>
+					</div>
+					<div class="info">
+						<span class = "title">
+							傷害</br>
+							殭屍傷害</br>
+							災厄傷害</br>
+							命中</br>
+							後座力</br>
+							連發</br>
+							重量</br>
+							殭屍擊退</br>
+							殭屍僵直</br>
+						</span>
+						
+						<span class = "value">
+							0</br>
+							0</br>
+							0</br>
+							0 %</br>
+							0 %</br>
+							0 %</br>
+							0 %</br>
+							0 %</br>
+							0 %</br>
+						</span>
+					</div>
+					<div class="desc">
+						<span class = "text">
+							　
+						</span>
+					</div>
+				</div>
+				<div class="right-section-center">
+					<img class="tipimage" src="./images/weapon/desc/frostbite.png">
+						
+					</img>
+					<div class="desc2">
+						<span class = "text">
+							　
+						</span>
+					</div>
+				</div>
+				<div class="right-section-right">
+					
+				</div>
+			</div>
+		</div>
+		<button class="turnoff" onclick="details_off()">
+			關閉 ( ESC )
+		</button>
+	</div>
+	
+	<div class="notification" id="notification"></div>
+	<div class="watermark">Gold Fish / Destroyertw1207 / Skuller Rey</div>
+	
+	<div class="lastupdate">近期更新 : 2025 / 02 / 07 ( Destroyertw1207 )</div>
+
+	<script src="./data/official_js/cso_tw.js"></script> <!-- 臺服官方文檔 -->
+	<script src="./data/official_js/cso_na_en.js"></script> <!-- 國際服英文官方文檔 -->
+	<script src="./data/official_js/cso_chn.js"></script> <!-- 陸服官方文檔 -->
+	<script src="./data/official_js/cso_koreana.js"></script> <!-- 韓服官方文檔 -->
+    <script src="./data/official_js/StandardRestrictTable.js"></script> <!-- 臺服武器限制 ( 新經典 / 新經典殭屍 ) EXCEL -->
+    <script src="./data/official_js/item.js"></script> <!-- 臺服道具 EXCEL -->
+    <script src="./data/custom_weaponname.js"></script> <!-- 自訂義武器名稱 -->
+    <script src="./data/custom_weaponlist.js"></script> <!-- 自訂義武器列表 -->
+    <script src="./data/addweapon_fromfiles.js"></script> <!-- 解析文檔與EXCEL -->
+	
+    <script src="./script.js"></script>
 </body>
 </html>

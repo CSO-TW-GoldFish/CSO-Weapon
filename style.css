@@ -1,10 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500&display=swap');
 
+:root {
+	
+}
+
+[data-theme="light"] {
+	--text-color: rgba(0, 0, 0, 1);
+	--body-background: radial-gradient(circle, rgba(255, 255, 255, 1), rgba(185, 190, 195, 1));
+	--Navigation-color: rgba(0, 0, 0, 1);
+    --Navigation-background-color: rgba(0, 0, 0, 0);
+	--search-container-input-color: rgba(0, 0, 0, 1);
+	--search-container-input-background-color: rgba(255, 255, 255, 0.5);
+	--search-container-input-border-bottom-color: rgba(150, 150, 150, 1);
+	--search-container-input-focus--color: rgba(255, 255, 255, 0.75);
+	--search-container-input-focus-background-color: rgba(255, 255, 255, 0.75);
+	--search-container-input-focus-border-color: rgba(150, 150, 150, 1);
+	--search-container-input-focus-border-bottom-color: rgba(0, 75, 175, 1);
+	--btn-search-button-color: rgba(150, 150, 150, 1);
+	--btn-search-button-hover-background-color: rgba(0, 0, 0, 0.1);
+	--rarities-color: rgba(0, 0, 0, 1);
+	--rarities-webkit-scrollbar-thumb-background-color: rgba(50, 50, 50, 1);
+	--rarities-webkit-scrollbar-thumb-border-color: rgba(50, 50, 50, 1);
+	--rarities-webkit-scrollbar-thumb-hover-background-color: rgba(50, 50, 50, 0.8);
+	--weapon-category-background-color: transparent;
+	--weapon-category-hover-background: linear-gradient(to bottom, transparent, rgba(100, 100, 100, 0.5));
+	--weapon-category-active-background: linear-gradient(to bottom, rgba(150, 150, 150, 0.1), rgba(100, 100, 100, 0.5));
+	--weapon-category-active-before-background-color: rgba(0, 75, 175, 1);
+	--Cards-Content-background-color: transparent;
+	--Cards-Content-webkit-scrollbar-track-background-color: transparent;
+	--Cards-Content-webkit-scrollbar-thumb-background-color: rgba(50, 50, 50, 1);
+	--Cards-Content-webkit-scrollbar-thumb-border-color: rgba(50, 50, 50, 1);
+	--Cards-Content-webkit-scrollbar-thumb-hover-background-color: rgba(50, 50, 50, 0.8);
+	--card-background-color: rgba(255, 255, 255, 0.25);
+	--card-box-shadow-color: rgba(0, 0, 0, 0.3);
+	--card-hover-background-color: rgba(0, 0, 0, 0.1);
+	--card-img-background-color: transparent;
+	--card-img-box-shadow-color: rgba(100, 100, 100, 0.3);
+	--card-img-img-filter-color: rgba(0, 0, 0, 0.5);
+	--card-content-color: rgba(0, 75, 175, 1);
+	--card-content-box-shadow-color: rgba(150, 150, 150, 0.25);
+	--card-content-text-shadow-color: rgba(100, 100, 100, 0.1);
+	--card-content-active-background-color: transparent;
+	--card-content-p-color: rgba(0, 0, 0, 1);
+	--btn-select-color: rgba(0, 0, 0, 1);
+	--btn-select-background-color: transparent;
+	--btn-select-active-background-color: transparent;
+	--about-bg-background-color: rgba(0, 0, 0, 0.3);
+	--about-box-shadow-color: rgba(0, 0, 0, 1);
+	--about-background: radial-gradient(circle, rgba(255, 255, 255, 1), rgba(185, 190, 195, 1));
+	--about-h3-color: rgba(0, 0, 0, 255);
+	--about-p-color: rgba(0, 0, 0, 255);
+	--weapon-category-classify-background: linear-gradient(to bottom, rgba(200, 200, 200, 0.25), rgba(100, 100, 100, 0.75));
+	--notification-background-color: rgba(0, 0, 0, 0.5);
+	--notification-box-shadow-color: rgba(0, 0, 0, 1);
+	--notification-color: rgba(0, 0, 0, 1);
+	--notification-background: radial-gradient(circle, rgba(255, 255, 255, 1), rgba(185, 190, 195, 1));
+	--watermark-color: rgba(0, 0, 0, 0.5);
+	--watermark-background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25), rgba(100, 100, 100, 0.75));
+	--watermark-border-bottom-color: rgba(50, 50, 50, 1);
+	--lastupdate-color: rgba(255, 255, 100, 0.75);
+	--lastupdate-background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25), rgba(100, 100, 100, 0.75));
+	--lastupdate-border-bottom-color: rgba(255, 255, 100, 1);
+	--detail-background: radial-gradient(circle, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5));
+	--weapon-category-color: rgba(50, 50, 50, 1);
+}
+
+[data-theme="dark"] {
+	--text-color: rgba(255, 255, 255, 1);
+	--body-background: radial-gradient(circle, rgba(35, 40, 50, 1), rgba(25, 25, 25, 1));
+	--Navigation-color: rgba(255, 255, 255, 1);
+    --Navigation-background-color: rgba(0, 0, 0, 0.25);
+	--search-container-input-color: rgba(255, 255, 255, 1);
+	--search-container-input-background-color: rgba(255, 255, 255, 0.1);
+	--search-container-input-border-bottom-color: rgba(150, 150, 150, 1);
+	--search-container-input-focus-color: rgba(255, 255, 255, 1);
+	--search-container-input-focus-background-color: rgba(25, 25, 25, 0.5);
+	--search-container-input-focus-border-color: rgba(150, 150, 150, 1);
+	--search-container-input-focus-border-bottom-color: rgba(50, 150, 250, 1);
+	--btn-search-button-color: rgba(255, 255, 255, 1);
+	--btn-search-button-hover-background-color: rgba(255, 255, 255, 0.25);
+	--rarities-color: rgba(255, 255, 255, 1);
+	--rarities-webkit-scrollbar-thumb-background-color: rgba(150, 150, 150, 1);
+	--rarities-webkit-scrollbar-thumb-border-color: rgba(150, 150, 150, 1);
+	--rarities-webkit-scrollbar-thumb-hover-background-color: rgba(150, 150, 150, 0.8);
+	--weapon-category-background-color: transparent;
+	--weapon-category-hover-background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.25));
+	--weapon-category-active-background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.25));
+	--weapon-category-active-before-background-color: rgba(50, 150, 250, 1);
+	--Cards-Content-background-color: transparent;
+	--Cards-Content-webkit-scrollbar-track-background-color: transparent;
+	--Cards-Content-webkit-scrollbar-thumb-background-color: rgba(150, 150, 150, 1);
+	--Cards-Content-webkit-scrollbar-thumb-border-color: rgba(150, 150, 150, 1);
+	--Cards-Content-webkit-scrollbar-thumb-hover-background-color: rgba(150, 150, 150, 0.5);
+	--card-background-color: rgba(150, 150, 150, 0.1);
+	--card-box-shadow-color: rgba(50, 50, 50, 0.3);
+	--card-hover-background-color: rgba(150, 150, 150, 0.25);
+	--card-img-background-color: transparent;
+	--card-img-box-shadow-color: rgba(0, 0, 0, 0.3);
+	--card-img-img-filter-color: rgba(0, 0, 0, 0.5);
+	--card-content-color: rgba(50, 150, 250, 1);
+	--card-content-box-shadow-color: rgba(25, 25, 25, 0.5);
+	--card-content-text-shadow-color: rgba(0, 0, 0, 0.5);
+	--card-content-active-background-color: transparent;
+	--card-content-p-color: rgba(255, 255, 255, 1);
+	--btn-select-color: #fff;
+	--btn-select-background-color: transparent;
+	--btn-select-active-background-color: transparent;
+	--about-bg-background-color: rgba(0, 0, 0, 0.3);
+	--about-box-shadow-color: rgba(0, 0, 0, 1);
+	--about-background: radial-gradient(circle, rgba(35, 40, 50, 1), rgba(25, 25, 25, 1));
+	--about-h3-color: rgba(255, 255, 255, 255);
+	--about-p-color: rgba(255, 255, 255, 255);
+	--weapon-category-classify-background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75));
+	--notification-background-color: rgba(0, 0, 0, 0.3);
+	--notification-box-shadow-color: rgba(0, 0, 0, 1);
+	--notification-color: rgba(255, 255, 255, 1);
+	--notification-background: radial-gradient(circle, rgba(35, 40, 50, 1), rgba(25, 25, 25, 1));
+	--watermark-color: rgba(255, 255, 255, 0.5);
+	--watermark-background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75));
+	--watermark-border-bottom-color: rgba(150, 150, 150, 1);
+	--lastupdate-color: rgba(255, 180, 0, 0.5);
+	--lastupdate-background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75));
+	--lastupdate-border-bottom-color: rgba(250, 180, 0, 1);
+	--detail-background: radial-gradient(circle, rgba(50, 50, 50, 0.25), rgba(0, 0, 0, 0.5));
+	--weapon-category-color: rgba(150, 150, 150, 1);
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: '微軟正黑體', sans-serif;
     overflow: hidden;
+	
+	user-drag: none;          /* 禁止拖動 */
+    user-select: none;        /* 禁止選取 */
+    -webkit-user-drag: none;  /* 針對 WebKit 瀏覽器 */
+    -webkit-user-select: none;/* 針對 WebKit 瀏覽器 */
+    -moz-user-select: none;   /* 針對 Firefox */
+    -ms-user-select: none;    /* 針對 Microsoft Edge/IE */
+    /* pointer-events: none;     /* 禁止滑鼠事件（如果適用） */ */
+}
+
+body {
+    background: var(--body-background);
+    height: 100vh;
+    margin: 0;
 }
 
 /* Grid Layout CSS */
@@ -28,31 +168,45 @@
 /* Navigation Bar CSS */
 
 .Navigation {
-    background-color: #202026;
-}
-
-li, a, .btn-search > button {
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
-.Navigation {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 25px;
+	color: var(--Navigation-color);
+	background-color: var(--Navigation-background-color);
 }
 
 .logo {
     cursor: pointer;
     margin-right: auto;
+	padding-top: 10px;
+	transition: transform 0.2s;
+}
+
+.logo:hover {
+    cursor: pointer;
+    margin-right: auto;
+	padding-top: 10px;
+	transform: scale(1.05);
 }
 
 .nav__links {
+	display: flex;
+	width: 100%; 
+	height: 50px;
     list-style: none;
 	user-select: none;
+}
+
+.nav__links img {
+    width: auto;
+	height: auto;
+	transition: transform 0.2s;
+	cursor: pointer;
+}
+
+.nav__links img:hover {
+	transform: scale(1.05);
 }
 
 .nav__links li {
@@ -61,8 +215,12 @@ li, a, .btn-search > button {
 }
 
 .nav__links li a {
+	display: grid;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	transition: all 0.3s ease 0s;
 }
 
 .nav__links li a:hover {
@@ -70,37 +228,67 @@ li, a, .btn-search > button {
 }
 
 .search-container {
-    margin-left: 30px;
+    display: flex;
+	width: 90%;
+    min-height: 30px;
+    padding: 10px;
 	user-select: none;
+	position: relative;
 }
 
 .search-container > input {
-    font-size: 16px;
+    font-size: 12px;
     padding: 4px 15px;
     outline: none;
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: text;
+	color: var(--search-container-input-color);
+	background-color: var(--search-container-input-background-color);
+	border-bottom: 2px solid var(--search-container-input-border-bottom-color);
+	padding: 8px 45px 8px 15px;
+	width: 100%;
+}
+
+.search-container > input:focus {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: text;
+	color: var(--search-container-input-focus-color);
+	background-color: var(--search-container-input-focus-background-color);
+	border: 1px solid var(--search-container-input-focus-border-color);
+	border-bottom: 2px solid var(--search-container-input-focus-border-bottom-color);
+}
+
+.btn-search {
+    position: absolute;
+    right: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .btn-search > button {
-    padding: 4px 15px;
-    background-color: rgba(247, 127, 0, 1);
+    padding: 5px 12px;
+    background-color: transparent;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
-    margin-left: 10px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color: var(--btn-search-button-color);
 }
 
 .btn-search > button:hover {
-    background-color: rgba(247, 127, 0, 0.8);
+    background-color: var(--btn-search-button-hover-background-color);
 }
 
 /* CategorySelect SideBar CSS */
 
 .CategorySelect-SideBar {
-    background-color: #343a40;
+    background-color: transparent;
     display: flex;
 	width: 250px;
 }
@@ -113,40 +301,98 @@ li, a, .btn-search > button {
 }
 
 .rarities span, .types span, .restrict span {
-    color: #fff;
     outline: none;
     border: none;
+	color: var(--rarities-color);
     background-color: transparent;
 }
 
 .rarities {
-    margin-right: 1px;
+    margin-right: 2px;
+	overflow-y: auto; /* 垂直滾動條 */
+}
+
+/* 設置滾動條背景顏色 */
+.rarities::-webkit-scrollbar {
+    width: 5px; /* 滾動條寬度 */
+}
+
+.rarities::-webkit-scrollbar-track {
+    background-color: transparent; /* 滾動條背景 */
+    border-radius: 10px; /* 可選，圓角 */
+}
+
+.rarities::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 2px solid var(--rarities-webkit-scrollbar-thumb-border-color);
+	background-color: var(--rarities-webkit-scrollbar-thumb-background-color);
+}
+
+/* 滾動條在懸停時的顏色 */
+.rarities::-webkit-scrollbar-thumb:hover {
+	width: 10px;
+    background-color: var(--rarities-webkit-scrollbar-thumb-hover-background-color);
 }
 
 .weapon-category {
+	display: flex;
     cursor: pointer;
-    background-color: #535C66;
+    background-color: var(--weapon-category-background-color);
 	border-radius: 10px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 2px;
+	justify-content: center;
+    width: 90%;
+	min-height: 25px;
+    margin-bottom: 5px;
+	align-items: center;
     padding: 5px;
     transition: all 0.3s ease 0s;
 	user-select: none;
 }
 
 .weapon-category:hover {
-    background-color: #f77f00;
+	background: var(--weapon-category-hover-background);
 }
 
 .weapon-category.active {
-    background-color: #f77f00;
+    position: relative;
+	background: var(--weapon-category-active-background);
+}
+
+.weapon-category.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 2%;
+    height: 50%;
+	border-radius: 10px;
+    background-color: var(--weapon-category-active-before-background-color);
+}
+
+/* Update - 230824 */
+
+.weapon-category.classify {
+    background: var(--weapon-category-classify-background);
+	font-size: 20px;
+	font-weight: 750;
+}
+
+.weapon-category[data-rarity="GRADE"] .name {
+	color: var(--weapon-category-color);
+}
+
+.weapon-category[data-type="GRADE"] .name {
+	color: var(--weapon-category-color);
+}
+
+.weapon-category[data-restrict="GRADE"] .name {
+	color: var(--weapon-category-color);
 }
 
 /* Cards-Content CSS */
 
 .Cards-Content {
-    background-color: #bbb;
+    background-color: var(--Cards-Content-background-color);
     overflow: scroll;
     padding: 10px;
     display: grid;
@@ -154,6 +400,7 @@ li, a, .btn-search > button {
     grid-template-rows: repeat(auto-fill, minmax(206px, auto));
     gap: 10px;
 	user-select: none;
+	height: 100%;
 }
 
 .Cards-Content p.msg{
@@ -161,29 +408,42 @@ li, a, .btn-search > button {
     font-weight: bold;
 }
 
+/* 設置滾動條背景顏色 */
 .Cards-Content::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+    width: 5px; /* 滾動條寬度 */
 }
 
 .Cards-Content::-webkit-scrollbar-track {
-    background-color: #bbb;
+    background-color: var(--Cards-Content-webkit-scrollbar-track-background-color); /* 滾動條背景 */
+    border-radius: 10px; /* 可選，圓角 */
 }
 
 .Cards-Content::-webkit-scrollbar-thumb {
-    background-color: #212529;
-    border-radius: 999px;
+    background-color: var(--Cards-Content-webkit-scrollbar-thumb-background-color); /* 滑塊的顏色 */
+    border-radius: 10px;
+    border: 2px solid var(--Cards-Content-webkit-scrollbar-thumb-border-color);
 }
 
-.Cards-Content::-webkit-scrollbar-corner {
-    background-color: #bbb;
+/* 滾動條在懸停時的顏色 */
+.Cards-Content::-webkit-scrollbar-thumb:hover {
+	width: 10px;
+    background-color: var(--Cards-Content-webkit-scrollbar-thumb-hover-background-color);
 }
 
 .card {
-    background-color: #fff;
+    background-color: var(--card-background-color);
     width: 240px;
     height: 206px;
-	border: 2px solid #6B6B6B;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 900;
+	box-shadow: 10px 10px 20px var(--card-box-shadow-color); /* 右下角的陰影，模擬立體感 */
+}
+
+.card:hover {
+    background-color: var(--card-hover-background-color);
+    width: 240px;
+    height: 206px;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 900;
@@ -192,7 +452,8 @@ li, a, .btn-search > button {
 .card .img {
     width: 240px;
     height: 100px;
-    background-color: #f3f3f3;
+    background-color: var(--card-img-background-color);
+	box-shadow: 10px 10px 20px var(--card-img-box-shadow-color); /* 右下角的陰影，模擬立體感 */
 }
 
 .card .img img {
@@ -200,39 +461,177 @@ li, a, .btn-search > button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+	filter: drop-shadow(10px 10px 15px var(--card-img-img-filter-color)); /* 根據透明區域加陰影 */
+	user-select: none;
 }
 
 .card .content {
     padding: 10px 0;
     text-align: center;
     cursor: pointer;
-    color: #f77f00;
+    color: var(--card-content-color);
+	box-shadow: 10px 10px 20px var(--card-content-box-shadow-color); /* 右下角的陰影，模擬立體感 */
+	text-shadow: 
+        2px 2px 0px var(--card-content-text-shadow-color),  /* 上右陰影 */
+        -2px -2px 0px var(--card-content-text-shadow-color), /* 下左陰影 */
+        2px -2px 0px var(--card-content-text-shadow-color),  /* 上左陰影 */
+        -2px 2px 0px var(--card-content-text-shadow-color),  /* 下右陰影 */
+        0px 2px 0px var(--card-content-text-shadow-color),
+        2px 0px 0px var(--card-content-text-shadow-color),
+        0px -2px 0px var(--card-content-text-shadow-color),
+        -2px 0px 0px var(--card-content-text-shadow-color);
 }
 
 .card .content:active {
 	width: 240px;
-    background-color: #eee;
+    background-color: var(--card-content-active-background-color);
 }
 
 .card .content p {
 	width: 240px;
-    color:#535C66;
+    color:var(--card-content-p-color);
 	font-size: 16px;
 }
 
-.btn-select {
+.card .btn-select {
+    position: relative; /* 設定相對定位，讓 .luascript 可以絕對定位 */
     cursor: pointer;
-    padding: 10px 0px;
+    padding: 10px 40px; /* 讓內部有足夠空間放圖示 */
     text-align: center;
-    color: #fff;
-    background-color: rgba(247, 127, 0, 1);
+    color: var(--btn-select-color);
+    background-color: var(--btn-select-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn-select:active {
-    background-color: rgba(247, 127, 0, 0.8);
+.card .btn-select:active {
+    background-color: var(--btn-select-active-background-color);
 }
 
-/* About CSS */
+.card .luascript {
+    position: absolute; /* 絕對定位，相對於 .btn-select */
+    right: 10px; /* 靠右對齊 */
+    top: 50%;
+    transform: translateY(-50%) scale(1.25);
+	transition: transform 0.2s;
+    width: auto;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.card .luascript:hover {
+	transform: translateY(-50%) scale(1.5);
+}
+
+/* 容器設定 */
+.list-container {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%); 
+    transition: transform 0.1s; /* 動畫效果 */
+    background: var(--body-background);
+    padding: 10px;
+    border-radius: 10px;
+    width: 0px;
+    height: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+	z-index: 9999;
+}
+
+/* 設定為細直條樣式 */
+.list-container:hover {
+	width: auto;
+    min-width: 250px;
+	overflow-y: auto;
+}
+
+/* 列表項目樣式 */
+ul#list {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 標題列樣式 */
+ul#list .list-header {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+	border-bottom: 2px solid rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+/* 標題圖片 */
+ul#list .list-header img {
+    margin-right: 10px; /* 圖片與文字之間的間距 */
+    width: 20px;
+    height: 20px;
+}
+
+/* 列表項目樣式 */
+ul#list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+	color: var(--text-color);
+    margin-bottom: 5px;
+    border-radius: 10px;
+	border-bottom: 2px solid rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+/* 刪除按鈕 */
+ul#list li button {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: var(--text-color);
+    border: none;
+    padding: 3px 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+ul#list li button:hover {
+    background-color: darkred;
+}
+
+.list-footer {
+    display: flex;
+	color: var(--text-color);
+    justify-content: space-between;
+}
+
+.list-footer button {
+    flex: 1;
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+	padding: 10px;
+	border: 2px solid rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+.list-footer button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* About */
 
 .about-bg {
     display: none;
@@ -241,7 +640,7 @@ li, a, .btn-search > button {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--about-bg-background-color);
 }
 
 .about {
@@ -251,69 +650,359 @@ li, a, .btn-search > button {
     width: 500px;
     height: 300px;
     transform: translate(-50%, -50%);
-    background-color: #fff;
     padding: 15px;
     border-radius: 20px;
     text-align: center;
     font-weight: bold;
-    font-family: 'Noto Sans TC', sans-serif;
     line-height: 40px;
-    box-shadow: 0px 0px 10px 5px #000000, inset 0px 0px 30px 0px #000000;
+	box-shadow: 10px 10px 20px var(--about-box-shadow-color); /* 右下角的陰影，模擬立體感 */
+	background: var(--about-background);
 	user-select: none;
 }
 
 .about h3 {
-    color: #f77f00;
+    color: var(--about-h3-color);
     padding-top: 30px;
     margin-bottom: 40px;
 }
 
 .about p {
     font-size: 18px;
-}
-
-/* Update - 230824 */
-
-.weapon-category.classify {
-    background-color: #000000;
-	font-size: 20px;
-	font-weight: 700;
+	color: var(--about-p-color);
 }
 
 /* Update - 230826 */
-/* Copied InGameID to CSO Lua */
+/* Notification */
 
 .notification {
 	display: none;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
-    width: 500px;
-    height: 80px;
+    width: 50%;
+    height: 5%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     font-weight: bold;
-    font-family: 'Noto Sans TC', sans-serif;
     line-height: 40px;
-    box-shadow: 0px 0px 10px 5px #000000, inset 0px 0px 30px 0px #000000;
+	color: var(--notification-color);
+	background: var(--notification-background);
+	background-color: var(--notification-background-color);
+    box-shadow: 10px 10px 20px var(--notification-box-shadow-color), inset 0px 0px 30px 0px var(--notification-box-shadow-color);
 	user-select: none;
+}
+
+/* Detail */
+/* Update - 250205 */
+
+.detail {
+	display: none;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	width: calc(100% - 50px);
+	height: calc(100% - 50px);
+	margin: 0;  /* 移除 margin */
+	padding: 20px;
+	border-radius: 10px;
+	background: var(--detail-background);
+	flex-direction: column;
+	box-sizing: border-box; /* 避免 padding 影響寬高 */
+}
+
+.detail::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 10%;
+    background: var(--rarity-gradient);
+    pointer-events: none; /* 確保不影響點擊 */
+	z-index: 2;
+}
+
+.detail .weapon-name {
+	font-size: 1.25vw;
+	font-weight: 700;
+	top: 2.5%;
+	color: rgba(255, 0, 255, 1);
+	padding-left: 2.5%;
+	padding-bottom: 1%;
+	z-index: 10; /* 提高層級，避免被其他區塊覆蓋 */
+	position: relative; /* 確保層級優先於其他區域 */
+	text-shadow: 
+        1px 1px 0px rgba(0, 0, 0, 1),  /* 上右陰影 */
+        -1px -1px 0px rgba(0, 0, 0, 1), /* 下左陰影 */
+        1px -1px 0px rgba(0, 0, 0, 1),  /* 上左陰影 */
+        -1px 1px 0px rgba(0, 0, 0, 1),  /* 下右陰影 */
+        0px 1px 0px rgba(0, 0, 0, 1),
+        1px 0px 0px rgba(0, 0, 0, 1),
+        0px -1px 0px rgba(0, 0, 0, 1),
+        -1px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.detail .content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100%; /* 扣掉 weapon-name 的空間 */
+	padding: 15px;
+	padding-bottom: 35px;
+}
+
+.detail .left-section {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 25%;
+	height: 100%;
+	margin: 5px;
+	border-radius: 10px;
+	z-index: 1;
+	background: var(--detail-background);
+}
+
+.detail .left-section-inside {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	background: var(--detail-background);
+	z-index: 1;
+}
+
+.detail .main-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid rgba(0, 0, 0, 1);
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 15px;
+	background: var(--detail-background);
+}
+
+.detail .right-section {
+	flex-direction: row;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10px;
+	background: var(--detail-background);
+	z-index: 1;
+}
+
+.detail .right-section-left {
+	flex-direction: column;
+	width: 100%;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10px;
+	background: var(--detail-background);
+	z-index: 1;
+}
+
+.detail .itemgrade {
+	display: flex;
+	flex-direction: row;
+	font-weight: 700;
+	height: 15%;
+	padding: 10px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0);
+	color: rgba(255, 255, 255, 1);
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	z-index: 1;
+}
+
+.detail .rankmode {
+	display: flex;
+	flex-direction: column;
+	font-size: calc(0.5vw + 0.6vh);
+	width: 100%;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0);
+	color: rgba(150, 150, 150, 1);
+	/* border-left: 1px solid rgba(255, 255, 255, 1); */
+	/* border-right: 1px solid rgba(255, 255, 255, 1); */
+}
+
+.detail .ranklevel {
+	height: 100%;
+	font-size: calc(1.25vw + 1.25vh);
+	padding: 10px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0);
+	color: rgba(255, 255, 255, 1);
+	z-index: 1;
+}
+
+.detail .info {
+	display: flex;
+	flex-direction: row;
+	font-size: calc(0.8vw + 0.8vh);
+	font-weight: 700;
+	height: 40%;
+	padding: 10px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0);
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+
+.detail .info .title {
+	margin-right: 10px;
+	text-align: right;
+	color: rgba(150, 150, 150, 1);
+}
+
+.detail .info .value {
+	margin-left: 10px;
+	text-align: left;
+	color: rgba(255, 255, 255, 1);
+}
+
+.detail .desc {
+	display: flex;
+	flex-direction: column;
+	font-size: calc(0.8vw + 0.8vh);
+	font-weight: 700;
+	height: 35%;
+	padding: 10px;
+	border-radius: 10px;
+	color: rgba(255, 255, 255, 1);
+	background: rgba(0, 0, 0, 0);
+	z-index: 1;
+	overflow-y: auto;
+}
+
+.detail .desc .text {
+	overflow-y: auto;
+}
+
+.detail .desc .text::-webkit-scrollbar {
+    width: 6px;
+}
+
+.detail .desc .text::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}
+
+.detail .desc .text::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.detail .right-section-center {
+	width: 100%;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10px;
+	background: var(--detail-background);
+	z-index: 1;
+}
+
+.detail .tipimage {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0);
+	height: 15%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.detail .desc2 {
+	display: flex;
+	flex-direction: column;
+	font-size: calc(0.8vw + 0.8vh);
+	font-weight: 700;
+	height: 80%;
+	padding: 10px;
+	border-radius: 10px;
+	color: rgba(150, 150, 150, 1);
+	background: rgba(0, 0, 0, 0);
+	z-index: 1;
+	overflow-y: auto;
+}
+
+.detail .desc2 .text {
+	overflow-y: auto;
+}
+
+.detail .desc2 .text::-webkit-scrollbar {
+    width: 6px;
+}
+
+.detail .desc2 .text::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}
+
+.detail .desc2 .text::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.detail .right-section-right {
+	width: 100%;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10px;
+	background: var(--detail-background);
+	z-index: 1;
+}
+
+.detail .features ul {
+	list-style: none;
+	padding: 0;
+}
+
+.detail .features ul li {
+	margin-bottom: 25px;
+	background: rgba(255, 255, 255, 0.1);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.detail .turnoff {
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: 20px;
+	/* border-color: rgba(255, 255, 255, 1); */
+	color: rgba(255, 255, 255, 1);
+	background: rgba(0, 0, 0, 0.5);
 }
 
 /* Water Mark */
 
 .watermark {
     position: fixed;
-    bottom: 40px;
-    right: 40px;
-    color: rgba(0, 0, 0, 0.3); /* Adjust the color and opacity */
-    font-size: 32px;
-	user-select: none;
+    bottom: 5%;
+	left: 50%; /* 讓元素的左側對齊視窗中間 */
+    transform: translateX(-50%); /* 讓整個元素向左移動自身寬度的一半，達到完全置中 */
+    color: var(--watermark-color); /* Adjust the color and opacity */
+    font-size: 1.5vw;
 	font-weight: 700;
-	outline: 2px solid rgba(0, 0, 0, 0.3); /* 添加加粗的邊框 */
-	border-radius: 5px;
+	border-radius: 10px;
+	background: var(--watermark-background);
+	border-bottom: 2px solid var(--watermark-border-bottom-color);
+	padding-left: 15px;
+	padding-right: 15px;
+	user-select: none;
 }
 
 /* Update - 230902 */
@@ -321,10 +1010,16 @@ li, a, .btn-search > button {
 
 .lastupdate {
     position: fixed;
-    bottom: 40px;
-    left: 40px;
-    color: rgba(255, 175, 0, 1); /* Adjust the color and opacity */
-    font-size: 16px;
-	user-select: none;
+    bottom: 10%;
+	left: 50%; /* 讓元素的左側對齊視窗中間 */
+    transform: translateX(-50%); /* 讓整個元素向左移動自身寬度的一半，達到完全置中 */
+    color: var(--lastupdate-color); /* Adjust the color and opacity */
+    font-size: 0.75vw;
 	font-weight: 700;
+	border-radius: 10px;
+	background: var(--lastupdate-background);
+	border-bottom: 2px solid var(--lastupdate-border-bottom-color);
+	padding-left: 15px;
+	padding-right: 15px;
+	user-select: none;
 }

@@ -38,7 +38,7 @@ let WeaponData = [
 	{
 		"SystemName": "1stcakebomb",
 		"ChineseName": "1週年紀念蛋糕手榴彈",
-		"EnglishName": "1st Anniversary Cake Grenade",
+		"EnglishName": "1st Anniv. Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
 		"Type": "GRENADE",
@@ -50,7 +50,7 @@ let WeaponData = [
 	{
 		"SystemName": "2ndcakebomb",
 		"ChineseName": "2週年紀念蛋糕手榴彈",
-		"EnglishName": "2nd Anniversary Cake Grenade",
+		"EnglishName": "2nd Anniv. Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
 		"Type": "GRENADE",
@@ -62,7 +62,7 @@ let WeaponData = [
 	{
 		"SystemName": "3rdcakebomb",
 		"ChineseName": "3週年紀念蛋糕手榴彈",
-		"EnglishName": "3rd Anniversary Cake Grenade",
+		"EnglishName": "3rd Anniv. Cake Grenade",
 		"ID": "0",
 		"InGameID": "0",
 		"Type": "GRENADE",
