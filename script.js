@@ -797,7 +797,7 @@ Weapons.prototype.createThumbnailNode = function (weapon, index) {
 			const newItem = document.createElement("li");
 			newItem.innerHTML = `
 				( ${String(weapon.InGameID).padStart(4, '0')} ) ${get_csotxt(`CSO_Item_Name_${weapon.SystemName}`)}
-				<button data-weapon="${weapon}" onclick="lua_rem(this)">－</button>
+				<button data-weapon='${JSON.stringify(weapon)}' onclick="lua_rem(this)">－</button>
 			`;
 			list.appendChild(newItem);
 
@@ -830,7 +830,7 @@ function lua_addall(button) {
 				const newItem = document.createElement("li");
 				newItem.innerHTML = `
 					( ${String(weapon.InGameID).padStart(4, '0')} ) ${get_csotxt(`CSO_Item_Name_${weapon.SystemName}`)}
-					<button data-weapon="${weapon}" onclick="lua_rem(this)">－</button>
+					<button data-weapon='${JSON.stringify(weapon)}' onclick="lua_rem(this)">－</button>
 				`;
 				list.appendChild(newItem);
 
@@ -876,10 +876,13 @@ function lua_rem(button) {
     const item = button.parentElement;
     list.removeChild(item);
 	
-	const weapon = button.getAttribute("data-weapon");
-    const index = luaBuymenuList.findIndex(weapon => {
-        return weapon.InGameID;
+	const weaponData = button.getAttribute("data-weapon");
+	const weapon = JSON.parse(weaponData);
+	
+    const index = luaBuymenuList.findIndex(buymenu => {
+        return buymenu.InGameID == weapon.InGameID;
     });
+	
     if (index !== -1) {
 		message_prompt(`．${lang_switch[language].lualist.title}．`, lang_switch[language].lualist.remone);
         luaBuymenuList.splice(index, 1); // 刪除該武器物件
