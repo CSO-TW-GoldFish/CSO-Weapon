@@ -5,7 +5,7 @@ var sortway = 1;
 var language = "tw";
 let timer;
 
-let updatedate = "2025 / 02 / 09 ( Destroyertw1207 )"
+let updatedate = "2025 / 02 / 10 ( Destroyertw1207 )"
 
 var lang_switch = {
 	  "tw": {
@@ -865,7 +865,7 @@ function lua_copy(button) {
     for (let i = 0; i < luaBuymenuList.length; i++) {
         code = code + "\n\t" + String(luaBuymenuList[i].InGameID).padStart(4, ' ') + ", -- " + get_csotxt(`CSO_Item_Name_${luaBuymenuList[i].SystemName}`);
     }
-    code = code + "\n}\n\nCommon.SetBuymenuWeaponList(BuymenuWeaponList)\n";
+    code = code + "\n}\n\nCommon.UseScenarioBuymenu(true)\nCommon.SetBuymenuWeaponList(BuymenuWeaponList)\n";
     copytext(code);
 	
 	message_prompt(`．${lang_switch[language].lualist.title}．`, lang_switch[language].lualist.copy);
