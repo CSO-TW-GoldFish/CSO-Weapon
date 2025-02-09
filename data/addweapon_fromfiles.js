@@ -1,4 +1,5 @@
-let WeaponData = custom_weaponlist
+let WeaponData = custom_weaponlist || []
+let ClassData = []
 
 // 解析 翻譯檔
 function parseTXT(text) {
@@ -82,6 +83,7 @@ const csv_restrict = parseCSV(StandardRestrictTable_csv)
 
 for (let i = 0; i < csv_content.length; i++) {
 	const data = csv_content[i]
+	// 武器
 	if (data.ClassName == "Equipment") {
 		const type = ["NONE", "SUBMACHINEGUN", "SHOTGUN", "RIFLE", "SNIPERRIFLE", "MACHINEGUN", "EQUIPMENT", "PISTOL", "KNIFE", "GRENADE"]
 		// const type = ["NONE", "PISTOL", "SHOTGUN", "SUBMACHINEGUN", "RIFLE", "MACHINEGUN", "EQUIPMENT", "1", "STUDIO", "2", "3", "4", "KNIFE"]
@@ -162,11 +164,53 @@ for (let i = 0; i < csv_content.length; i++) {
 		}
 		checkwebm.addEventListener("error", handleVideoError);
 		
-		const exists = WeaponData.some(item => item.InGameID === weapondata.InGameID);
+		const exists = WeaponData.some(item => item.ID === weapondata.ID);
 		if (exists) {
 			
 		} else {
 			WeaponData.push(weapondata)
 		}
+	// 角色
+	} else if (data.ClassName == "Class") {
+		const classdata = {
+			"SystemName": data.recourcename.toLowerCase(),
+			"ClassName": data.ClassName,
+			"ID": data.ID,
+			"InGameID": data.InGameID,
+			"Rarity": data.ItemGrade,
+			"Unknown": "0",
+			"ImageURL": `./images/class/${data.recourcename.toLowerCase()}.png`,
+		}
+		
+		const exists = ClassData.some(item => item.ID === ClassData.ID);
+		if (exists) {
+			
+		} else {
+			ClassData.push(classdata)
+		}
+	// 角色 ( 紋身 )
+	} else if (data.ClassName == "Tattoo") {
+		
+	// 角色 ( 頭部裝飾 )
+	} else if (data.ClassName == "HeadCostume") {
+		
+	// 角色 ( 背部裝飾 )
+	} else if (data.ClassName == "BackCostume") {
+		
+	// 角色 ( 臀部裝飾 )
+	} else if (data.ClassName == "PelvisCostume") {
+		
+	// 角色 ( 寵物裝飾 )
+	} else if (data.ClassName == "PetCostume") {
+		
+	// 角色 ( 殭屍造型 )
+	} else if (data.ClassName == "ZombieSkinCostume") {
+		
+	// 道具 ( 解碼器 )
+	} else if (data.ClassName == "LotteryKeyItem") {
+		
+	// 道具 ( 武器塗料 )
+	} else if (data.ClassName == "WeaponPaintItem") {
+		
 	}
 }

@@ -5,7 +5,7 @@ var sortway = 1;
 var language = "tw";
 let timer;
 
-let updatedate = "2025 / 02 / 07 ( Destroyertw1207 )"
+let updatedate = "2025 / 02 / 09 ( Destroyertw1207 )"
 
 var lang_switch = {
 	  "tw": {
@@ -863,7 +863,7 @@ function lua_delall(button) {
 function lua_copy(button) {
     let code = "\n-- command.lua\n-- DESTROLL WEAPONLIST ( https://cso-tw-goldfish.github.io/CSO-Weapon/ )\n\nBuymenuWeaponList = {";
     for (let i = 0; i < luaBuymenuList.length; i++) {
-        code = code + "\n\t" + String(luaBuymenuList[i].InGameID).padStart(4, ' ') + ", -- " + luaBuymenuList[i][`${language}_Name`];
+        code = code + "\n\t" + String(luaBuymenuList[i].InGameID).padStart(4, ' ') + ", -- " + get_csotxt(`CSO_Item_Name_${luaBuymenuList[i].SystemName}`);
     }
     code = code + "\n}\n\nCommon.SetBuymenuWeaponList(BuymenuWeaponList)\n";
     copytext(code);
