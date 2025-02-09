@@ -1209,6 +1209,8 @@ sort_btn.addEventListener('click', function(e){
 				return b.Rarity - a.Rarity;
 			};
 		});
+		refresh_render(wpnthis)
+		refresh_filtered(wpnthis)
 	}
 });
 
